@@ -6,7 +6,7 @@ sources:
   - index.md
   - log.md
 tags: [vault, lint, checklist, maintenance]
-updated: 2026-04-07
+updated: 2026-04-09
 ---
 
 # Vault Lint Checklist
@@ -53,4 +53,22 @@ updated: 2026-04-07
 
 - `LLM Quantization and Compression`가 OCEAN 9개 파트를 모두 source로 포함하는지 확인
 - `index.md`가 raw-only 목록으로 되돌아가지 않았는지 확인
-- 새 wiki 페이지 추가 뒤 `log.md`가 빠지지 않았는지 확인
+- `README.md`가 `index`와 주요 허브 문서로 실제 진입 링크를 제공하는지 확인
+- `Paper-Reviews` / `Research-Tooling-Reviews` / `AI-Assisted-Research-Workflow` 분리 구조가 `index.md`와 서로 일치하는지 확인
+- 새 wiki 페이지 추가 뒤 `index.md`와 `log.md`가 함께 갱신됐는지 확인
+- `graphify-out/needs_update` 플래그가 남아 있으면 semantic re-extraction이 필요한 상태로 간주하고 stale graph를 전제로 읽는다
+
+## Graphify Update Rule
+
+- 코드 변경만 있으면 `_rebuild_code`로 graph를 바로 갱신한다
+- 문서나 이미지 변경이 섞이면 `_notify_only`로 플래그만 남기고 semantic update는 별도로 처리한다
+- `needs_update`가 남은 상태에서는 graph 구조 해석 결과를 확정 사실처럼 쓰지 않는다
+- 구조 정비 작업 직후에는 가능하면 Claude Code에서 `/graphify --update`를 실행해 새 `GRAPH_REPORT.md`를 기준으로 다시 본다
+
+## After Update Review
+
+- `Knowledge Gaps`에서 isolated node 수가 줄었는지 본다
+- `SoC Specification Negotiation English`, `Memory Hierarchy in AI Accelerators`, `obsidian_notes`가 여전히 thin community인지 확인한다
+- `Paper Reviews` god node 비중이 줄고 Research 축이 더 분리된 community로 보이는지 확인한다
+- 새 허브 문서인 `AI-Assisted Research Workflow`, `Research Tooling Reviews`가 독립 축으로 잡히는지 본다
+- `Surprising Connections`에 새로 추가된 cross-page bridge가 이번 구조 변경과 일치하는지 확인한다

@@ -1,0 +1,7 @@
+#!/bin/zsh
+set -euo pipefail
+
+ROOT_DIR="${0:A:h:h}"
+PYTHON_BIN="$(<"$ROOT_DIR/.graphify_python")"
+
+exec "$PYTHON_BIN" "$@"

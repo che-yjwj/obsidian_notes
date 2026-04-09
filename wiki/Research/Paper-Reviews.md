@@ -3,18 +3,22 @@ title: Paper Reviews
 type: topic
 sources:
   - raw/Research/Paper-Review/STEM Structure and Scalability 33a6cc566b0b8134bba4f04b6ccf5786.md
-  - raw/Research/Paper-Review/PaperDebugger Research Productivity Innovation 33a6cc566b0b81438d17de8e443da8de.md
   - raw/Research/Paper-Review/Dr Zero Concept Summary 33a6cc566b0b81dea270edb325090317.md
-  - raw/Research/Paper-Review/PaperBanana AI Research 33a6cc566b0b81f5b652f4c9128db47b.md
   - raw/Research/Paper-Review/Chaos Theory and Prediction/Chaos Theory and Prediction (Part 1 of 2) 33a6cc566b0b81b7aeabd969fc648765.md
   - raw/Research/Paper-Review/Chaos Theory and Prediction/Chaos Theory and Prediction (Part 2 of 2) 33a6cc566b0b8185b540df4617ca05a5.md
-tags: [paper-review, STEM, transformer, chaos-theory, research-tools]
-updated: 2026-04-07
+tags: [paper-review, STEM, transformer, chaos-theory, reasoning]
+updated: 2026-04-09
 ---
 
 # Paper Reviews
 
-## STEM: Scaling Transformers with Embedding Modules
+이 페이지는 개별 리뷰를 나열하는 문서가 아니라 `research tooling`과 `reasoning/theory` 두 축을 묶는 허브다. 생산성 도구 계열은 [[wiki/Research/Research-Tooling-Reviews]]로 분리했다.
+
+## 축 1. Reasoning and Theory
+
+이 축은 "지능을 어떻게 구성하고 해석할 것인가"에 가까운 리뷰를 묶는다.
+
+### STEM: Scaling Transformers with Embedding Modules
 
 **핵심 아이디어**: 기존 Transformer의 고정 차원 임베딩을 모듈화하여 확장성 확보.
 
@@ -23,26 +27,30 @@ updated: 2026-04-07
 - **확장성 방향**: 모델 파라미터 수를 늘리지 않고 임베딩 모듈 교체·조합으로 성능 향상
 - 효율적인 파라미터 활용 → 큰 모델과 유사한 성능을 작은 연산량으로 달성
 
-## PaperDebugger: 연구 생산성 혁신
+### Dr Zero: search-centric reasoning
 
-- AI 도구를 활용하여 논문 읽기·분석·디버깅 워크플로를 자동화
-- 논문 내 실험 재현, 오류 탐지, 코드-논문 일치 검증에 초점
-- 연구자의 반복적 수작업(실험 설정 추적, 결과 정리)을 AI가 대체
+- 학습 데이터 없이도 문제 생성, 탐색, 자기검증, refinement를 반복하는 self-evolving agent 프레임워크
+- 핵심 성능 향상 메커니즘은 gradient가 아니라 `Search-Verify-Refine` 루프
+- 시스템 관점에서는 trace cache, rollback, branch-heavy execution 같은 제어 중심 구조와 잘 맞음
+- Dense GEMM 중심 GPU보다 CPU+NPU 하이브리드나 search-centric accelerator 관점에서 해석 가치가 큼
 
-## PaperBanana: AI 연구 도구
+### 카오스 이론과 예측
 
-- AI 기반 논문 탐색·요약·연관 논문 발견 도구
-- PaperDebugger와 유사한 생산성 향상 방향이지만 탐색(discovery) 중심
-- 키워드 없이도 의미 기반 탐색 가능
+- 단일 실행 경로보다 분포와 ensemble이 더 본질적이라는 관점을 제공
+- deterministic system도 long-horizon에서는 chaotic하게 diverge할 수 있다는 점을 강조
+- quantization, compression, performance modeling에서 작은 오차가 큰 결과 차이를 낳는 이유를 해석하는 데 유용
 
-## Dr Zero: 개념 정리
+## 축 2. Why This Matters
 
-- Zero-shot 또는 Zero-cost 관련 추론/학습 기법 (상세 내용은 raw 소스 참고)
-- → ingest 시 상세 합성 필요
+이 세 문서는 서로 다른 레벨에서 같은 질문을 다룬다.
 
-## 카오스 이론과 예측
+| 문서 | 질문 | 시스템 관점 해석 |
+|---|---|---|
+| STEM | 모델 표현을 어떻게 더 효율적으로 확장할 것인가 | parameter-efficient scaling |
+| Dr Zero | 학습 없이도 reasoning을 어떻게 끌어올릴 것인가 | search-centric execution |
+| Chaos Theory | 예측 한계를 어떻게 다룰 것인가 | distribution-aware evaluation |
 
-- 카오스 이론(Chaos Theory): 초기 조건 민감성, 장기 예측 불가능성
-- LLM의 예측 능력과 카오스 시스템 사이의 관계 분석
-- 시계열 예측, 동적 시스템 모델링에서 LLM의 한계와 가능성
-- 예측 지평선(prediction horizon) 개념과 AI 모델 정확도의 연관성
+## 관련 문서
+
+- [[wiki/Research/Research-Tooling-Reviews]]: PaperDebugger, PaperBanana 등 연구 생산성/자동화 도구 축
+- [[wiki/Research/AI-Assisted-Research-Workflow]]: multi-agent workflow와 연구 자동화의 실행 구조
