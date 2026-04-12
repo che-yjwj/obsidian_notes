@@ -1,0 +1,277 @@
+# 축 변환(axis transform)과 매니폴드-정렬(manifold-aligned) 표현
+
+## 저비트 LLM 양자화 및 압축을 위한
+
+---
+
+## 초록(Abstract)
+
+최근 연구들은 대규모 언어 모델(LLM)이 INT8, 심지어 INT4까지도 공격적으로 양자화될 수 있으며,
+퍼플렉시티(perplexity) 저하가 매우 작을 수 있음을 보여주었습니다.
+이 현상은 종종 휴리스틱 아웃라이어 처리나, 학습된 가중치가 담는 정보량이 낮다는 가정으로 설명됩니다.
+본 논문은 다른 해석을 제안합니다. 즉, LLM 가중치는 저차원 매니폴드(다양체) 위(또는 근처)에 놓인
+고차원 비선형 연산자의 파라미터화(parameterization)로 보아야 하며,
+관측되는 아웃라이어(outlier)는 정렬되지 않은 표현(representation)에서 비롯되는
+좌표계-의존 인공물(artifact)이라는 것입니다.
+
+또한 본 논문은 QuaRot 등의 회전 기반 양자화 방법을 주파수 영역 연산이 아닌
+축 변환(axis transformation), 즉 **정보를 보존하는 좌표계 회전**으로 재해석합니다.
+회전이 분포를 효과적으로 평탄화(flattening)할 수는 있지만,
+진정한 압축 이득은 계수 집중(concentration)을 유도하는 매니폴드-정렬 좌표계에서 발생한다고 주장합니다.
+이를 위해 (i) 사인파 함수를 Fourier 표현과 MLP 표현으로 비교하는 통제된 토이 실험과,
+(ii) TinyLLaMA/SLM 모델에서 좌표계-상대적 아웃라이어 거동과 축 변환 하의 평탄화 효과,
+그리고 근사 정렬 하의 추가적인 집중 증가를 보이는
+경험적 분석을 제시합니다. 본 연구 결과는 축 변환, 함수적 표현, 레이트–왜곡(rate–distortion) 최적화에 기반한
+LLM 압축의 통합 프레임워크를 시사합니다.
+
+---
+
+## 1. 서론(Introduction)
+
+양자화(quantization)와 압축(compression)은 하드웨어/메모리/에너지 제약 환경에서
+대규모 언어 모델을 배포하기 위해 필수적입니다.
+최근 연구들은 아웃라이어 완화(outlier mitigation)나 회전(rotation)과 같은 가벼운 전처리를 결합하면,
+INT4까지의 균일(uniform) 저비트 양자화도 모델 품질을 유지할 수 있음을 보고하고 있습니다.
+이 결과는 “큰 크기의 가중치는 본질적으로 정보가 풍부하므로 반드시 보호되어야 한다”는 전통적 가정을 흔듭니다.
+
+대부분의 기존 접근은 가중치 양자화를 값(value) 중심 문제로 해석하여,
+아웃라이어를 보호하거나 국소적 양자화 오차를 최소화하는 데 집중합니다.
+하지만 이 해석만으로는 직교 회전(orthogonal rotation)이 정보 손실 없이 아웃라이어를 제거할 수 있는 이유,
+혹은 동일한 모델이라도 좌표계에 따라 양자화 거동이 크게 달라지는 이유를 설명하기 어렵습니다.
+
+본 논문은 이러한 현상이 LLM 가중치가 독립 데이터 포인트가 아니라 연산자(operator)의 파라미터이기 때문에 발생하며,
+압축 효율이 좌표계 선택에 의해 주로 결정된다고 주장합니다.
+또한 학습된 가중치가 저차원 매니폴드 위(또는 근처)에 놓이고,
+아웃라이어가 매니폴드 곡률(curvature)의 좌표계-상대적 투영(projection)이며,
+최적 압축은 매니폴드의 접공간(tangent space)에 축을 정렬하는 것에 대응한다는
+기하학적 프레임워크를 제안합니다.
+
+---
+
+## 2. 관련 연구(Related Work)
+
+### 2.1 아웃라이어-인식(outlier-aware) 양자화
+
+LLM 양자화 초기 연구들은 클리핑(clipping), 그룹 단위 스케일링(group-wise scaling),
+혼합 정밀도(mixed precision) 등을 통해 아웃라이어를 처리하는 데 초점을 맞췄습니다.
+SmoothQuant, GPTQ 등의 방법은 큰 크기의 가중치가 의미론적으로 중요하므로 특별히 다뤄야 한다는 가정을 암묵적으로 포함합니다.
+
+### 2.2 회전 기반 양자화(Rotation-Based Quantization)
+
+QuaRot, SpinQuant, KurTail과 같은 최근 접근은 양자화 전에 가중치 행렬에 직교 변환을 적용합니다.
+이 방법들은 추론 정확도를 해치지 않으면서 아웃라이어를 억제할 수 있음을 보이며,
+레이어 전반에서 균일 저비트 양자화를 가능하게 합니다.
+
+다만 이 연구들은 대체로 회전을 휴리스틱 전처리로 취급하며,
+왜 이러한 변환이 효과적인지에 대한 기하학적 설명을 제공하지는 않습니다.
+
+TurboQuant는 이 계열과 맞닿아 있으면서도, 목표를 **온라인 벡터 압축**과 **inner-product distortion 제어**까지 확장한다는 점에서 구별됩니다.
+특히 랜덤 직교 회전 후 scalar quantization을 적용하고, residual에 대한 1-bit QJL 보정을 결합해
+KV cache와 같은 long-context serving 병목을 겨냥합니다.
+
+### 2.3 온라인 KV-cache 압축과 inner-product 보정
+
+최근에는 단순 MSE 최소화만이 아니라, attention의 핵심 연산인 inner product 자체의 왜곡을 줄이려는 방향이 부상했습니다.
+QJL은 1-bit quantized Johnson-Lindenstrauss transform을 활용해 저비트 스케치만으로 inner product estimation을 가능하게 하는 대표적 접근입니다.
+
+TurboQuant는 이 흐름을 계승하면서, 랜덤 회전 기반 좌표계에서의 near-optimal scalar quantization과
+residual sign sketch를 결합해 **MSE distortion과 inner-product distortion을 동시에 다루는 온라인 압축**으로 정리할 수 있습니다.
+또한 PolarQuant는 random preconditioning과 polar transformation을 통해 normalization/quantization constants 오버헤드를 줄이는 관련 계열로 볼 수 있습니다.
+
+### 2.4 기존 관점의 한계
+
+선행연구는 다음을 명시적으로 다루지 않습니다.
+
+- 가중치의 연산자 수준(operator-level) 해석,
+- 아웃라이어를 유발하는 좌표계(coordinate system)의 역할,
+- 축 정렬(axis alignment)과 레이트–왜곡(rate–distortion) 최적성의 관계.
+ 
+즉, (i) 가중치의 연산자 수준 해석, (ii) 아웃라이어를 유발하는 좌표계의 역할,
+(iii) 축 정렬(alignment)과 레이트–왜곡 최적성의 관계, 그리고
+(iv) 회전 기반 온라인 압축(TurboQuant류)과 매니폴드-정렬 좌표계의 관계가 명확히 정리되어 있지 않습니다.
+
+---
+
+## 3. LLM 가중치의 연산자 중심 관점(Operator-Centric View)
+
+LLM은 다음 형태의 비선형 연산자를 구현합니다.
+
+\[
+y = f(x; W)
+\]
+
+여기서 \(W\)는 가중치 텐서들의 모음을 의미합니다.
+이 관점에서 가중치는 데이터 샘플이 아니라 함수를 매개변수화하는 계수(coefficient)입니다.
+따라서 압축의 목표는 개별 값을 보존하는 것이 아니라 연산자의 기능적 동작을 유지하는 것입니다.
+
+이 연산자 중심 관점은 동일한 함수라도 파라미터화(parameterization)가 다르면,
+기능적으로는 동등하더라도 압축 특성이 크게 달라질 수 있음을 자연스럽게 시사합니다.
+
+---
+
+## 4. 매니폴드 가설과 좌표계-상대적 아웃라이어(Manifold Hypothesis and Coordinate-Relative Outliers)
+
+### 4.1 가중치에 대한 매니폴드 가설
+
+학습된 LLM 가중치가 저차원 비선형 매니폴드 \(\mathcal{M} \subset \mathbb{R}^N\) 위(또는 근처)에 놓인다고 가정합니다.
+국소적으로는 가중치를 다음처럼 근사할 수 있습니다.
+
+\[
+W \approx \mu + J \theta,
+\quad \theta \in \mathbb{R}^d,\; d \ll N
+\]
+
+여기서 \(J\)는 매니폴드 접공간(tangent space)을 span하고, \(\theta\)는 의미 있는 자유도(degrees of freedom)를 나타냅니다.
+
+### 4.2 투영 인공물(projection artifact)로서의 아웃라이어
+
+정렬되지 않은 좌표계에서는 매니폴드 곡률이 축으로 불균일하게 투영되어
+heavy-tail 분포와 겉보기 아웃라이어를 만들어냅니다.
+직교 변환은 L2 에너지를 보존하지만 L∞ 및 첨도(kurtosis)를 바꾸므로,
+아웃라이어는 본질 정보(intrinsic information)가 아니라 좌표계-의존 통계로 해석되어야 합니다.
+
+---
+
+## 5. 축 변환과 함수적 분해(Axis Transformations and Functional Decomposition)
+
+### 5.1 축 변환(Axis Transformations)
+
+가중치에 직교 변환 \(T\)를 적용하면:
+
+\[
+W' = T W
+\]
+
+최근 양자화 연구에서 흔히 쓰이는 Hadamard 기반 변환은 이러한 축 변환의 한 예입니다.
+이는 정보 손실 없이 좌표들 사이에 에너지를 재분배합니다.
+
+이 논문에서 축 변환은 다음처럼 제한적으로 사용합니다.
+
+- **축 변환(axis transformation)**: 정보 보존적인 직교 좌표 변환
+- **회전(rotation)**: 축 변환의 대표적 구현
+- **정렬(alignment)**: 매니폴드 구조에 적응된 좌표계 선택
+
+즉 모든 정렬이 단순 회전은 아니며, 모든 회전이 정렬을 의미하지는 않습니다.
+
+### 5.2 평탄화(flattening)에서 집중(concentration)으로
+
+우리는 다음 3가지 상태(regime)를 구분합니다.
+
+1. 원래 좌표계: 뾰족하고 heavy-tail인 분포.
+2. 랜덤 회전: 평탄화된 분포와 감소한 아웃라이어.
+3. 매니폴드-정렬 좌표계: 낮은 유효 차원을 갖는 집중된 표현.
+
+여기서 핵심 구분은 다음과 같습니다.
+
+- **평탄화(flattening)**: 극단값 감소, 분포 안정화, 양자화 강인성 개선
+- **집중(concentration)**: 에너지가 소수 축에 모여 엔트로피와 유효 차원이 함께 감소하는 상태
+
+랜덤 회전은 주로 (2), 즉 평탄화를 달성하지만, 최적 압축은 (3), 즉 구조적 집중을 요구합니다.
+
+### 5.3 함수 성분 + 잔차(residual) 표현
+
+정렬된 좌표계에서는 다음 분해가 가능합니다.
+
+\[
+W_i \approx f_\theta(i) + r_i
+\]
+
+여기서 \(f\_\theta\)는 구조적이고 저차원인 변화를 담고, \(r_i\)는 공격적 양자화 및 엔트로피 코딩(entropy coding)에 적합한 작은 잔차를 나타냅니다.
+
+---
+
+## 6. 토이 실험: Fourier vs. MLP 표현(Toy Experiment)
+
+### 6.1 설정(Setup)
+
+진폭/주파수/위상이 다양한 사인파들의 가중합으로 신호를 구성하고, 같은 함수를 다음 두 방식으로 표현합니다.
+
+1. Fourier 기저(정답 수준의 정렬 기저).
+2. ReLU 활성함수를 갖는 다층 퍼셉트론(MLP).
+
+### 6.2 결과(Results)
+
+Fourier 표현은 강한 계수 집중과 낮은 엔트로피를 보이는 반면,
+MLP 표현은 파라미터가 많은 차원으로 분산됩니다.
+MLP 파라미터에 직교 회전을 적용하면 아웃라이어는 줄지만,
+Fourier 수준의 집중(concentration)은 복원되지 않습니다.
+
+### 6.3 시사점(Implications)
+
+이 실험은 압축 난이도가 함수 자체가 아니라 선택한 기저(basis)에 의존함을 보여주며,
+LLM에서의 유사 현상을 이해하기 위한 직관을 제공합니다.
+즉 회전은 정렬되지 않은 표현의 병리를 완화할 수 있지만, 구조에 맞는 기저를 자동으로 복원하지는 않습니다.
+
+---
+
+## 7. TinyLLaMA 및 소형 언어 모델 검증(Validation)
+
+### 7.1 실험 설정(Experimental Setup)
+
+TinyLLaMA 및 SLM 체크포인트의 가중치 행렬을 분석하되, FFN과 어텐션 프로젝션 레이어에 집중합니다.
+원래 좌표계, Hadamard 회전, (선택적으로) PCA-정렬 축을 비교 평가합니다.
+
+### 7.2 지표(Metrics)
+
+집중(concentration)의 대리 지표로서 아웃라이어 통계, 히스토그램 엔트로피, Huffman proxy 비트레이트, top-k 에너지 비율을 측정합니다.
+
+### 7.3 관찰(Observations)
+
+Hadamard 회전은 일관되게 아웃라이어 지표를 낮추고 분포를 평탄화하며,
+좌표 변환으로서의 역할을 확인해 줍니다.
+또한 PCA-정렬 축은 top-k 에너지 집중을 더 증가시키며, 이는 매니폴드-정렬 가설과 일치합니다.
+
+---
+
+## 8. 논의(Discussion)
+
+본 연구 결과는 최근 저비트 양자화의 성공을 통합적으로 해석할 수 있음을 시사합니다.
+회전 기반 방법은 분포를 평탄화하지만, 기반 매니폴드에 명시적으로 정렬되지는 않습니다.
+진정한 압축 이득은 집중(concentration)을 유도하는 축 정렬에서 발생하며,
+이는 함수적 분해와 비대칭(asymmetric) 양자화를 가능하게 합니다.
+
+이 관점에서 TurboQuant와 같은 방법은 중요한 비교 기준선으로 해석할 수 있습니다.
+즉, 랜덤 회전을 통해 평탄화(flattening)를 달성하고, residual 1-bit 보정을 통해 inner-product bias를 제어하는 접근은
+실용적이고 강한 온라인 baseline입니다.
+반면 본 논문이 강조하는 장기 방향은, 이러한 랜덤 회전 기반 baseline을 넘어
+구조적 집중(concentration)을 더 강하게 유도하는 manifold-aligned 좌표계를 찾는 것입니다.
+
+이 관점은 양자화를 값 클리핑(value-clipping) 문제가 아니라 재매개변수화(reparameterization) 문제로 재정의합니다.
+
+---
+
+## 9. 결론(Conclusion)
+
+본 논문은 LLM 가중치 양자화 및 압축을 위한 좌표계 중심(coordinate-centric) 프레임워크를 제시했습니다.
+가중치를 저차원 매니폴드 위의 연산자 파라미터로 보고,
+아웃라이어를 좌표계 인공물로, 회전 기반 방법을 축 변환으로 재해석했습니다.
+토이 실험과 TinyLLaMA 분석은 기저 정렬이 계수 집중과 압축 효율을 좌우함을 보여줍니다.
+이 프레임워크는 휴리스틱 아웃라이어 처리(outlier handling)를 넘어서는
+매니폴드-인식(manifold-aware) LLM 압축 방법의 새로운 방향을 엽니다.
+
+---
+
+## 감사의 글(Acknowledgements)
+
+(추가 예정.)
+
+---
+
+## 참고문헌(References)
+
+1. Ashkboos, S., Mohtashami, A., Croci, M. L., Li, B., Cameron, P., Jaggi, M., Alistarh, D., Hoefler, T., and Hensman, J. “QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs.” arXiv:2404.00456.
+
+2. Liu, Z., Zhao, C., Fedorov, I., Soran, B., Choudhary, D., Krishnamoorthi, R., Chandra, V., Tian, Y., and Blankevoort, T. “SpinQuant: LLM Quantization with Learned Rotations.” arXiv:2405.16406.
+
+3. Xiao, G., Lin, J., Seznec, M., Demouth, J., and Han, S. “SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models.” arXiv:2211.10438.
+
+4. Frantar, E., Ashkboos, S., Hoefler, T., and Alistarh, D. “GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers.” arXiv:2210.17323.
+
+5. Ashkboos, S., Mohtashami, A., Croci, M. L., Li, B., Cameron, P., Jaggi, M., Alistarh, D., Hoefler, T., and Hensman, J. “TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate.” arXiv:2504.19874.
+
+6. Chee, J., Cai, Y., Kuleshov, V., and De Sa, C. “QJL: 1-Bit Quantized JL Transform for KV Cache Quantization with Zero Overhead.” arXiv:2406.03482.
+
+7. “TurboQuant: Redefining AI efficiency with extreme compression.” Google Research Blog, March 24, 2026.
+   `https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/`
+
+8. “PolarQuant: Quantizing KV Caches with Polar Transformation.” arXiv:2502.02617.
