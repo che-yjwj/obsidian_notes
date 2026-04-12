@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "name": "AI Hardware & GenAI Research",
+  "sources": [
+    { "path": "raw/AI-Hardware/Architecture/" },
+    { "path": "raw/AI-Hardware/Simulator/" },
+    { "path": "raw/GenAI/Compression/" },
+    { "path": "raw/GenAI/HW-Friendly/" },
+    { "path": "raw/Research/Paper-Review/" },
+    { "path": "raw/Research/Patent-MCM/" },
+    { "path": "raw/Misc/" }
+  ],
+  "output": "wiki/",
+  "mode": "staging",
+  "auto_update": "prompt",
+  "article_sections": [
+    { "name": "Summary", "description": "Standalone briefing of the topic — what it is and why it matters", "required": true },
+    { "name": "Core Concepts", "description": "Key technical ideas, terminology, and definitions" },
+    { "name": "Architecture", "description": "Hardware structure, design patterns, and HW implications (area, power, bandwidth, memory hierarchy)" },
+    { "name": "Key Findings", "description": "Main takeaways from papers, conversations, and analyses" },
+    { "name": "Connections", "description": "Links to related topics, papers, and techniques within this vault" },
+    { "name": "Open Questions", "description": "Unresolved issues, research gaps, and follow-up TODOs" },
+    { "name": "Sources", "description": "Backlinks to all contributing source files", "required": true }
+  ],
+  "topic_hints": [
+    "NPU Architecture",
+    "AMBA Bus & NoC",
+    "LLM Quantization & Compression",
+    "HW-Friendly Model Design",
+    "NPU Simulator & Compiler",
+    "Paper Reviews",
+    "Patent & MCM"
+  ],
+  "link_style": "obsidian"
+}

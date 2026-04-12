@@ -1,0 +1,28 @@
+{
+  "last_compiled": "2026-04-12",
+  "topics": [
+    "npu-architecture",
+    "llm-quantization-compression",
+    "hw-friendly-model-design",
+    "npu-simulator-compiler",
+    "riscv-npu-soc-sim",
+    "paper-reviews",
+    "patent-mcm",
+    "soc-spec-english"
+  ],
+  "concepts": [
+    "memory-bandwidth-bottleneck",
+    "static-scheduling-determinism",
+    "prefill-decode-duality"
+  ],
+  "source_locations": [
+    "raw/AI-Hardware/Architecture/",
+    "raw/AI-Hardware/Simulator/",
+    "raw/GenAI/Compression/",
+    "raw/GenAI/HW-Friendly/",
+    "raw/Research/Paper-Review/",
+    "raw/Research/Patent-MCM/",
+    "raw/Misc/"
+  ],
+  "total_sources_scanned": 123
+}
