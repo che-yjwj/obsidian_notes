@@ -1,11 +1,11 @@
-# Graph Report -   (2026-04-13)
+# Graph Report -   (2026-04-14)
 
 ## Corpus Check
-- 176 files · ~282,348 words
+- 183 files · ~286,721 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 712 nodes · 1219 edges · 53 communities detected
+- 718 nodes · 1227 edges · 54 communities detected
 - Extraction: 90% EXTRACTED · 10% INFERRED · 0% AMBIGUOUS · INFERRED: 117 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
@@ -58,36 +58,38 @@
 - **SDD Workflow Sequence** — spec_workflow_spec_update, spec_workflow_design_update, spec_workflow_test_doc_update, spec_workflow_implementation, spec_workflow_review_merge [EXTRACTED 1.00]
 - **Roadmap Stage Chain** — project_roadmap_stage_a_foundation, project_roadmap_stage_b_timing_engine_modeling, project_roadmap_stage_c_full_operator_support, project_roadmap_stage_d_llm_specialization, project_roadmap_stage_e_dse_platform [EXTRACTED 1.00]
 - **MCM Research Family** — multiple_constant_multiplication, multiplierless_dwt, mcm_based_neural_network_hardware_pipeline, quicksrnet_mcm, domain_adaptive_mcm_isp [INFERRED 0.82]
+- **Wiki Compiler Topic Expansion 2026-04-14** — operator_coordinate_compression_topic, trace_visualization_topic, npu_doc_process_topic [EXTRACTED 1.00]
+- **Wiki Compiler Concept Expansion 2026-04-14** — tile_semantics_contract, mixed_precision_policy, kv_cache_dram_residency, trace_first_design [EXTRACTED 1.00]
 
 ## Communities
 
 ### Community 0 - "AgentHub Collaboration Graph, AI-Assisted Research Workflow"
 Cohesion: 0.05
-Nodes (80): AgentHub Collaboration Graph, AI-Assisted Research Workflow, AMBA Bus Recommendation, AMD Versal ACAP, Architecture Scope Alignment, Chaos Theory and Prediction, Claude Code + Harness Pipeline, Coral to mobile AP NPU evolution (+72 more)
+Nodes (79): AgentHub Collaboration Graph, AI-Assisted Research Workflow, AMBA Bus Recommendation, AMD Versal ACAP, Architecture Scope Alignment, Chaos Theory and Prediction, Claude Code + Harness Pipeline, Coral to mobile AP NPU evolution (+71 more)
 
-### Community 1 - "Documentation Review Summary, Phase 0 Overview Layer Enhancement"
+### Community 1 - "Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority"
+Cohesion: 0.05
+Nodes (72): Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority, Architecture Semantics Spec Index, Back-Pressure Events, Burst Latency Model, Bus & NoC Timing Specification, Bus / NoC, CMDQ Generator (+64 more)
+
+### Community 2 - "docs/design/cmdq_generator_design.md, docs/design/control_fsm_design.md"
 Cohesion: 0.05
 Nodes (71): docs/design/cmdq_generator_design.md, docs/design/control_fsm_design.md, docs/design/cycle_loop_design.md, docs/design/ir_builder_design.md, docs/design/npu_simulator_core_design.md, docs/design/spm_allocator_design.md, docs/design/static_scheduler_design.md, docs/design/te_engine_design.md (+63 more)
 
-### Community 2 - "Blockwise Axis Alignment, Bits per Channel"
-Cohesion: 0.07
-Nodes (70): Blockwise Axis Alignment, Bits per Channel, Claim Candidates, Concentration, Coordinate-Relative Outliers, Coordinate-system view of quantization, Effective Rank, Entropy Coding for Functional Decomposition (+62 more)
-
-### Community 3 - "Architecture Semantics Spec Index, Bus & NoC Timing Specification"
-Cohesion: 0.05
-Nodes (69): Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority, Architecture Semantics Spec Index, Back-Pressure Events, Burst Latency Model, Bus & NoC Timing Specification, Bus / NoC, CMDQ Generator (+61 more)
+### Community 3 - "Blockwise Axis Alignment, Bits per Channel"
+Cohesion: 0.08
+Nodes (69): Blockwise Axis Alignment, Bits per Channel, Claim Candidates, Concentration, Coordinate-Relative Outliers, Coordinate-system view of quantization, Effective Rank, Entropy Coding for Functional Decomposition (+61 more)
 
 ### Community 4 - "Bitwidth-to-Memory Mapping, Bitwidth & Memory Mapping Specification"
 Cohesion: 0.07
-Nodes (63): Bitwidth-to-Memory Mapping, Bitwidth & Memory Mapping Specification, Capacity / Traffic Tradeoff, Command Queue (CMDQ), CMDQ Format Specification, CMDQ Overview, Why Mixed Precision LLM Support, Why Static Scheduling (+55 more)
+Nodes (67): Bitwidth-to-Memory Mapping, Bitwidth & Memory Mapping Specification, Capacity / Traffic Tradeoff, Command Queue (CMDQ), CMDQ Format Specification, CMDQ Overview, Why Mixed Precision LLM Support, Why Static Scheduling (+59 more)
 
 ### Community 5 - "AgentHub, Autoresearch"
 Cohesion: 0.05
 Nodes (55): AgentHub, Autoresearch, AI-assisted research workflow, Ensemble prediction for chaotic systems, DC-LLM, Search-verify-refine loop, Graphify post-update review, Content-oriented index catalog (+47 more)
 
-### Community 6 - "CMDQ Generator Design, Control FSM Design"
-Cohesion: 0.07
-Nodes (54): CMDQ Generator Design, CMDQ JSON, Control FSM Design, Control FSM Issue Policy, Cycle Loop Design, Cycle Loop Determinism, DMA Engine Design, DMA Latency and Bandwidth Model (+46 more)
+### Community 6 - "CMDQ Generator Design, CMDQ JSON"
+Cohesion: 0.08
+Nodes (51): CMDQ Generator Design, CMDQ JSON, Control FSM Design, Control FSM Issue Policy, Cycle Loop Design, Cycle Loop Determinism, DMA Engine Design, DMA Latency and Bandwidth Model (+43 more)
 
 ### Community 7 - "A-graph, A-operation"
 Cohesion: 0.11
@@ -106,8 +108,8 @@ Cohesion: 0.08
 Nodes (24): Architecture Diary Format, Assumptions and Constraints, Cache Hybrid, Dataflow-First, FINN, Four-Week Training Plan, Google TPU Sparse Core, Impact Analysis / PPA (+16 more)
 
 ### Community 11 - "Bandwidth Heatmap, Bandwidth Heatmap Specification"
-Cohesion: 0.11
-Nodes (24): Bandwidth Heatmap, Bandwidth Heatmap Specification, Bandwidth Samples, CMD_EVENT, ENGINE_EVENT, Engine Utilization Dashboard, Gantt Timeline, Gantt Timeline Specification (+16 more)
+Cohesion: 0.12
+Nodes (22): Bandwidth Heatmap, Bandwidth Heatmap Specification, Bandwidth Samples, CMD_EVENT, ENGINE_EVENT, Engine Utilization Dashboard, Gantt Timeline, Gantt Timeline Specification (+14 more)
 
 ### Community 12 - "Attention Sink, AWS Inferentia"
 Cohesion: 0.19
@@ -133,148 +135,152 @@ Nodes (9): Compute Dataflow Overview (Proposed), Full Documentation Review (v2),
 Cohesion: 0.32
 Nodes (8): Adaptive basis selection, Bayesian optimization DSE, DC-LLM, Dynamic linear combination, Explained Energy Ratio, LFSR-based basis generation, Systolic array, Weight generator
 
-### Community 18 - "Gemma 3n MatFormer/PLE, Latent Action World Model"
+### Community 18 - "Mixed Precision as a System Policy, NPU Documentation Process"
+Cohesion: 0.47
+Nodes (6): Mixed Precision as a System Policy, NPU Documentation Process, Operator-Coordinate Compression, Tile Semantics and Contract Boundaries, Trace-First Design, Trace & Visualization
+
+### Community 19 - "Gemma 3n MatFormer/PLE, Latent Action World Model"
 Cohesion: 0.4
 Nodes (5): Gemma 3n MatFormer/PLE, Latent Action World Model, MSA and RAG, Normalization-free Transformers, HW-Friendly GenAI Model Design
 
-### Community 19 - "MCM-first CNN-ISP block, Domain-invariant MCM-ISP via adversarial training"
+### Community 20 - "MCM-first CNN-ISP block, Domain-invariant MCM-ISP via adversarial training"
 Cohesion: 0.5
 Nodes (5): MCM-first CNN-ISP block, Domain-invariant MCM-ISP via adversarial training, QuickSRNet target, Why the CNN-ISP block is needed, Why domain adaptation strengthens MCM-ISP
 
-### Community 20 - "DyT, LayerNorm"
+### Community 21 - "DyT, LayerNorm"
 Cohesion: 0.5
 Nodes (5): DyT, LayerNorm, Residual scaling, Stronger Normalization-Free Transformers, Variance control
 
-### Community 21 - "4-week practical usage guide, SoC negotiation technical English"
+### Community 22 - "4-week practical usage guide, SoC negotiation technical English"
 Cohesion: 1.0
 Nodes (2): 4-week practical usage guide, SoC negotiation technical English
 
-### Community 22 - "Phase 1 - MatMul-only End-to-End, Vertical-First"
+### Community 23 - "Phase 1 - MatMul-only End-to-End, Vertical-First"
 Cohesion: 1.0
 Nodes (2): Phase 1 - MatMul-only End-to-End, Vertical-First
 
-### Community 23 - "Document -> Design -> Code Flow, Document First"
+### Community 24 - "Document -> Design -> Code Flow, Document First"
 Cohesion: 1.0
 Nodes (2): Document -> Design -> Code Flow, Document First
 
-### Community 24 - "Test-First for Core Logic, Test Accompanied"
+### Community 25 - "Test-First for Core Logic, Test Accompanied"
 Cohesion: 1.0
 Nodes (2): Test-First for Core Logic, Test Accompanied
 
-### Community 25 - "doc_status.py"
+### Community 26 - "doc_status.py"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 26 - "Q/K/V Projection"
+### Community 27 - "Q/K/V Projection"
 Cohesion: 1.0
 Nodes (1): Q/K/V Projection
 
-### Community 27 - "Softmax Tile"
+### Community 28 - "Softmax Tile"
 Cohesion: 1.0
 Nodes (1): Softmax Tile
 
-### Community 28 - "LLM Workload Patterns"
+### Community 29 - "LLM Workload Patterns"
 Cohesion: 1.0
 Nodes (1): LLM Workload Patterns
 
-### Community 29 - "Cycle-Based Simulation"
+### Community 30 - "Cycle-Based Simulation"
 Cohesion: 1.0
 Nodes (1): Cycle-Based Simulation
 
-### Community 30 - "Vibe Coding Workflow"
+### Community 31 - "Vibe Coding Workflow"
 Cohesion: 1.0
 Nodes (1): Vibe Coding Workflow
 
-### Community 31 - "docs/design/dma_engine_design.md"
+### Community 32 - "docs/design/dma_engine_design.md"
 Cohesion: 1.0
 Nodes (1): docs/design/dma_engine_design.md
 
-### Community 32 - "docs/design/offline_compiler_design.md"
+### Community 33 - "docs/design/offline_compiler_design.md"
 Cohesion: 1.0
 Nodes (1): docs/design/offline_compiler_design.md
 
-### Community 33 - "Stage B - NPU Timing & Engine Modeling"
+### Community 34 - "Stage B - NPU Timing & Engine Modeling"
 Cohesion: 1.0
 Nodes (1): Stage B - NPU Timing & Engine Modeling
 
-### Community 34 - "Stage C - Full Operator Support"
+### Community 35 - "Stage C - Full Operator Support"
 Cohesion: 1.0
 Nodes (1): Stage C - Full Operator Support
 
-### Community 35 - "Stage D - LLM Specialization"
+### Community 36 - "Stage D - LLM Specialization"
 Cohesion: 1.0
 Nodes (1): Stage D - LLM Specialization
 
-### Community 36 - "Stage E - DSE Platform"
+### Community 37 - "Stage E - DSE Platform"
 Cohesion: 1.0
 Nodes (1): Stage E - DSE Platform
 
-### Community 37 - "Modular & Replaceable"
+### Community 38 - "Modular & Replaceable"
 Cohesion: 1.0
 Nodes (1): Modular & Replaceable
 
-### Community 38 - "Trace-First Design"
+### Community 39 - "Trace-First Design"
 Cohesion: 1.0
 Nodes (1): Trace-First Design
 
-### Community 39 - "End-to-End AI Hardware Simulation Platform"
+### Community 40 - "End-to-End AI Hardware Simulation Platform"
 Cohesion: 1.0
 Nodes (1): End-to-End AI Hardware Simulation Platform
 
-### Community 40 - "Skeleton-First SDD Implementation Roadmap"
+### Community 41 - "Skeleton-First SDD Implementation Roadmap"
 Cohesion: 1.0
 Nodes (1): Skeleton-First SDD Implementation Roadmap
 
-### Community 41 - "Phase 0 - Project Code Skeleton"
+### Community 42 - "Phase 0 - Project Code Skeleton"
 Cohesion: 1.0
 Nodes (1): Phase 0 - Project Code Skeleton
 
-### Community 42 - "Phase 2 - Timing/Memory/Engine Realization"
+### Community 43 - "Phase 2 - Timing/Memory/Engine Realization"
 Cohesion: 1.0
 Nodes (1): Phase 2 - Timing/Memory/Engine Realization
 
-### Community 43 - "Single Source of Truth"
+### Community 44 - "Single Source of Truth"
 Cohesion: 1.0
 Nodes (1): Single Source of Truth
 
-### Community 44 - "Spec Update"
+### Community 45 - "Spec Update"
 Cohesion: 1.0
 Nodes (1): Spec Update
 
-### Community 45 - "Design Update"
+### Community 46 - "Design Update"
 Cohesion: 1.0
 Nodes (1): Design Update
 
-### Community 46 - "Test Doc Update"
+### Community 47 - "Test Doc Update"
 Cohesion: 1.0
 Nodes (1): Test Doc Update
 
-### Community 47 - "Implementation"
+### Community 48 - "Implementation"
 Cohesion: 1.0
 Nodes (1): Implementation
 
-### Community 48 - "Review & Merge"
+### Community 49 - "Review & Merge"
 Cohesion: 1.0
 Nodes (1): Review & Merge
 
-### Community 49 - "PR/Issue Templates"
+### Community 50 - "PR/Issue Templates"
 Cohesion: 1.0
 Nodes (1): PR/Issue Templates
 
-### Community 50 - "CI Integration"
+### Community 51 - "CI Integration"
 Cohesion: 1.0
 Nodes (1): CI Integration
 
-### Community 51 - "Example Flows"
+### Community 52 - "Example Flows"
 Cohesion: 1.0
 Nodes (1): Example Flows
 
-### Community 52 - "Global Integrated Diagram"
+### Community 53 - "Global Integrated Diagram"
 Cohesion: 1.0
 Nodes (1): Global Integrated Diagram
 
 ## Knowledge Gaps
-- **286 isolated node(s):** `AgentHub collaboration model change`, `Reasoning in 13M parameters`, `AI-assisted research workflow`, `HyperAccel LPU`, `Google Coral Edge TPU` (+281 more)
+- **287 isolated node(s):** `AgentHub collaboration model change`, `Reasoning in 13M parameters`, `AI-assisted research workflow`, `HyperAccel LPU`, `Google Coral Edge TPU` (+282 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `4-week practical usage guide, SoC negotiation technical English`** (2 nodes): `4-week practical usage guide`, `SoC negotiation technical English`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -344,12 +350,12 @@ Nodes (1): Global Integrated Diagram
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `NPU System Dataflow Overview` connect `Architecture Semantics Spec Index, Bus & NoC Timing Specification` to `CMDQ Generator Design, Control FSM Design`?**
-  _High betweenness centrality (0.161) - this node is a cross-community bridge._
-- **Why does `RISC-V NPU SoC Simulator` connect `AgentHub Collaboration Graph, AI-Assisted Research Workflow` to `Architecture Semantics Spec Index, Bus & NoC Timing Specification`, `Bitwidth-to-Memory Mapping, Bitwidth & Memory Mapping Specification`?**
-  _High betweenness centrality (0.149) - this node is a cross-community bridge._
-- **Why does `Static Scheduler` connect `Architecture Semantics Spec Index, Bus & NoC Timing Specification` to `AgentHub Collaboration Graph, AI-Assisted Research Workflow`?**
-  _High betweenness centrality (0.141) - this node is a cross-community bridge._
+- **Why does `NPU System Dataflow Overview` connect `Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority` to `CMDQ Generator Design, CMDQ JSON`?**
+  _High betweenness centrality (0.169) - this node is a cross-community bridge._
+- **Why does `RISC-V NPU SoC Simulator` connect `AgentHub Collaboration Graph, AI-Assisted Research Workflow` to `Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority`, `Bitwidth-to-Memory Mapping, Bitwidth & Memory Mapping Specification`?**
+  _High betweenness centrality (0.154) - this node is a cross-community bridge._
+- **Why does `Static Scheduler` connect `Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority` to `AgentHub Collaboration Graph, AI-Assisted Research Workflow`?**
+  _High betweenness centrality (0.147) - this node is a cross-community bridge._
 - **Are the 3 inferred relationships involving `LLM Quantization & Compression` (e.g. with `HW-Friendly Model Design` and `NPU Architecture`) actually correct?**
   _`LLM Quantization & Compression` has 3 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 3 inferred relationships involving `NPU/LPU Simulator and Implementation Tools` (e.g. with `Static Scheduling and Deterministic Execution` and `Prefill / Decode Duality`) actually correct?**
@@ -357,4 +363,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Are the 4 inferred relationships involving `NPU Architecture` (e.g. with `Paper Reviews` and `HW-Friendly Model Design`) actually correct?**
   _`NPU Architecture` has 4 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `AgentHub collaboration model change`, `Reasoning in 13M parameters`, `AI-assisted research workflow` to the rest of the system?**
-  _286 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _287 weakly-connected nodes found - possible documentation gaps or missing edges._

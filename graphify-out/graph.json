@@ -362,6 +362,33 @@
         "confidence": "INFERRED",
         "confidence_score": 0.82,
         "source_file": "wiki/topics/patent-mcm.md"
+      },
+      {
+        "id": "wiki_compiler_new_topics_2026_04_14",
+        "label": "Wiki Compiler Topic Expansion 2026-04-14",
+        "nodes": [
+          "operator_coordinate_compression_topic",
+          "trace_visualization_topic",
+          "npu_doc_process_topic"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/INDEX.md"
+      },
+      {
+        "id": "wiki_compiler_new_concepts_2026_04_14",
+        "label": "Wiki Compiler Concept Expansion 2026-04-14",
+        "nodes": [
+          "tile_semantics_contract",
+          "mixed_precision_policy",
+          "kv_cache_dram_residency",
+          "trace_first_design"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/INDEX.md"
       }
     ]
   },
@@ -543,7 +570,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "wiki_genai_hw_friendly_model_design"
     },
     {
@@ -1047,7 +1074,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "concept_gemma_3n_matformer_ple"
     },
     {
@@ -1059,7 +1086,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "concept_normalization_free_transformers"
     },
     {
@@ -1071,7 +1098,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "concept_latent_action_world_model"
     },
     {
@@ -1083,7 +1110,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "concept_msa_rag"
     },
     {
@@ -1335,7 +1362,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "mcm_cnn_isp_block"
     },
     {
@@ -1347,7 +1374,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "mcm_why_cnn_isp_needed"
     },
     {
@@ -1359,7 +1386,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "mcm_domain_invariant_mcm_isp"
     },
     {
@@ -1371,7 +1398,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "mcm_why_domain_adaptation_strengthens_mcm_isp"
     },
     {
@@ -1383,7 +1410,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "mcm_quicksrnet_target"
     },
     {
@@ -1395,7 +1422,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 22,
       "id": "soc_spec_technical_english"
     },
     {
@@ -1407,7 +1434,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 22,
       "id": "soc_spec_4_week_practical_usage_guide"
     },
     {
@@ -1923,7 +1950,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "id": "turboquant"
     },
     {
@@ -1935,7 +1962,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "id": "polarquant"
     },
     {
@@ -1947,7 +1974,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "id": "qjl_residual_correction"
     },
     {
@@ -1959,7 +1986,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "id": "random_rotation"
     },
     {
@@ -1971,7 +1998,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "id": "hadamard_srht"
     },
     {
@@ -1983,7 +2010,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "id": "inner_product_preservation"
     },
     {
@@ -1995,7 +2022,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "id": "coordinate_system_quantization"
     },
     {
@@ -2007,7 +2034,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "id": "manifold_aligned_coordinates"
     },
     {
@@ -2019,7 +2046,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 3,
       "id": "functional_residual_decomposition"
     },
     {
@@ -2235,7 +2262,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "snft"
     },
     {
@@ -2247,7 +2274,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "layernorm"
     },
     {
@@ -2259,7 +2286,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "residual_scaling"
     },
     {
@@ -2271,7 +2298,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "variance_control"
     },
     {
@@ -2283,7 +2310,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "dyt"
     },
     {
@@ -2435,8 +2462,8 @@
       "file_type": "code",
       "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/tools/doc_status.py",
       "source_location": "L1",
-      "id": "doc_status",
-      "community": 25
+      "community": 26,
+      "id": "doc_status"
     },
     {
       "label": "obsidian_notes README",
@@ -2447,8 +2474,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_root",
-      "community": 0
+      "community": 0,
+      "id": "readme_root"
     },
     {
       "label": "Wiki Index",
@@ -2459,8 +2486,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "index_catalog",
-      "community": 0
+      "community": 0,
+      "id": "index_catalog"
     },
     {
       "label": "Append-Only Log",
@@ -2471,8 +2498,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "log_worklog",
-      "community": 0
+      "community": 0,
+      "id": "log_worklog"
     },
     {
       "label": "Wiki Schema",
@@ -2483,8 +2510,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_schema",
-      "community": 0
+      "community": 0,
+      "id": "wiki_schema"
     },
     {
       "label": "Wiki Compile Log",
@@ -2495,8 +2522,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_compile_log",
-      "community": 0
+      "community": 0,
+      "id": "wiki_compile_log"
     },
     {
       "label": "Vault Lint Checklist",
@@ -2507,8 +2534,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_vault_lint_checklist",
-      "community": 0
+      "community": 0,
+      "id": "wiki_vault_lint_checklist"
     },
     {
       "label": "Graphify Post-Update Review Template",
@@ -2519,8 +2546,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_graphify_post_update_review_template",
-      "community": 0
+      "community": 0,
+      "id": "wiki_graphify_post_update_review_template"
     },
     {
       "label": "AI-Assisted Research Workflow",
@@ -2531,8 +2558,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_assisted_research_workflow",
-      "community": 0
+      "community": 0,
+      "id": "ai_assisted_research_workflow"
     },
     {
       "label": "Research Tooling Reviews",
@@ -2543,8 +2570,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "research_tooling_reviews",
-      "community": 0
+      "community": 0,
+      "id": "research_tooling_reviews"
     },
     {
       "label": "Paper Reviews",
@@ -2555,8 +2582,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "paper_reviews",
-      "community": 0
+      "community": 0,
+      "id": "paper_reviews"
     },
     {
       "label": "Patent Research \u2014 MCM and AI Infrastructure",
@@ -2567,8 +2594,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "patent_mcm",
-      "community": 0
+      "community": 0,
+      "id": "patent_mcm"
     },
     {
       "label": "SoC Specification Negotiation English",
@@ -2579,8 +2606,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "soc_specification_negotiation_english",
-      "community": 0
+      "community": 0,
+      "id": "soc_specification_negotiation_english"
     },
     {
       "label": "Memory Hierarchy in AI Accelerators",
@@ -2591,8 +2618,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "memory_hierarchy_in_ai_accelerators",
-      "community": 0
+      "community": 0,
+      "id": "memory_hierarchy_in_ai_accelerators"
     },
     {
       "label": "NPU Architecture Overview",
@@ -2603,8 +2630,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "npu_architecture_overview",
-      "community": 0
+      "community": 0,
+      "id": "npu_architecture_overview"
     },
     {
       "label": "NPU/LPU Simulator and Implementation Tools",
@@ -2615,8 +2642,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "npu_simulator_and_implementation_tools",
-      "community": 0
+      "community": 0,
+      "id": "npu_simulator_and_implementation_tools"
     },
     {
       "label": "LLM Quantization and Compression Methods",
@@ -2627,8 +2654,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "llm_quantization_and_compression_methods",
-      "community": 0
+      "community": 0,
+      "id": "llm_quantization_and_compression_methods"
     },
     {
       "label": "Outlier Mitigation Methods Comparison",
@@ -2639,8 +2666,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "outlier_mitigation_methods_comparison",
-      "community": 0
+      "community": 0,
+      "id": "outlier_mitigation_methods_comparison"
     },
     {
       "label": "HW-Friendly GenAI Model Design",
@@ -2651,8 +2678,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "hw_friendly_genai_model_design",
-      "community": 8
+      "community": 8,
+      "id": "hw_friendly_genai_model_design"
     },
     {
       "label": "NPU Simulator & Compiler",
@@ -2663,8 +2690,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "npu_simulator_compiler_topic",
-      "community": 0
+      "community": 0,
+      "id": "npu_simulator_compiler_topic"
     },
     {
       "label": "RISC-V NPU SoC Simulator",
@@ -2675,8 +2702,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "riscv_npu_soc_sim_topic",
-      "community": 0
+      "community": 0,
+      "id": "riscv_npu_soc_sim_topic"
     },
     {
       "label": "Memory Bandwidth as Primary Bottleneck",
@@ -2687,8 +2714,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "memory_bandwidth_bottleneck",
-      "community": 0
+      "community": 0,
+      "id": "memory_bandwidth_bottleneck"
     },
     {
       "label": "Static Scheduling and Deterministic Execution",
@@ -2699,8 +2726,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "static_scheduling_determinism",
-      "community": 0
+      "community": 0,
+      "id": "static_scheduling_determinism"
     },
     {
       "label": "Prefill / Decode Duality",
@@ -2711,8 +2738,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prefill_decode_duality",
-      "community": 0
+      "community": 0,
+      "id": "prefill_decode_duality"
     },
     {
       "label": "AgentHub Collaboration Graph",
@@ -2723,8 +2750,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agenthub_collaboration_graph",
-      "community": 0
+      "community": 0,
+      "id": "agenthub_collaboration_graph"
     },
     {
       "label": "Claude Code + Harness Pipeline",
@@ -2735,8 +2762,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_code_harness_pipeline",
-      "community": 0
+      "community": 0,
+      "id": "claude_code_harness_pipeline"
     },
     {
       "label": "Tiny Reasoning Economics",
@@ -2747,8 +2774,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tiny_reasoning_economics",
-      "community": 0
+      "community": 0,
+      "id": "tiny_reasoning_economics"
     },
     {
       "label": "PaperDebugger",
@@ -2759,8 +2786,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "paperdebugger",
-      "community": 0
+      "community": 0,
+      "id": "paperdebugger"
     },
     {
       "label": "PaperBanana",
@@ -2771,8 +2798,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "paperbanana",
-      "community": 0
+      "community": 0,
+      "id": "paperbanana"
     },
     {
       "label": "STEM: Scaling Transformers with Embedding Modules",
@@ -2783,8 +2810,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "stem_scaling_transformers",
-      "community": 0
+      "community": 0,
+      "id": "stem_scaling_transformers"
     },
     {
       "label": "Dr Zero Search-Centric Reasoning",
@@ -2795,8 +2822,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dr_zero_search_centric_reasoning",
-      "community": 0
+      "community": 0,
+      "id": "dr_zero_search_centric_reasoning"
     },
     {
       "label": "Chaos Theory and Prediction",
@@ -2807,8 +2834,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "chaos_theory_prediction",
-      "community": 0
+      "community": 0,
+      "id": "chaos_theory_prediction"
     },
     {
       "label": "Taalas AI Infrastructure",
@@ -2819,8 +2846,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "taalas_ai_infrastructure",
-      "community": 0
+      "community": 0,
+      "id": "taalas_ai_infrastructure"
     },
     {
       "label": "Model-to-Silicon Mapping",
@@ -2831,8 +2858,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "model_to_silicon_mapping",
-      "community": 0
+      "community": 0,
+      "id": "model_to_silicon_mapping"
     },
     {
       "label": "Memory-Compute Integration",
@@ -2843,8 +2870,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "memory_compute_integration",
-      "community": 0
+      "community": 0,
+      "id": "memory_compute_integration"
     },
     {
       "label": "Architecture Scope Alignment",
@@ -2855,8 +2882,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "architecture_scope_alignment",
-      "community": 0
+      "community": 0,
+      "id": "architecture_scope_alignment"
     },
     {
       "label": "OliVe Outlier-Victim Pair",
@@ -2867,8 +2894,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "olive_outlier_victim_pair",
-      "community": 0
+      "community": 0,
+      "id": "olive_outlier_victim_pair"
     },
     {
       "label": "Microscaling",
@@ -2879,8 +2906,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "microscaling",
-      "community": 0
+      "community": 0,
+      "id": "microscaling"
     },
     {
       "label": "Mixed Precision",
@@ -2891,8 +2918,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mixed_precision",
-      "community": 0
+      "community": 0,
+      "id": "mixed_precision"
     },
     {
       "label": "SmoothQuant",
@@ -2903,8 +2930,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "smoothquant",
-      "community": 2
+      "community": 3,
+      "id": "smoothquant"
     },
     {
       "label": "QuaRot",
@@ -2915,8 +2942,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quarot",
-      "community": 2
+      "community": 3,
+      "id": "quarot"
     },
     {
       "label": "SpinQuant",
@@ -2927,8 +2954,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spinquant",
-      "community": 2
+      "community": 3,
+      "id": "spinquant"
     },
     {
       "label": "OCEAN Compression",
@@ -2939,8 +2966,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ocean_compression",
-      "community": 0
+      "community": 0,
+      "id": "ocean_compression"
     },
     {
       "label": "PLE Caching",
@@ -2951,8 +2978,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ple_caching",
-      "community": 8
+      "community": 8,
+      "id": "ple_caching"
     },
     {
       "label": "Conditional Parameter Loading",
@@ -2963,8 +2990,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "conditional_parameter_loading",
-      "community": 8
+      "community": 8,
+      "id": "conditional_parameter_loading"
     },
     {
       "label": "Normalization-Free Transformers",
@@ -2975,8 +3002,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "normalization_free_transformers",
-      "community": 8
+      "community": 8,
+      "id": "normalization_free_transformers"
     },
     {
       "label": "MSA and RAG Tradeoff",
@@ -2987,8 +3014,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "msa_rag_tradeoff",
-      "community": 8
+      "community": 8,
+      "id": "msa_rag_tradeoff"
     },
     {
       "label": "KV-Cache Optimization",
@@ -2999,8 +3026,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kv_cache_optimization",
-      "community": 8
+      "community": 8,
+      "id": "kv_cache_optimization"
     },
     {
       "label": "Tesla AI Chip Roadmap",
@@ -3011,8 +3038,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tesla_ai_chip_roadmap",
-      "community": 0
+      "community": 0,
+      "id": "tesla_ai_chip_roadmap"
     },
     {
       "label": "Tesla Edge AI Innovation",
@@ -3023,8 +3050,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tesla_edge_ai_innovation",
-      "community": 0
+      "community": 0,
+      "id": "tesla_edge_ai_innovation"
     },
     {
       "label": "AMBA Bus Recommendation",
@@ -3035,8 +3062,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "amba_buses",
-      "community": 0
+      "community": 0,
+      "id": "amba_buses"
     },
     {
       "label": "Google Coral NPU",
@@ -3047,8 +3074,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "coral_npu",
-      "community": 0
+      "community": 0,
+      "id": "coral_npu"
     },
     {
       "label": "Meta MTIA",
@@ -3059,8 +3086,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mtia",
-      "community": 0
+      "community": 0,
+      "id": "mtia"
     },
     {
       "label": "Transformer C Implementation",
@@ -3071,8 +3098,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "transformer_c_implementation",
-      "community": 0
+      "community": 0,
+      "id": "transformer_c_implementation"
     },
     {
       "label": "NPU IR",
@@ -3083,8 +3110,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "npu_ir",
-      "community": 0
+      "community": 4,
+      "id": "npu_ir"
     },
     {
       "label": "LayerIR",
@@ -3095,8 +3122,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "layerir",
-      "community": 0
+      "community": 0,
+      "id": "layerir"
     },
     {
       "label": "TensorIR",
@@ -3107,8 +3134,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tensorir",
-      "community": 0
+      "community": 0,
+      "id": "tensorir"
     },
     {
       "label": "Command Queue (CMDQ)",
@@ -3119,8 +3146,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmdq",
-      "community": 4
+      "community": 4,
+      "id": "cmdq"
     },
     {
       "label": "Static Scheduler",
@@ -3131,8 +3158,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "static_scheduler",
-      "community": 3
+      "community": 1,
+      "id": "static_scheduler"
     },
     {
       "label": "SPM / Scratchpad Memory",
@@ -3143,8 +3170,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spm_scratchpad_memory",
-      "community": 0
+      "community": 0,
+      "id": "spm_scratchpad_memory"
     },
     {
       "label": "TileGraph",
@@ -3155,8 +3182,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tilegraph",
-      "community": 0
+      "community": 0,
+      "id": "tilegraph"
     },
     {
       "label": "QConfig Mixed Precision",
@@ -3167,8 +3194,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "qconfig_mixed_precision",
-      "community": 0
+      "community": 0,
+      "id": "qconfig_mixed_precision"
     },
     {
       "label": "Multiplierless Constant Multiplication",
@@ -3179,8 +3206,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "multiplierless_constant_multiplication",
-      "community": 0
+      "community": 0,
+      "id": "multiplierless_constant_multiplication"
     },
     {
       "label": "Shift-Add DWT Design",
@@ -3191,8 +3218,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "vlsi_shift_add_dwt",
-      "community": 0
+      "community": 0,
+      "id": "vlsi_shift_add_dwt"
     },
     {
       "label": "HW-Friendly Model Design",
@@ -3203,8 +3230,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "hw_friendly_model_design",
-      "community": 8
+      "community": 8,
+      "id": "hw_friendly_model_design"
     },
     {
       "label": "LLM Quantization & Compression",
@@ -3215,8 +3242,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "llm_quantization_compression",
-      "community": 2
+      "community": 3,
+      "id": "llm_quantization_compression"
     },
     {
       "label": "SoC Specification Negotiation English",
@@ -3227,8 +3254,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "soc_spec_english",
-      "community": 10
+      "community": 10,
+      "id": "soc_spec_english"
     },
     {
       "label": "NPU Architecture",
@@ -3239,8 +3266,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "npu_architecture",
-      "community": 10
+      "community": 10,
+      "id": "npu_architecture"
     },
     {
       "label": "Operator Coordinate Compression README",
@@ -3251,8 +3278,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "operator_coordinate_compression_readme",
-      "community": 2
+      "community": 3,
+      "id": "operator_coordinate_compression_readme"
     },
     {
       "label": "Operator Coordinate Compression Roadmap",
@@ -3263,8 +3290,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "operator_coordinate_compression_roadmap",
-      "community": 2
+      "community": 3,
+      "id": "operator_coordinate_compression_roadmap"
     },
     {
       "label": "Operator Coordinate Compression Index",
@@ -3275,8 +3302,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "operator_coordinate_compression_index",
-      "community": 2
+      "community": 3,
+      "id": "operator_coordinate_compression_index"
     },
     {
       "label": "Operator Coordinate Compression Overview",
@@ -3287,8 +3314,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "operator_coordinate_compression_overview",
-      "community": 2
+      "community": 3,
+      "id": "operator_coordinate_compression_overview"
     },
     {
       "label": "Operator View",
@@ -3299,8 +3326,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "operator_view",
-      "community": 2
+      "community": 3,
+      "id": "operator_view"
     },
     {
       "label": "Coordinate-Relative Outliers",
@@ -3311,8 +3338,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "coordinate_relative_outliers",
-      "community": 2
+      "community": 3,
+      "id": "coordinate_relative_outliers"
     },
     {
       "label": "Rotation vs Alignment",
@@ -3323,8 +3350,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rotation_vs_alignment",
-      "community": 2
+      "community": 3,
+      "id": "rotation_vs_alignment"
     },
     {
       "label": "Manifold-Aligned Coordinates",
@@ -3335,8 +3362,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "manifold_alignment",
-      "community": 2
+      "community": 3,
+      "id": "manifold_alignment"
     },
     {
       "label": "TurboQuant Architecture Note",
@@ -3347,8 +3374,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "turboquant_architecture",
-      "community": 2
+      "community": 3,
+      "id": "turboquant_architecture"
     },
     {
       "label": "Related Work",
@@ -3359,8 +3386,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "related_work",
-      "community": 2
+      "community": 3,
+      "id": "related_work"
     },
     {
       "label": "Paper Draft",
@@ -3371,8 +3398,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "paper_draft",
-      "community": 2
+      "community": 3,
+      "id": "paper_draft"
     },
     {
       "label": "Invention Summary",
@@ -3383,8 +3410,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "invention_summary",
-      "community": 2
+      "community": 3,
+      "id": "invention_summary"
     },
     {
       "label": "Claim Candidates",
@@ -3395,8 +3422,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claim_candidates",
-      "community": 2
+      "community": 3,
+      "id": "claim_candidates"
     },
     {
       "label": "Research Direction Review",
@@ -3407,8 +3434,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "research_direction_review",
-      "community": 2
+      "community": 3,
+      "id": "research_direction_review"
     },
     {
       "label": "Toy Basis vs MLP Spec",
@@ -3419,8 +3446,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "toy_basis_vs_mlp_spec",
-      "community": 2
+      "community": 3,
+      "id": "toy_basis_vs_mlp_spec"
     },
     {
       "label": "TinyLLaMA Validation Spec",
@@ -3431,8 +3458,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tinyllama_validation_spec",
-      "community": 2
+      "community": 3,
+      "id": "tinyllama_validation_spec"
     },
     {
       "label": "KV-Cache Memory Access",
@@ -3443,8 +3470,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kv_cache_memory_access",
-      "community": 8
+      "community": 8,
+      "id": "kv_cache_memory_access"
     },
     {
       "label": "Interleaved Local/Global Attention",
@@ -3455,8 +3482,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "interleaved_local_global_attention",
-      "community": 8
+      "community": 8,
+      "id": "interleaved_local_global_attention"
     },
     {
       "label": "Memory Sparse Attention",
@@ -3467,8 +3494,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "memory_sparse_attention",
-      "community": 8
+      "community": 8,
+      "id": "memory_sparse_attention"
     },
     {
       "label": "Stronger Normalization-Free Transformer",
@@ -3479,8 +3506,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "stronger_normalization_free_transformer",
-      "community": 8
+      "community": 8,
+      "id": "stronger_normalization_free_transformer"
     },
     {
       "label": "Dynamic Transformer",
@@ -3491,8 +3518,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dynamic_transformer",
-      "community": 8
+      "community": 8,
+      "id": "dynamic_transformer"
     },
     {
       "label": "Learnable Memory Hierarchy",
@@ -3503,8 +3530,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "learnable_memory_hierarchy",
-      "community": 8
+      "community": 8,
+      "id": "learnable_memory_hierarchy"
     },
     {
       "label": "Static Schedule and Microcode",
@@ -3515,8 +3542,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "static_schedule_microcode",
-      "community": 8
+      "community": 8,
+      "id": "static_schedule_microcode"
     },
     {
       "label": "Post-Training Quantization",
@@ -3527,8 +3554,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "post_training_quantization",
-      "community": 2
+      "community": 3,
+      "id": "post_training_quantization"
     },
     {
       "label": "Quantization-Aware Training",
@@ -3539,8 +3566,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quantization_aware_training",
-      "community": 2
+      "community": 3,
+      "id": "quantization_aware_training"
     },
     {
       "label": "Weight-Only Quantization",
@@ -3551,8 +3578,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "weight_only_quantization",
-      "community": 2
+      "community": 3,
+      "id": "weight_only_quantization"
     },
     {
       "label": "KV Cache Quantization",
@@ -3563,8 +3590,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kv_cache_quantization",
-      "community": 4
+      "community": 4,
+      "id": "kv_cache_quantization"
     },
     {
       "label": "Outlier Problem",
@@ -3575,8 +3602,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "outlier_problem",
-      "community": 2
+      "community": 3,
+      "id": "outlier_problem"
     },
     {
       "label": "OliVe Outlier-Victim Pair Quantization",
@@ -3587,8 +3614,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "olive_outlier_victim_pair_quantization",
-      "community": 2
+      "community": 3,
+      "id": "olive_outlier_victim_pair_quantization"
     },
     {
       "label": "TurboQuant",
@@ -3599,8 +3626,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "turboquant_method",
-      "community": 2
+      "community": 3,
+      "id": "turboquant_method"
     },
     {
       "label": "QJL",
@@ -3611,8 +3638,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "qjl",
-      "community": 2
+      "community": 3,
+      "id": "qjl"
     },
     {
       "label": "Microscaling MXINT8",
@@ -3623,8 +3650,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "microscaling_mxint8",
-      "community": 2
+      "community": 3,
+      "id": "microscaling_mxint8"
     },
     {
       "label": "OCEAN Framework",
@@ -3635,8 +3662,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ocean_framework",
-      "community": 2
+      "community": 3,
+      "id": "ocean_framework"
     },
     {
       "label": "Hadamard Rotation",
@@ -3647,8 +3674,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "hadamard_rotation",
-      "community": 2
+      "community": 3,
+      "id": "hadamard_rotation"
     },
     {
       "label": "Rate-Distortion",
@@ -3659,8 +3686,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rate_distortion",
-      "community": 2
+      "community": 3,
+      "id": "rate_distortion"
     },
     {
       "label": "GPTQ",
@@ -3671,8 +3698,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gptq",
-      "community": 2
+      "community": 3,
+      "id": "gptq"
     },
     {
       "label": "KurTail",
@@ -3683,8 +3710,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kurtail",
-      "community": 2
+      "community": 3,
+      "id": "kurtail"
     },
     {
       "label": "OPQ",
@@ -3695,8 +3722,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "opq",
-      "community": 2
+      "community": 3,
+      "id": "opq"
     },
     {
       "label": "1-Bit QJL Residual",
@@ -3707,8 +3734,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "one_bit_qjl_residual",
-      "community": 2
+      "community": 3,
+      "id": "one_bit_qjl_residual"
     },
     {
       "label": "Near-Optimal Scalar Quantization",
@@ -3719,8 +3746,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "near_optimal_scalar_quantization",
-      "community": 2
+      "community": 3,
+      "id": "near_optimal_scalar_quantization"
     },
     {
       "label": "Bits per Channel",
@@ -3731,8 +3758,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bpc",
-      "community": 2
+      "community": 3,
+      "id": "bpc"
     },
     {
       "label": "Long-Context Stability",
@@ -3743,8 +3770,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "long_context_stability",
-      "community": 2
+      "community": 4,
+      "id": "long_context_stability"
     },
     {
       "label": "Quantization Stability",
@@ -3755,8 +3782,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quantization_stability",
-      "community": 2
+      "community": 3,
+      "id": "quantization_stability"
     },
     {
       "label": "Tensor Engine",
@@ -3767,8 +3794,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tensor_engine",
-      "community": 10
+      "community": 10,
+      "id": "tensor_engine"
     },
     {
       "label": "Vector Engine",
@@ -3779,8 +3806,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "vector_engine",
-      "community": 10
+      "community": 10,
+      "id": "vector_engine"
     },
     {
       "label": "Sparse Engine",
@@ -3791,8 +3818,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sparse_engine",
-      "community": 10
+      "community": 10,
+      "id": "sparse_engine"
     },
     {
       "label": "Dataflow-First",
@@ -3803,8 +3830,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dataflow_first",
-      "community": 10
+      "community": 10,
+      "id": "dataflow_first"
     },
     {
       "label": "SRAM Scratchpad",
@@ -3815,8 +3842,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sram_scratchpad",
-      "community": 10
+      "community": 10,
+      "id": "sram_scratchpad"
     },
     {
       "label": "Cache Hybrid",
@@ -3827,8 +3854,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cache_hybrid",
-      "community": 10
+      "community": 10,
+      "id": "cache_hybrid"
     },
     {
       "label": "Latency Predictability",
@@ -3839,8 +3866,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "latency_predictability",
-      "community": 10
+      "community": 10,
+      "id": "latency_predictability"
     },
     {
       "label": "SRAM-Only Is a False Dichotomy",
@@ -3851,8 +3878,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sram_only_false_dichotomy",
-      "community": 10
+      "community": 10,
+      "id": "sram_only_false_dichotomy"
     },
     {
       "label": "Mixed Precision Transport and Reconstruction",
@@ -3863,8 +3890,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mixed_precision_transport_reconstruction",
-      "community": 10
+      "community": 10,
+      "id": "mixed_precision_transport_reconstruction"
     },
     {
       "label": "Tesla AI5 / AI6",
@@ -3875,8 +3902,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tesla_ai5_ai6",
-      "community": 10
+      "community": 10,
+      "id": "tesla_ai5_ai6"
     },
     {
       "label": "Versal ACAP",
@@ -3887,8 +3914,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "versal_acap",
-      "community": 10
+      "community": 10,
+      "id": "versal_acap"
     },
     {
       "label": "FINN",
@@ -3899,8 +3926,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "finn",
-      "community": 10
+      "community": 10,
+      "id": "finn"
     },
     {
       "label": "Google TPU Sparse Core",
@@ -3911,8 +3938,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "google_tpu_sparse_core",
-      "community": 10
+      "community": 10,
+      "id": "google_tpu_sparse_core"
     },
     {
       "label": "Prefill/Decode Bottleneck",
@@ -3923,8 +3950,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prefill_decode_bottleneck",
-      "community": 10
+      "community": 10,
+      "id": "prefill_decode_bottleneck"
     },
     {
       "label": "STEM Embedding Modularity",
@@ -3935,8 +3962,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "stem_embedding_modularity",
-      "community": 0
+      "community": 0,
+      "id": "stem_embedding_modularity"
     },
     {
       "label": "Dr. Zero Search-Verify-Refine",
@@ -3947,8 +3974,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dr_zero_search_verify_refine",
-      "community": 0
+      "community": 0,
+      "id": "dr_zero_search_verify_refine"
     },
     {
       "label": "Ensemble Prediction",
@@ -3959,8 +3986,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ensemble_prediction",
-      "community": 0
+      "community": 0,
+      "id": "ensemble_prediction"
     },
     {
       "label": "PaperDebugger Executable Papers",
@@ -3971,8 +3998,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "paperdebugger_executable_papers",
-      "community": 0
+      "community": 0,
+      "id": "paperdebugger_executable_papers"
     },
     {
       "label": "PaperBanana Multi-Agent Figure Generation",
@@ -3983,8 +4010,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "paperbanana_multi_agent_figure_generation",
-      "community": 0
+      "community": 0,
+      "id": "paperbanana_multi_agent_figure_generation"
     },
     {
       "label": "Spec Negotiation Language Framework",
@@ -3995,8 +4022,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_negotiation_language_framework",
-      "community": 10
+      "community": 10,
+      "id": "spec_negotiation_language_framework"
     },
     {
       "label": "Requirement Clarification",
@@ -4007,8 +4034,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "requirement_clarification",
-      "community": 10
+      "community": 10,
+      "id": "requirement_clarification"
     },
     {
       "label": "Assumptions and Constraints",
@@ -4019,8 +4046,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "assumptions_constraints",
-      "community": 10
+      "community": 10,
+      "id": "assumptions_constraints"
     },
     {
       "label": "Impact Analysis / PPA",
@@ -4031,8 +4058,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "impact_analysis_ppa",
-      "community": 10
+      "community": 10,
+      "id": "impact_analysis_ppa"
     },
     {
       "label": "Soft No and Options",
@@ -4043,8 +4070,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "soft_no_options",
-      "community": 10
+      "community": 10,
+      "id": "soft_no_options"
     },
     {
       "label": "Ownership and Scope",
@@ -4055,8 +4082,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ownership_scope",
-      "community": 10
+      "community": 10,
+      "id": "ownership_scope"
     },
     {
       "label": "Architecture Diary Format",
@@ -4067,8 +4094,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "architecture_diary_format",
-      "community": 10
+      "community": 10,
+      "id": "architecture_diary_format"
     },
     {
       "label": "Four-Week Training Plan",
@@ -4079,8 +4106,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "four_week_training_plan",
-      "community": 10
+      "community": 10,
+      "id": "four_week_training_plan"
     },
     {
       "label": "Operator Parameterization",
@@ -4091,8 +4118,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "operator_parameterization",
-      "community": 2
+      "community": 3,
+      "id": "operator_parameterization"
     },
     {
       "label": "Reparameterization",
@@ -4103,8 +4130,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "reparameterization",
-      "community": 2
+      "community": 3,
+      "id": "reparameterization"
     },
     {
       "label": "Manifold Hypothesis",
@@ -4115,8 +4142,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "manifold_hypothesis",
-      "community": 2
+      "community": 3,
+      "id": "manifold_hypothesis"
     },
     {
       "label": "Outliers as Coordinate Artifacts",
@@ -4127,8 +4154,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "outliers_coordinate_artifact",
-      "community": 2
+      "community": 3,
+      "id": "outliers_coordinate_artifact"
     },
     {
       "label": "Flattening",
@@ -4139,8 +4166,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "flattening",
-      "community": 2
+      "community": 3,
+      "id": "flattening"
     },
     {
       "label": "Concentration",
@@ -4151,8 +4178,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "concentration",
-      "community": 2
+      "community": 3,
+      "id": "concentration"
     },
     {
       "label": "PCA Alignment",
@@ -4163,8 +4190,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pca_alignment",
-      "community": 2
+      "community": 3,
+      "id": "pca_alignment"
     },
     {
       "label": "Fisher-Information-Guided Coordinates",
@@ -4175,8 +4202,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fisher_information_alignment",
-      "community": 2
+      "community": 3,
+      "id": "fisher_information_alignment"
     },
     {
       "label": "Top-k Energy Ratio",
@@ -4187,8 +4214,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "top_k_energy_ratio",
-      "community": 2
+      "community": 3,
+      "id": "top_k_energy_ratio"
     },
     {
       "label": "Fourier Basis",
@@ -4199,8 +4226,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fourier_basis",
-      "community": 2
+      "community": 3,
+      "id": "fourier_basis"
     },
     {
       "label": "MLP Basis",
@@ -4211,8 +4238,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mlp_basis",
-      "community": 2
+      "community": 3,
+      "id": "mlp_basis"
     },
     {
       "label": "MSE Is the Wrong Objective for KV Cache",
@@ -4223,8 +4250,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mse_is_wrong_objective_for_kv_cache",
-      "community": 2
+      "community": 3,
+      "id": "mse_is_wrong_objective_for_kv_cache"
     },
     {
       "label": "Entropy Coding Requires Distribution Shaping",
@@ -4235,8 +4262,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "entropy_coding_requires_distribution_shaping",
-      "community": 15
+      "community": 15,
+      "id": "entropy_coding_requires_distribution_shaping"
     },
     {
       "label": "Dynamic Control Flow Hurts NPU Deployment",
@@ -4247,8 +4274,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dynamic_control_flow_hurts_npu_deployment",
-      "community": 8
+      "community": 8,
+      "id": "dynamic_control_flow_hurts_npu_deployment"
     },
     {
       "label": "Search-Verify-Refine Without Training Data",
@@ -4259,8 +4286,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "search_verify_refine_without_training_data",
-      "community": 0
+      "community": 0,
+      "id": "search_verify_refine_without_training_data"
     },
     {
       "label": "Papers as Executable Systems",
@@ -4271,8 +4298,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "papers_as_executable_systems",
-      "community": 0
+      "community": 0,
+      "id": "papers_as_executable_systems"
     },
     {
       "label": "Joint Weight-Activation Manifold",
@@ -4283,8 +4310,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "joint_weight_activation_manifold",
-      "community": 2
+      "community": 3,
+      "id": "joint_weight_activation_manifold"
     },
     {
       "label": "SpinQuant as Partial Manifold Alignment",
@@ -4295,8 +4322,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spinquant_partial_alignment",
-      "community": 2
+      "community": 3,
+      "id": "spinquant_partial_alignment"
     },
     {
       "label": "Layerwise Manifold Diversity",
@@ -4307,8 +4334,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "layerwise_manifold_diversity",
-      "community": 2
+      "community": 3,
+      "id": "layerwise_manifold_diversity"
     },
     {
       "label": "Entropy Coding for Functional Decomposition",
@@ -4319,8 +4346,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "entropy_coding_for_functional_decomposition",
-      "community": 2
+      "community": 3,
+      "id": "entropy_coding_for_functional_decomposition"
     },
     {
       "label": "Low-Rank and Structural Compression",
@@ -4331,8 +4358,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "low_rank_structural_compression",
-      "community": 2
+      "community": 3,
+      "id": "low_rank_structural_compression"
     },
     {
       "label": "Fisher Information Matrix",
@@ -4343,8 +4370,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "fisher_information_matrix",
-      "community": 2
+      "community": 3,
+      "id": "fisher_information_matrix"
     },
     {
       "label": "Effective Rank",
@@ -4355,8 +4382,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "effective_rank",
-      "community": 2
+      "community": 3,
+      "id": "effective_rank"
     },
     {
       "label": "Geometry-Aware Rate-Distortion Optimization",
@@ -4367,8 +4394,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "geometry_aware_rd_optimization",
-      "community": 2
+      "community": 3,
+      "id": "geometry_aware_rd_optimization"
     },
     {
       "label": "Blockwise Axis Alignment",
@@ -4379,8 +4406,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "blockwise_axis_alignment",
-      "community": 2
+      "community": 3,
+      "id": "blockwise_axis_alignment"
     },
     {
       "label": "Learned Axis Transform",
@@ -4391,8 +4418,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "learned_axis_transform",
-      "community": 2
+      "community": 3,
+      "id": "learned_axis_transform"
     },
     {
       "label": "RISCV_NPU_SoC_SIM README",
@@ -4403,8 +4430,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "riscv_npu_soc_sim_readme",
-      "community": 6
+      "community": 1,
+      "id": "riscv_npu_soc_sim_readme"
     },
     {
       "label": "NPU Simulator & Compiler Spec-Driven Development Master Index",
@@ -4415,8 +4442,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_readme_spec_master_index",
-      "community": 6
+      "community": 6,
+      "id": "docs_readme_spec_master_index"
     },
     {
       "label": "Offline Compiler Design",
@@ -4427,8 +4454,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "offline_compiler_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "offline_compiler_design_doc"
     },
     {
       "label": "IR Builder Design",
@@ -4439,8 +4466,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ir_builder_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "ir_builder_design_doc"
     },
     {
       "label": "Tiling Planner Design",
@@ -4451,8 +4478,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tiling_planner_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "tiling_planner_design_doc"
     },
     {
       "label": "SPM Allocator Design",
@@ -4463,8 +4490,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spm_allocator_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "spm_allocator_design_doc"
     },
     {
       "label": "Static Scheduler Design",
@@ -4475,8 +4502,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "static_scheduler_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "static_scheduler_design_doc"
     },
     {
       "label": "CMDQ Generator Design",
@@ -4487,8 +4514,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmdq_generator_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "cmdq_generator_design_doc"
     },
     {
       "label": "Control FSM Design",
@@ -4499,8 +4526,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "control_fsm_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "control_fsm_design_doc"
     },
     {
       "label": "Tensor Engine Design",
@@ -4511,8 +4538,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "te_engine_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "te_engine_design_doc"
     },
     {
       "label": "Vector Engine Design",
@@ -4523,8 +4550,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ve_engine_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "ve_engine_design_doc"
     },
     {
       "label": "DMA Engine Design",
@@ -4535,8 +4562,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dma_engine_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "dma_engine_design_doc"
     },
     {
       "label": "NPU Simulator Core Design",
@@ -4547,8 +4574,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "npu_simulator_core_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "npu_simulator_core_design_doc"
     },
     {
       "label": "Cycle Loop Design",
@@ -4559,8 +4586,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cycle_loop_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "cycle_loop_design_doc"
     },
     {
       "label": "Visualizer Design",
@@ -4571,8 +4598,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "visualizer_design_doc",
-      "community": 6
+      "community": 6,
+      "id": "visualizer_design_doc"
     },
     {
       "label": "NPU-IR Core Reference",
@@ -4583,8 +4610,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "npu_ir_core_reference_doc",
-      "community": 6
+      "community": 6,
+      "id": "npu_ir_core_reference_doc"
     },
     {
       "label": "TileRT Analysis",
@@ -4595,8 +4622,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_rt_analysis_doc",
-      "community": 6
+      "community": 6,
+      "id": "tile_rt_analysis_doc"
     },
     {
       "label": "Prior Art Mapping",
@@ -4607,8 +4634,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prior_art_mapping_doc",
-      "community": 13
+      "community": 13,
+      "id": "prior_art_mapping_doc"
     },
     {
       "label": "Integration Test Specification",
@@ -4619,8 +4646,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "integration_test_spec_doc",
-      "community": 6
+      "community": 6,
+      "id": "integration_test_spec_doc"
     },
     {
       "label": "Performance Validation Protocol",
@@ -4631,8 +4658,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "performance_validation_protocol_doc",
-      "community": 6
+      "community": 6,
+      "id": "performance_validation_protocol_doc"
     },
     {
       "label": "Test Plan",
@@ -4643,8 +4670,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "test_plan_doc",
-      "community": 6
+      "community": 6,
+      "id": "test_plan_doc"
     },
     {
       "label": "Unit Test Specification",
@@ -4655,8 +4682,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "unit_test_spec_doc",
-      "community": 6
+      "community": 6,
+      "id": "unit_test_spec_doc"
     },
     {
       "label": "Spec-Driven Development",
@@ -4667,8 +4694,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_driven_development",
-      "community": 3
+      "community": 1,
+      "id": "spec_driven_development"
     },
     {
       "label": "Offline Compiler Pipeline",
@@ -4679,8 +4706,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "offline_compiler_pipeline",
-      "community": 6
+      "community": 1,
+      "id": "offline_compiler_pipeline"
     },
     {
       "label": "Simulator Core Stack",
@@ -4691,8 +4718,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "simulator_core_stack",
-      "community": 6
+      "community": 1,
+      "id": "simulator_core_stack"
     },
     {
       "label": "ONNX to NPU IR Transformation",
@@ -4703,8 +4730,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ir_builder_onnx_to_npu_ir",
-      "community": 6
+      "community": 6,
+      "id": "ir_builder_onnx_to_npu_ir"
     },
     {
       "label": "TileGraph",
@@ -4715,8 +4742,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_graph",
-      "community": 6
+      "community": 6,
+      "id": "tile_graph"
     },
     {
       "label": "Schedule DAG",
@@ -4727,8 +4754,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "schedule_dag",
-      "community": 6
+      "community": 6,
+      "id": "schedule_dag"
     },
     {
       "label": "CMDQ JSON",
@@ -4739,8 +4766,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmdq_json",
-      "community": 6
+      "community": 6,
+      "id": "cmdq_json"
     },
     {
       "label": "Control FSM Issue Policy",
@@ -4751,8 +4778,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "control_fsm_issue_policy",
-      "community": 6
+      "community": 6,
+      "id": "control_fsm_issue_policy"
     },
     {
       "label": "TE Tile Latency Model",
@@ -4763,8 +4790,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "te_tile_latency_model",
-      "community": 6
+      "community": 6,
+      "id": "te_tile_latency_model"
     },
     {
       "label": "VE Tile Latency Model",
@@ -4775,8 +4802,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ve_tile_latency_model",
-      "community": 6
+      "community": 6,
+      "id": "ve_tile_latency_model"
     },
     {
       "label": "DMA Latency and Bandwidth Model",
@@ -4787,8 +4814,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dma_latency_bandwidth_model",
-      "community": 6
+      "community": 6,
+      "id": "dma_latency_bandwidth_model"
     },
     {
       "label": "Global Cycle Loop",
@@ -4799,8 +4826,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "global_cycle_loop",
-      "community": 6
+      "community": 6,
+      "id": "global_cycle_loop"
     },
     {
       "label": "Cycle Loop Determinism",
@@ -4811,8 +4838,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cycle_loop_determinism",
-      "community": 6
+      "community": 6,
+      "id": "cycle_loop_determinism"
     },
     {
       "label": "Trace JSON",
@@ -4823,8 +4850,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "trace_json",
-      "community": 6
+      "community": 6,
+      "id": "trace_json"
     },
     {
       "label": "Trace Visualization Pipeline",
@@ -4835,8 +4862,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "trace_visualization_pipeline",
-      "community": 6
+      "community": 6,
+      "id": "trace_visualization_pipeline"
     },
     {
       "label": "Tile as Atomic Execution Unit",
@@ -4847,8 +4874,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_atomic_execution_unit",
-      "community": 6
+      "community": 6,
+      "id": "tile_atomic_execution_unit"
     },
     {
       "label": "TileRT Tile",
@@ -4859,8 +4886,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_rt_tile_minimal_execution_unit",
-      "community": 6
+      "community": 6,
+      "id": "tile_rt_tile_minimal_execution_unit"
     },
     {
       "label": "TileRT",
@@ -4871,8 +4898,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_rt",
-      "community": 6
+      "community": 6,
+      "id": "tile_rt"
     },
     {
       "label": "Latency-Critical DAG Scheduling",
@@ -4883,8 +4910,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "latency_critical_dag_scheduling",
-      "community": 6
+      "community": 6,
+      "id": "latency_critical_dag_scheduling"
     },
     {
       "label": "Operator-Coordinate Compression Framework",
@@ -4895,8 +4922,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "operator_coordinate_compression_framework",
-      "community": 13
+      "community": 13,
+      "id": "operator_coordinate_compression_framework"
     },
     {
       "label": "Prior Art Category Taxonomy",
@@ -4907,8 +4934,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prior_art_category_taxonomy",
-      "community": 13
+      "community": 13,
+      "id": "prior_art_category_taxonomy"
     },
     {
       "label": "Value-Centric Quantization Methods",
@@ -4919,8 +4946,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "value_centric_quantization_methods",
-      "community": 13
+      "community": 13,
+      "id": "value_centric_quantization_methods"
     },
     {
       "label": "Outlier-Aware Mixed Precision Methods",
@@ -4931,8 +4958,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "outlier_aware_mixed_precision_methods",
-      "community": 13
+      "community": 13,
+      "id": "outlier_aware_mixed_precision_methods"
     },
     {
       "label": "Rotation-Based Quantization",
@@ -4943,8 +4970,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rotation_based_quantization",
-      "community": 13
+      "community": 13,
+      "id": "rotation_based_quantization"
     },
     {
       "label": "Low-Rank Structural Approximation",
@@ -4955,8 +4982,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "low_rank_structural_approximation",
-      "community": 13
+      "community": 13,
+      "id": "low_rank_structural_approximation"
     },
     {
       "label": "Value-Centric Limitations",
@@ -4967,8 +4994,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "value_centric_limitations",
-      "community": 13
+      "community": 13,
+      "id": "value_centric_limitations"
     },
     {
       "label": "Outlier-Aware Limitations",
@@ -4979,8 +5006,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "outlier_aware_limitations",
-      "community": 13
+      "community": 13,
+      "id": "outlier_aware_limitations"
     },
     {
       "label": "Rotation-Based Limitations",
@@ -4991,8 +5018,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "rotation_based_limitations",
-      "community": 13
+      "community": 13,
+      "id": "rotation_based_limitations"
     },
     {
       "label": "Low-Rank Limitations",
@@ -5003,8 +5030,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "low_rank_limitations",
-      "community": 13
+      "community": 13,
+      "id": "low_rank_limitations"
     },
     {
       "label": "Manifold Gap Rationale",
@@ -5015,8 +5042,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "manifold_gap_rationale",
-      "community": 13
+      "community": 13,
+      "id": "manifold_gap_rationale"
     },
     {
       "label": "Novelty Claims",
@@ -5027,8 +5054,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "novelty_claims",
-      "community": 13
+      "community": 13,
+      "id": "novelty_claims"
     },
     {
       "label": "NPU IR Spec",
@@ -5039,8 +5066,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_npu_ir",
-      "community": 6
+      "community": 6,
+      "id": "spec_npu_ir"
     },
     {
       "label": "Tensor Metadata Spec",
@@ -5051,8 +5078,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_tensor_metadata",
-      "community": 6
+      "community": 6,
+      "id": "spec_tensor_metadata"
     },
     {
       "label": "Quantization IR Extension Spec",
@@ -5063,8 +5090,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_quantization_ir_extension",
-      "community": 6
+      "community": 6,
+      "id": "spec_quantization_ir_extension"
     },
     {
       "label": "CMDQ Format Spec",
@@ -5075,8 +5102,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_cmdq_format",
-      "community": 6
+      "community": 6,
+      "id": "spec_cmdq_format"
     },
     {
       "label": "Static Scheduler Semantics Spec",
@@ -5087,8 +5114,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_static_scheduler_semantics",
-      "community": 6
+      "community": 6,
+      "id": "spec_static_scheduler_semantics"
     },
     {
       "label": "Tile Semantics Spec",
@@ -5099,8 +5126,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_tile_semantics",
-      "community": 6
+      "community": 6,
+      "id": "spec_tile_semantics"
     },
     {
       "label": "Tile Contract Spec",
@@ -5111,8 +5138,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_tile_contract",
-      "community": 6
+      "community": 6,
+      "id": "spec_tile_contract"
     },
     {
       "label": "DMA Timing Spec",
@@ -5123,8 +5150,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_dma_timing",
-      "community": 6
+      "community": 6,
+      "id": "spec_dma_timing"
     },
     {
       "label": "TE Timing Spec",
@@ -5135,8 +5162,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_te_timing",
-      "community": 6
+      "community": 6,
+      "id": "spec_te_timing"
     },
     {
       "label": "VE Timing Spec",
@@ -5147,8 +5174,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_ve_timing",
-      "community": 6
+      "community": 6,
+      "id": "spec_ve_timing"
     },
     {
       "label": "SPM Model Spec",
@@ -5159,8 +5186,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_spm_model",
-      "community": 6
+      "community": 6,
+      "id": "spec_spm_model"
     },
     {
       "label": "Bus and NoC Model Spec",
@@ -5171,8 +5198,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_bus_and_noc_model",
-      "community": 6
+      "community": 6,
+      "id": "spec_bus_and_noc_model"
     },
     {
       "label": "Trace Format Spec",
@@ -5183,8 +5210,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_trace_format",
-      "community": 6
+      "community": 6,
+      "id": "spec_trace_format"
     },
     {
       "label": "Bitwidth Memory Mapping Spec",
@@ -5195,8 +5222,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_bitwidth_memory_mapping",
-      "community": 6
+      "community": 6,
+      "id": "spec_bitwidth_memory_mapping"
     },
     {
       "label": "Visualization Requirements Spec",
@@ -5207,8 +5234,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_visualization_requirements",
-      "community": 6
+      "community": 6,
+      "id": "spec_visualization_requirements"
     },
     {
       "label": "Golden Trace Examples",
@@ -5219,8 +5246,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "golden_trace_examples_doc",
-      "community": 11
+      "community": 11,
+      "id": "golden_trace_examples_doc"
     },
     {
       "label": "llama_attention_timeline_full.md",
@@ -5231,8 +5258,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "llama_attention_timeline_full_md_ref",
-      "community": 11
+      "community": 11,
+      "id": "llama_attention_timeline_full_md_ref"
     },
     {
       "label": "llama_attention_isa_stream_full.md",
@@ -5243,8 +5270,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "llama_attention_isa_stream_full_md_ref",
-      "community": 11
+      "community": 11,
+      "id": "llama_attention_isa_stream_full_md_ref"
     },
     {
       "label": "From Minimal NumPy LLaMA to Tile-based NPU Modeling",
@@ -5255,8 +5282,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tutorial_minimal_llama_to_tile_npu_doc",
-      "community": 4
+      "community": 4,
+      "id": "tutorial_minimal_llama_to_tile_npu_doc"
     },
     {
       "label": "NPU-IR Canonical Examples",
@@ -5267,8 +5294,8 @@
       "captured_at": null,
       "author": "ChatGPT",
       "contributor": "\ucc3d\ud6c8",
-      "id": "pytorchsim_npu_ir_examples_doc",
-      "community": 4
+      "community": 4,
+      "id": "pytorchsim_npu_ir_examples_doc"
     },
     {
       "label": "Trace Format Specification",
@@ -5279,8 +5306,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "trace_format_spec_doc",
-      "community": 11
+      "community": 11,
+      "id": "trace_format_spec_doc"
     },
     {
       "label": "Bandwidth Heatmap Specification",
@@ -5291,8 +5318,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bandwidth_heatmap_spec_doc",
-      "community": 11
+      "community": 11,
+      "id": "bandwidth_heatmap_spec_doc"
     },
     {
       "label": "Tile Semantics Validation Checklist",
@@ -5303,8 +5330,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_semantics_validation_checklist_doc",
-      "community": 4
+      "community": 4,
+      "id": "tile_semantics_validation_checklist_doc"
     },
     {
       "label": "Gantt Timeline Specification",
@@ -5315,8 +5342,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gantt_timeline_spec_doc",
-      "community": 11
+      "community": 11,
+      "id": "gantt_timeline_spec_doc"
     },
     {
       "label": "Visualization Requirements",
@@ -5327,8 +5354,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "visualization_requirements_doc",
-      "community": 11
+      "community": 11,
+      "id": "visualization_requirements_doc"
     },
     {
       "label": "CMDQ Format Specification",
@@ -5339,8 +5366,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmdq_format_spec_doc",
-      "community": 4
+      "community": 4,
+      "id": "cmdq_format_spec_doc"
     },
     {
       "label": "CMDQ Overview",
@@ -5351,8 +5378,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmdq_overview_doc",
-      "community": 4
+      "community": 4,
+      "id": "cmdq_overview_doc"
     },
     {
       "label": "Opcode Set Definition",
@@ -5363,8 +5390,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "opcode_set_definition_doc",
-      "community": 4
+      "community": 4,
+      "id": "opcode_set_definition_doc"
     },
     {
       "label": "Prefill/Decode Workload Mapping Semantics Specification",
@@ -5375,8 +5402,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prefill_decode_workload_semantics_spec_doc",
-      "community": 4
+      "community": 4,
+      "id": "prefill_decode_workload_semantics_spec_doc"
     },
     {
       "label": "Static Scheduler Semantics Specification",
@@ -5387,8 +5414,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "static_scheduler_semantics_spec_doc",
-      "community": 4
+      "community": 4,
+      "id": "static_scheduler_semantics_spec_doc"
     },
     {
       "label": "Scheduling Spec Index",
@@ -5399,8 +5426,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "scheduling_readme_doc",
-      "community": 4
+      "community": 4,
+      "id": "scheduling_readme_doc"
     },
     {
       "label": "Tile IR Optional Specification",
@@ -5411,8 +5438,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_ir_optional_spec_doc",
-      "community": 4
+      "community": 4,
+      "id": "tile_ir_optional_spec_doc"
     },
     {
       "label": "Quantization IR Extension Specification",
@@ -5423,8 +5450,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quantization_ir_extension_doc",
-      "community": 4
+      "community": 4,
+      "id": "quantization_ir_extension_doc"
     },
     {
       "label": "NPU IR Specification",
@@ -5435,8 +5462,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "npu_ir_spec_doc",
-      "community": 4
+      "community": 4,
+      "id": "npu_ir_spec_doc"
     },
     {
       "label": "Tensor Metadata Specification",
@@ -5447,8 +5474,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tensor_metadata_spec_doc",
-      "community": 4
+      "community": 4,
+      "id": "tensor_metadata_spec_doc"
     },
     {
       "label": "Quantization Model Overview",
@@ -5459,8 +5486,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quantization_model_overview_doc",
-      "community": 4
+      "community": 4,
+      "id": "quantization_model_overview_doc"
     },
     {
       "label": "Mixed Precision Policy Specification",
@@ -5471,8 +5498,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mixed_precision_policy_doc",
-      "community": 4
+      "community": 4,
+      "id": "mixed_precision_policy_doc"
     },
     {
       "label": "Bitwidth & Memory Mapping Specification",
@@ -5483,8 +5510,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bitwidth_memory_mapping_doc",
-      "community": 4
+      "community": 4,
+      "id": "bitwidth_memory_mapping_doc"
     },
     {
       "label": "KV Cache Quantization Specification",
@@ -5495,8 +5522,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kv_cache_quantization_spec_doc",
-      "community": 4
+      "community": 4,
+      "id": "kv_cache_quantization_spec_doc"
     },
     {
       "label": "Golden Trace Regression",
@@ -5507,8 +5534,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "golden_trace_regression_reference",
-      "community": 11
+      "community": 11,
+      "id": "golden_trace_regression_reference"
     },
     {
       "label": "MLP / Conv / Attention / LLM Workloads",
@@ -5519,8 +5546,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "workload_mlp_conv_attention_llm",
-      "community": 11
+      "community": 11,
+      "id": "workload_mlp_conv_attention_llm"
     },
     {
       "label": "LLaMA Prefill/Decode Golden Trace",
@@ -5531,8 +5558,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "llama_prefill_decode_golden",
-      "community": 11
+      "community": 4,
+      "id": "llama_prefill_decode_golden"
     },
     {
       "label": "Trace Event Schema",
@@ -5543,8 +5570,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "trace_event_schema",
-      "community": 11
+      "community": 11,
+      "id": "trace_event_schema"
     },
     {
       "label": "ENGINE_EVENT",
@@ -5555,8 +5582,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "engine_event",
-      "community": 11
+      "community": 11,
+      "id": "engine_event"
     },
     {
       "label": "MEM_ACCESS_EVENT",
@@ -5567,8 +5594,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mem_access_event",
-      "community": 11
+      "community": 11,
+      "id": "mem_access_event"
     },
     {
       "label": "TOKEN_EVENT",
@@ -5579,8 +5606,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "token_event",
-      "community": 11
+      "community": 11,
+      "id": "token_event"
     },
     {
       "label": "CMD_EVENT",
@@ -5591,8 +5618,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmd_event",
-      "community": 11
+      "community": 11,
+      "id": "cmd_event"
     },
     {
       "label": "STALL_EVENT",
@@ -5603,8 +5630,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "stall_event",
-      "community": 11
+      "community": 11,
+      "id": "stall_event"
     },
     {
       "label": "Bandwidth Samples",
@@ -5615,8 +5642,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bandwidth_samples",
-      "community": 11
+      "community": 11,
+      "id": "bandwidth_samples"
     },
     {
       "label": "Summary Metrics",
@@ -5627,8 +5654,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "summary_metrics",
-      "community": 11
+      "community": 11,
+      "id": "summary_metrics"
     },
     {
       "label": "Gantt Timeline",
@@ -5639,8 +5666,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gantt_timeline",
-      "community": 11
+      "community": 11,
+      "id": "gantt_timeline"
     },
     {
       "label": "Bandwidth Heatmap",
@@ -5651,8 +5678,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bandwidth_heatmap",
-      "community": 11
+      "community": 11,
+      "id": "bandwidth_heatmap"
     },
     {
       "label": "Engine Utilization Dashboard",
@@ -5663,8 +5690,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "engine_utilization_dashboard",
-      "community": 11
+      "community": 11,
+      "id": "engine_utilization_dashboard"
     },
     {
       "label": "Quantization Impact Plot",
@@ -5675,8 +5702,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quantization_impact_plot",
-      "community": 11
+      "community": 11,
+      "id": "quantization_impact_plot"
     },
     {
       "label": "Trace Visualization Suite",
@@ -5687,8 +5714,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "trace_visualization_suite",
-      "community": 11
+      "community": 11,
+      "id": "trace_visualization_suite"
     },
     {
       "label": "Opcode Set",
@@ -5699,8 +5726,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "opcode_set",
-      "community": 4
+      "community": 4,
+      "id": "opcode_set"
     },
     {
       "label": "Static Schedule",
@@ -5711,8 +5738,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "static_schedule",
-      "community": 4
+      "community": 4,
+      "id": "static_schedule"
     },
     {
       "label": "Prefill/Decode Semantics",
@@ -5723,8 +5750,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prefill_decode_semantics",
-      "community": 11
+      "community": 4,
+      "id": "prefill_decode_semantics"
     },
     {
       "label": "Tile IR",
@@ -5735,8 +5762,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_ir",
-      "community": 4
+      "community": 4,
+      "id": "tile_ir"
     },
     {
       "label": "Tensor Metadata",
@@ -5747,8 +5774,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tensor_metadata",
-      "community": 4
+      "community": 4,
+      "id": "tensor_metadata"
     },
     {
       "label": "QConfig",
@@ -5759,8 +5786,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "qconfig",
-      "community": 4
+      "community": 4,
+      "id": "qconfig"
     },
     {
       "label": "Mixed Precision Quantization",
@@ -5771,8 +5798,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mixed_precision_quantization",
-      "community": 4
+      "community": 4,
+      "id": "mixed_precision_quantization"
     },
     {
       "label": "Bitwidth-to-Memory Mapping",
@@ -5783,8 +5810,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bitwidth_memory_mapping",
-      "community": 4
+      "community": 4,
+      "id": "bitwidth_memory_mapping"
     },
     {
       "label": "KV Cache",
@@ -5795,8 +5822,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kv_cache",
-      "community": 4
+      "community": 4,
+      "id": "kv_cache"
     },
     {
       "label": "Tile Semantics",
@@ -5807,8 +5834,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_semantics",
-      "community": 4
+      "community": 4,
+      "id": "tile_semantics"
     },
     {
       "label": "SPM",
@@ -5819,8 +5846,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spm",
-      "community": 4
+      "community": 4,
+      "id": "spm"
     },
     {
       "label": "DRAM",
@@ -5831,8 +5858,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dram",
-      "community": 4
+      "community": 4,
+      "id": "dram"
     },
     {
       "label": "DMA Engine",
@@ -5843,8 +5870,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dma_engine",
-      "community": 4
+      "community": 4,
+      "id": "dma_engine"
     },
     {
       "label": "TE Engine",
@@ -5855,8 +5882,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "te_engine",
-      "community": 4
+      "community": 4,
+      "id": "te_engine"
     },
     {
       "label": "VE Engine",
@@ -5867,8 +5894,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ve_engine",
-      "community": 4
+      "community": 4,
+      "id": "ve_engine"
     },
     {
       "label": "STB Semantics",
@@ -5879,8 +5906,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "stb_semantics",
-      "community": 4
+      "community": 4,
+      "id": "stb_semantics"
     },
     {
       "label": "TileGraph / TDG",
@@ -5891,8 +5918,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tilegraph_tdg",
-      "community": 4
+      "community": 4,
+      "id": "tilegraph_tdg"
     },
     {
       "label": "Deterministic Execution",
@@ -5903,8 +5930,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "deterministic_execution",
-      "community": 4
+      "community": 4,
+      "id": "deterministic_execution"
     },
     {
       "label": "Tile Lifecycle",
@@ -5915,8 +5942,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_lifecycle",
-      "community": 4
+      "community": 4,
+      "id": "tile_lifecycle"
     },
     {
       "label": "No Intermediate DRAM",
@@ -5927,8 +5954,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "no_intermediate_dram",
-      "community": 4
+      "community": 4,
+      "id": "no_intermediate_dram"
     },
     {
       "label": "Prefill Throughput",
@@ -5939,8 +5966,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prefill_throughput",
-      "community": 4
+      "community": 4,
+      "id": "prefill_throughput"
     },
     {
       "label": "Decode Latency",
@@ -5951,8 +5978,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "decode_latency",
-      "community": 4
+      "community": 4,
+      "id": "decode_latency"
     },
     {
       "label": "KV Window",
@@ -5963,8 +5990,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kv_window",
-      "community": 4
+      "community": 4,
+      "id": "kv_window"
     },
     {
       "label": "NoC / DRAM Contention",
@@ -5975,8 +6002,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "noc_dram_contention",
-      "community": 4
+      "community": 4,
+      "id": "noc_dram_contention"
     },
     {
       "label": "Stride Efficiency",
@@ -5987,8 +6014,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "stride_efficiency",
-      "community": 4
+      "community": 4,
+      "id": "stride_efficiency"
     },
     {
       "label": "FlashAttention-style Prefill",
@@ -5999,8 +6026,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "flashattention_prefill",
-      "community": 4
+      "community": 4,
+      "id": "flashattention_prefill"
     },
     {
       "label": "Q/K/V Projection",
@@ -6011,8 +6038,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "qkv_projection",
-      "community": 26
+      "community": 27,
+      "id": "qkv_projection"
     },
     {
       "label": "Softmax Tile",
@@ -6023,8 +6050,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "softmax_tile",
-      "community": 27
+      "community": 28,
+      "id": "softmax_tile"
     },
     {
       "label": "LLM Workload Patterns",
@@ -6035,8 +6062,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "llm_workload_patterns",
-      "community": 28
+      "community": 29,
+      "id": "llm_workload_patterns"
     },
     {
       "label": "Capacity / Traffic Tradeoff",
@@ -6047,8 +6074,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "capacity_traffic_tradeoff",
-      "community": 4
+      "community": 4,
+      "id": "capacity_traffic_tradeoff"
     },
     {
       "label": "Quantization Policy Hierarchy",
@@ -6059,8 +6086,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quantization_policy_hierarchy",
-      "community": 4
+      "community": 4,
+      "id": "quantization_policy_hierarchy"
     },
     {
       "label": "Why Static Scheduling",
@@ -6071,8 +6098,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmdq_overview_rationale_static_scheduling",
-      "community": 4
+      "community": 4,
+      "id": "cmdq_overview_rationale_static_scheduling"
     },
     {
       "label": "Why Tile Parallelism",
@@ -6083,8 +6110,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmdq_overview_rationale_tile_parallelism",
-      "community": 4
+      "community": 4,
+      "id": "cmdq_overview_rationale_tile_parallelism"
     },
     {
       "label": "Why Timing Simulation",
@@ -6095,8 +6122,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmdq_overview_rationale_timing_simulator",
-      "community": 4
+      "community": 4,
+      "id": "cmdq_overview_rationale_timing_simulator"
     },
     {
       "label": "Why Mixed Precision LLM Support",
@@ -6107,8 +6134,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmdq_overview_rationale_mixed_precision_llm",
-      "community": 4
+      "community": 4,
+      "id": "cmdq_overview_rationale_mixed_precision_llm"
     },
     {
       "label": "Why NumPy Baseline",
@@ -6119,8 +6146,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tutorial_reason_numpy_baseline",
-      "community": 4
+      "community": 4,
+      "id": "tutorial_reason_numpy_baseline"
     },
     {
       "label": "Why Prefill/Decode Differ",
@@ -6131,8 +6158,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tutorial_reason_prefill_decode_bottleneck",
-      "community": 4
+      "community": 4,
+      "id": "tutorial_reason_prefill_decode_bottleneck"
     },
     {
       "label": "Why KV Window Matters",
@@ -6143,8 +6170,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tutorial_reason_kv_window",
-      "community": 4
+      "community": 4,
+      "id": "tutorial_reason_kv_window"
     },
     {
       "label": "Why NoC/DRAM Contention Matters",
@@ -6155,8 +6182,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tutorial_reason_noc_contention",
-      "community": 4
+      "community": 4,
+      "id": "tutorial_reason_noc_contention"
     },
     {
       "label": "Why KV Layout/Stride Matters",
@@ -6167,8 +6194,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tutorial_reason_stride_efficiency",
-      "community": 4
+      "community": 4,
+      "id": "tutorial_reason_stride_efficiency"
     },
     {
       "label": "Why FlashAttention-style Prefill",
@@ -6179,8 +6206,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tutorial_reason_flashattention_prefill",
-      "community": 4
+      "community": 4,
+      "id": "tutorial_reason_flashattention_prefill"
     },
     {
       "label": "Why SPM-only Tile Payloads",
@@ -6191,8 +6218,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_semantics_reason_spm_only",
-      "community": 4
+      "community": 4,
+      "id": "tile_semantics_reason_spm_only"
     },
     {
       "label": "Why STB Handoff is Required",
@@ -6203,8 +6230,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_semantics_reason_stb_handoff",
-      "community": 4
+      "community": 4,
+      "id": "tile_semantics_reason_stb_handoff"
     },
     {
       "label": "Why Intermediate DRAM is Forbidden",
@@ -6215,8 +6242,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_semantics_reason_no_intermediate_dram",
-      "community": 4
+      "community": 4,
+      "id": "tile_semantics_reason_no_intermediate_dram"
     },
     {
       "label": "Why Deterministic Scheduling",
@@ -6227,8 +6254,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "static_scheduler_reason_determinism",
-      "community": 4
+      "community": 4,
+      "id": "static_scheduler_reason_determinism"
     },
     {
       "label": "Why KV Bitwidth Matters",
@@ -6239,8 +6266,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kv_cache_quantization_reason_capacity_traffic",
-      "community": 4
+      "community": 4,
+      "id": "kv_cache_quantization_reason_capacity_traffic"
     },
     {
       "label": "Why Separate W/A/KV Bitwidths",
@@ -6251,8 +6278,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quantization_model_reason_split_w_a_kv",
-      "community": 4
+      "community": 4,
+      "id": "quantization_model_reason_split_w_a_kv"
     },
     {
       "label": "Why Policy Hierarchy",
@@ -6263,8 +6290,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mixed_precision_policy_reason_hierarchy",
-      "community": 4
+      "community": 4,
+      "id": "mixed_precision_policy_reason_hierarchy"
     },
     {
       "label": "Architecture Semantics Spec Index",
@@ -6275,8 +6302,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "architecture_semantics_index",
-      "community": 3
+      "community": 1,
+      "id": "architecture_semantics_index"
     },
     {
       "label": "Bus & NoC Timing Specification",
@@ -6287,8 +6314,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bus_and_noc_model_spec",
-      "community": 3
+      "community": 1,
+      "id": "bus_and_noc_model_spec"
     },
     {
       "label": "Vector Engine Timing Specification",
@@ -6299,8 +6326,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ve_timing_spec_doc",
-      "community": 3
+      "community": 1,
+      "id": "ve_timing_spec_doc"
     },
     {
       "label": "DMA Timing Specification",
@@ -6311,8 +6338,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dma_timing_spec_doc",
-      "community": 3
+      "community": 1,
+      "id": "dma_timing_spec_doc"
     },
     {
       "label": "Tensor Engine Timing Specification",
@@ -6323,8 +6350,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "te_timing_spec_doc",
-      "community": 3
+      "community": 1,
+      "id": "te_timing_spec_doc"
     },
     {
       "label": "SPM Model Specification",
@@ -6335,8 +6362,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spm_model_spec_doc",
-      "community": 3
+      "community": 1,
+      "id": "spm_model_spec_doc"
     },
     {
       "label": "STB Adoption RFC",
@@ -6347,8 +6374,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "stb_adoption_rfc_doc",
-      "community": 3
+      "community": 1,
+      "id": "stb_adoption_rfc_doc"
     },
     {
       "label": "KV Cache Semantics Specification",
@@ -6359,8 +6386,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kv_cache_semantics_spec_doc",
-      "community": 3
+      "community": 1,
+      "id": "kv_cache_semantics_spec_doc"
     },
     {
       "label": "Tile Semantics Specification",
@@ -6371,8 +6398,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_semantics_spec_doc",
-      "community": 3
+      "community": 1,
+      "id": "tile_semantics_spec_doc"
     },
     {
       "label": "Tile Contract Specification",
@@ -6383,8 +6410,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_contract_spec_doc",
-      "community": 3
+      "community": 1,
+      "id": "tile_contract_spec_doc"
     },
     {
       "label": "System Architecture Overview",
@@ -6395,8 +6422,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "system_architecture_overview_doc",
-      "community": 3
+      "community": 1,
+      "id": "system_architecture_overview_doc"
     },
     {
       "label": "System Architecture Specification",
@@ -6407,8 +6434,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "system_architecture_doc",
-      "community": 3
+      "community": 1,
+      "id": "system_architecture_doc"
     },
     {
       "label": "Memory & NoC Overview",
@@ -6419,8 +6446,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "memory_noc_overview_doc",
-      "community": 3
+      "community": 1,
+      "id": "memory_noc_overview_doc"
     },
     {
       "label": "NPU System Dataflow Overview",
@@ -6431,8 +6458,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dataflow_overview_doc",
-      "community": 3
+      "community": 1,
+      "id": "dataflow_overview_doc"
     },
     {
       "label": "Module Responsibilities",
@@ -6443,8 +6470,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "module_responsibilities_doc",
-      "community": 3
+      "community": 1,
+      "id": "module_responsibilities_doc"
     },
     {
       "label": "SDD Devflow Overview",
@@ -6455,8 +6482,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sdd_devflow_overview_doc",
-      "community": 3
+      "community": 1,
+      "id": "sdd_devflow_overview_doc"
     },
     {
       "label": "Documentation Study Milestone Plan",
@@ -6467,8 +6494,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "doc_study_milestone_plan_doc",
-      "community": 3
+      "community": 1,
+      "id": "doc_study_milestone_plan_doc"
     },
     {
       "label": "Codex Vibe Coding & SDD Workflow Guide",
@@ -6479,8 +6506,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "vibe_coding_sdd_guide_doc",
-      "community": 3
+      "community": 1,
+      "id": "vibe_coding_sdd_guide_doc"
     },
     {
       "label": "Naming Convention",
@@ -6491,8 +6518,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "naming_convention_doc",
-      "community": 3
+      "community": 1,
+      "id": "naming_convention_doc"
     },
     {
       "label": "Tile-Based Integration Mapping",
@@ -6503,8 +6530,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_based_integration_mapping_doc",
-      "community": 3
+      "community": 1,
+      "id": "tile_based_integration_mapping_doc"
     },
     {
       "label": "Contribution & Review Guide",
@@ -6515,8 +6542,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "contribution_and_review_guide_doc",
-      "community": 3
+      "community": 1,
+      "id": "contribution_and_review_guide_doc"
     },
     {
       "label": "Documentation Improvement Tasks",
@@ -6527,8 +6554,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "doc_improvement_tasks_doc",
-      "community": 3
+      "community": 1,
+      "id": "doc_improvement_tasks_doc"
     },
     {
       "label": "NPU System Architecture",
@@ -6539,8 +6566,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "npu_system_architecture",
-      "community": 3
+      "community": 1,
+      "id": "npu_system_architecture"
     },
     {
       "label": "Host CPU Control Plane",
@@ -6551,8 +6578,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "host_cpu_control_plane",
-      "community": 3
+      "community": 1,
+      "id": "host_cpu_control_plane"
     },
     {
       "label": "NPU Simulator Core",
@@ -6563,8 +6590,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "npu_simulator_core",
-      "community": 3
+      "community": 1,
+      "id": "npu_simulator_core"
     },
     {
       "label": "Visualization / Profiler",
@@ -6575,8 +6602,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "visualization_profiler",
-      "community": 3
+      "community": 1,
+      "id": "visualization_profiler"
     },
     {
       "label": "Cycle-Based Simulation",
@@ -6587,8 +6614,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cycle_based_simulation",
-      "community": 29
+      "community": 30,
+      "id": "cycle_based_simulation"
     },
     {
       "label": "ONNX \u2192 IR \u2192 TileGraph \u2192 CMDQ \u2192 Trace Pipeline",
@@ -6599,8 +6626,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "onnx_ir_tile_cmdq_trace_pipeline",
-      "community": 3
+      "community": 1,
+      "id": "onnx_ir_tile_cmdq_trace_pipeline"
     },
     {
       "label": "SPM Allocator",
@@ -6611,8 +6638,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spm_allocator",
-      "community": 3
+      "community": 1,
+      "id": "spm_allocator"
     },
     {
       "label": "CMDQ Generator",
@@ -6623,8 +6650,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "cmdq_generator",
-      "community": 3
+      "community": 1,
+      "id": "cmdq_generator"
     },
     {
       "label": "Bus / NoC",
@@ -6635,8 +6662,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "bus_noc",
-      "community": 3
+      "community": 1,
+      "id": "bus_noc"
     },
     {
       "label": "Scratchpad Memory",
@@ -6647,8 +6674,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "scratchpad_memory",
-      "community": 3
+      "community": 1,
+      "id": "scratchpad_memory"
     },
     {
       "label": "Deterministic Arbitration",
@@ -6659,8 +6686,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "deterministic_arbitration",
-      "community": 3
+      "community": 1,
+      "id": "deterministic_arbitration"
     },
     {
       "label": "Weighted Round Robin v1",
@@ -6671,8 +6698,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "weighted_rr_v1",
-      "community": 3
+      "community": 1,
+      "id": "weighted_rr_v1"
     },
     {
       "label": "Queue-Based Stall Model",
@@ -6683,8 +6710,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "queue_based_stall_model",
-      "community": 3
+      "community": 1,
+      "id": "queue_based_stall_model"
     },
     {
       "label": "Master Key Ordering",
@@ -6695,8 +6722,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "master_key_ordering",
-      "community": 3
+      "community": 1,
+      "id": "master_key_ordering"
     },
     {
       "label": "KV Priority Override",
@@ -6707,8 +6734,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kv_priority_override",
-      "community": 3
+      "community": 1,
+      "id": "kv_priority_override"
     },
     {
       "label": "Back-Pressure Events",
@@ -6719,8 +6746,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "backpressure_events",
-      "community": 3
+      "community": 1,
+      "id": "backpressure_events"
     },
     {
       "label": "Contention Counter",
@@ -6731,8 +6758,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "contention_counter",
-      "community": 3
+      "community": 1,
+      "id": "contention_counter"
     },
     {
       "label": "DMA Engine Timing",
@@ -6743,8 +6770,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dma_engine_timing",
-      "community": 3
+      "community": 1,
+      "id": "dma_engine_timing"
     },
     {
       "label": "Burst Latency Model",
@@ -6755,8 +6782,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "burst_latency_model",
-      "community": 3
+      "community": 1,
+      "id": "burst_latency_model"
     },
     {
       "label": "Shared Bandwidth Contention",
@@ -6767,8 +6794,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "shared_bandwidth_contention",
-      "community": 3
+      "community": 1,
+      "id": "shared_bandwidth_contention"
     },
     {
       "label": "SPM Bank Conflict Model",
@@ -6779,8 +6806,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spm_bank_conflict_model",
-      "community": 3
+      "community": 1,
+      "id": "spm_bank_conflict_model"
     },
     {
       "label": "Prefetch Semantics",
@@ -6791,8 +6818,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "prefetch_semantics",
-      "community": 3
+      "community": 1,
+      "id": "prefetch_semantics"
     },
     {
       "label": "Tensor Engine Timing",
@@ -6803,8 +6830,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tensor_engine_timing",
-      "community": 3
+      "community": 1,
+      "id": "tensor_engine_timing"
     },
     {
       "label": "Mixed Precision Scaling",
@@ -6815,8 +6842,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mixed_precision_scaling",
-      "community": 3
+      "community": 1,
+      "id": "mixed_precision_scaling"
     },
     {
       "label": "Element-wise / Reduction / Finalize Timing",
@@ -6827,8 +6854,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ve_elementwise_reduction_finalize",
-      "community": 3
+      "community": 1,
+      "id": "ve_elementwise_reduction_finalize"
     },
     {
       "label": "LayerNorm / Softmax / GELU / RMSNorm",
@@ -6839,8 +6866,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "layernorm_softmax_gelu_rmsnorm",
-      "community": 3
+      "community": 1,
+      "id": "layernorm_softmax_gelu_rmsnorm"
     },
     {
       "label": "Multi-VE Timeline",
@@ -6851,8 +6878,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "multi_ve_timeline",
-      "community": 3
+      "community": 1,
+      "id": "multi_ve_timeline"
     },
     {
       "label": "SPM Bank / Port Model",
@@ -6863,8 +6890,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spm_bank_port_model",
-      "community": 3
+      "community": 1,
+      "id": "spm_bank_port_model"
     },
     {
       "label": "Requester Ordering",
@@ -6875,8 +6902,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "requester_ordering",
-      "community": 3
+      "community": 1,
+      "id": "requester_ordering"
     },
     {
       "label": "DMA > TE > VE Arbitration Priority",
@@ -6887,8 +6914,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "arbitration_priority_dma_te_ve",
-      "community": 3
+      "community": 1,
+      "id": "arbitration_priority_dma_te_ve"
     },
     {
       "label": "Allocate / Free Lifecycle",
@@ -6899,8 +6926,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "allocate_free_lifecycle",
-      "community": 3
+      "community": 1,
+      "id": "allocate_free_lifecycle"
     },
     {
       "label": "Deterministic SPM Conflict Model",
@@ -6911,8 +6938,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "deterministic_spm_conflict_model",
-      "community": 3
+      "community": 1,
+      "id": "deterministic_spm_conflict_model"
     },
     {
       "label": "Tile Lifecycle Invariants",
@@ -6923,8 +6950,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_lifecycle_invariant",
-      "community": 3
+      "community": 1,
+      "id": "tile_lifecycle_invariant"
     },
     {
       "label": "STB Semantics Boundary",
@@ -6935,8 +6962,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "stb_semantics_boundary",
-      "community": 3
+      "community": 1,
+      "id": "stb_semantics_boundary"
     },
     {
       "label": "Payload / Descriptor Separation",
@@ -6947,8 +6974,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "payload_descriptor_separation",
-      "community": 3
+      "community": 1,
+      "id": "payload_descriptor_separation"
     },
     {
       "label": "Tile Atomicity",
@@ -6959,20 +6986,20 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_atomicity",
-      "community": 3
+      "community": 1,
+      "id": "tile_atomicity"
     },
     {
-      "label": "KV Cache DRAM Residency",
-      "file_type": "code",
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/spec/architecture/kv_cache_semantics_spec.md",
+      "label": "KV Cache as DRAM-Resident State",
+      "file_type": "document",
+      "source_file": "wiki/concepts/kv-cache-dram-residency.md",
       "source_location": null,
       "source_url": null,
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "kv_cache_dram_residency",
-      "community": 3
+      "community": 1,
+      "id": "kv_cache_dram_residency"
     },
     {
       "label": "Time-Tile Streaming",
@@ -6983,8 +7010,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "time_tile_streaming",
-      "community": 3
+      "community": 1,
+      "id": "time_tile_streaming"
     },
     {
       "label": "MQA Reuse Rules",
@@ -6995,8 +7022,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mqa_reuse",
-      "community": 3
+      "community": 1,
+      "id": "mqa_reuse"
     },
     {
       "label": "GQA Reuse Rules",
@@ -7007,8 +7034,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gqa_reuse",
-      "community": 3
+      "community": 1,
+      "id": "gqa_reuse"
     },
     {
       "label": "Module Boundary Contract",
@@ -7019,8 +7046,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "module_boundary_contract",
-      "community": 3
+      "community": 1,
+      "id": "module_boundary_contract"
     },
     {
       "label": "Naming Traceability",
@@ -7031,8 +7058,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "naming_traceability",
-      "community": 3
+      "community": 1,
+      "id": "naming_traceability"
     },
     {
       "label": "Milestone Plan",
@@ -7043,8 +7070,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan",
-      "community": 3
+      "community": 1,
+      "id": "milestone_plan"
     },
     {
       "label": "Vibe Coding Workflow",
@@ -7055,8 +7082,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "vibe_coding_workflow",
-      "community": 30
+      "community": 31,
+      "id": "vibe_coding_workflow"
     },
     {
       "label": "Review Guide",
@@ -7067,8 +7094,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_guide",
-      "community": 3
+      "community": 1,
+      "id": "review_guide"
     },
     {
       "label": "Documentation Improvement Backlog",
@@ -7079,8 +7106,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "documentation_improvement_backlog",
-      "community": 3
+      "community": 1,
+      "id": "documentation_improvement_backlog"
     },
     {
       "label": "Tile Integration Mapping",
@@ -7091,8 +7118,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tile_integration_mapping",
-      "community": 3
+      "community": 1,
+      "id": "tile_integration_mapping"
     },
     {
       "label": "Documentation Review Summary",
@@ -7103,8 +7130,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "documentation_review_summary_doc",
-      "community": 1
+      "community": 2,
+      "id": "documentation_review_summary_doc"
     },
     {
       "label": "Project Roadmap",
@@ -7115,8 +7142,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_doc",
-      "community": 1
+      "community": 2,
+      "id": "project_roadmap_doc"
     },
     {
       "label": "Milestone Plan",
@@ -7127,8 +7154,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_doc",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_doc"
     },
     {
       "label": "Spec-Driven Development Workflow",
@@ -7139,8 +7166,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_driven_development_workflow_doc",
-      "community": 1
+      "community": 2,
+      "id": "spec_driven_development_workflow_doc"
     },
     {
       "label": "Versioning & Changelog Guide",
@@ -7151,8 +7178,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "versioning_and_changelog_guide_doc",
-      "community": 14
+      "community": 14,
+      "id": "versioning_and_changelog_guide_doc"
     },
     {
       "label": "Full Documentation Review (v2)",
@@ -7163,8 +7190,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_doc",
-      "community": 16
+      "community": 16,
+      "id": "review_by_chatgpt_v2_doc"
     },
     {
       "label": "Documentation Review Summary (v1)",
@@ -7175,8 +7202,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v1_doc",
-      "community": 1
+      "community": 2,
+      "id": "review_by_chatgpt_v1_doc"
     },
     {
       "label": "Patent & MCM Research",
@@ -7187,8 +7214,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "patent_mcm_doc",
-      "community": 7
+      "community": 7,
+      "id": "patent_mcm_doc"
     },
     {
       "label": "README.md",
@@ -7199,8 +7226,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "readme_md",
-      "community": 14
+      "community": 14,
+      "id": "readme_md"
     },
     {
       "label": "docs/README_SPEC.md",
@@ -7211,8 +7238,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_readme_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_readme_spec"
     },
     {
       "label": "docs/overview/system_architecture.md",
@@ -7223,8 +7250,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_overview_system_architecture",
-      "community": 1
+      "community": 2,
+      "id": "docs_overview_system_architecture"
     },
     {
       "label": "docs/overview/dataflow_overview.md",
@@ -7235,8 +7262,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_overview_dataflow_overview",
-      "community": 1
+      "community": 2,
+      "id": "docs_overview_dataflow_overview"
     },
     {
       "label": "docs/overview/module_responsibilities.md",
@@ -7247,8 +7274,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_overview_module_responsibilities",
-      "community": 1
+      "community": 2,
+      "id": "docs_overview_module_responsibilities"
     },
     {
       "label": "docs/spec/ir/npu_ir_spec.md",
@@ -7259,8 +7286,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_ir_npu_ir_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_ir_npu_ir_spec"
     },
     {
       "label": "docs/spec/ir/tensor_metadata_spec.md",
@@ -7271,8 +7298,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_ir_tensor_metadata_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_ir_tensor_metadata_spec"
     },
     {
       "label": "docs/spec/ir/quantization_ir_extension.md",
@@ -7283,8 +7310,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_ir_quantization_ir_extension",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_ir_quantization_ir_extension"
     },
     {
       "label": "docs/spec/isa/cmdq_overview.md",
@@ -7295,8 +7322,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_isa_cmdq_overview",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_isa_cmdq_overview"
     },
     {
       "label": "docs/spec/isa/cmdq_format_spec.md",
@@ -7307,8 +7334,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_isa_cmdq_format_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_isa_cmdq_format_spec"
     },
     {
       "label": "docs/spec/isa/opcode_set_definition.md",
@@ -7319,8 +7346,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_isa_opcode_set_definition",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_isa_opcode_set_definition"
     },
     {
       "label": "docs/spec/timing/dma_timing_spec.md",
@@ -7331,8 +7358,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_timing_dma_timing_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_timing_dma_timing_spec"
     },
     {
       "label": "docs/spec/timing/te_timing_spec.md",
@@ -7343,8 +7370,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_timing_te_timing_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_timing_te_timing_spec"
     },
     {
       "label": "docs/spec/timing/ve_timing_spec.md",
@@ -7355,8 +7382,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_timing_ve_timing_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_timing_ve_timing_spec"
     },
     {
       "label": "docs/spec/timing/spm_model_spec.md",
@@ -7367,8 +7394,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_timing_spm_model_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_timing_spm_model_spec"
     },
     {
       "label": "docs/spec/timing/bus_and_noc_model.md",
@@ -7379,8 +7406,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_timing_bus_noc_model",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_timing_bus_noc_model"
     },
     {
       "label": "docs/spec/quantization/quantization_model_overview.md",
@@ -7391,8 +7418,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_quantization_quantization_model_overview",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_quantization_quantization_model_overview"
     },
     {
       "label": "docs/spec/quantization/bitwidth_memory_mapping.md",
@@ -7403,8 +7430,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_quantization_bitwidth_memory_mapping",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_quantization_bitwidth_memory_mapping"
     },
     {
       "label": "docs/spec/quantization/kv_cache_quantization_spec.md",
@@ -7415,8 +7442,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_quantization_kv_cache_quantization_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_quantization_kv_cache_quantization_spec"
     },
     {
       "label": "docs/spec/quantization/mixed_precision_policy.md",
@@ -7427,8 +7454,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_quantization_mixed_precision_policy",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_quantization_mixed_precision_policy"
     },
     {
       "label": "docs/spec/trace/trace_format_spec.md",
@@ -7439,8 +7466,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_trace_trace_format_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_trace_trace_format_spec"
     },
     {
       "label": "docs/spec/trace/gantt_timeline_spec.md",
@@ -7451,8 +7478,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_trace_gantt_timeline_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_trace_gantt_timeline_spec"
     },
     {
       "label": "docs/spec/trace/bandwidth_heatmap_spec.md",
@@ -7463,8 +7490,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_trace_bandwidth_heatmap_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_trace_bandwidth_heatmap_spec"
     },
     {
       "label": "docs/spec/trace/visualization_requirements.md",
@@ -7475,8 +7502,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_spec_trace_visualization_requirements",
-      "community": 1
+      "community": 2,
+      "id": "docs_spec_trace_visualization_requirements"
     },
     {
       "label": "docs/design/npu_simulator_core_design.md",
@@ -7487,8 +7514,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_npu_simulator_core_design",
-      "community": 1
+      "community": 2,
+      "id": "docs_design_npu_simulator_core_design"
     },
     {
       "label": "docs/design/cycle_loop_design.md",
@@ -7499,8 +7526,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_cycle_loop_design",
-      "community": 1
+      "community": 2,
+      "id": "docs_design_cycle_loop_design"
     },
     {
       "label": "docs/design/control_fsm_design.md",
@@ -7511,8 +7538,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_control_fsm_design",
-      "community": 1
+      "community": 2,
+      "id": "docs_design_control_fsm_design"
     },
     {
       "label": "docs/design/cmdq_generator_design.md",
@@ -7523,8 +7550,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_cmdq_generator_design",
-      "community": 1
+      "community": 2,
+      "id": "docs_design_cmdq_generator_design"
     },
     {
       "label": "docs/design/ir_builder_design.md",
@@ -7535,8 +7562,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_ir_builder_design",
-      "community": 1
+      "community": 2,
+      "id": "docs_design_ir_builder_design"
     },
     {
       "label": "docs/design/tiling_planner_design.md",
@@ -7547,8 +7574,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_tiling_planner_design",
-      "community": 1
+      "community": 2,
+      "id": "docs_design_tiling_planner_design"
     },
     {
       "label": "docs/design/spm_allocator_design.md",
@@ -7559,8 +7586,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_spm_allocator_design",
-      "community": 1
+      "community": 2,
+      "id": "docs_design_spm_allocator_design"
     },
     {
       "label": "docs/design/static_scheduler_design.md",
@@ -7571,8 +7598,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_static_scheduler_design",
-      "community": 1
+      "community": 2,
+      "id": "docs_design_static_scheduler_design"
     },
     {
       "label": "docs/design/te_engine_design.md",
@@ -7583,8 +7610,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_te_engine_design",
-      "community": 1
+      "community": 2,
+      "id": "docs_design_te_engine_design"
     },
     {
       "label": "docs/design/ve_engine_design.md",
@@ -7595,8 +7622,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_ve_engine_design",
-      "community": 7
+      "community": 7,
+      "id": "docs_design_ve_engine_design"
     },
     {
       "label": "docs/design/dma_engine_design.md",
@@ -7607,8 +7634,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_dma_engine_design",
-      "community": 31
+      "community": 32,
+      "id": "docs_design_dma_engine_design"
     },
     {
       "label": "docs/design/offline_compiler_design.md",
@@ -7619,8 +7646,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_offline_compiler_design",
-      "community": 32
+      "community": 33,
+      "id": "docs_design_offline_compiler_design"
     },
     {
       "label": "docs/design/visualizer_design.md",
@@ -7631,8 +7658,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_design_visualizer_design",
-      "community": 1
+      "community": 2,
+      "id": "docs_design_visualizer_design"
     },
     {
       "label": "docs/test/test_plan.md",
@@ -7643,8 +7670,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_test_test_plan",
-      "community": 1
+      "community": 2,
+      "id": "docs_test_test_plan"
     },
     {
       "label": "docs/test/unit_test_spec.md",
@@ -7655,8 +7682,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_test_unit_test_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_test_unit_test_spec"
     },
     {
       "label": "docs/test/integration_test_spec.md",
@@ -7667,8 +7694,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_test_integration_test_spec",
-      "community": 1
+      "community": 2,
+      "id": "docs_test_integration_test_spec"
     },
     {
       "label": "docs/test/performance_validation_protocol.md",
@@ -7679,8 +7706,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_test_performance_validation_protocol",
-      "community": 1
+      "community": 2,
+      "id": "docs_test_performance_validation_protocol"
     },
     {
       "label": "docs/test/golden_trace_examples.md",
@@ -7691,8 +7718,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_test_golden_trace_examples",
-      "community": 1
+      "community": 2,
+      "id": "docs_test_golden_trace_examples"
     },
     {
       "label": "Phase 0 Overview Layer Enhancement",
@@ -7703,8 +7730,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "documentation_review_summary_phase_0_overview_layer",
-      "community": 1
+      "community": 2,
+      "id": "documentation_review_summary_phase_0_overview_layer"
     },
     {
       "label": "Phase 1 Pipeline Alignment",
@@ -7715,8 +7742,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "documentation_review_summary_phase_1_pipeline_alignment",
-      "community": 1
+      "community": 2,
+      "id": "documentation_review_summary_phase_1_pipeline_alignment"
     },
     {
       "label": "Phase 2 Detail Buildup",
@@ -7727,8 +7754,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "documentation_review_summary_phase_2_detail_buildup",
-      "community": 1
+      "community": 2,
+      "id": "documentation_review_summary_phase_2_detail_buildup"
     },
     {
       "label": "Workload Loader",
@@ -7739,8 +7766,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_workload_loader",
-      "community": 1
+      "community": 2,
+      "id": "project_roadmap_workload_loader"
     },
     {
       "label": "Compiler Pipeline",
@@ -7751,8 +7778,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_compiler_pipeline",
-      "community": 1
+      "community": 2,
+      "id": "project_roadmap_compiler_pipeline"
     },
     {
       "label": "Cycle-Based Simulator",
@@ -7763,8 +7790,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_cycle_based_simulator",
-      "community": 1
+      "community": 2,
+      "id": "project_roadmap_cycle_based_simulator"
     },
     {
       "label": "Trace & Visualization",
@@ -7775,8 +7802,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_trace_visualization",
-      "community": 1
+      "community": 2,
+      "id": "project_roadmap_trace_visualization"
     },
     {
       "label": "DSE / Scenario Engine",
@@ -7787,8 +7814,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_dse_scenario_engine",
-      "community": 1
+      "community": 2,
+      "id": "project_roadmap_dse_scenario_engine"
     },
     {
       "label": "Stage A - Foundation",
@@ -7799,8 +7826,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_stage_a_foundation",
-      "community": 1
+      "community": 2,
+      "id": "project_roadmap_stage_a_foundation"
     },
     {
       "label": "Stage B - NPU Timing & Engine Modeling",
@@ -7811,8 +7838,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_stage_b_timing_engine_modeling",
-      "community": 33
+      "community": 34,
+      "id": "project_roadmap_stage_b_timing_engine_modeling"
     },
     {
       "label": "Stage C - Full Operator Support",
@@ -7823,8 +7850,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_stage_c_full_operator_support",
-      "community": 34
+      "community": 35,
+      "id": "project_roadmap_stage_c_full_operator_support"
     },
     {
       "label": "Stage D - LLM Specialization",
@@ -7835,8 +7862,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_stage_d_llm_specialization",
-      "community": 35
+      "community": 36,
+      "id": "project_roadmap_stage_d_llm_specialization"
     },
     {
       "label": "Stage E - DSE Platform",
@@ -7847,8 +7874,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_stage_e_dse_platform",
-      "community": 36
+      "community": 37,
+      "id": "project_roadmap_stage_e_dse_platform"
     },
     {
       "label": "SDD Principle",
@@ -7859,8 +7886,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_sdd_principle",
-      "community": 1
+      "community": 2,
+      "id": "project_roadmap_sdd_principle"
     },
     {
       "label": "Vertical-First",
@@ -7871,8 +7898,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_vertical_first",
-      "community": 22
+      "community": 23,
+      "id": "project_roadmap_vertical_first"
     },
     {
       "label": "Modular & Replaceable",
@@ -7883,8 +7910,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_modular_replaceable",
-      "community": 37
+      "community": 38,
+      "id": "project_roadmap_modular_replaceable"
     },
     {
       "label": "Trace-First Design",
@@ -7895,8 +7922,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_trace_first_design",
-      "community": 38
+      "community": 39,
+      "id": "project_roadmap_trace_first_design"
     },
     {
       "label": "Test-First for Core Logic",
@@ -7907,8 +7934,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_test_first_for_core_logic",
-      "community": 24
+      "community": 25,
+      "id": "project_roadmap_test_first_for_core_logic"
     },
     {
       "label": "End-to-End AI Hardware Simulation Platform",
@@ -7919,8 +7946,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "project_roadmap_end_to_end_ai_hardware_platform",
-      "community": 39
+      "community": 40,
+      "id": "project_roadmap_end_to_end_ai_hardware_platform"
     },
     {
       "label": "Skeleton-First SDD Implementation Roadmap",
@@ -7931,8 +7958,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_skeleton_first_sdd_implementation_roadmap",
-      "community": 40
+      "community": 41,
+      "id": "milestone_plan_skeleton_first_sdd_implementation_roadmap"
     },
     {
       "label": "Phase 0 - Project Code Skeleton",
@@ -7943,8 +7970,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_phase_0_project_code_skeleton",
-      "community": 41
+      "community": 42,
+      "id": "milestone_plan_phase_0_project_code_skeleton"
     },
     {
       "label": "Phase 1 - MatMul-only End-to-End",
@@ -7955,8 +7982,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_phase_1_matmul_only_e2e",
-      "community": 22
+      "community": 23,
+      "id": "milestone_plan_phase_1_matmul_only_e2e"
     },
     {
       "label": "Phase 2 - Timing/Memory/Engine Realization",
@@ -7967,8 +7994,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_phase_2_timing_memory_engine_realization",
-      "community": 42
+      "community": 43,
+      "id": "milestone_plan_phase_2_timing_memory_engine_realization"
     },
     {
       "label": "Document -> Design -> Code Flow",
@@ -7979,8 +8006,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_document_to_design_to_code_flow",
-      "community": 23
+      "community": 24,
+      "id": "milestone_plan_document_to_design_to_code_flow"
     },
     {
       "label": "IrBuilderPass",
@@ -7991,8 +8018,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_irbuilderpass",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_irbuilderpass"
     },
     {
       "label": "TilingPlannerPass",
@@ -8003,8 +8030,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_tilingplannerpass",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_tilingplannerpass"
     },
     {
       "label": "SpmAllocatorPass",
@@ -8015,8 +8042,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_spmallocatorpass",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_spmallocatorpass"
     },
     {
       "label": "StaticSchedulerPass",
@@ -8027,8 +8054,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_staticschedulerpass",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_staticschedulerpass"
     },
     {
       "label": "CmdqGeneratorPass",
@@ -8039,8 +8066,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_cmdqgeneratorpass",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_cmdqgeneratorpass"
     },
     {
       "label": "NpuSimulator",
@@ -8051,8 +8078,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_npusimulator",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_npusimulator"
     },
     {
       "label": "ControlFSM",
@@ -8063,8 +8090,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_controlfsm",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_controlfsm"
     },
     {
       "label": "TeEngine",
@@ -8075,8 +8102,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_teengine",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_teengine"
     },
     {
       "label": "TraceCollector",
@@ -8087,8 +8114,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_tracecollector",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_tracecollector"
     },
     {
       "label": "Integration Test: Single MatMul Pipeline",
@@ -8099,8 +8126,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "milestone_plan_integration_test_single_matmul_pipeline",
-      "community": 1
+      "community": 2,
+      "id": "milestone_plan_integration_test_single_matmul_pipeline"
     },
     {
       "label": "Document First",
@@ -8111,8 +8138,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_document_first",
-      "community": 23
+      "community": 24,
+      "id": "spec_workflow_document_first"
     },
     {
       "label": "Single Source of Truth",
@@ -8123,8 +8150,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_single_source_of_truth",
-      "community": 43
+      "community": 44,
+      "id": "spec_workflow_single_source_of_truth"
     },
     {
       "label": "Test Accompanied",
@@ -8135,8 +8162,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_test_accompanied",
-      "community": 24
+      "community": 25,
+      "id": "spec_workflow_test_accompanied"
     },
     {
       "label": "Reviewability",
@@ -8147,8 +8174,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_reviewability",
-      "community": 1
+      "community": 2,
+      "id": "spec_workflow_reviewability"
     },
     {
       "label": "Spec Update",
@@ -8159,8 +8186,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_spec_update",
-      "community": 44
+      "community": 45,
+      "id": "spec_workflow_spec_update"
     },
     {
       "label": "Design Update",
@@ -8171,8 +8198,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_design_update",
-      "community": 45
+      "community": 46,
+      "id": "spec_workflow_design_update"
     },
     {
       "label": "Test Doc Update",
@@ -8183,8 +8210,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_test_doc_update",
-      "community": 46
+      "community": 47,
+      "id": "spec_workflow_test_doc_update"
     },
     {
       "label": "Implementation",
@@ -8195,8 +8222,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_implementation",
-      "community": 47
+      "community": 48,
+      "id": "spec_workflow_implementation"
     },
     {
       "label": "Review & Merge",
@@ -8207,8 +8234,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_review_merge",
-      "community": 48
+      "community": 49,
+      "id": "spec_workflow_review_merge"
     },
     {
       "label": "PR/Issue Templates",
@@ -8219,8 +8246,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_pr_issue_templates",
-      "community": 49
+      "community": 50,
+      "id": "spec_workflow_pr_issue_templates"
     },
     {
       "label": "CI Integration",
@@ -8231,8 +8258,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_ci_integration",
-      "community": 50
+      "community": 51,
+      "id": "spec_workflow_ci_integration"
     },
     {
       "label": "Example Flows",
@@ -8243,8 +8270,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_workflow_example_flows",
-      "community": 51
+      "community": 52,
+      "id": "spec_workflow_example_flows"
     },
     {
       "label": "Semantic Versioning",
@@ -8255,8 +8282,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "semantic_versioning",
-      "community": 14
+      "community": 14,
+      "id": "semantic_versioning"
     },
     {
       "label": "Spec-First Versioning",
@@ -8267,8 +8294,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_first_version",
-      "community": 14
+      "community": 14,
+      "id": "spec_first_version"
     },
     {
       "label": "Breaking Change Recording",
@@ -8279,8 +8306,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "breaking_change_recording",
-      "community": 14
+      "community": 14,
+      "id": "breaking_change_recording"
     },
     {
       "label": "MAJOR.MINOR.PATCH",
@@ -8291,8 +8318,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "major_minor_patch",
-      "community": 14
+      "community": 14,
+      "id": "major_minor_patch"
     },
     {
       "label": "Spec Version",
@@ -8303,8 +8330,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_version",
-      "community": 14
+      "community": 14,
+      "id": "spec_version"
     },
     {
       "label": "Simulator Version",
@@ -8315,8 +8342,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "sim_version",
-      "community": 14
+      "community": 14,
+      "id": "sim_version"
     },
     {
       "label": "Changelog",
@@ -8327,8 +8354,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "changelog",
-      "community": 14
+      "community": 14,
+      "id": "changelog"
     },
     {
       "label": "Spec-Code Version Mapping",
@@ -8339,8 +8366,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "spec_code_version_mapping",
-      "community": 14
+      "community": 14,
+      "id": "spec_code_version_mapping"
     },
     {
       "label": "Version Checks",
@@ -8351,8 +8378,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "version_checks",
-      "community": 14
+      "community": 14,
+      "id": "version_checks"
     },
     {
       "label": "Changelog Automation",
@@ -8363,8 +8390,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "changelog_automation",
-      "community": 14
+      "community": 14,
+      "id": "changelog_automation"
     },
     {
       "label": "System Architecture Overview (Proposed)",
@@ -8375,8 +8402,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_system_architecture_overview",
-      "community": 16
+      "community": 16,
+      "id": "review_by_chatgpt_v2_system_architecture_overview"
     },
     {
       "label": "Compute Dataflow Overview (Proposed)",
@@ -8387,8 +8414,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_compute_dataflow_overview",
-      "community": 16
+      "community": 16,
+      "id": "review_by_chatgpt_v2_compute_dataflow_overview"
     },
     {
       "label": "Memory/NoC Overview (Proposed)",
@@ -8399,8 +8426,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_memory_noc_overview",
-      "community": 16
+      "community": 16,
+      "id": "review_by_chatgpt_v2_memory_noc_overview"
     },
     {
       "label": "SDD Devflow Overview (Proposed)",
@@ -8411,8 +8438,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_sdd_devflow_overview",
-      "community": 16
+      "community": 16,
+      "id": "review_by_chatgpt_v2_sdd_devflow_overview"
     },
     {
       "label": "Documentation Reading Guide (Proposed)",
@@ -8423,8 +8450,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_documentation_reading_guide",
-      "community": 16
+      "community": 16,
+      "id": "review_by_chatgpt_v2_documentation_reading_guide"
     },
     {
       "label": "Global Integrated Diagram",
@@ -8435,8 +8462,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_global_integrated_diagram",
-      "community": 52
+      "community": 53,
+      "id": "review_by_chatgpt_v2_global_integrated_diagram"
     },
     {
       "label": "LLaMA Block Common Example",
@@ -8447,8 +8474,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_llama_block_common_example",
-      "community": 16
+      "community": 16,
+      "id": "review_by_chatgpt_v2_llama_block_common_example"
     },
     {
       "label": "Pipeline Alignment Issue",
@@ -8459,8 +8486,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_pipeline_alignment_issue",
-      "community": 1
+      "community": 2,
+      "id": "review_by_chatgpt_v2_pipeline_alignment_issue"
     },
     {
       "label": "Timing/Contention Model Issue",
@@ -8471,8 +8498,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_timing_contention_model_issue",
-      "community": 1
+      "community": 2,
+      "id": "review_by_chatgpt_v2_timing_contention_model_issue"
     },
     {
       "label": "Skeleton-Level Docs Issue",
@@ -8483,8 +8510,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_skeleton_level_docs_issue",
-      "community": 16
+      "community": 16,
+      "id": "review_by_chatgpt_v2_skeleton_level_docs_issue"
     },
     {
       "label": "Trace/Visualizer Incomplete Issue",
@@ -8495,8 +8522,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_trace_visualizer_incomplete_issue",
-      "community": 1
+      "community": 2,
+      "id": "review_by_chatgpt_v2_trace_visualizer_incomplete_issue"
     },
     {
       "label": "Phase 0 Overview Enhancement",
@@ -8507,8 +8534,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_phase_0_overview_enhancement",
-      "community": 16
+      "community": 16,
+      "id": "review_by_chatgpt_v2_phase_0_overview_enhancement"
     },
     {
       "label": "Phase 1 Pipeline Alignment",
@@ -8519,8 +8546,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_phase_1_pipeline_alignment",
-      "community": 1
+      "community": 2,
+      "id": "review_by_chatgpt_v2_phase_1_pipeline_alignment"
     },
     {
       "label": "Phase 2 Detail Buildup",
@@ -8531,8 +8558,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "review_by_chatgpt_v2_phase_2_detail_buildup",
-      "community": 1
+      "community": 2,
+      "id": "review_by_chatgpt_v2_phase_2_detail_buildup"
     },
     {
       "label": "docs/process/contribution_and_review_guide.md",
@@ -8543,8 +8570,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_process_contribution_and_review_guide",
-      "community": 1
+      "community": 2,
+      "id": "docs_process_contribution_and_review_guide"
     },
     {
       "label": "docs/process/naming_convention.md",
@@ -8555,8 +8582,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docs_process_naming_convention",
-      "community": 1
+      "community": 2,
+      "id": "docs_process_naming_convention"
     },
     {
       "label": "Multiple Constant Multiplication",
@@ -8567,8 +8594,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "multiple_constant_multiplication",
-      "community": 7
+      "community": 7,
+      "id": "multiple_constant_multiplication"
     },
     {
       "label": "MCM",
@@ -8579,8 +8606,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mcm",
-      "community": 7
+      "community": 7,
+      "id": "mcm"
     },
     {
       "label": "A-operation",
@@ -8591,8 +8618,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_operation",
-      "community": 7
+      "community": 7,
+      "id": "a_operation"
     },
     {
       "label": "A-graph",
@@ -8603,8 +8630,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "a_graph",
-      "community": 7
+      "community": 7,
+      "id": "a_graph"
     },
     {
       "label": "Multiplierless DWT",
@@ -8615,8 +8642,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "multiplierless_dwt",
-      "community": 7
+      "community": 7,
+      "id": "multiplierless_dwt"
     },
     {
       "label": "Lefevre Algorithm",
@@ -8627,8 +8654,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "lefevre_algorithm",
-      "community": 7
+      "community": 7,
+      "id": "lefevre_algorithm"
     },
     {
       "label": "Voronenko-P\u00fcschel A-graph Theory",
@@ -8639,8 +8666,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "voronenko_puschel_a_graph",
-      "community": 7
+      "community": 7,
+      "id": "voronenko_puschel_a_graph"
     },
     {
       "label": "PEFT x MCM",
@@ -8651,8 +8678,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "peft_x_mcm",
-      "community": 7
+      "community": 7,
+      "id": "peft_x_mcm"
     },
     {
       "label": "TinyLoRA / 13-Parameter Reasoning",
@@ -8663,8 +8690,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tinylora_13_parameter_reasoning",
-      "community": 7
+      "community": 7,
+      "id": "tinylora_13_parameter_reasoning"
     },
     {
       "label": "Learning to Reason in 13 Parameters",
@@ -8675,8 +8702,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "learning_to_reason_in_13_parameters",
-      "community": 7
+      "community": 7,
+      "id": "learning_to_reason_in_13_parameters"
     },
     {
       "label": "AgentHub",
@@ -8687,8 +8714,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "agenthub",
-      "community": 7
+      "community": 7,
+      "id": "agenthub"
     },
     {
       "label": "Taalas",
@@ -8699,8 +8726,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "taalas",
-      "community": 7
+      "community": 7,
+      "id": "taalas"
     },
     {
       "label": "MCM-Based Neural Network Hardware Pipeline",
@@ -8711,8 +8738,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mcm_based_neural_network_hardware_pipeline",
-      "community": 7
+      "community": 7,
+      "id": "mcm_based_neural_network_hardware_pipeline"
     },
     {
       "label": "Coefficient Programmable MCM Fabric",
@@ -8723,8 +8750,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "coefficient_programmable_mcm_fabric",
-      "community": 7
+      "community": 7,
+      "id": "coefficient_programmable_mcm_fabric"
     },
     {
       "label": "Hardwired Transformer via MCM-Based Multiplierless Architecture",
@@ -8735,8 +8762,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "hardwired_transformer_via_mcm_based_multiplierless_architecture",
-      "community": 7
+      "community": 7,
+      "id": "hardwired_transformer_via_mcm_based_multiplierless_architecture"
     },
     {
       "label": "QuickSRNet-MCM",
@@ -8747,8 +8774,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "quicksrnet_mcm",
-      "community": 7
+      "community": 7,
+      "id": "quicksrnet_mcm"
     },
     {
       "label": "Domain-Adaptive MCM-ISP",
@@ -8759,8 +8786,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "domain_adaptive_mcm_isp",
-      "community": 7
+      "community": 7,
+      "id": "domain_adaptive_mcm_isp"
     },
     {
       "label": "MCM-ISP Front",
@@ -8771,8 +8798,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mcm_isp_front",
-      "community": 7
+      "community": 7,
+      "id": "mcm_isp_front"
     },
     {
       "label": "MCM Application Map",
@@ -8783,8 +8810,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mcm_application_map",
-      "community": 7
+      "community": 7,
+      "id": "mcm_application_map"
     },
     {
       "label": "ISP / Image Restoration",
@@ -8795,8 +8822,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "isp_image_restoration",
-      "community": 7
+      "community": 7,
+      "id": "isp_image_restoration"
     },
     {
       "label": "Super-Resolution / Enhancement",
@@ -8807,8 +8834,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "super_resolution_enhancement",
-      "community": 7
+      "community": 7,
+      "id": "super_resolution_enhancement"
     },
     {
       "label": "Multimodal Image Encoder",
@@ -8819,8 +8846,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "multimodal_image_encoder",
-      "community": 7
+      "community": 7,
+      "id": "multimodal_image_encoder"
     },
     {
       "label": "Multimodal Audio Encoder",
@@ -8831,8 +8858,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "multimodal_audio_encoder",
-      "community": 7
+      "community": 7,
+      "id": "multimodal_audio_encoder"
     },
     {
       "label": "AI-Hardware Architecture",
@@ -8843,8 +8870,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_hardware_architecture_link",
-      "community": 7
+      "community": 7,
+      "id": "ai_hardware_architecture_link"
     },
     {
       "label": "AI-Hardware Simulator",
@@ -8855,8 +8882,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "ai_hardware_simulator_link",
-      "community": 7
+      "community": 7,
+      "id": "ai_hardware_simulator_link"
     },
     {
       "label": "GenAI Compression",
@@ -8867,8 +8894,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "genai_compression_link",
-      "community": 7
+      "community": 7,
+      "id": "genai_compression_link"
     },
     {
       "label": "GenAI HW-Friendly",
@@ -8879,8 +8906,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "genai_hw_friendly_link",
-      "community": 7
+      "community": 7,
+      "id": "genai_hw_friendly_link"
     },
     {
       "label": "HW-Friendly Model Design",
@@ -8891,8 +8918,8 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "hw_friendly_model_design_link",
-      "community": 7
+      "community": 7,
+      "id": "hw_friendly_model_design_link"
     },
     {
       "label": "DBpia NODE01605693",
@@ -8903,8 +8930,50 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dbpia_node01605693",
-      "community": 7
+      "community": 7,
+      "id": "dbpia_node01605693"
+    },
+    {
+      "label": "Operator-Coordinate Compression",
+      "file_type": "document",
+      "source_file": "wiki/topics/operator-coordinate-compression.md",
+      "id": "operator_coordinate_compression_topic",
+      "community": 18
+    },
+    {
+      "label": "Trace & Visualization",
+      "file_type": "document",
+      "source_file": "wiki/topics/trace-visualization.md",
+      "id": "trace_visualization_topic",
+      "community": 18
+    },
+    {
+      "label": "NPU Documentation Process",
+      "file_type": "document",
+      "source_file": "wiki/topics/npu-doc-process.md",
+      "id": "npu_doc_process_topic",
+      "community": 18
+    },
+    {
+      "label": "Tile Semantics and Contract Boundaries",
+      "file_type": "document",
+      "source_file": "wiki/concepts/tile-semantics-contract.md",
+      "id": "tile_semantics_contract",
+      "community": 18
+    },
+    {
+      "label": "Mixed Precision as a System Policy",
+      "file_type": "document",
+      "source_file": "wiki/concepts/mixed-precision-policy.md",
+      "id": "mixed_precision_policy",
+      "community": 18
+    },
+    {
+      "label": "Trace-First Design",
+      "file_type": "document",
+      "source_file": "wiki/concepts/trace-first-design.md",
+      "id": "trace_first_design",
+      "community": 18
     }
   ],
   "links": [
@@ -20945,6 +21014,17 @@
       "target": "documentation_improvement_backlog"
     },
     {
+      "relation": "connects",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/kv-cache-dram-residency.md",
+      "weight": 1.0,
+      "_src": "kv_cache_dram_residency",
+      "_tgt": "trace_visualization_topic",
+      "source": "kv_cache_dram_residency",
+      "target": "trace_visualization_topic"
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -23535,6 +23615,83 @@
       "_tgt": "mcm_application_map",
       "source": "mcm_application_map",
       "target": "hw_friendly_model_design_link"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/operator-coordinate-compression.md",
+      "weight": 1.0,
+      "_src": "operator_coordinate_compression_topic",
+      "_tgt": "mixed_precision_policy",
+      "source": "operator_coordinate_compression_topic",
+      "target": "mixed_precision_policy"
+    },
+    {
+      "relation": "connects",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/trace-first-design.md",
+      "weight": 1.0,
+      "_src": "trace_first_design",
+      "_tgt": "trace_visualization_topic",
+      "source": "trace_visualization_topic",
+      "target": "trace_first_design"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-doc-process.md",
+      "weight": 1.0,
+      "_src": "npu_doc_process_topic",
+      "_tgt": "trace_visualization_topic",
+      "source": "trace_visualization_topic",
+      "target": "npu_doc_process_topic"
+    },
+    {
+      "relation": "connects",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/tile-semantics-contract.md",
+      "weight": 1.0,
+      "_src": "tile_semantics_contract",
+      "_tgt": "trace_visualization_topic",
+      "source": "trace_visualization_topic",
+      "target": "tile_semantics_contract"
+    },
+    {
+      "relation": "connects",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/mixed-precision-policy.md",
+      "weight": 1.0,
+      "_src": "mixed_precision_policy",
+      "_tgt": "trace_visualization_topic",
+      "source": "trace_visualization_topic",
+      "target": "mixed_precision_policy"
+    },
+    {
+      "relation": "connects",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/trace-first-design.md",
+      "weight": 1.0,
+      "_src": "trace_first_design",
+      "_tgt": "npu_doc_process_topic",
+      "source": "npu_doc_process_topic",
+      "target": "trace_first_design"
+    },
+    {
+      "relation": "connects",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/concepts/tile-semantics-contract.md",
+      "weight": 1.0,
+      "_src": "tile_semantics_contract",
+      "_tgt": "npu_doc_process_topic",
+      "source": "npu_doc_process_topic",
+      "target": "tile_semantics_contract"
     }
   ],
   "hyperedges": [
@@ -23897,6 +24054,33 @@
       "confidence": "INFERRED",
       "confidence_score": 0.82,
       "source_file": "wiki/topics/patent-mcm.md"
+    },
+    {
+      "id": "wiki_compiler_new_topics_2026_04_14",
+      "label": "Wiki Compiler Topic Expansion 2026-04-14",
+      "nodes": [
+        "operator_coordinate_compression_topic",
+        "trace_visualization_topic",
+        "npu_doc_process_topic"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/INDEX.md"
+    },
+    {
+      "id": "wiki_compiler_new_concepts_2026_04_14",
+      "label": "Wiki Compiler Concept Expansion 2026-04-14",
+      "nodes": [
+        "tile_semantics_contract",
+        "mixed_precision_policy",
+        "kv_cache_dram_residency",
+        "trace_first_design"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/INDEX.md"
     }
   ]
 }

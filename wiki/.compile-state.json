@@ -1,5 +1,5 @@
 {
-  "last_compiled": "2026-04-12",
+  "last_compiled": "2026-04-14",
   "topics": [
     "npu-architecture",
     "llm-quantization-compression",
@@ -8,12 +8,19 @@
     "riscv-npu-soc-sim",
     "paper-reviews",
     "patent-mcm",
-    "soc-spec-english"
+    "soc-spec-english",
+    "operator-coordinate-compression",
+    "trace-visualization",
+    "npu-doc-process"
   ],
   "concepts": [
     "memory-bandwidth-bottleneck",
     "static-scheduling-determinism",
-    "prefill-decode-duality"
+    "prefill-decode-duality",
+    "tile-semantics-contract",
+    "mixed-precision-policy",
+    "kv-cache-dram-residency",
+    "trace-first-design"
   ],
   "source_locations": [
     "raw/AI-Hardware/Architecture/",

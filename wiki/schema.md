@@ -16,6 +16,9 @@ This file is the source of truth for wiki structure. Edit it to rename topics, m
 | `paper-reviews` | Paper Reviews | STEM, Dr Zero, chaos theory, PaperDebugger, PaperBanana, Tim Palmer, ensemble prediction | Critical analyses of research papers across transformer architecture, agents, and tooling |
 | `patent-mcm` | Patent & MCM Research | MCM, multiplierless, DWT, Taalas, AgentHub, TinyLoRA, 13 parameters, Voronenko, shift-add | MCM-based multiplierless VLSI design, AI infrastructure patents, small-parameter reasoning |
 | `soc-spec-english` | SoC Specification Negotiation English | SoC spec, negotiation, technical English, architect vocabulary | English language patterns for SoC specification negotiation in professional settings |
+| `operator-coordinate-compression` | Operator-Coordinate Compression | coordinate system, manifold alignment, TurboQuant, operator view, rotation, rate-distortion, basis | Geometry-aware compression theory and experiments centered on operator-coordinate representations |
+| `trace-visualization` | Trace & Visualization | trace, gantt, heatmap, utilization, timeline, visualization, profiler, trace schema | Trace schema, visualization requirements, and analysis workflow for simulator outputs |
+| `npu-doc-process` | NPU Documentation Process | SDD, roadmap, milestone, naming, review, contribution, changelog, workflow | Documentation, review, roadmap, and spec-driven process for the RISCV_NPU_SoC_SIM project |
 
 ---
 
@@ -26,6 +29,10 @@ This file is the source of truth for wiki structure. Edit it to rename topics, m
 | `memory-bandwidth-bottleneck` | Memory Bandwidth as Primary Bottleneck | llm-quantization-compression, npu-architecture, hw-friendly-model-design, npu-simulator-compiler, riscv-npu-soc-sim |
 | `static-scheduling-determinism` | Static Scheduling and Deterministic Execution | npu-architecture, npu-simulator-compiler, riscv-npu-soc-sim, hw-friendly-model-design, patent-mcm |
 | `prefill-decode-duality` | Prefill / Decode Duality | npu-simulator-compiler, riscv-npu-soc-sim, hw-friendly-model-design, llm-quantization-compression |
+| `tile-semantics-contract` | Tile Semantics and Contract Boundaries | riscv-npu-soc-sim, npu-simulator-compiler, trace-visualization, npu-doc-process |
+| `mixed-precision-policy` | Mixed Precision as a System Policy | llm-quantization-compression, riscv-npu-soc-sim, npu-architecture, trace-visualization |
+| `kv-cache-dram-residency` | KV Cache as DRAM-Resident State | hw-friendly-model-design, llm-quantization-compression, riscv-npu-soc-sim, trace-visualization |
+| `trace-first-design` | Trace-First Design | riscv-npu-soc-sim, trace-visualization, npu-doc-process, npu-simulator-compiler |
 
 ---
 
@@ -41,3 +48,4 @@ This file is the source of truth for wiki structure. Edit it to rename topics, m
 ## Evolution Log
 
 - **2026-04-12**: Initial schema generated from 8 topics, 3 concepts (first compile of 123 source files)
+- **2026-04-14**: Expanded schema to 11 topics and 7 concepts to absorb newly connected graphify communities before the next wiki compile
