@@ -1,115 +1,143 @@
 {
   "new_nodes": [
     {
-      "id": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "label": "Flash-Resident LLM and HBF for Edge Inference"
+      "id": "samsung_differentiation_layer",
+      "label": "Samsung Differentiation Layer"
+    },
+    {
+      "id": "edge_physical_ai_platform_provider",
+      "label": "Edge / Physical AI Platform Provider"
+    },
+    {
+      "id": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "label": "Samsung System LSI Edge / Physical AI Custom SoC Platform Strategy"
+    },
+    {
+      "id": "hierarchical_multi_noc_architecture",
+      "label": "Hierarchical Multi-NoC Architecture"
+    },
+    {
+      "id": "fabric_preset_strategy",
+      "label": "Fabric Preset Strategy"
     }
   ],
   "removed_nodes": [],
   "new_edges": [
     {
       "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
       "relation": "references",
-      "confidence": "EXTRACTED"
+      "confidence": "INFERRED"
     },
     {
-      "source": "concept_memory_hierarchy_ai_accelerators",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "target": "fabric_preset_strategy",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "concept_versal_acap",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED"
     },
     {
       "source": "memory_hierarchy_in_ai_npu_hierarchy",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "hyperaccel_lpddr_decode",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED"
     },
     {
-      "source": "decode_centric_pipeline",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "memory_hierarchy_in_ai_npu_hierarchy",
+      "target": "hierarchical_multi_noc_architecture",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "amd_versal_acap",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED"
+    },
+    {
+      "source": "amd_versal_acap",
+      "target": "hierarchical_multi_noc_architecture",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
     },
     {
       "source": "npu_architecture_overview",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED"
     },
     {
-      "source": "memory_bandwidth_bottleneck",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "npu_architecture_overview",
+      "target": "edge_physical_ai_platform_provider",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED"
     },
     {
-      "source": "prefill_decode_duality",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "npu_architecture_overview",
+      "target": "samsung_differentiation_layer",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED"
     },
     {
-      "source": "kv_cache_optimization",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "llm_quantization_compression",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "tesla_edge_ai_innovation",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED"
     },
     {
-      "source": "prefill_decode_bottleneck",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "isp_image_restoration",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED"
     },
     {
-      "source": "kv_cache",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "isp_image_restoration",
+      "target": "samsung_differentiation_layer",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED"
     },
     {
-      "source": "kv_cache_semantics_spec_doc",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
       "relation": "references",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "edge_physical_ai_platform_provider",
+      "relation": "conceptually_related_to",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "kv_cache_dram_residency",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "fabric_preset_strategy",
       "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
+      "confidence": "EXTRACTED"
     },
     {
-      "source": "multimodal_image_encoder",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "hierarchical_multi_noc_architecture",
       "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
+      "confidence": "EXTRACTED"
     },
     {
-      "source": "multimodal_audio_encoder",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "samsung_differentiation_layer",
       "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
+      "confidence": "EXTRACTED"
     },
     {
-      "source": "mixed_precision_policy",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "fabric_preset_strategy",
+      "target": "hierarchical_multi_noc_architecture",
       "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
+      "confidence": "EXTRACTED"
     }
   ],
   "removed_edges": [],
-  "summary": "1 new node, 17 new edges"
+  "summary": "5 new nodes, 19 new edges"
 }

@@ -404,6 +404,21 @@
         "confidence": "INFERRED",
         "confidence_score": 0.92,
         "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md"
+      },
+      {
+        "id": "samsung_edge_platform_strategy_stack",
+        "label": "Samsung Edge Platform Strategy Stack",
+        "nodes": [
+          "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+          "edge_physical_ai_platform_provider",
+          "fabric_preset_strategy",
+          "hierarchical_multi_noc_architecture",
+          "samsung_differentiation_layer"
+        ],
+        "relation": "form",
+        "confidence": "EXTRACTED",
+        "confidence_score": 0.98,
+        "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md"
       }
     ]
   },
@@ -417,7 +432,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "readme_obsidian_notes"
     },
     {
@@ -429,7 +444,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "log_append_only_activity_record"
     },
     {
@@ -441,7 +456,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "index_wiki_catalog"
     },
     {
@@ -453,7 +468,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "llm_wiki_pattern"
     },
     {
@@ -465,7 +480,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "claude_md_schema"
     },
     {
@@ -489,7 +504,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "wiki_research_paper_reviews"
     },
     {
@@ -501,7 +516,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "wiki_misc_soc_specification_negotiation_english"
     },
     {
@@ -513,7 +528,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "wiki_misc_vault_lint_checklist"
     },
     {
@@ -525,7 +540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "wiki_ai_hardware_simulator_and_implementation_tools"
     },
     {
@@ -537,7 +552,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators"
     },
     {
@@ -549,7 +564,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "wiki_ai_hardware_npu_architecture"
     },
     {
@@ -561,7 +576,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "wiki_genai_llm_quantization_and_compression"
     },
     {
@@ -573,7 +588,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "wiki_genai_ocean_compression_deep_dive"
     },
     {
@@ -585,7 +600,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "wiki_genai_hw_friendly_model_design"
     },
     {
@@ -597,7 +612,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "raw_paperbanana_ai_research"
     },
     {
@@ -609,7 +624,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "raw_stem_structure_and_scalability"
     },
     {
@@ -621,7 +636,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "raw_dr_zero_concept_summary"
     },
     {
@@ -633,7 +648,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "raw_paperdebugger_research_productivity_innovation"
     },
     {
@@ -645,7 +660,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "raw_chaos_theory_and_prediction_part_1"
     },
     {
@@ -657,7 +672,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "raw_chaos_theory_and_prediction_part_2"
     },
     {
@@ -681,7 +696,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_llm_wiki_persistent_compounding_artifact"
     },
     {
@@ -693,7 +708,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_raw_wiki_schema_layers"
     },
     {
@@ -705,7 +720,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_index_catalog"
     },
     {
@@ -717,7 +732,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_log_timeline"
     },
     {
@@ -729,7 +744,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_vault_lint_operational_consistency"
     },
     {
@@ -741,7 +756,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_paperbanana_multi_agent_visualization"
     },
     {
@@ -753,7 +768,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_stem_embedding_modules"
     },
     {
@@ -765,7 +780,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_dr_zero_search_verify_refine"
     },
     {
@@ -777,7 +792,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_paperdebugger_executable_papers"
     },
     {
@@ -789,7 +804,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_chaos_ensemble_prediction"
     },
     {
@@ -861,7 +876,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_hyperaccel_lpu"
     },
     {
@@ -873,7 +888,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_coral_edge_tpu"
     },
     {
@@ -885,7 +900,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_mtia_tpu_comparison"
     },
     {
@@ -897,7 +912,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_transformer_c_implementation"
     },
     {
@@ -909,7 +924,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_npu_supernode"
     },
     {
@@ -921,7 +936,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_memory_hierarchy_ai_accelerators"
     },
     {
@@ -933,7 +948,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_npu_architecture_overview"
     },
     {
@@ -945,7 +960,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_tesla_ai_chip_roadmap"
     },
     {
@@ -957,7 +972,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_versal_acap"
     },
     {
@@ -969,7 +984,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_xilinx_finn"
     },
     {
@@ -981,7 +996,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_tpu_sparse_core"
     },
     {
@@ -993,7 +1008,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_amba_bus_recommendation"
     },
     {
@@ -1005,7 +1020,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_synopsys_platform_architect"
     },
     {
@@ -1017,7 +1032,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "concept_llm_quantization_and_compression"
     },
     {
@@ -1029,7 +1044,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "concept_dc_llm"
     },
     {
@@ -1041,7 +1056,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "concept_olive_outlier_victim_pair"
     },
     {
@@ -1053,7 +1068,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "concept_turboquant"
     },
     {
@@ -1065,7 +1080,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "concept_microscaling_vs_mixed_precision"
     },
     {
@@ -1077,7 +1092,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "concept_ocean_coordinate_aware_compression"
     },
     {
@@ -1089,7 +1104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "concept_gemma_3n_matformer_ple"
     },
     {
@@ -1101,7 +1116,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "concept_normalization_free_transformers"
     },
     {
@@ -1113,7 +1128,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "concept_latent_action_world_model"
     },
     {
@@ -1125,7 +1140,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "concept_msa_rag"
     },
     {
@@ -1137,7 +1152,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "concept_soc_specification_negotiation"
     },
     {
@@ -1149,7 +1164,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "rationale_llm_wiki_compounding_artifact"
     },
     {
@@ -1161,7 +1176,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "rationale_stem_memory_organization"
     },
     {
@@ -1173,7 +1188,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "rationale_dr_zero_zero_training_data"
     },
     {
@@ -1185,7 +1200,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "rationale_paperdebugger_reproducibility_as_information"
     },
     {
@@ -1197,7 +1212,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "rationale_chaos_distribution_level_prediction"
     },
     {
@@ -1221,7 +1236,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "rationale_paperbanana_hybrid_generation"
     },
     {
@@ -1233,7 +1248,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "rationale_ocean_rotation_and_entropy_shaping"
     },
     {
@@ -1245,7 +1260,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "ai_assisted_research_workflow_research_copilot"
     },
     {
@@ -1257,7 +1272,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "agenthub_agenthub"
     },
     {
@@ -1269,7 +1284,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "agenthub_autoresearch"
     },
     {
@@ -1281,7 +1296,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "reasoning_in_13m_parameters_paper"
     },
     {
@@ -1293,7 +1308,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "reasoning_13m_tinylora"
     },
     {
@@ -1305,7 +1320,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "reasoning_13m_rl_steering"
     },
     {
@@ -1317,7 +1332,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "mcm_multiplierless_multiple_constant_multiplication"
     },
     {
@@ -1329,7 +1344,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "mcm_pattern_search_lefevre_algorithm"
     },
     {
@@ -1341,7 +1356,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "mcm_multiplierless_lifting_dwt_design"
     },
     {
@@ -1353,7 +1368,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "mcm_multiplierless_artificial_neurons"
     },
     {
@@ -1365,7 +1380,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "mcm_addernet"
     },
     {
@@ -1377,7 +1392,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "mcm_cnn_isp_block"
     },
     {
@@ -1389,7 +1404,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "mcm_why_cnn_isp_needed"
     },
     {
@@ -1401,7 +1416,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "mcm_domain_invariant_mcm_isp"
     },
     {
@@ -1413,7 +1428,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "mcm_why_domain_adaptation_strengthens_mcm_isp"
     },
     {
@@ -1425,7 +1440,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "mcm_quicksrnet_target"
     },
     {
@@ -1437,7 +1452,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "soc_spec_technical_english"
     },
     {
@@ -1449,7 +1464,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "soc_spec_4_week_practical_usage_guide"
     },
     {
@@ -1461,7 +1476,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "tesla_ai_chip_roadmap_ai5_ai6"
     },
     {
@@ -1473,7 +1488,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "memory_hierarchy_in_ai_npu_hierarchy"
     },
     {
@@ -1485,7 +1500,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "tpu_sparse_core"
     },
     {
@@ -1497,7 +1512,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "tesla_mixed_precision_bridge"
     },
     {
@@ -1509,7 +1524,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "synopsys_platform_architect"
     },
     {
@@ -1521,7 +1536,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "xilinx_finn"
     },
     {
@@ -1533,7 +1548,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "amd_versal_acap"
     },
     {
@@ -1545,7 +1560,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "npu_hierarchical_amba"
     },
     {
@@ -1557,7 +1572,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "npu_supernode"
     },
     {
@@ -1569,7 +1584,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "mtia_accelerator"
     },
     {
@@ -1581,7 +1596,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "google_tpu"
     },
     {
@@ -1593,7 +1608,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "aws_inferentia"
     },
     {
@@ -1605,7 +1620,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "aws_trainium"
     },
     {
@@ -1617,7 +1632,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "transformer_llm_c_implementation"
     },
     {
@@ -1629,7 +1644,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "coral_npu_full_stack_platform"
     },
     {
@@ -1641,7 +1656,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "coral_not_scale_to_mobile_ap"
     },
     {
@@ -1653,7 +1668,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "coral_mobile_ap_npu_evolution"
     },
     {
@@ -1665,7 +1680,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "coral_multi_matmul_cluster"
     },
     {
@@ -1677,7 +1692,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "hyperaccel_lpu_card"
     },
     {
@@ -1689,7 +1704,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "hyperaccel_lpddr_decode"
     },
     {
@@ -1701,7 +1716,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "hyperaccel_lpu"
     },
     {
@@ -1713,7 +1728,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "esl_token_level_pipeline_link"
     },
     {
@@ -1725,7 +1740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "decode_centric_pipeline"
     },
     {
@@ -1737,7 +1752,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "pipeline_parallel"
     },
     {
@@ -1749,7 +1764,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "groq_lpu"
     },
     {
@@ -1761,7 +1776,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "static_scheduling"
     },
     {
@@ -1965,7 +1980,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "turboquant"
     },
     {
@@ -1977,7 +1992,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "polarquant"
     },
     {
@@ -1989,7 +2004,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "qjl_residual_correction"
     },
     {
@@ -2001,7 +2016,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "random_rotation"
     },
     {
@@ -2013,7 +2028,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "hadamard_srht"
     },
     {
@@ -2025,7 +2040,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "inner_product_preservation"
     },
     {
@@ -2037,7 +2052,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "coordinate_system_quantization"
     },
     {
@@ -2049,7 +2064,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "manifold_aligned_coordinates"
     },
     {
@@ -2061,7 +2076,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "functional_residual_decomposition"
     },
     {
@@ -2073,7 +2088,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "mxint8"
     },
     {
@@ -2085,7 +2100,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "rope"
     },
     {
@@ -2097,7 +2112,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "horner_method"
     },
     {
@@ -2109,7 +2124,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "attention_sink"
     },
     {
@@ -2277,7 +2292,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "snft"
     },
     {
@@ -2289,7 +2304,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "layernorm"
     },
     {
@@ -2301,7 +2316,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "residual_scaling"
     },
     {
@@ -2313,7 +2328,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "variance_control"
     },
     {
@@ -2325,7 +2340,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "dyt"
     },
     {
@@ -2337,7 +2352,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "wiki_research_ai_assisted_research_workflow"
     },
     {
@@ -2349,7 +2364,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "wiki_research_research_tooling_reviews"
     },
     {
@@ -2361,7 +2376,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "wiki_misc_graphify_post_update_review_template"
     },
     {
@@ -2373,7 +2388,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "wiki_genai_outlier_mitigation_methods_comparison"
     },
     {
@@ -2385,7 +2400,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_research_workflow_agent_automation"
     },
     {
@@ -2397,7 +2412,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_research_tooling_productivity"
     },
     {
@@ -2409,7 +2424,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_graphify_post_update_review"
     },
     {
@@ -2421,7 +2436,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "concept_outlier_mitigation_methods"
     },
     {
@@ -2433,7 +2448,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "concept_smoothquant"
     },
     {
@@ -2445,7 +2460,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "concept_quarot"
     },
     {
@@ -2457,7 +2472,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 12,
       "id": "concept_spinquant"
     },
     {
@@ -2469,7 +2484,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 7,
       "id": "concept_readme_navigation_hub"
     },
     {
@@ -2477,7 +2492,7 @@
       "file_type": "code",
       "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/tools/doc_status.py",
       "source_location": "L1",
-      "community": 24,
+      "community": 25,
       "id": "doc_status"
     },
     {
@@ -2489,7 +2504,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "readme_root"
     },
     {
@@ -2501,7 +2516,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "index_catalog"
     },
     {
@@ -2513,7 +2528,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "log_worklog"
     },
     {
@@ -2525,7 +2540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "wiki_schema"
     },
     {
@@ -2537,7 +2552,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "wiki_compile_log"
     },
     {
@@ -2549,7 +2564,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "wiki_vault_lint_checklist"
     },
     {
@@ -2561,7 +2576,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "wiki_graphify_post_update_review_template"
     },
     {
@@ -2573,7 +2588,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "ai_assisted_research_workflow"
     },
     {
@@ -2585,7 +2600,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "research_tooling_reviews"
     },
     {
@@ -2597,7 +2612,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "paper_reviews"
     },
     {
@@ -2609,7 +2624,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "patent_mcm"
     },
     {
@@ -2621,7 +2636,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "soc_specification_negotiation_english"
     },
     {
@@ -2633,7 +2648,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "memory_hierarchy_in_ai_accelerators"
     },
     {
@@ -2645,7 +2660,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "npu_architecture_overview"
     },
     {
@@ -2657,7 +2672,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "npu_simulator_and_implementation_tools"
     },
     {
@@ -2669,7 +2684,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "llm_quantization_and_compression_methods"
     },
     {
@@ -2681,7 +2696,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "outlier_mitigation_methods_comparison"
     },
     {
@@ -2705,7 +2720,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "npu_simulator_compiler_topic"
     },
     {
@@ -2717,7 +2732,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "riscv_npu_soc_sim_topic"
     },
     {
@@ -2729,7 +2744,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "memory_bandwidth_bottleneck"
     },
     {
@@ -2741,7 +2756,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "static_scheduling_determinism"
     },
     {
@@ -2753,7 +2768,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "prefill_decode_duality"
     },
     {
@@ -2765,7 +2780,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "agenthub_collaboration_graph"
     },
     {
@@ -2777,7 +2792,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "claude_code_harness_pipeline"
     },
     {
@@ -2789,7 +2804,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "tiny_reasoning_economics"
     },
     {
@@ -2801,7 +2816,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "paperdebugger"
     },
     {
@@ -2813,7 +2828,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "paperbanana"
     },
     {
@@ -2825,7 +2840,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "stem_scaling_transformers"
     },
     {
@@ -2837,7 +2852,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "dr_zero_search_centric_reasoning"
     },
     {
@@ -2849,7 +2864,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "chaos_theory_prediction"
     },
     {
@@ -2861,7 +2876,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "taalas_ai_infrastructure"
     },
     {
@@ -2873,7 +2888,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "model_to_silicon_mapping"
     },
     {
@@ -2885,7 +2900,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "memory_compute_integration"
     },
     {
@@ -2897,7 +2912,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "architecture_scope_alignment"
     },
     {
@@ -2909,7 +2924,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "olive_outlier_victim_pair"
     },
     {
@@ -2921,7 +2936,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "microscaling"
     },
     {
@@ -2933,7 +2948,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "mixed_precision"
     },
     {
@@ -2945,7 +2960,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "smoothquant"
     },
     {
@@ -2957,7 +2972,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "quarot"
     },
     {
@@ -2969,7 +2984,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "spinquant"
     },
     {
@@ -2981,7 +2996,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "ocean_compression"
     },
     {
@@ -3053,7 +3068,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "tesla_ai_chip_roadmap"
     },
     {
@@ -3065,7 +3080,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "tesla_edge_ai_innovation"
     },
     {
@@ -3077,7 +3092,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 4,
       "id": "amba_buses"
     },
     {
@@ -3089,7 +3104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "coral_npu"
     },
     {
@@ -3101,7 +3116,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "mtia"
     },
     {
@@ -3113,7 +3128,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "transformer_c_implementation"
     },
     {
@@ -3125,7 +3140,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "npu_ir"
     },
     {
@@ -3137,7 +3152,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "layerir"
     },
     {
@@ -3149,7 +3164,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "tensorir"
     },
     {
@@ -3161,7 +3176,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "cmdq"
     },
     {
@@ -3173,7 +3188,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "static_scheduler"
     },
     {
@@ -3185,7 +3200,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "spm_scratchpad_memory"
     },
     {
@@ -3197,7 +3212,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "tilegraph"
     },
     {
@@ -3209,7 +3224,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "qconfig_mixed_precision"
     },
     {
@@ -3221,7 +3236,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "multiplierless_constant_multiplication"
     },
     {
@@ -3233,7 +3248,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "vlsi_shift_add_dwt"
     },
     {
@@ -3257,7 +3272,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "llm_quantization_compression"
     },
     {
@@ -3293,7 +3308,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "operator_coordinate_compression_readme"
     },
     {
@@ -3305,7 +3320,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "operator_coordinate_compression_roadmap"
     },
     {
@@ -3317,7 +3332,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "operator_coordinate_compression_index"
     },
     {
@@ -3329,7 +3344,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "operator_coordinate_compression_overview"
     },
     {
@@ -3341,7 +3356,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "operator_view"
     },
     {
@@ -3353,7 +3368,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "coordinate_relative_outliers"
     },
     {
@@ -3365,7 +3380,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "rotation_vs_alignment"
     },
     {
@@ -3377,7 +3392,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "manifold_alignment"
     },
     {
@@ -3389,7 +3404,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "turboquant_architecture"
     },
     {
@@ -3401,7 +3416,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "related_work"
     },
     {
@@ -3413,7 +3428,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "paper_draft"
     },
     {
@@ -3425,7 +3440,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "invention_summary"
     },
     {
@@ -3437,7 +3452,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "claim_candidates"
     },
     {
@@ -3449,7 +3464,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "research_direction_review"
     },
     {
@@ -3461,7 +3476,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "toy_basis_vs_mlp_spec"
     },
     {
@@ -3473,7 +3488,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "tinyllama_validation_spec"
     },
     {
@@ -3569,7 +3584,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "post_training_quantization"
     },
     {
@@ -3581,7 +3596,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "quantization_aware_training"
     },
     {
@@ -3593,7 +3608,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "weight_only_quantization"
     },
     {
@@ -3605,7 +3620,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "kv_cache_quantization"
     },
     {
@@ -3617,7 +3632,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "outlier_problem"
     },
     {
@@ -3629,7 +3644,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "olive_outlier_victim_pair_quantization"
     },
     {
@@ -3641,7 +3656,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "turboquant_method"
     },
     {
@@ -3653,7 +3668,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "qjl"
     },
     {
@@ -3665,7 +3680,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "microscaling_mxint8"
     },
     {
@@ -3677,7 +3692,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "ocean_framework"
     },
     {
@@ -3689,7 +3704,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "hadamard_rotation"
     },
     {
@@ -3701,7 +3716,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "rate_distortion"
     },
     {
@@ -3713,7 +3728,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "gptq"
     },
     {
@@ -3725,7 +3740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "kurtail"
     },
     {
@@ -3737,7 +3752,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "opq"
     },
     {
@@ -3749,7 +3764,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "one_bit_qjl_residual"
     },
     {
@@ -3761,7 +3776,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "near_optimal_scalar_quantization"
     },
     {
@@ -3773,7 +3788,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "bpc"
     },
     {
@@ -3785,7 +3800,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 1,
       "id": "long_context_stability"
     },
     {
@@ -3797,7 +3812,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "quantization_stability"
     },
     {
@@ -3965,7 +3980,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 4,
       "id": "prefill_decode_bottleneck"
     },
     {
@@ -3977,7 +3992,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "stem_embedding_modularity"
     },
     {
@@ -3989,7 +4004,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "dr_zero_search_verify_refine"
     },
     {
@@ -4001,7 +4016,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "ensemble_prediction"
     },
     {
@@ -4013,7 +4028,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "paperdebugger_executable_papers"
     },
     {
@@ -4025,7 +4040,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "paperbanana_multi_agent_figure_generation"
     },
     {
@@ -4133,7 +4148,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "operator_parameterization"
     },
     {
@@ -4145,7 +4160,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "reparameterization"
     },
     {
@@ -4157,7 +4172,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "manifold_hypothesis"
     },
     {
@@ -4169,7 +4184,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "outliers_coordinate_artifact"
     },
     {
@@ -4181,7 +4196,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "flattening"
     },
     {
@@ -4193,7 +4208,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "concentration"
     },
     {
@@ -4205,7 +4220,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "pca_alignment"
     },
     {
@@ -4217,7 +4232,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "fisher_information_alignment"
     },
     {
@@ -4229,7 +4244,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "top_k_energy_ratio"
     },
     {
@@ -4241,7 +4256,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "fourier_basis"
     },
     {
@@ -4253,7 +4268,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "mlp_basis"
     },
     {
@@ -4265,7 +4280,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "mse_is_wrong_objective_for_kv_cache"
     },
     {
@@ -4301,7 +4316,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "search_verify_refine_without_training_data"
     },
     {
@@ -4313,7 +4328,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "papers_as_executable_systems"
     },
     {
@@ -4325,7 +4340,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "joint_weight_activation_manifold"
     },
     {
@@ -4337,7 +4352,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "spinquant_partial_alignment"
     },
     {
@@ -4349,7 +4364,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "layerwise_manifold_diversity"
     },
     {
@@ -4361,7 +4376,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "entropy_coding_for_functional_decomposition"
     },
     {
@@ -4373,7 +4388,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "low_rank_structural_compression"
     },
     {
@@ -4385,7 +4400,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "fisher_information_matrix"
     },
     {
@@ -4397,7 +4412,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "effective_rank"
     },
     {
@@ -4409,7 +4424,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "geometry_aware_rd_optimization"
     },
     {
@@ -4421,7 +4436,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "blockwise_axis_alignment"
     },
     {
@@ -4433,7 +4448,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 1,
       "id": "learned_axis_transform"
     },
     {
@@ -4445,7 +4460,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "riscv_npu_soc_sim_readme"
     },
     {
@@ -4649,7 +4664,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "prior_art_mapping_doc"
     },
     {
@@ -4709,7 +4724,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "spec_driven_development"
     },
     {
@@ -4721,7 +4736,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "offline_compiler_pipeline"
     },
     {
@@ -4733,7 +4748,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "simulator_core_stack"
     },
     {
@@ -4937,7 +4952,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "operator_coordinate_compression_framework"
     },
     {
@@ -4949,7 +4964,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "prior_art_category_taxonomy"
     },
     {
@@ -4961,7 +4976,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "value_centric_quantization_methods"
     },
     {
@@ -4973,7 +4988,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "outlier_aware_mixed_precision_methods"
     },
     {
@@ -4985,7 +5000,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "rotation_based_quantization"
     },
     {
@@ -4997,7 +5012,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "low_rank_structural_approximation"
     },
     {
@@ -5009,7 +5024,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "value_centric_limitations"
     },
     {
@@ -5021,7 +5036,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "outlier_aware_limitations"
     },
     {
@@ -5033,7 +5048,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "rotation_based_limitations"
     },
     {
@@ -5045,7 +5060,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "low_rank_limitations"
     },
     {
@@ -5057,7 +5072,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "manifold_gap_rationale"
     },
     {
@@ -5069,7 +5084,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "novelty_claims"
     },
     {
@@ -5297,7 +5312,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tutorial_minimal_llama_to_tile_npu_doc"
     },
     {
@@ -5309,7 +5324,7 @@
       "captured_at": null,
       "author": "ChatGPT",
       "contributor": "\ucc3d\ud6c8",
-      "community": 4,
+      "community": 3,
       "id": "pytorchsim_npu_ir_examples_doc"
     },
     {
@@ -5345,7 +5360,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tile_semantics_validation_checklist_doc"
     },
     {
@@ -5381,7 +5396,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "cmdq_format_spec_doc"
     },
     {
@@ -5393,7 +5408,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "cmdq_overview_doc"
     },
     {
@@ -5405,7 +5420,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "opcode_set_definition_doc"
     },
     {
@@ -5417,7 +5432,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "prefill_decode_workload_semantics_spec_doc"
     },
     {
@@ -5429,7 +5444,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "static_scheduler_semantics_spec_doc"
     },
     {
@@ -5441,7 +5456,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "scheduling_readme_doc"
     },
     {
@@ -5453,7 +5468,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tile_ir_optional_spec_doc"
     },
     {
@@ -5465,7 +5480,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "quantization_ir_extension_doc"
     },
     {
@@ -5477,7 +5492,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "npu_ir_spec_doc"
     },
     {
@@ -5489,7 +5504,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tensor_metadata_spec_doc"
     },
     {
@@ -5501,7 +5516,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "quantization_model_overview_doc"
     },
     {
@@ -5513,7 +5528,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "mixed_precision_policy_doc"
     },
     {
@@ -5525,7 +5540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "bitwidth_memory_mapping_doc"
     },
     {
@@ -5537,7 +5552,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "kv_cache_quantization_spec_doc"
     },
     {
@@ -5573,7 +5588,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "llama_prefill_decode_golden"
     },
     {
@@ -5741,7 +5756,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "opcode_set"
     },
     {
@@ -5753,7 +5768,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "static_schedule"
     },
     {
@@ -5765,7 +5780,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "prefill_decode_semantics"
     },
     {
@@ -5777,7 +5792,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tile_ir"
     },
     {
@@ -5789,7 +5804,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tensor_metadata"
     },
     {
@@ -5801,7 +5816,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "qconfig"
     },
     {
@@ -5813,7 +5828,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "mixed_precision_quantization"
     },
     {
@@ -5825,7 +5840,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "bitwidth_memory_mapping"
     },
     {
@@ -5837,7 +5852,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "kv_cache"
     },
     {
@@ -5849,7 +5864,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tile_semantics"
     },
     {
@@ -5861,7 +5876,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "spm"
     },
     {
@@ -5873,7 +5888,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "dram"
     },
     {
@@ -5885,7 +5900,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "dma_engine"
     },
     {
@@ -5897,7 +5912,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "te_engine"
     },
     {
@@ -5909,7 +5924,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "ve_engine"
     },
     {
@@ -5921,7 +5936,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "stb_semantics"
     },
     {
@@ -5933,7 +5948,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tilegraph_tdg"
     },
     {
@@ -5945,7 +5960,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "deterministic_execution"
     },
     {
@@ -5957,7 +5972,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tile_lifecycle"
     },
     {
@@ -5969,7 +5984,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "no_intermediate_dram"
     },
     {
@@ -5981,7 +5996,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "prefill_throughput"
     },
     {
@@ -5993,7 +6008,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "decode_latency"
     },
     {
@@ -6005,7 +6020,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "kv_window"
     },
     {
@@ -6017,7 +6032,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "noc_dram_contention"
     },
     {
@@ -6029,7 +6044,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "stride_efficiency"
     },
     {
@@ -6041,7 +6056,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "flashattention_prefill"
     },
     {
@@ -6053,7 +6068,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 25,
+      "community": 26,
       "id": "qkv_projection"
     },
     {
@@ -6065,7 +6080,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 27,
       "id": "softmax_tile"
     },
     {
@@ -6077,7 +6092,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 28,
       "id": "llm_workload_patterns"
     },
     {
@@ -6089,7 +6104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "capacity_traffic_tradeoff"
     },
     {
@@ -6101,7 +6116,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "quantization_policy_hierarchy"
     },
     {
@@ -6113,7 +6128,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "cmdq_overview_rationale_static_scheduling"
     },
     {
@@ -6125,7 +6140,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "cmdq_overview_rationale_tile_parallelism"
     },
     {
@@ -6137,7 +6152,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "cmdq_overview_rationale_timing_simulator"
     },
     {
@@ -6149,7 +6164,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "cmdq_overview_rationale_mixed_precision_llm"
     },
     {
@@ -6161,7 +6176,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tutorial_reason_numpy_baseline"
     },
     {
@@ -6173,7 +6188,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tutorial_reason_prefill_decode_bottleneck"
     },
     {
@@ -6185,7 +6200,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tutorial_reason_kv_window"
     },
     {
@@ -6197,7 +6212,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tutorial_reason_noc_contention"
     },
     {
@@ -6209,7 +6224,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tutorial_reason_stride_efficiency"
     },
     {
@@ -6221,7 +6236,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tutorial_reason_flashattention_prefill"
     },
     {
@@ -6233,7 +6248,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tile_semantics_reason_spm_only"
     },
     {
@@ -6245,7 +6260,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tile_semantics_reason_stb_handoff"
     },
     {
@@ -6257,7 +6272,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "tile_semantics_reason_no_intermediate_dram"
     },
     {
@@ -6269,7 +6284,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "static_scheduler_reason_determinism"
     },
     {
@@ -6281,7 +6296,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "kv_cache_quantization_reason_capacity_traffic"
     },
     {
@@ -6293,7 +6308,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "quantization_model_reason_split_w_a_kv"
     },
     {
@@ -6305,7 +6320,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "mixed_precision_policy_reason_hierarchy"
     },
     {
@@ -6317,7 +6332,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "architecture_semantics_index"
     },
     {
@@ -6329,7 +6344,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "bus_and_noc_model_spec"
     },
     {
@@ -6341,7 +6356,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "ve_timing_spec_doc"
     },
     {
@@ -6353,7 +6368,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "dma_timing_spec_doc"
     },
     {
@@ -6365,7 +6380,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "te_timing_spec_doc"
     },
     {
@@ -6377,7 +6392,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "spm_model_spec_doc"
     },
     {
@@ -6389,7 +6404,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "stb_adoption_rfc_doc"
     },
     {
@@ -6401,7 +6416,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "kv_cache_semantics_spec_doc"
     },
     {
@@ -6413,7 +6428,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "tile_semantics_spec_doc"
     },
     {
@@ -6425,7 +6440,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "tile_contract_spec_doc"
     },
     {
@@ -6437,7 +6452,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "system_architecture_overview_doc"
     },
     {
@@ -6449,7 +6464,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "system_architecture_doc"
     },
     {
@@ -6461,7 +6476,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "memory_noc_overview_doc"
     },
     {
@@ -6473,7 +6488,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "dataflow_overview_doc"
     },
     {
@@ -6485,7 +6500,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "module_responsibilities_doc"
     },
     {
@@ -6497,7 +6512,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "sdd_devflow_overview_doc"
     },
     {
@@ -6509,7 +6524,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "doc_study_milestone_plan_doc"
     },
     {
@@ -6521,7 +6536,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "vibe_coding_sdd_guide_doc"
     },
     {
@@ -6533,7 +6548,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "naming_convention_doc"
     },
     {
@@ -6545,7 +6560,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "tile_based_integration_mapping_doc"
     },
     {
@@ -6557,7 +6572,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "contribution_and_review_guide_doc"
     },
     {
@@ -6569,7 +6584,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "doc_improvement_tasks_doc"
     },
     {
@@ -6581,7 +6596,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "npu_system_architecture"
     },
     {
@@ -6593,7 +6608,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "host_cpu_control_plane"
     },
     {
@@ -6605,7 +6620,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "npu_simulator_core"
     },
     {
@@ -6617,7 +6632,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "visualization_profiler"
     },
     {
@@ -6629,7 +6644,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 29,
       "id": "cycle_based_simulation"
     },
     {
@@ -6641,7 +6656,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "onnx_ir_tile_cmdq_trace_pipeline"
     },
     {
@@ -6653,7 +6668,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "spm_allocator"
     },
     {
@@ -6665,7 +6680,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "cmdq_generator"
     },
     {
@@ -6677,7 +6692,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "bus_noc"
     },
     {
@@ -6689,7 +6704,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "scratchpad_memory"
     },
     {
@@ -6701,7 +6716,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "deterministic_arbitration"
     },
     {
@@ -6713,7 +6728,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "weighted_rr_v1"
     },
     {
@@ -6725,7 +6740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "queue_based_stall_model"
     },
     {
@@ -6737,7 +6752,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "master_key_ordering"
     },
     {
@@ -6749,7 +6764,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "kv_priority_override"
     },
     {
@@ -6761,7 +6776,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "backpressure_events"
     },
     {
@@ -6773,7 +6788,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "contention_counter"
     },
     {
@@ -6785,7 +6800,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "dma_engine_timing"
     },
     {
@@ -6797,7 +6812,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "burst_latency_model"
     },
     {
@@ -6809,7 +6824,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "shared_bandwidth_contention"
     },
     {
@@ -6821,7 +6836,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "spm_bank_conflict_model"
     },
     {
@@ -6833,7 +6848,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "prefetch_semantics"
     },
     {
@@ -6845,7 +6860,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "tensor_engine_timing"
     },
     {
@@ -6857,7 +6872,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "mixed_precision_scaling"
     },
     {
@@ -6869,7 +6884,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "ve_elementwise_reduction_finalize"
     },
     {
@@ -6881,7 +6896,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "layernorm_softmax_gelu_rmsnorm"
     },
     {
@@ -6893,7 +6908,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "multi_ve_timeline"
     },
     {
@@ -6905,7 +6920,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "spm_bank_port_model"
     },
     {
@@ -6917,7 +6932,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "requester_ordering"
     },
     {
@@ -6929,7 +6944,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "arbitration_priority_dma_te_ve"
     },
     {
@@ -6941,7 +6956,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "allocate_free_lifecycle"
     },
     {
@@ -6953,7 +6968,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "deterministic_spm_conflict_model"
     },
     {
@@ -6965,7 +6980,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "tile_lifecycle_invariant"
     },
     {
@@ -6977,7 +6992,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "stb_semantics_boundary"
     },
     {
@@ -6989,7 +7004,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "payload_descriptor_separation"
     },
     {
@@ -7001,7 +7016,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "tile_atomicity"
     },
     {
@@ -7013,7 +7028,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "kv_cache_dram_residency"
     },
     {
@@ -7025,7 +7040,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "time_tile_streaming"
     },
     {
@@ -7037,7 +7052,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "mqa_reuse"
     },
     {
@@ -7049,7 +7064,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "gqa_reuse"
     },
     {
@@ -7061,7 +7076,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "module_boundary_contract"
     },
     {
@@ -7073,7 +7088,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "naming_traceability"
     },
     {
@@ -7085,7 +7100,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "milestone_plan"
     },
     {
@@ -7097,7 +7112,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 30,
       "id": "vibe_coding_workflow"
     },
     {
@@ -7109,7 +7124,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "review_guide"
     },
     {
@@ -7121,7 +7136,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "documentation_improvement_backlog"
     },
     {
@@ -7133,7 +7148,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 2,
       "id": "tile_integration_mapping"
     },
     {
@@ -7145,7 +7160,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "documentation_review_summary_doc"
     },
     {
@@ -7157,7 +7172,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "project_roadmap_doc"
     },
     {
@@ -7169,7 +7184,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_doc"
     },
     {
@@ -7181,7 +7196,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "spec_driven_development_workflow_doc"
     },
     {
@@ -7193,7 +7208,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "versioning_and_changelog_guide_doc"
     },
     {
@@ -7217,7 +7232,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "review_by_chatgpt_v1_doc"
     },
     {
@@ -7241,7 +7256,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "readme_md"
     },
     {
@@ -7253,7 +7268,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_readme_spec"
     },
     {
@@ -7265,7 +7280,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_overview_system_architecture"
     },
     {
@@ -7277,7 +7292,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_overview_dataflow_overview"
     },
     {
@@ -7289,7 +7304,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_overview_module_responsibilities"
     },
     {
@@ -7301,7 +7316,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_ir_npu_ir_spec"
     },
     {
@@ -7313,7 +7328,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_ir_tensor_metadata_spec"
     },
     {
@@ -7325,7 +7340,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_ir_quantization_ir_extension"
     },
     {
@@ -7337,7 +7352,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_isa_cmdq_overview"
     },
     {
@@ -7349,7 +7364,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_isa_cmdq_format_spec"
     },
     {
@@ -7361,7 +7376,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_isa_opcode_set_definition"
     },
     {
@@ -7373,7 +7388,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_timing_dma_timing_spec"
     },
     {
@@ -7385,7 +7400,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_timing_te_timing_spec"
     },
     {
@@ -7397,7 +7412,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_timing_ve_timing_spec"
     },
     {
@@ -7409,7 +7424,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_timing_spm_model_spec"
     },
     {
@@ -7421,7 +7436,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_timing_bus_noc_model"
     },
     {
@@ -7433,7 +7448,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_quantization_quantization_model_overview"
     },
     {
@@ -7445,7 +7460,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_quantization_bitwidth_memory_mapping"
     },
     {
@@ -7457,7 +7472,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_quantization_kv_cache_quantization_spec"
     },
     {
@@ -7469,7 +7484,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_quantization_mixed_precision_policy"
     },
     {
@@ -7481,7 +7496,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_trace_trace_format_spec"
     },
     {
@@ -7493,7 +7508,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_trace_gantt_timeline_spec"
     },
     {
@@ -7505,7 +7520,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_trace_bandwidth_heatmap_spec"
     },
     {
@@ -7517,7 +7532,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_spec_trace_visualization_requirements"
     },
     {
@@ -7529,7 +7544,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_design_npu_simulator_core_design"
     },
     {
@@ -7541,7 +7556,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_design_cycle_loop_design"
     },
     {
@@ -7553,7 +7568,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_design_control_fsm_design"
     },
     {
@@ -7565,7 +7580,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_design_cmdq_generator_design"
     },
     {
@@ -7577,7 +7592,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_design_ir_builder_design"
     },
     {
@@ -7589,7 +7604,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_design_tiling_planner_design"
     },
     {
@@ -7601,7 +7616,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_design_spm_allocator_design"
     },
     {
@@ -7613,7 +7628,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_design_static_scheduler_design"
     },
     {
@@ -7625,7 +7640,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_design_te_engine_design"
     },
     {
@@ -7649,7 +7664,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 31,
       "id": "docs_design_dma_engine_design"
     },
     {
@@ -7661,7 +7676,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 32,
       "id": "docs_design_offline_compiler_design"
     },
     {
@@ -7673,7 +7688,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_design_visualizer_design"
     },
     {
@@ -7685,7 +7700,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_test_test_plan"
     },
     {
@@ -7697,7 +7712,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_test_unit_test_spec"
     },
     {
@@ -7709,7 +7724,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_test_integration_test_spec"
     },
     {
@@ -7721,7 +7736,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_test_performance_validation_protocol"
     },
     {
@@ -7733,7 +7748,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_test_golden_trace_examples"
     },
     {
@@ -7745,7 +7760,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "documentation_review_summary_phase_0_overview_layer"
     },
     {
@@ -7757,7 +7772,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "documentation_review_summary_phase_1_pipeline_alignment"
     },
     {
@@ -7769,7 +7784,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "documentation_review_summary_phase_2_detail_buildup"
     },
     {
@@ -7781,7 +7796,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "project_roadmap_workload_loader"
     },
     {
@@ -7793,7 +7808,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "project_roadmap_compiler_pipeline"
     },
     {
@@ -7805,7 +7820,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "project_roadmap_cycle_based_simulator"
     },
     {
@@ -7817,7 +7832,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "project_roadmap_trace_visualization"
     },
     {
@@ -7829,7 +7844,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "project_roadmap_dse_scenario_engine"
     },
     {
@@ -7841,7 +7856,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "project_roadmap_stage_a_foundation"
     },
     {
@@ -7853,7 +7868,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 33,
       "id": "project_roadmap_stage_b_timing_engine_modeling"
     },
     {
@@ -7865,7 +7880,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 34,
       "id": "project_roadmap_stage_c_full_operator_support"
     },
     {
@@ -7877,7 +7892,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 35,
       "id": "project_roadmap_stage_d_llm_specialization"
     },
     {
@@ -7889,7 +7904,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 36,
       "id": "project_roadmap_stage_e_dse_platform"
     },
     {
@@ -7901,7 +7916,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "project_roadmap_sdd_principle"
     },
     {
@@ -7925,7 +7940,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 37,
       "id": "project_roadmap_modular_replaceable"
     },
     {
@@ -7937,7 +7952,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 38,
       "id": "project_roadmap_trace_first_design"
     },
     {
@@ -7949,7 +7964,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 24,
       "id": "project_roadmap_test_first_for_core_logic"
     },
     {
@@ -7961,7 +7976,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 38,
+      "community": 39,
       "id": "project_roadmap_end_to_end_ai_hardware_platform"
     },
     {
@@ -7973,7 +7988,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 39,
+      "community": 40,
       "id": "milestone_plan_skeleton_first_sdd_implementation_roadmap"
     },
     {
@@ -7985,7 +8000,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 40,
+      "community": 41,
       "id": "milestone_plan_phase_0_project_code_skeleton"
     },
     {
@@ -8009,7 +8024,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 41,
+      "community": 42,
       "id": "milestone_plan_phase_2_timing_memory_engine_realization"
     },
     {
@@ -8033,7 +8048,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_irbuilderpass"
     },
     {
@@ -8045,7 +8060,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_tilingplannerpass"
     },
     {
@@ -8057,7 +8072,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_spmallocatorpass"
     },
     {
@@ -8069,7 +8084,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_staticschedulerpass"
     },
     {
@@ -8081,7 +8096,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_cmdqgeneratorpass"
     },
     {
@@ -8093,7 +8108,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_npusimulator"
     },
     {
@@ -8105,7 +8120,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_controlfsm"
     },
     {
@@ -8117,7 +8132,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_teengine"
     },
     {
@@ -8129,7 +8144,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_tracecollector"
     },
     {
@@ -8141,7 +8156,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "milestone_plan_integration_test_single_matmul_pipeline"
     },
     {
@@ -8165,7 +8180,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 42,
+      "community": 43,
       "id": "spec_workflow_single_source_of_truth"
     },
     {
@@ -8177,7 +8192,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 24,
       "id": "spec_workflow_test_accompanied"
     },
     {
@@ -8189,7 +8204,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "spec_workflow_reviewability"
     },
     {
@@ -8201,7 +8216,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 43,
+      "community": 44,
       "id": "spec_workflow_spec_update"
     },
     {
@@ -8213,7 +8228,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 44,
+      "community": 45,
       "id": "spec_workflow_design_update"
     },
     {
@@ -8225,7 +8240,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 45,
+      "community": 46,
       "id": "spec_workflow_test_doc_update"
     },
     {
@@ -8237,7 +8252,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 46,
+      "community": 47,
       "id": "spec_workflow_implementation"
     },
     {
@@ -8249,7 +8264,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 47,
+      "community": 48,
       "id": "spec_workflow_review_merge"
     },
     {
@@ -8261,7 +8276,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
+      "community": 49,
       "id": "spec_workflow_pr_issue_templates"
     },
     {
@@ -8273,7 +8288,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 49,
+      "community": 50,
       "id": "spec_workflow_ci_integration"
     },
     {
@@ -8285,7 +8300,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 50,
+      "community": 51,
       "id": "spec_workflow_example_flows"
     },
     {
@@ -8297,7 +8312,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "semantic_versioning"
     },
     {
@@ -8309,7 +8324,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "spec_first_version"
     },
     {
@@ -8321,7 +8336,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "breaking_change_recording"
     },
     {
@@ -8333,7 +8348,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "major_minor_patch"
     },
     {
@@ -8345,7 +8360,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "spec_version"
     },
     {
@@ -8357,7 +8372,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "sim_version"
     },
     {
@@ -8369,7 +8384,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "changelog"
     },
     {
@@ -8381,7 +8396,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "spec_code_version_mapping"
     },
     {
@@ -8393,7 +8408,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "version_checks"
     },
     {
@@ -8405,7 +8420,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 0,
       "id": "changelog_automation"
     },
     {
@@ -8477,7 +8492,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 51,
+      "community": 52,
       "id": "review_by_chatgpt_v2_global_integrated_diagram"
     },
     {
@@ -8501,7 +8516,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "review_by_chatgpt_v2_pipeline_alignment_issue"
     },
     {
@@ -8513,7 +8528,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "review_by_chatgpt_v2_timing_contention_model_issue"
     },
     {
@@ -8537,7 +8552,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "review_by_chatgpt_v2_trace_visualizer_incomplete_issue"
     },
     {
@@ -8561,7 +8576,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "review_by_chatgpt_v2_phase_1_pipeline_alignment"
     },
     {
@@ -8573,7 +8588,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "review_by_chatgpt_v2_phase_2_detail_buildup"
     },
     {
@@ -8585,7 +8600,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_process_contribution_and_review_guide"
     },
     {
@@ -8597,7 +8612,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "docs_process_naming_convention"
     },
     {
@@ -8952,42 +8967,42 @@
       "label": "Operator-Coordinate Compression",
       "file_type": "document",
       "source_file": "wiki/topics/operator-coordinate-compression.md",
-      "community": 7,
+      "community": 17,
       "id": "operator_coordinate_compression_topic"
     },
     {
       "label": "Trace & Visualization",
       "file_type": "document",
       "source_file": "wiki/topics/trace-visualization.md",
-      "community": 7,
+      "community": 17,
       "id": "trace_visualization_topic"
     },
     {
       "label": "NPU Documentation Process",
       "file_type": "document",
       "source_file": "wiki/topics/npu-doc-process.md",
-      "community": 7,
+      "community": 17,
       "id": "npu_doc_process_topic"
     },
     {
       "label": "Tile Semantics and Contract Boundaries",
       "file_type": "document",
       "source_file": "wiki/concepts/tile-semantics-contract.md",
-      "community": 7,
+      "community": 17,
       "id": "tile_semantics_contract"
     },
     {
       "label": "Mixed Precision as a System Policy",
       "file_type": "document",
       "source_file": "wiki/concepts/mixed-precision-policy.md",
-      "community": 7,
+      "community": 17,
       "id": "mixed_precision_policy"
     },
     {
       "label": "Trace-First Design",
       "file_type": "document",
       "source_file": "wiki/concepts/trace-first-design.md",
-      "community": 7,
+      "community": 17,
       "id": "trace_first_design"
     },
     {
@@ -8999,8 +9014,68 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "community": 7
+      "community": 4,
+      "id": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
+    },
+    {
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "label": "Samsung System LSI Edge / Physical AI Custom SoC Platform Strategy",
+      "file_type": "document",
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "id": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "community": 4
+    },
+    {
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "label": "Edge / Physical AI Platform Provider",
+      "file_type": "document",
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "id": "edge_physical_ai_platform_provider",
+      "community": 4
+    },
+    {
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "label": "Fabric Preset Strategy",
+      "file_type": "document",
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "id": "fabric_preset_strategy",
+      "community": 4
+    },
+    {
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "label": "Hierarchical Multi-NoC Architecture",
+      "file_type": "document",
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "id": "hierarchical_multi_noc_architecture",
+      "community": 4
+    },
+    {
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "label": "Samsung Differentiation Layer",
+      "file_type": "document",
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "id": "samsung_differentiation_layer",
+      "community": 4
     }
   ],
   "links": [
@@ -9743,10 +9818,34 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "_src": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.89,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.84,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "fabric_preset_strategy",
+      "_tgt": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "target": "fabric_preset_strategy"
     },
     {
       "relation": "conceptually_related_to",
@@ -10211,10 +10310,22 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "concept_memory_hierarchy_ai_accelerators",
+      "_src": "concept_memory_hierarchy_ai_accelerators",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "concept_memory_hierarchy_ai_accelerators",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.93,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "concept_versal_acap",
+      "source": "concept_versal_acap",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "relation": "conceptually_related_to",
@@ -10607,10 +10718,34 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "memory_hierarchy_in_ai_npu_hierarchy",
+      "_src": "memory_hierarchy_in_ai_npu_hierarchy",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "memory_hierarchy_in_ai_npu_hierarchy",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.92,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "memory_hierarchy_in_ai_npu_hierarchy",
+      "source": "memory_hierarchy_in_ai_npu_hierarchy",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "hierarchical_multi_noc_architecture",
+      "_tgt": "memory_hierarchy_in_ai_npu_hierarchy",
+      "source": "memory_hierarchy_in_ai_npu_hierarchy",
+      "target": "hierarchical_multi_noc_architecture"
     },
     {
       "relation": "semantically_similar_to",
@@ -10818,6 +10953,30 @@
     },
     {
       "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.97,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "amd_versal_acap",
+      "source": "amd_versal_acap",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "hierarchical_multi_noc_architecture",
+      "_tgt": "amd_versal_acap",
+      "source": "amd_versal_acap",
+      "target": "hierarchical_multi_noc_architecture"
+    },
+    {
+      "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "raw/AI-Hardware/Simulator/coral npu/coral npu (Part 1 2) 33a6cc566b0b813d98cee31bdda3eac4.md",
@@ -10979,8 +11138,8 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "hyperaccel_lpddr_decode",
+      "_src": "hyperaccel_lpddr_decode",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "hyperaccel_lpddr_decode",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -11099,8 +11258,8 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "decode_centric_pipeline",
+      "_src": "decode_centric_pipeline",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "decode_centric_pipeline",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -13271,10 +13430,46 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "npu_architecture_overview",
+      "_src": "npu_architecture_overview",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "npu_architecture_overview",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "npu_architecture_overview",
+      "source": "npu_architecture_overview",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.84,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "edge_physical_ai_platform_provider",
+      "_tgt": "npu_architecture_overview",
+      "source": "npu_architecture_overview",
+      "target": "edge_physical_ai_platform_provider"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.88,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_differentiation_layer",
+      "_tgt": "npu_architecture_overview",
+      "source": "npu_architecture_overview",
+      "target": "samsung_differentiation_layer"
     },
     {
       "relation": "references",
@@ -13955,8 +14150,8 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "memory_bandwidth_bottleneck",
+      "_src": "memory_bandwidth_bottleneck",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "memory_bandwidth_bottleneck",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -13967,8 +14162,8 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "prefill_decode_duality",
+      "_src": "prefill_decode_duality",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "prefill_decode_duality",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -14135,10 +14330,22 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "kv_cache_optimization",
+      "_src": "kv_cache_optimization",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "kv_cache_optimization",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.81,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "tesla_edge_ai_innovation",
+      "source": "tesla_edge_ai_innovation",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "relation": "references",
@@ -14651,8 +14858,8 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "llm_quantization_compression",
+      "_src": "llm_quantization_compression",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "llm_quantization_compression",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -16319,8 +16526,8 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "prefill_decode_bottleneck",
+      "_src": "prefill_decode_bottleneck",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "prefill_decode_bottleneck",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -19799,8 +20006,8 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "kv_cache",
+      "_src": "kv_cache",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "kv_cache",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -20555,8 +20762,8 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "kv_cache_semantics_spec_doc",
+      "_src": "kv_cache_semantics_spec_doc",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "kv_cache_semantics_spec_doc",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -21214,8 +21421,8 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "kv_cache_dram_residency",
+      "_src": "kv_cache_dram_residency",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "kv_cache_dram_residency",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -23814,12 +24021,36 @@
     {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
+      "confidence_score": 0.86,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "isp_image_restoration",
+      "source": "isp_image_restoration",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.82,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_differentiation_layer",
+      "_tgt": "isp_image_restoration",
+      "source": "isp_image_restoration",
+      "target": "samsung_differentiation_layer"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
       "confidence_score": 0.84,
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "multimodal_image_encoder",
+      "_src": "multimodal_image_encoder",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "multimodal_image_encoder",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -23830,8 +24061,8 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "multimodal_audio_encoder",
+      "_src": "multimodal_audio_encoder",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "multimodal_audio_encoder",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
@@ -23919,10 +24150,82 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "_tgt": "mixed_precision_policy",
+      "_src": "mixed_precision_policy",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "mixed_precision_policy",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.78,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.99,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "edge_physical_ai_platform_provider",
+      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "edge_physical_ai_platform_provider"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.99,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "fabric_preset_strategy",
+      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "fabric_preset_strategy"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.98,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "hierarchical_multi_noc_architecture",
+      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "hierarchical_multi_noc_architecture"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.98,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "samsung_differentiation_layer",
+      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "samsung_differentiation_layer"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.97,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "fabric_preset_strategy",
+      "_tgt": "hierarchical_multi_noc_architecture",
+      "source": "fabric_preset_strategy",
+      "target": "hierarchical_multi_noc_architecture"
     }
   ],
   "hyperedges": [
@@ -24327,6 +24630,21 @@
       "confidence": "INFERRED",
       "confidence_score": 0.92,
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md"
+    },
+    {
+      "id": "samsung_edge_platform_strategy_stack",
+      "label": "Samsung Edge Platform Strategy Stack",
+      "nodes": [
+        "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+        "edge_physical_ai_platform_provider",
+        "fabric_preset_strategy",
+        "hierarchical_multi_noc_architecture",
+        "samsung_differentiation_layer"
+      ],
+      "relation": "form",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.98,
+      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md"
     }
   ]
 }
