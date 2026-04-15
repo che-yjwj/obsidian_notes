@@ -6,6 +6,12 @@ sources:
   - raw/AI-Hardware/Simulator/HyperAccel LPU Explanation/HyperAccel LPU Explanation (Part 1 of 3) 33a6cc566b0b81349b96fd84f1659f77.md
   - raw/GenAI/HW-Friendly/KV-cache Optimization Explanation 33a6cc566b0b811890a0df4bc615b114.md
   - raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/spec/architecture/kv_cache_semantics_spec.md
+external_references:
+  - Apple, `Running LLMs on-device with limited memory`, 2024-08, https://machinelearning.apple.com/research/efficient-large-language
+  - Sandisk and SK hynix HBF MOU, 2025-08-06, https://investor.sandisk.com/news-releases/news-release-details/sandisk-collaborate-sk-hynix-drive-standardization-high
+  - SK hynix AIN B / HBF announcement, 2025-10-27, https://news.skhynix.com/sk-hynix-presents-next-generation-nand-storage-product-strategy-at-ocp-2025/
+  - SK hynix and Sandisk HBF standardization kickoff, 2026-02-26, https://news.skhynix.com/sk-hynix-and-sandisk-begin-global-standardization-of-next-generation-memory-hbf/
+  - `H3: Hybrid Architecture Using High Bandwidth Memory and High Bandwidth Flash for Cost-Efficient LLM Inference`, abstract index, https://eurekamag.com/research/103/475/103475220.php
 tags: [LLM, edge-inference, memory-hierarchy, HBF, flash, KV-cache, NPU]
 updated: 2026-04-14
 ---
@@ -15,6 +21,8 @@ updated: 2026-04-14
 엣지 AI 추론 시스템의 핵심은 더 이상 "최대 TOPS"가 아니다. 실제 병목은 모델 가중치, KV cache, 멀티모달 자산, 개인화 adapter를 어떤 메모리 계층에 배치하고 언제 이동시키는가에 있다. 이 문서는 Apple의 `LLM in a Flash`가 보여준 flash-resident weight streaming 철학과, 최근 업계가 제시하는 `HBF(High Bandwidth Flash)` 계층을 연결해, 엣지 추론용 전체 시스템 아키텍처를 하나의 관점으로 정리한다.
 
 핵심 결론은 단순하다. 엣지 LLM/VLM 시스템은 compute-centric NPU가 아니라 memory-centric inference system으로 설계되어야 한다. SRAM, LPDDR 또는 HBM-lite, HBF, SSD/UFS로 이어지는 계층형 메모리 위에서 weight, KV, adapter, expert를 분리 배치하고, prefill/decode/multimodal burst를 구분하는 runtime이 이들을 지속적으로 승격(promote)하거나 축출(evict)해야 한다.
+
+이 문서는 두 층으로 읽는 것이 맞다. 먼저 `sources`에 적힌 로컬 raw 문서들에서 확인되는 패턴을 정리하고, 그 위에 `external_references`의 공개 자료를 보조 근거로 얹어 아키텍처 제안을 구성한다. 따라서 아래의 1, 2장은 관찰 정리이고, 3장 이후는 그 관찰을 바탕으로 한 설계 synthesis다.
 
 ## 1. 용어와 범위
 
@@ -49,7 +57,9 @@ CPU + GPU + NPU
 
 특히 decode 단계는 FLOPs보다 weight fetch와 KV access가 더 지배적이기 쉽다. 이 때문에 엣지 추론 시스템에서 중요한 것은 단순히 NPU MAC 배열을 키우는 일이 아니라, 가중치와 KV가 메모리 계층 사이를 어떻게 이동하는지 제어하는 것이다. `LLM in a Flash`는 바로 이 점을 정면으로 다루며, 최근 HBF 논의도 본질적으로 같은 문제를 다른 계층에서 확장한다.
 
-## 3. 아키텍처의 기본 원칙
+## 3. 관찰에서 도출한 아키텍처 원칙
+
+여기서부터는 사실 요약이라기보다 설계 제안이다. 아래 원칙들은 로컬 source의 메모리 계층 관점, KV-cache 관리 관점, 스트리밍 실행 관점을 통합해 만든 author synthesis다.
 
 이 문서가 제안하는 원칙은 다음 한 문장으로 정리할 수 있다.
 
@@ -340,7 +350,7 @@ runtime planner는 최소 다음 상태를 알아야 한다.
 
 이 정보가 있어야 per-token 또는 per-frame 수준에서 "지금 latency mode로 갈지", "vision encoder를 지금 돌릴지", "cold expert를 HBF에서 올릴지", "dense fallback으로 갈지" 같은 결정을 내릴 수 있다.
 
-## 12. 제품군별 권장 변형
+## 12. 제품군별 가설적 권장 변형
 
 ### Smartphone class
 
@@ -424,10 +434,17 @@ runtime planner는 최소 다음 상태를 알아야 한다.
 
 즉, 미래 엣지 LLM 시스템의 성패는 "연산기가 얼마나 큰가"보다 "모델과 상태를 얼마나 잘 배치하고 움직이는가"에 달려 있다. `LLM in a Flash`는 이 전환의 소프트웨어적 출발점이고, HBF는 이를 시스템 메모리 계층 차원으로 확장할 수 있는 다음 후보 계층이다.
 
+## Source Mapping
+
+- `raw/AI-Hardware/Architecture/Memory Hierarchy in AI ...`는 메모리 계층을 capacity, bandwidth, latency trade-off로 보는 기본 틀을 제공한다.
+- `raw/AI-Hardware/Simulator/HyperAccel LPU Explanation ...`는 streaming, locality, on-chip SRAM reuse 관점을 하드웨어 블록도 수준으로 연결하는 데 사용했다.
+- `raw/GenAI/HW-Friendly/KV-cache Optimization Explanation ...`와 `raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/spec/architecture/kv_cache_semantics_spec.md`는 live KV, shared KV, append-heavy state를 분리해야 한다는 주장의 로컬 근거다.
+- `external_references`는 Apple의 limited-memory inference 관찰, HBF의 공개 발표 흐름, H3의 문제 설정을 보조 근거로 사용했다.
+
 ## External References Checked on 2026-04-14
 
 - Apple, `Running LLMs on-device with limited memory`, 2024-08: https://machinelearning.apple.com/research/efficient-large-language
 - Sandisk and SK hynix HBF MOU, 2025-08-06: https://investor.sandisk.com/news-releases/news-release-details/sandisk-collaborate-sk-hynix-drive-standardization-high
 - SK hynix AIN B / HBF announcement, 2025-10-27: https://news.skhynix.com/sk-hynix-presents-next-generation-nand-storage-product-strategy-at-ocp-2025/
-- SK hynix and Sandisk HBF standardization kickoff, 2026-02-26: https://news.skhynix.com/sk-hynix-and-sandisk-begin-global-standardization-ofnext-generation-memory-hbf/
+- SK hynix and Sandisk HBF standardization kickoff, 2026-02-26: https://news.skhynix.com/sk-hynix-and-sandisk-begin-global-standardization-of-next-generation-memory-hbf/
 - `H3: Hybrid Architecture Using High Bandwidth Memory and High Bandwidth Flash for Cost-Efficient LLM Inference`, IEEE Computer Architecture Letters early access abstract index: https://eurekamag.com/research/103/475/103475220.php

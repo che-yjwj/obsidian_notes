@@ -1,81 +1,115 @@
 {
   "new_nodes": [
     {
-      "id": "trace_first_design",
-      "label": "Trace-First Design"
-    },
-    {
-      "id": "trace_visualization_topic",
-      "label": "Trace & Visualization"
-    },
-    {
-      "id": "tile_semantics_contract",
-      "label": "Tile Semantics and Contract Boundaries"
-    },
-    {
-      "id": "operator_coordinate_compression_topic",
-      "label": "Operator-Coordinate Compression"
-    },
-    {
-      "id": "npu_doc_process_topic",
-      "label": "NPU Documentation Process"
-    },
-    {
-      "id": "mixed_precision_policy",
-      "label": "Mixed Precision as a System Policy"
+      "id": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "label": "Flash-Resident LLM and HBF for Edge Inference"
     }
   ],
   "removed_nodes": [],
   "new_edges": [
     {
+      "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "concept_memory_hierarchy_ai_accelerators",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "memory_hierarchy_in_ai_npu_hierarchy",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "hyperaccel_lpddr_decode",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "decode_centric_pipeline",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "npu_architecture_overview",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "memory_bandwidth_bottleneck",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "prefill_decode_duality",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "kv_cache_optimization",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "llm_quantization_compression",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "prefill_decode_bottleneck",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "kv_cache",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "kv_cache_semantics_spec_doc",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
       "source": "kv_cache_dram_residency",
-      "target": "trace_visualization_topic",
-      "relation": "connects",
-      "confidence": "EXTRACTED"
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
     },
     {
-      "source": "operator_coordinate_compression_topic",
-      "target": "mixed_precision_policy",
-      "relation": "references",
-      "confidence": "EXTRACTED"
+      "source": "multimodal_image_encoder",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
     },
     {
-      "source": "trace_visualization_topic",
-      "target": "trace_first_design",
-      "relation": "connects",
-      "confidence": "EXTRACTED"
+      "source": "multimodal_audio_encoder",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
     },
     {
-      "source": "trace_visualization_topic",
-      "target": "npu_doc_process_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "trace_visualization_topic",
-      "target": "tile_semantics_contract",
-      "relation": "connects",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "trace_visualization_topic",
-      "target": "mixed_precision_policy",
-      "relation": "connects",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "npu_doc_process_topic",
-      "target": "trace_first_design",
-      "relation": "connects",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "npu_doc_process_topic",
-      "target": "tile_semantics_contract",
-      "relation": "connects",
-      "confidence": "EXTRACTED"
+      "source": "mixed_precision_policy",
+      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
     }
   ],
   "removed_edges": [],
-  "summary": "6 new nodes, 8 new edges"
+  "summary": "1 new node, 17 new edges"
 }
