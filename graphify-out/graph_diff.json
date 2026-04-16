@@ -1,141 +1,165 @@
 {
-  "new_nodes": [],
+  "new_nodes": [
+    {
+      "id": "npu_timing_memory_model_topic",
+      "label": "NPU Timing & Memory Model"
+    },
+    {
+      "id": "npu_architecture_spec_topic",
+      "label": "NPU Architecture & Execution Spec"
+    },
+    {
+      "id": "simulation_validation_topic",
+      "label": "Simulation Validation & Golden Traces"
+    }
+  ],
   "removed_nodes": [],
   "new_edges": [
     {
-      "source": "wiki_ai_hardware_simulator_and_implementation_tools",
-      "target": "npu_simulator_compiler_topic",
+      "source": "riscv_npu_soc_sim_topic",
+      "target": "npu_architecture_spec_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "wiki_ai_hardware_simulator_and_implementation_tools",
-      "target": "static_scheduling_determinism",
+      "source": "riscv_npu_soc_sim_topic",
+      "target": "npu_timing_memory_model_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "wiki_ai_hardware_simulator_and_implementation_tools",
-      "target": "trace_first_design",
+      "source": "riscv_npu_soc_sim_topic",
+      "target": "simulation_validation_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
-      "target": "npu_architecture",
+      "source": "riscv_npu_soc_sim_topic",
+      "target": "trace_visualization_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
-      "target": "memory_bandwidth_bottleneck",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
-      "target": "kv_cache_dram_residency",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "wiki_ai_hardware_npu_architecture",
-      "target": "npu_architecture",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "wiki_ai_hardware_npu_architecture",
-      "target": "memory_bandwidth_bottleneck",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "wiki_ai_hardware_npu_architecture",
-      "target": "static_scheduling_determinism",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "wiki_ai_hardware_npu_architecture",
-      "target": "mixed_precision_policy",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "npu_simulator_compiler_topic",
-      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "source": "riscv_npu_soc_sim_topic",
+      "target": "npu_doc_process_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
       "source": "memory_bandwidth_bottleneck",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "memory_bandwidth_bottleneck",
-      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "npu_timing_memory_model_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
       "source": "static_scheduling_determinism",
-      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "npu_architecture_spec_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "prefill_decode_duality",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "static_scheduling_determinism",
+      "target": "npu_timing_memory_model_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "hw_friendly_model_design",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "source": "static_scheduling_determinism",
+      "target": "simulation_validation_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "npu_architecture",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "relation": "references",
-      "confidence": "EXTRACTED"
+      "source": "npu_ir_core_reference_doc",
+      "target": "npu_architecture_spec_topic",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
     },
     {
-      "source": "npu_architecture",
-      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
-      "relation": "references",
-      "confidence": "EXTRACTED"
+      "source": "integration_test_spec_doc",
+      "target": "simulation_validation_topic",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "performance_validation_protocol_doc",
+      "target": "simulation_validation_topic",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "golden_trace_examples_doc",
+      "target": "simulation_validation_topic",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "bus_and_noc_model_spec",
+      "target": "npu_timing_memory_model_topic",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "dma_timing_spec_doc",
+      "target": "npu_timing_memory_model_topic",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "spm_model_spec_doc",
+      "target": "npu_timing_memory_model_topic",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "kv_cache_semantics_spec_doc",
+      "target": "npu_architecture_spec_topic",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "tile_semantics_spec_doc",
+      "target": "npu_architecture_spec_topic",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
     },
     {
       "source": "kv_cache_dram_residency",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "target": "npu_architecture_spec_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "trace_visualization_topic",
+      "target": "simulation_validation_topic",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "tile_semantics_contract",
+      "target": "npu_architecture_spec_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "mixed_precision_policy",
+      "target": "npu_architecture_spec_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "trace_first_design",
+      "target": "npu_timing_memory_model_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "trace_first_design",
+      "target": "simulation_validation_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     }
   ],
-  "removed_edges": [
-    {
-      "source": "memory_bandwidth_bottleneck",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "prefill_decode_duality",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "kv_cache_dram_residency",
-      "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    }
-  ],
-  "summary": "19 new edges, 3 edges removed"
+  "removed_edges": [],
+  "summary": "3 new nodes, 24 new edges"
 }

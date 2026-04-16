@@ -2,26 +2,40 @@
 title: RISC-V NPU SoC Simulator
 type: topic
 status: canonical
-last_compiled: 2026-04-12
+last_compiled: 2026-04-16
 ---
 
 # RISC-V NPU SoC Simulator
 
-*last_compiled: 2026-04-12 | sources: 70+ (sampled 20 key docs)*
+*last_compiled: 2026-04-16 | sources: 70+ (re-scoped umbrella topic)*
 
 ---
 
-## Summary [coverage: high -- 8 sources]
+## Summary [coverage: curated umbrella]
 
 `RISCV_NPU_SoC_SIM`은 RISC-V 기반 SoC 위에서 동작하는 NPU 아키텍처를 대상으로 하는 **정적 스케줄 기반 시뮬레이터 & 오프라인 컴파일러** 프로젝트다. 타깃 워크로드는 모바일·엣지 환경의 LLM Inference(특히 Prefill/Decode 분리와 KV cache 재사용 시나리오)이며, ONNX 모델을 입력으로 받아 내부 IR → 타일링 → 정적 스케줄링 → CMDQ 생성 → 시뮬레이션까지 전 과정을 다룬다.
 
-프로젝트 목적:
-- **분석용 시뮬레이터**: latency, bandwidth, utilization 등 NPU 자원 특성을 빠르게 예측. cycle-accurate RTL 시뮬레이터가 아닌 resource-accurate 분석 도구 (목표 latency 오차 ±10~15%)
+이 페이지는 이제 프로젝트 전체를 한 장에서 잡아주는 **umbrella topic**이다. 세부 내용은 아래의 하위 canonical topic으로 분리했다.
+
+| Topic | 역할 |
+|---|---|---|
+| [[topics/npu-architecture-spec]] | IR, ISA, scheduling, quantization, tile semantics를 포함한 규범적 execution spec |
+| [[topics/npu-timing-memory-model]] | DMA/TE/VE/SPM/Bus/NoC와 cycle timing, bandwidth, contention 모델 |
+| [[topics/simulation-validation]] | golden trace, test plan, integration/unit/perf validation protocol |
+| [[topics/trace-visualization]] | trace schema, timeline, heatmap, utilization visualization |
+| [[topics/npu-doc-process]] | SDD workflow, milestone, roadmap, naming, review process |
+
+프로젝트 목적은 여전히 같다.
+
+- **분석용 시뮬레이터**: latency, bandwidth, utilization 등 NPU 자원 특성을 빠르게 예측
 - **오프라인 컴파일러**: ONNX → NPU IR → TileGraph → CMDQ 생성 파이프라인
-- **LLM-friendly 아키텍처 실험**: Mixed-precision quantization, KV-cache, Prefill/Decode 분리 시나리오 지원
+- **LLM-friendly 아키텍처 실험**: Mixed-precision, KV-cache, Prefill/Decode 분리 시나리오 지원
 - **시각화·프로파일링**: Gantt timeline, bandwidth heatmap, engine utilization 등
 
-**현재 상태 (Last Updated: 2025-12-02):**
+---
+
+## Project Status
+
 | 영역 | 상태 | 비고 |
 |---|---|---|
 | 문서 (Spec/Design/Test) | Stable Draft | SDD 기반 문서 우선 정비 완료 |
@@ -29,235 +43,94 @@ last_compiled: 2026-04-12
 | NPU 시뮬레이터 (`src/simulator/`) | Planned | Global cycle loop 구현 전 |
 | 공통 유틸/테스트 (`src/common/`, `tests/`) | Planned | 문서로만 정의된 상태 |
 
-프로젝트는 **Spec-Driven Development(SDD)** 원칙을 채택: 스펙 문서 업데이트 → 설계 문서 업데이트 → 코드 구현 → 테스트 순서를 강제한다. 70+ 문서가 코드보다 먼저 완성된 상태이며, 구현은 순차적으로 진행될 예정이다.
+프로젝트는 **Spec-Driven Development(SDD)** 원칙을 채택한다. 즉, 스펙 문서 업데이트 → 설계 문서 업데이트 → 코드 구현 → 테스트 순서를 강제한다. 이 때문에 `riscv-npu-soc-sim`은 단순 코드 저장소가 아니라 문서 중심 프로젝트 운영 모델까지 함께 포함하는 연구/개발 허브다.
 
 ---
 
-## Core Concepts [coverage: high -- 12 sources]
+## What Stays in the Umbrella Topic
 
-### NPU IR (Intermediate Representation)
+이 umbrella page에는 아래만 남긴다.
 
-NPU IR은 오프라인 컴파일러 전체의 단일 소스 오브 트루스(SSoT)이며, 3개의 주요 데이터 구조로 구성된다:
+- 프로젝트 전체 목적과 범위
+- 컴파일러 + 시뮬레이터 + 시각화 + 문서 프로세스의 큰 그림
+- 하위 canonical topic으로의 라우팅
+- cross-cutting concept와 현재 개발 단계 요약
 
-```
-NPU_IR
- ├── Graph        → LayerIR 노드의 DAG
- ├── TensorTable  → TensorIR 메타데이터
- └── QConfig      → Quantization policy
-```
+다음은 하위 topic으로 넘긴다.
 
-**LayerIR**: ONNX 노드보다 더 구조적이며 tile/schedule-friendly한 연산 단위. 주요 op_type:
-- `GEMM`, `MATMUL`: DRAM → SPM DMA Load → TE_GEMM_TILE → DMA Store로 매핑
-- `LAYER_NORM`, `RMS_NORM`, `SOFTMAX`, `GELU`: VE tile 연산으로 매핑
-- `QKV_PROJ`, `ATTN_SCORES`, `ATTN_OUTPUT`: LLM attention 블록
-- `KV_UPDATE`, `KV_CACHE_RESIZE`: KV cache 증분 업데이트 (qbits_kv 별도 관리)
-
-각 LayerIR에는 `qbits_weight`, `qbits_activation`, `qbits_kv` 세 개의 독립 bitwidth 필드가 있다. **Quantization annotation은 IR에만 삽입**되며 실제 scale/zero-point 처리는 구현 범위가 아니다.
-
-**TensorIR**: `id`, `shape`, `dtype` (fp32/fp16/int8/int4/int2), `role` (activation/weight/kv/intermediate), `layout`, `qbits`, `producer/consumers` 정보를 담는 텐서 메타데이터.
-
-**NPU IR Core Reference** (TOG-Compatible Design): PyTorchSim TOG(Tile Operation Graph) 개념과 호환되는 코어 IR 설계 원칙:
-1. Tile is the atomic execution unit
-2. Memory movement is explicit (DmaLoad/DmaStore 노드)
-3. Synchronization is explicit (Tag + Wait)
-4. Loops are structural IR (PARALLEL / ACCUMULATION / INNER)
-5. Compute latency is deterministic
-6. IR is backend-agnostic
-
-### Tile Execution Model
-
-타일은 스케줄링·데이터 이동·연산의 최소 단위이며 아래 라이프사이클을 거친다:
-
-```
-Allocated → Produced → Handed-off → Consumed → (Reused | Freed)
-```
-
-**메모리 계층 책임 경계:**
-- **DRAM**: 입력/최종 출력/KV cache 영속 저장소. 엔진 간 중간 결과 전달 경로로 사용 금지.
-- **SPM (Scratchpad Memory)**: 타일 payload의 유일한 공유 저장소. 캐시가 아니며 자동 eviction 없음. multi-bank 구조, 직접 소프트웨어 관리.
-- **엔진 로컬 버퍼**: 엔진 내부 scratch. IR 관점에서 주소화되지 않으며 외부로 노출 불가.
-
-**TE-VE 데이터플로우 (STB Semantics):**
-- TE(Tensor Engine): GEMM/MAC 중심 2D 고밀도 연산. 결과를 SPM에 기록하고 타일 디스크립터를 handoff.
-- VE(Vector Engine): softmax/LN/reduction/activation 등 후처리. STB 경계를 통해 디스크립터를 수신 후 SPM에서 payload 로드.
-- 타일 payload 데이터는 SPM에만 존재하며, 엔진 간 전달은 타일 디스크립터로만 이루어진다.
-
-### ISA / Command Queue (CMDQ)
-
-CMDQ는 **NPU가 실행해야 할 모든 연산을 정적으로 서술한 명령 스트림**이다. 오프라인에서 생성되며 런타임에 NPU 내부에는 복잡한 스케줄러가 필요 없다. CMDQ는 시뮬레이터의 **유일한 입력**이다.
-
-CMDQ 명령 카테고리:
-| Class | 명령 예시 |
-|---|---|
-| DMA | `DMA_LOAD_TILE`, `DMA_STORE_TILE` |
-| Tensor Engine (TE) | `TE_GEMM_TILE`, `TE_CONV_TILE`, `TE_QKT_TILE`, `TE_AV_TILE` |
-| Vector Engine (VE) | `VE_LAYERNORM_TILE`, `VE_SOFTMAX_TILE`, `VE_GELU_TILE` |
-| Control/Sync | `BARRIER`, `NOP`, `END` |
-| LLM-Specific | `KV_STORE_TILE`, `KV_LOAD_TILE`, Q/K/V projection tile 등 |
-
-각 CMDQ 엔트리는 `opcode`, `engine_type`, `engine_id` (dma_id/te_id/ve_id), `deps_before` (선행 완료 조건 ID 배열), `spm_bank/spm_offset`, `qbits_*` 필드를 포함한다. JSON 포맷으로 표현된다.
-
-**CMDQ 실행 모델:** `ControlFSM → 각 엔진(DMA/TE/VE) → TraceEngine`
-- ControlFSM은 CMDQ를 한 줄씩 fetch하고 deps_before 조건이 만족되면 해당 엔진에 issue.
-- END opcode를 만나면 시뮬레이션 종료.
-- 동일 CMDQ + 동일 config + 동일 초기 상태이면 항상 동일 결과 (결정론적 실행 보장).
-
-### Quantization Model
-
-레이어별 Weight/Activation/KV bitwidth를 독립적으로 관리하는 mixed-precision 정책을 채택한다.
-
-```yaml
-quantization:
-  defaults:
-    weight: 4      # INT4 weight 기본값
-    activation: 8  # INT8 activation 기본값
-    kv: 4          # KV cache용 INT4
-  overrides:
-    layer.ffn_out: { weight: 8, activation: 8 }
-```
-
-Quantization 메타데이터는 downstream 전 단계에 영향을 미친다:
-- **DMA bytes**: qbits 기반 `total_bytes = num_elements × qbits / 8` 계산
-- **SPM allocation**: bitwidth-aware capacity 산정
-- **TE/VE latency**: weight compression 효과 반영
-- **DRAM bandwidth occupancy**: bandwidth saturation 분석
-
-KV cache는 activation/weight와 독립적인 bitwidth(일반적으로 INT4)를 가지며, append/concat 기반 seq 증가 모델을 사용한다.
-
-### Static Scheduler
-
-StaticScheduler는 TileGraph + SPM allocation + 엔진 구성 정보를 기반으로 **정적 tile-level 실행 순서와 deps를 생성**한다.
-
-스케줄러 불변 규칙:
-1. **의존성 보존**: TDG의 의존성을 100% 보존. predecessor가 완료되기 전에 issue 불가.
-2. **메모리 규칙**: tile payload는 SPM에 존재해야 하며 DRAM을 중간 전달 경로로 사용 금지.
-3. **엔진 귀속**: 각 entry는 정확히 하나의 engine_type에 귀속, ID는 유효 범위 내.
-4. **결정론**: 동일 입력이면 동일 스케줄. 랜덤/RNG 기반 tie-break 금지.
-
-엔진 배정 전략: 라운드로빈 또는 load-balance heuristic으로 TE/VE/DMA에 타일을 분배. DMA LOAD를 우선 배치하여 TE/VE idle을 최소화.
-
-LLM-aware 스케줄링:
-- **Prefill**: TE/VE 완료 직후 KV_STORE_TILE enqueue, head/t_start 순서로 KV append 보장
-- **Decode**: 토큰 step마다 KV_LOAD_TILE을 TE/VE보다 먼저 배치하여 fetch latency를 숨김
-
-### Tiling
-
-TilingPlanner는 LayerIR을 tile 단위 연산으로 분해하여 TileGraph(tile-level DAG)를 구성한다.
-
-| Layer 유형 | 기본 타일링 축 | 전략 |
-|---|---|---|
-| GEMM/FFN | M, N | SPM 용량 내에서 M_tile×N_tile을 크게, K는 가능한 한 크게 유지 |
-| Conv 2D | H, W, C | SPM에 IFM/WGT/OFM이 동시에 들어가도록 H/W 우선 타일링 |
-| LayerNorm/RMSNorm | H (hidden) | hidden size를 SIMD lane 수에 맞춰 타일링 |
-| Attention (Q/K/V) | T (seq), H (head) | KV cache는 T 기준, 다중 head는 병렬 유지 |
-| KV Cache Update | T | 토큰/토큰 블록 단위로 append/copy 비용 최소화 |
-
-GEMM 타일 크기 결정 제약: `bytes_ifm_tile + bytes_wgt_tile + bytes_ofm_tile ≤ spm_capacity_per_engine`
+- 규범적 execution semantics와 IR/ISA/quantization rule
+- timing, SPM, DRAM, Bus/NoC contention, DMA/engine latency
+- trace schema와 visualization 상세
+- integration/unit/performance validation protocol
+- roadmap, milestone, naming, contribution workflow
 
 ---
 
-## Architecture [coverage: high -- 9 sources]
+## System Picture
 
-### 시스템 구성 (4개 상위 컴포넌트)
-
-```
+```text
 [Host CPU (RISC-V)]
-    - MMIO/CSR, NPU Launch (write_csr(NPU_CMDQ_BASE, addr); write_csr(NPU_START, 1))
-    - DRAM Controller / SoC Interconnect (CPU/NPU 공유 DRAM)
+    - MMIO/CSR, NPU Launch
+    - DRAM Controller / SoC Interconnect
           |
           v
 [Offline Compiler]
     - ONNX Loader / IR Builder
-    - Quantization Annotator (W/A/KV bit)
+    - Quantization Annotator
     - Tiling Planner / SPM Allocator
     - Static Scheduler
     - CMDQ Generator
           |
           v
-[NPU Simulator Core (Cycle-Based)]
-    - Control FSM + CMDQ Executor
-    - DMA Engine
-    - Multi TE (Tensor Engines, ≥ 2)
-    - Multi VE (Vector Engines, ≥ 2)
-    - SPM / DRAM / Bus / NoC Models
+[NPU Simulator Core]
+    - Control FSM (CMDQ Executor)
+    - DMA / TE / VE Engines
+    - SPM / DRAM / NoC Models
     - Trace Engine
           |
           v
 [Visualization & Profiler]
-    - Gantt Timeline / BW Heatmap / Utilization
-    - Export: JSON, PNG/SVG, CSV
 ```
 
-**모듈 간 의존성 규칙 (단방향):**
-- Offline Compiler → NPU Simulator (CMDQ만 전달)
-- NPU Simulator → Visualization (Trace만 전달)
-- Host CPU → NPU Simulator (launch-only)
-- Compiler는 Simulator 내부를 참조하지 않으며, Simulator는 Compiler 산출물(CMDQ)만 사용.
+핵심 아키텍처 아이디어는 세 가지다.
 
-### 오프라인 컴파일러 파이프라인
+- **정적 스케줄 + 결정론적 실행**
+- **SRAM/SPM 중심 데이터 재사용**
+- **LLM-friendly execution path**: mixed precision, KV cache, prefill/decode 분리
 
-```
-ONNX Model
-   ↓
-IrBuilder          → NPU IR (LayerIR/TensorIR)
-   ↓
-QuantizationAnnotator → qbits W/A/KV 주입된 Annotated IR
-   ↓
-TilingPlanner      → TileGraph (tile-level DAG)
-   ↓
-SpmAllocator       → TileGraph + SPM bank/offset map
-   ↓
-StaticScheduler    → ScheduleDAG (tile-level 순서 + deps)
-   ↓
-CmdqGenerator      → CMDQ JSON (시뮬레이터 입력)
-```
+---
 
-Python 인터페이스 예시:
-```python
-def compile(onnx_path: str, hw_config: HwConfig, qconfig: QConfig) -> CmdqArtifact:
-    ir = IrBuilder.build(onnx_path)
-    ir = QuantizationAnnotator.annotate(ir, qconfig)
-    tile_graph = TilingPlanner.plan(ir, hw_config.spm, hw_config.engines)
-    tile_graph = SpmAllocator.allocate(tile_graph, hw_config.spm)
-    schedule = StaticScheduler.schedule(tile_graph, hw_config.engines)
-    cmdq = CmdqGenerator.generate(schedule, tile_graph, ir, hw_config)
-    return CmdqArtifact(cmdq=cmdq, ir=ir, tile_graph=tile_graph, schedule=schedule)
-```
+## Cross-Cutting Concepts
 
-### NPU Simulator Core
+- [[concepts/static-scheduling-determinism]]
+- [[concepts/prefill-decode-duality]]
+- [[concepts/tile-semantics-contract]]
+- [[concepts/mixed-precision-policy]]
+- [[concepts/kv-cache-dram-residency]]
+- [[concepts/trace-first-design]]
 
-CMDQ를 입력으로 받아 cycle 기반으로 DMA/TE/VE/메모리/Trace를 통합 시뮬레이션한다.
+---
 
-**Global Cycle Loop 구조:**
-```pseudo
-cycle = 0
-while not control_fsm.is_finished() and cycle < max_cycles:
-    for tickable in [ControlFSM, DMAEngineCluster, TECluster, VECluster, MemoryModel, TraceEngine]:
-        tickable.tick(cycle)
-    engine_events = collect_engine_events()
-    control_fsm.consume_engine_events(engine_events)
-    issue_reqs = control_fsm.step_issue(cycle)
-    for req in issue_reqs:
-        engines[req.engine_type][req.engine_id].enqueue(req.cmdq_entry)
-    trace_engine.step(cycle)
-    cycle += 1
-```
+## Source Families
 
-**SimulatorConfig 주요 파라미터:** `n_te`, `n_ve`, `n_dma`, DRAM/NoC/SPM 파라미터, quantization/timing 모델 선택, 각 엔진의 clock period (cpu_period, dma_period, te_period, ve_period 등 multi-clock 지원).
+- `docs/spec/architecture`, `docs/spec/ir`, `docs/spec/isa`, `docs/spec/quantization`, `docs/spec/scheduling`
+  -> [[topics/npu-architecture-spec]]
+- `docs/spec/timing`, `docs/overview/memory_noc_overview.md`, `docs/design/dma_engine_design.md`, `docs/design/tile_rt_analysis.md`
+  -> [[topics/npu-timing-memory-model]]
+- `docs/test/*`, golden traces, validation protocol
+  -> [[topics/simulation-validation]]
+- `docs/spec/trace/*`, `docs/design/visualizer_design.md`
+  -> [[topics/trace-visualization]]
+- `docs/process/*`, roadmap, milestone, contribution guide
+  -> [[topics/npu-doc-process]]
 
-**CMDQ Entry 상태 전이:** `NOT_ISSUED → READY → ISSUED → COMPLETED`
+---
 
-### DMA Engine
+## Next Split Focus
 
-DRAM ↔ SPM 데이터 이동의 latency/bandwidth 모델링 담당.
-
-Job 처리 흐름: `DmaJob QUEUED → TRANSFERRING → COMPLETED`
-
-Latency 계산: `bytes_total = num_elements × qbits / 8` → bus width, burst size, contention 모델 적용. 복수 DMA가 동시 실행 시 `effective_bw = peak_bw / N` (shared bandwidth 모델).
-
-KV-aware 처리: `KV_STORE_TILE`/`KV_LOAD_TILE`은 `tensor_role="kv"`, `head_id`, `kv_kind` (k/v), `kv_range` (t_start/t_len/d_start/d_len) 필드를 가진다. KV DMA 채널에 우선순위 가중치(+δ)를 부여하여 TE idle 방지.
-
-### Memory & NoC Model
+- `docs/process/archive/*`를 process mainline과 분리해 archive 계층으로 내려야 한다.
+- validation 쪽이 계속 커지면 `simulation-validation` 안에서 `golden-trace`와 `performance-validation`을 다시 나눌 수 있다.
+- architecture spec topic이 계속 커지면 `IR/CMDQ`와 `tile semantics/quantization`을 추가 분리 후보로 본다.
 
 **메모리 계층:**
 ```

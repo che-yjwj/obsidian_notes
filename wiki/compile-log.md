@@ -39,3 +39,13 @@
 **Sources scanned:** not recompiled
 **Sources changed:** canonical/deep-dive boundary clarified for wiki maintenance
 **Notes:** added document-role rules so `wiki/topics/*` remains the canonical topic layer while `wiki/AI-Hardware/*` and related folders can host longer synthesis essays and strategy memos without creating topic drift
+
+## 2026-04-16 (run 2)
+
+**Run type:** manual structural split
+**Topics updated:** riscv-npu-soc-sim, INDEX, schema, compile-state
+**New topics:** npu-architecture-spec, npu-timing-memory-model, simulation-validation
+**New concepts:** none
+**Sources scanned:** existing RISCV_NPU_SoC_SIM corpus re-grouped, not re-extracted from raw
+**Sources changed:** umbrella topic narrowed; architecture/spec, timing-memory, and validation layers promoted to standalone canonical topics
+**Notes:** `trace-visualization` and `npu-doc-process` remain canonical satellite topics; next pass should verify whether `simulation-validation` fully owns test-oriented trace material or still shares boundaries with trace visualization

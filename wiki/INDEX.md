@@ -1,8 +1,8 @@
 # AI Hardware & GenAI Research — Knowledge Base
 
-Last compiled: 2026-04-14
+Last compiled: 2026-04-16
 Last curated: 2026-04-16
-Canonical topics: 11 | Canonical concepts: 7 | Sources scanned in last compile: 123
+Canonical topics: 14 | Canonical concepts: 7 | Sources scanned in last compile: 123
 
 ---
 
@@ -21,6 +21,9 @@ Canonical topics: 11 | Canonical concepts: 7 | Sources scanned in last compile: 
 | [[topics/operator-coordinate-compression]] | coordinate system, manifold alignment, operator view, TurboQuant, rate-distortion, basis | 17 | 2026-04-14 | active |
 | [[topics/trace-visualization]] | trace, gantt, heatmap, utilization, timeline, golden trace, profiler | 8 | 2026-04-14 | active |
 | [[topics/npu-doc-process]] | SDD, roadmap, milestone, naming, review, contribution, changelog, workflow | 12 | 2026-04-14 | active |
+| [[topics/npu-architecture-spec]] | NPU IR, CMDQ, ISA, tile semantics, quantization, scheduling semantics | 20+ | 2026-04-16 | active |
+| [[topics/npu-timing-memory-model]] | timing, DMA, TE, VE, SPM, DRAM, Bus, NoC, contention, bandwidth | 10+ | 2026-04-16 | active |
+| [[topics/simulation-validation]] | golden trace, unit test, integration test, perf validation, regression | 8+ | 2026-04-16 | active |
 
 ---
 
@@ -64,8 +67,8 @@ These are intentionally longer synthesis documents. They are useful entry points
 
 ## Immediate Refactor Targets
 
-- Rebalance `riscv-npu-soc-sim` so trace/process-heavy source files are referenced from their new dedicated topics instead of remaining concentrated in one mega-topic
-- Decide whether test-oriented trace documents stay under `trace-visualization` or move to a future `simulation-validation` topic
+- Rebalance `riscv-npu-soc-sim` again after one more graph pass so the umbrella stays narrow and project-level
+- Verify the ownership boundary between `trace-visualization` and `simulation-validation`, especially for test-oriented trace documents
 - Evaluate whether `operator-coordinate-compression` should later split into theory and patent/application subtopics
 - Keep `AI-Hardware/NPU-Architecture` and `topics/npu-architecture` aligned so the overview page does not silently drift from the canonical topic page
 - Decide whether `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` remains a strategy memo or becomes a future topic family with subpages on fabric presets, compute hierarchy, and runtime strategy
@@ -77,3 +80,4 @@ These are intentionally longer synthesis documents. They are useful entry points
 - **2026-04-12**: First full compilation — 8 topics and 3 concepts created from 123 source files across 7 directories
 - **2026-04-14**: Incremental compile added 3 topics and 4 concepts from newly separated graph clusters: operator-coordinate-compression, trace-visualization, npu-doc-process
 - **2026-04-16**: Curation pass clarified canonical topics vs deep-dive essays and added explicit operating rules for wiki maintenance
+- **2026-04-16**: Structural split extracted `npu-architecture-spec`, `npu-timing-memory-model`, and `simulation-validation` from the overloaded `riscv-npu-soc-sim` umbrella

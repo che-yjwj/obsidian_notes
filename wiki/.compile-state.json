@@ -1,5 +1,5 @@
 {
-  "last_compiled": "2026-04-14",
+  "last_compiled": "2026-04-16",
   "topics": [
     "npu-architecture",
     "llm-quantization-compression",
@@ -11,7 +11,10 @@
     "soc-spec-english",
     "operator-coordinate-compression",
     "trace-visualization",
-    "npu-doc-process"
+    "npu-doc-process",
+    "npu-architecture-spec",
+    "npu-timing-memory-model",
+    "simulation-validation"
   ],
   "concepts": [
     "memory-bandwidth-bottleneck",
