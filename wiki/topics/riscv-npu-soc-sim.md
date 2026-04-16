@@ -1,3 +1,10 @@
+---
+title: RISC-V NPU SoC Simulator
+type: topic
+status: canonical
+last_compiled: 2026-04-12
+---
+
 # RISC-V NPU SoC Simulator
 
 *last_compiled: 2026-04-12 | sources: 70+ (sampled 20 key docs)*

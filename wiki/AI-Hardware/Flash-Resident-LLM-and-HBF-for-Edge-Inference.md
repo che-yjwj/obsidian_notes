@@ -1,6 +1,6 @@
 ---
 title: Flash-Resident LLM and HBF for Edge Inference
-type: topic
+type: deep-dive
 sources:
   - raw/AI-Hardware/Architecture/Memory Hierarchy in AI 33a6cc566b0b81f4b111e6d0e5d21553.md
   - raw/AI-Hardware/Simulator/HyperAccel LPU Explanation/HyperAccel LPU Explanation (Part 1 of 3) 33a6cc566b0b81349b96fd84f1659f77.md
@@ -17,6 +17,9 @@ updated: 2026-04-14
 ---
 
 # Flash-Resident LLM and HBF for Edge Inference
+
+Canonical topics: [[topics/hw-friendly-model-design]], [[topics/npu-architecture]]
+Related concepts: [[concepts/kv-cache-dram-residency]], [[concepts/prefill-decode-duality]], [[concepts/memory-bandwidth-bottleneck]]
 
 엣지 AI 추론 시스템의 핵심은 더 이상 "최대 TOPS"가 아니다. 실제 병목은 모델 가중치, KV cache, 멀티모달 자산, 개인화 adapter를 어떤 메모리 계층에 배치하고 언제 이동시키는가에 있다. 이 문서는 Apple의 `LLM in a Flash`가 보여준 flash-resident weight streaming 철학과, 최근 업계가 제시하는 `HBF(High Bandwidth Flash)` 계층을 연결해, 엣지 추론용 전체 시스템 아키텍처를 하나의 관점으로 정리한다.
 

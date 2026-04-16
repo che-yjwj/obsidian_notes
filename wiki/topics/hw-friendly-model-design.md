@@ -1,3 +1,10 @@
+---
+title: HW-Friendly Model Design
+type: topic
+status: canonical
+last_compiled: 2026-04-12
+---
+
 # HW-Friendly Model Design
 
 *last_compiled: 2026-04-12 | sources: 4*

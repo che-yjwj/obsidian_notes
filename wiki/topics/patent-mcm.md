@@ -1,3 +1,10 @@
+---
+title: Patent & MCM Research
+type: topic
+status: canonical
+last_compiled: 2026-04-12
+---
+
 # Patent & MCM Research
 
 *last_compiled: 2026-04-12 | sources: 7*

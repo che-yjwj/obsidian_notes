@@ -1,3 +1,10 @@
+---
+title: Paper Reviews
+type: topic
+status: canonical
+last_compiled: 2026-04-12
+---
+
 # Paper Reviews
 
 *last_compiled: 2026-04-12 | sources: 6*

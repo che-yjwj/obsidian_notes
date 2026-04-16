@@ -1,3 +1,10 @@
+---
+title: NPU Simulator & Compiler
+type: topic
+status: canonical
+last_compiled: 2026-04-12
+---
+
 # NPU Simulator & Compiler
 
 *last_compiled: 2026-04-12 | sources: 8*

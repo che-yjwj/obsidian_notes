@@ -1,6 +1,6 @@
 ---
 title: NPU Architecture Overview
-type: topic
+type: deep-dive
 sources:
   - raw/AI-Hardware/Architecture/Tesla AI Chip Roadmap 33a6cc566b0b8129a0f3eef1ddc4dfa3.md
   - raw/AI-Hardware/Architecture/Tesla Edge AI Innovation 33a6cc566b0b81c8aa60dc6f39c11a1c.md
@@ -14,6 +14,9 @@ updated: 2026-04-07
 ---
 
 # NPU Architecture Overview
+
+Canonical topic: [[topics/npu-architecture]]
+Related concepts: [[concepts/memory-bandwidth-bottleneck]], [[concepts/static-scheduling-determinism]], [[concepts/mixed-precision-policy]]
 
 ## Tesla AI 칩 로드맵
 

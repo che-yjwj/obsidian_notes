@@ -1,3 +1,10 @@
+---
+title: Operator-Coordinate Compression
+type: topic
+status: canonical
+last_compiled: 2026-04-14
+---
+
 # Operator-Coordinate Compression
 
 *last_compiled: 2026-04-14 | sources: 17*

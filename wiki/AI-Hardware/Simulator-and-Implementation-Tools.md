@@ -1,6 +1,6 @@
 ---
 title: NPU/LPU Simulator and Implementation Tools
-type: topic
+type: deep-dive
 sources:
   - raw/AI-Hardware/Simulator/HyperAccel LPU Explanation/HyperAccel LPU Explanation (Part 1 of 3) 33a6cc566b0b81349b96fd84f1659f77.md
   - raw/AI-Hardware/Simulator/HyperAccel LPU Explanation/HyperAccel LPU Explanation (Part 2 of 3) 33a6cc566b0b8184b3e7c80f64b99235.md
@@ -15,6 +15,9 @@ updated: 2026-04-07
 ---
 
 # NPU/LPU Simulator and Implementation Tools
+
+Canonical topic: [[topics/npu-simulator-compiler]]
+Related concepts: [[concepts/static-scheduling-determinism]], [[concepts/trace-first-design]]
 
 ## HyperAccel LPU (국내 AI 반도체 스타트업)
 

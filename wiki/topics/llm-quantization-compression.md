@@ -1,3 +1,10 @@
+---
+title: LLM Quantization & Compression
+type: topic
+status: canonical
+last_compiled: 2026-04-12
+---
+
 # LLM Quantization & Compression
 
 *last_compiled: 2026-04-12 | sources: 16*

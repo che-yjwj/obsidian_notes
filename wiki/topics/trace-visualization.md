@@ -1,3 +1,10 @@
+---
+title: Trace & Visualization
+type: topic
+status: canonical
+last_compiled: 2026-04-14
+---
+
 # Trace & Visualization
 
 *last_compiled: 2026-04-14 | sources: 8*

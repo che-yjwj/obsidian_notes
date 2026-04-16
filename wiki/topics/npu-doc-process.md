@@ -1,3 +1,10 @@
+---
+title: NPU Documentation Process
+type: topic
+status: canonical
+last_compiled: 2026-04-14
+---
+
 # NPU Documentation Process
 
 *last_compiled: 2026-04-14 | sources: 12*

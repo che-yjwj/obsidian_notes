@@ -1,3 +1,10 @@
+---
+title: SoC Specification Negotiation English
+type: topic
+status: canonical
+last_compiled: 2026-04-12
+---
+
 # SoC Specification Negotiation English
 
 *last_compiled: 2026-04-12 | sources: 2*

@@ -1,11 +1,14 @@
 ---
 title: Project Helios Edge / Physical AI Custom SoC Platform Strategy
-type: topic
+type: deep-dive
 tags: [project-helios, edge-ai, physical-ai, custom-soc, NPU, ISP, modem, NoC, platform-strategy]
 updated: 2026-04-15
 ---
 
 # Project Helios Edge / Physical AI Custom SoC Platform Strategy Report
+
+Canonical topics: [[topics/npu-architecture]], [[topics/npu-simulator-compiler]]
+Related concepts: [[concepts/memory-bandwidth-bottleneck]], [[concepts/static-scheduling-determinism]]
 
 ## Version 1.0 (Final)
 

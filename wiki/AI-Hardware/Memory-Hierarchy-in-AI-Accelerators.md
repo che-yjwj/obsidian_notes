@@ -1,6 +1,6 @@
 ---
 title: Memory Hierarchy in AI Accelerators
-type: topic
+type: deep-dive
 sources:
   - raw/AI-Hardware/Architecture/Memory Hierarchy in AI 33a6cc566b0b81f4b111e6d0e5d21553.md
 tags: [memory, HBM, SRAM, NPU, GPU]
@@ -8,6 +8,9 @@ updated: 2026-04-09
 ---
 
 # Memory Hierarchy in AI Accelerators
+
+Canonical topic: [[topics/npu-architecture]]
+Related concepts: [[concepts/memory-bandwidth-bottleneck]], [[concepts/kv-cache-dram-residency]]
 
 AI 가속기에서 메모리 계층 구조는 성능의 핵심 결정 요인이다. 연산–데이터 이동–전력/면적 트레이드오프 관점에서 주요 플랫폼을 비교한다.
 

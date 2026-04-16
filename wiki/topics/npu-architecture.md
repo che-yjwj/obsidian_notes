@@ -1,3 +1,10 @@
+---
+title: NPU Architecture
+type: topic
+status: canonical
+last_compiled: 2026-04-12
+---
+
 # NPU Architecture
 
 *last_compiled: 2026-04-12 | sources: 8*
