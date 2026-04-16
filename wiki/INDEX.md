@@ -1,11 +1,12 @@
 # AI Hardware & GenAI Research — Knowledge Base
 
 Last compiled: 2026-04-14
-Total topics: 11 | Total concepts: 7 | Total sources: 123
+Last curated: 2026-04-16
+Canonical topics: 11 | Canonical concepts: 7 | Sources scanned in last compile: 123
 
 ---
 
-## Topics
+## Canonical Topics
 
 | Topic | Aliases / Keywords | Sources | Last Updated | Status |
 |---|---|---|---|---|
@@ -23,7 +24,7 @@ Total topics: 11 | Total concepts: 7 | Total sources: 123
 
 ---
 
-## Concepts
+## Canonical Concepts
 
 | Concept | Connects | Last Updated |
 |---|---|---|
@@ -37,11 +38,37 @@ Total topics: 11 | Total concepts: 7 | Total sources: 123
 
 ---
 
-## Next Compile Focus
+## Curated Deep Dives
+
+These are intentionally longer synthesis documents. They are useful entry points, but they are not automatically the canonical topic hubs used by the wiki compiler.
+
+| Document | Role | Current Position |
+|---|---|---|
+| [[AI-Hardware/NPU-Architecture]] | curated overview / vendor benchmark | overlaps with canonical topic `topics/npu-architecture` |
+| [[AI-Hardware/Memory-Hierarchy-in-AI-Accelerators]] | deep dive / framing essay | supports `topics/npu-architecture` and memory concepts |
+| [[AI-Hardware/Simulator-and-Implementation-Tools]] | curated survey | overlaps with `topics/npu-simulator-compiler` |
+| [[AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference]] | architecture synthesis essay | bridges memory hierarchy, KV policy, and edge inference |
+| [[AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy]] | strategy memo / platform thesis | currently a deep dive; candidate for future topic extraction if related source corpus grows |
+
+---
+
+## Operating Model
+
+- `wiki/topics/*` is the canonical topic layer. These pages should stay compact, source-backed, and link outward.
+- `wiki/concepts/*` is the cross-topic abstraction layer. These pages capture reusable patterns, not project-specific summaries.
+- `wiki/AI-Hardware/*`, `wiki/GenAI/*`, `wiki/Research/*`, and `wiki/Misc/*` can contain curated deep dives, essays, reviews, and strategy memos.
+- A deep-dive page should be promoted into `wiki/topics/*` only when it accumulates a distinct source family, repeated graph community, and stable outbound links.
+- When a topic becomes a mega-hub, split it before adding more prose. Topic size is a maintenance smell, not a success metric.
+
+---
+
+## Immediate Refactor Targets
 
 - Rebalance `riscv-npu-soc-sim` so trace/process-heavy source files are referenced from their new dedicated topics instead of remaining concentrated in one mega-topic
 - Decide whether test-oriented trace documents stay under `trace-visualization` or move to a future `simulation-validation` topic
 - Evaluate whether `operator-coordinate-compression` should later split into theory and patent/application subtopics
+- Keep `AI-Hardware/NPU-Architecture` and `topics/npu-architecture` aligned so the overview page does not silently drift from the canonical topic page
+- Decide whether `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` remains a strategy memo or becomes a future topic family with subpages on fabric presets, compute hierarchy, and runtime strategy
 
 ---
 
@@ -49,3 +76,4 @@ Total topics: 11 | Total concepts: 7 | Total sources: 123
 
 - **2026-04-12**: First full compilation — 8 topics and 3 concepts created from 123 source files across 7 directories
 - **2026-04-14**: Incremental compile added 3 topics and 4 concepts from newly separated graph clusters: operator-coordinate-compression, trace-visualization, npu-doc-process
+- **2026-04-16**: Curation pass clarified canonical topics vs deep-dive essays and added explicit operating rules for wiki maintenance

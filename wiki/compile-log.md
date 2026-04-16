@@ -29,3 +29,13 @@
 **Sources scanned:** 123
 **Sources changed:** 10 wiki output files + source reclassification for 3 new topic groups
 **Notes:** compiled new topic articles from existing source corpus without touching raw files; next run should revisit `riscv-npu-soc-sim` article boundaries using the expanded schema
+
+## 2026-04-16
+
+**Run type:** curation pass
+**Topics updated:** INDEX, schema
+**New topics:** none
+**New concepts:** none
+**Sources scanned:** not recompiled
+**Sources changed:** canonical/deep-dive boundary clarified for wiki maintenance
+**Notes:** added document-role rules so `wiki/topics/*` remains the canonical topic layer while `wiki/AI-Hardware/*` and related folders can host longer synthesis essays and strategy memos without creating topic drift

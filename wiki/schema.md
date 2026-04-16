@@ -45,7 +45,25 @@ This file is the source of truth for wiki structure. Edit it to rename topics, m
 
 ---
 
+## Document Roles
+
+- `wiki/topics/*`
+  Canonical topic hubs maintained by the wiki compiler. Prefer concise synthesis, explicit source coverage, and strong cross-links.
+- `wiki/concepts/*`
+  Cross-topic patterns that connect two or more topic families. Avoid turning these into project diaries or literature summaries.
+- `wiki/AI-Hardware/*`, `wiki/GenAI/*`, `wiki/Research/*`, `wiki/Misc/*`
+  Curated deep dives, essays, benchmark notes, strategy memos, or review documents. These can be longer and more opinionated than canonical topic pages.
+
+Promotion rule:
+- Promote a deep-dive page into `wiki/topics/*` only when it has a stable source family, repeated graph community support, and clear value as a reusable navigation hub.
+
+Split rule:
+- Split a topic when it becomes a mega-hub that mixes architecture, process, validation, and roadmap content in one page.
+
+---
+
 ## Evolution Log
 
 - **2026-04-12**: Initial schema generated from 8 topics, 3 concepts (first compile of 123 source files)
 - **2026-04-14**: Expanded schema to 11 topics and 7 concepts to absorb newly connected graphify communities before the next wiki compile
+- **2026-04-16**: Added explicit document-role rules to separate canonical topic pages from curated deep-dive essays and strategy memos
