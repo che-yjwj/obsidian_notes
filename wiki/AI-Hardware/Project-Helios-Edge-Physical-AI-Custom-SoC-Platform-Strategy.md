@@ -1,11 +1,11 @@
 ---
-title: Samsung System LSI Edge / Physical AI Custom SoC Platform Strategy
+title: Project Helios Edge / Physical AI Custom SoC Platform Strategy
 type: topic
-tags: [Samsung, System-LSI, edge-ai, physical-ai, custom-soc, NPU, ISP, modem, NoC, platform-strategy]
+tags: [project-helios, edge-ai, physical-ai, custom-soc, NPU, ISP, modem, NoC, platform-strategy]
 updated: 2026-04-15
 ---
 
-# Samsung System LSI Edge / Physical AI Custom SoC Platform Strategy Report
+# Project Helios Edge / Physical AI Custom SoC Platform Strategy Report
 
 ## Version 1.0 (Final)
 
@@ -16,24 +16,24 @@ Custom SoC 시장의 경쟁 축은 더 이상 단일 IP의 피크 성능 경쟁�
 
 Broadcom과 Marvell은 공통 플랫폼 자산과 Anchor 고객 중심 반복 수주 구조를 통해 빠르게 커스텀 제품을 확장하고 있다. Arm은 CPU IP 공급자를 넘어 CSS(Compute Subsystem) 기반의 platform provider로 진화하며, 고객의 SoC 개발 리스크와 bring-up 시간을 줄이고 있다. AMD/Xilinx Versal ACAP은 adaptive dataflow 구조를 통해 sensor -> preprocess -> AI -> control의 시스템 경로를 칩 내부에서 최적화하는 것이 얼마나 중요한지 보여준다.
 
-이러한 환경에서 삼성의 전략은 단순히 경쟁사의 장점을 모방하는 것이 아니라, 삼성만의 강점을 결합해 다음과 같이 정의되어야 한다.
+이러한 환경에서 Project Helios의 전략은 단순히 경쟁사의 장점을 모방하는 것이 아니라, 고유 강점을 결합해 다음과 같이 정의되어야 한다.
 
-> **Arm CSS 기반의 검증된 공통 플랫폼 위에, Samsung의 NPU / ISP / Modem / Mobile-grade low-power integration을 계층적으로 결합하고, 고객 세그먼트별 Fabric Preset을 통해 Vision / Compute / Connected Edge를 빠르게 파생시키는 Edge / Physical AI Custom SoC 플랫폼을 구축한다.**
+> **Arm CSS 기반의 검증된 공통 플랫폼 위에, Helios NPU / ISP / Modem / Mobile-grade low-power integration을 계층적으로 결합하고, 고객 세그먼트별 Fabric Preset을 통해 Vision / Compute / Connected Edge를 빠르게 파생시키는 Edge / Physical AI Custom SoC 플랫폼을 구축한다.**
 
 이 전략의 본질은 다음 세 가지다.
 
 1. **Platformization** — 고객마다 완전히 새로운 칩을 설계하지 않는다. 공통 플랫폼과 공통 설계 자산 위에서 파생형 SKU를 생성한다.
-2. **Differentiation** — Arm 공통 플랫폼 위에 Samsung 고유 IP와 시스템 통합 역량을 결합해 차별화한다.
+2. **Differentiation** — Arm 공통 플랫폼 위에 Helios 고유 IP와 시스템 통합 역량을 결합해 차별화한다.
 3. **Fabric Preset-based Customization** — 단순한 IP ON/OFF가 아니라, NoC / Bus topology 자체를 세그먼트별로 재사용 가능한 preset으로 제공한다.
 
 ## Strategic Thesis
 
-> **Arm은 검증된 compute backbone과 software ecosystem을 제공하고, Samsung은 vision, connectivity, mobile power, high-efficiency AI acceleration을 통해 고객이 실제 제품을 만들 수 있는 differentiation을 제공한다.**
+> **Arm은 검증된 compute backbone과 software ecosystem을 제공하고, Helios는 vision, connectivity, mobile power, high-efficiency AI acceleration을 통해 고객이 실제 제품을 만들 수 있는 differentiation을 제공한다.**
 
 이 문서의 핵심 결론은 다음과 같다.
 
-- 삼성은 단일 NPU vendor가 아니라 **Edge / Physical AI Platform Provider**가 되어야 한다.
-- Arm CSS는 공통 backbone으로 활용하되, Samsung의 경쟁력은 **NPU / ISP / Modem / Runtime / Fabric Preset**에서 확보해야 한다.
+- Project Helios는 단일 NPU vendor가 아니라 **Edge / Physical AI Platform Provider**가 되어야 한다.
+- Arm CSS는 공통 backbone으로 활용하되, Helios의 경쟁력은 **NPU / ISP / Modem / Runtime / Fabric Preset**에서 확보해야 한다.
 - Vision, Robotics, Connected Edge, Compute Gateway를 하나의 monolithic bus 구조로 커버하려 하기보다, **재사용 가능한 Fabric Preset 집합**으로 대응해야 한다.
 - 플랫폼 성공의 핵심은 HW block의 개수보다 **runtime-first execution**, **NoC/dataflow 최적화**, **Anchor 고객 반복 수주 모델**에 있다.
 
@@ -64,15 +64,15 @@ Custom SoC 시장에서 단기간 경쟁 우위를 확보하려면, 단순히 "�
 
 Broadcom의 강점은 "고객마다 완전히 새로운 구조를 매번 만드는 것"이 아니라, **공통 플랫폼 자산을 고객 요구에 맞게 빠르게 변형하는 운영 모델**에 있다.
 
-### 약점 / 삼성의 기회
+### 약점 / Helios의 기회
 
-Broadcom은 무선 연결성과 커스텀 실리콘 측면에서는 강하지만, **edge-specific vision pipeline**, **ISP와 NPU의 tight integration**, **sensor-to-AI streaming 구조** 측면에서는 삼성 대비 구조적 우위를 갖기 어렵다.
+Broadcom은 무선 연결성과 커스텀 실리콘 측면에서는 강하지만, **edge-specific vision pipeline**, **ISP와 NPU의 tight integration**, **sensor-to-AI streaming 구조** 측면에서는 Helios 대비 구조적 우위를 갖기 어렵다.
 
-### 삼성에 주는 인사이트
+### Helios에 주는 인사이트
 
 - Anchor 고객 1곳을 잡으면, 그 안에서 세대별 / 용도별 / 전력별 SKU를 확장할 수 있어야 한다.
 - SoC 전략은 "칩 하나"가 아니라 "제품군 생성 엔진"이어야 한다.
-- Broadcom이 강한 SKU 파생 운영 모델은 벤치마크하되, 삼성은 **ISP + modem + low-power edge integration** 쪽에서 차별화해야 한다.
+- Broadcom이 강한 SKU 파생 운영 모델은 벤치마크하되, Helios는 **ISP + modem + low-power edge integration** 쪽에서 차별화해야 한다.
 
 ## 2.3 Marvell benchmark
 
@@ -91,7 +91,7 @@ Marvell은 커스텀 반도체를 "새로운 설계 프로젝트"라기보다 **
 
 ### 경쟁 구도 분석
 
-| 영역 | Marvell | Samsung |
+| 영역 | Marvell | Helios |
 |---|---|---|
 | O-RAN / Baseband Infra | 강함 | 제한적 |
 | Device-side Modem | 약함 | 강함 |
@@ -99,11 +99,11 @@ Marvell은 커스텀 반도체를 "새로운 설계 프로젝트"라기보다 **
 | Vision-centric Edge Platform | 제한적 | 강점 가능 |
 | Carrier / Networking Fabric Heritage | 강함 | 상대적으로 약함 |
 
-### 삼성에 주는 인사이트
+### Helios에 주는 인사이트
 
 - NPU, ISP, CPU, memory subsystem, NoC, I/O, package를 **catalog화**해야 한다.
 - 설계 산출물뿐 아니라 verification asset, performance model, compiler/runtime interface도 재사용 자산으로 축적해야 한다.
-- Marvell이 infra-side에서 강하다면, 삼성은 **device-side modem + mobile-grade integration + vision edge**를 중심으로 차별화할 수 있다.
+- Marvell이 infra-side에서 강하다면, Helios는 **device-side modem + mobile-grade integration + vision edge**를 중심으로 차별화할 수 있다.
 
 ## 2.4 Arm benchmark
 
@@ -120,12 +120,12 @@ Arm의 핵심 메시지는 다음과 같다.
 
 > "고객이 SoC를 더 빨리, 더 적은 리스크로 만들 수 있게 한다."
 
-### 삼성에 주는 인사이트
+### Helios에 주는 인사이트
 
 - Arm을 단순 CPU vendor로 보면 안 된다.
-- Arm CSS는 Samsung custom SoC의 **공통 backbone**으로 활용해야 한다.
-- Samsung의 가치는 Arm과 경쟁하는 것이 아니라, Arm 기반 플랫폼 위에 **Samsung differentiation layer**를 얹는 데 있다.
-- Samsung LSI는 Arm SME2 ecosystem의 adopter로 이미 참여하고 있으며, 이는 CPU matrix path와 Samsung NPU의 계층형 전략 실현 가능성을 높인다.
+- Arm CSS는 Helios custom SoC의 **공통 backbone**으로 활용해야 한다.
+- Helios의 가치는 Arm과 경쟁하는 것이 아니라, Arm 기반 플랫폼 위에 **Helios differentiation layer**를 얹는 데 있다.
+- Project Helios는 Arm SME2 ecosystem의 adopter로 이미 참여하고 있으며, 이는 CPU matrix path와 Helios NPU의 계층형 전략 실현 가능성을 높인다.
 
 ## 2.5 AMD/Xilinx Versal ACAP benchmark
 
@@ -145,9 +145,9 @@ ACAP의 핵심 가치는 "FPGA가 있다"가 아니다. 진짜 가치는 다음�
 - streaming 중심 시스템 구조
 - workload-adaptive architecture
 
-### 삼성에 주는 인사이트
+### Helios에 주는 인사이트
 
-삼성이 full FPGA/ACAP를 만들 필요는 없다. 하지만 다음 철학은 반드시 흡수해야 한다.
+Helios가 full FPGA/ACAP를 만들 필요는 없다. 하지만 다음 철학은 반드시 흡수해야 한다.
 
 - streaming path 분리
 - shared SRAM 중심의 on-chip reuse
@@ -157,26 +157,26 @@ ACAP의 핵심 가치는 "FPGA가 있다"가 아니다. 진짜 가치는 다음�
 
 ## 2.6 Benchmark summary
 
-| Company | Primary Strength | Business Model | Samsung takeaway |
+| Company | Primary Strength | Business Model | Helios takeaway |
 |---|---|---|---|
 | Broadcom | Anchor account + fast SKU derivation | Customer-specific repeated variants | 고객 1곳당 다수 SKU 파생 구조 필요 |
 | Marvell | IP / platform reuse + infra lineage | Catalog-based custom ASIC | IP + interconnect + SW stack까지 catalog화 필요 |
 | Arm | Validated subsystem + SW ecosystem | Platform provider | CSS를 공통 backbone으로 활용 |
 | AMD/Xilinx | Adaptive dataflow | Heterogeneous streaming architecture | sensor/AI/control path와 streaming fabric 구조 흡수 |
 
-# 3. Strategic Positioning for Samsung System LSI
+# 3. Strategic Positioning for Project Helios
 
 ## 3.1 Core positioning
 
-Samsung이 취해야 할 포지션은 다음과 같다.
+Project Helios가 취해야 할 포지션은 다음과 같다.
 
 > **Edge AI accelerator vendor**가 아니라 **Edge / Physical AI Platform Provider**
 
-즉, 고객에게 제공해야 하는 것은 단일 NPU가 아니라 다음의 조합이다: Arm 기반 공통 compute platform, Samsung 차별화 IP, Fabric preset 기반 SKU 파생 구조, runtime / compiler / profiling을 포함한 software-ready platform.
+즉, 고객에게 제공해야 하는 것은 단일 NPU가 아니라 다음의 조합이다: Arm 기반 공통 compute platform, Helios 차별화 IP, Fabric preset 기반 SKU 파생 구조, runtime / compiler / profiling을 포함한 software-ready platform.
 
-## 3.2 Samsung-specific strengths
+## 3.2 Helios-specific strengths
 
-삼성이 Broadcom, Marvell, Arm, AMD/Xilinx와 비교해 차별화할 수 있는 포인트는 다음과 같다.
+Helios가 Broadcom, Marvell, Arm, AMD/Xilinx와 비교해 차별화할 수 있는 포인트는 다음과 같다.
 
 ### 현재 확보 역량
 
@@ -186,7 +186,7 @@ Samsung이 취해야 할 포지션은 다음과 같다.
 
 **3. Modem / connectivity option** — always-connected edge device, XR / wearable / smart camera / mobile edge 대응, 고객에 따라 optional integration 가능.
 
-**4. Samsung NPU differentiation** — tile-based SRAM-centric architecture, ISP direct stream path와의 결합 가능성, deterministic latency 중심 최적화.
+**4. Helios NPU differentiation** — tile-based SRAM-centric architecture, ISP direct stream path와의 결합 가능성, deterministic latency 중심 최적화.
 
 ### 잠재적 확장 역량
 
@@ -194,9 +194,9 @@ Samsung이 취해야 할 포지션은 다음과 같다.
 
 ## 3.3 Strategic thesis
 
-삼성의 차별화 전략은 다음 문장으로 정리할 수 있다.
+Helios의 차별화 전략은 다음 문장으로 정리할 수 있다.
 
-> **Arm은 공통 플랫폼의 속도와 안정성을 제공하고, Samsung은 vision, connectivity, mobile power, and high-efficiency NPU를 통해 고객이 실제 제품을 만들 때 필요한 differentiation을 제공한다.**
+> **Arm은 공통 플랫폼의 속도와 안정성을 제공하고, Helios는 vision, connectivity, mobile power, and high-efficiency NPU를 통해 고객이 실제 제품을 만들 때 필요한 differentiation을 제공한다.**
 
 # 4. Target Market and Customer Segmentation
 
@@ -253,7 +253,7 @@ Broadcom/Marvell과 동일하게 모든 고객, 모든 시장을 한 번에 겨�
 
 **Layer 1. Arm Base Platform Layer** — 공통 backbone. 변경을 최소화하고 검증 자산을 재사용하는 층.
 
-**Layer 2. Samsung Differentiation Layer** — Samsung 고유 IP와 최적화 자산이 위치하는 층. 고객 차별화와 성능/전력 우위를 만드는 핵심 층.
+**Layer 2. Helios Differentiation Layer** — Helios 고유 IP와 최적화 자산이 위치하는 층. 고객 차별화와 성능/전력 우위를 만드는 핵심 층.
 
 **Layer 3. Customization / Fabric Preset Layer** — 고객별 / 세그먼트별로 변형되는 층. 단순 IP ON/OFF뿐 아니라 fabric topology, QoS, bandwidth shape까지 포함.
 
@@ -261,7 +261,7 @@ Broadcom/Marvell과 동일하게 모든 고객, 모든 시장을 한 번에 겨�
 
 ```text
 +-------------------------------------------------------------------+
-| Samsung Edge / Physical AI Custom SoC Platform                    |
+| Project Helios Edge / Physical AI Custom SoC Platform             |
 +-------------------------------------------------------------------+
 | Layer 1: Arm Base Platform Layer                                  |
 |  - Application CPU Cluster                                        |
@@ -269,11 +269,11 @@ Broadcom/Marvell과 동일하게 모든 고객, 모든 시장을 한 번에 겨�
 |  - Coherent System Fabric                                         |
 |  - System Cache / Memory Controller / Security / Debug            |
 +-------------------------------------------------------------------+
-| Layer 2: Samsung Differentiation Layer                            |
-|  - Samsung NPU Subsystem                                          |
-|  - Samsung ISP / Vision Front-End                                 |
-|  - Samsung Modem / Connectivity Option                            |
-|  - Samsung DMA / Compression / Low-Power Optimization             |
+| Layer 2: Helios Differentiation Layer                             |
+|  - Helios NPU Subsystem                                           |
+|  - Helios ISP / Vision Front-End                                  |
+|  - Helios Modem / Connectivity Option                             |
+|  - Helios DMA / Compression / Low-Power Optimization              |
 +-------------------------------------------------------------------+
 | Layer 3: Customization / Fabric Preset Layer                      |
 |  - Vision-centric topology                                        |
@@ -303,23 +303,23 @@ Arm Base Platform Layer는 SKU가 달라져도 최대한 유지되어야 한다.
 
 ## 6.3 What should not be overloaded into the Arm layer
 
-다음은 Arm layer에 과도하게 넣지 않는 것이 좋다: vision-specific direct stream path, Samsung NPU local dataflow policy, modem-specific power / peripheral domain detail, segment-specific QoS tuning.
+다음은 Arm layer에 과도하게 넣지 않는 것이 좋다: vision-specific direct stream path, Helios NPU local dataflow policy, modem-specific power / peripheral domain detail, segment-specific QoS tuning.
 
-이들은 Samsung Differentiation 또는 Fabric Preset layer에서 처리하는 것이 적절하다.
+이들은 Helios Differentiation 또는 Fabric Preset layer에서 처리하는 것이 적절하다.
 
-# 7. Samsung Differentiation Layer
+# 7. Helios Differentiation Layer
 
 ## 7.1 Why this layer matters
 
-Arm CSS만으로는 Samsung이 고객에게 선택받을 이유가 부족하다. Samsung의 differentiation layer는 다음 질문에 답해야 한다.
+Arm CSS만으로는 Helios가 고객에게 선택받을 이유가 부족하다. Helios의 differentiation layer는 다음 질문에 답해야 한다.
 
-- 왜 Arm reference만 쓰지 않고 Samsung과 해야 하는가?
-- 왜 Broadcom / Marvell이 아니라 Samsung이어야 하는가?
-- 왜 삼성 플랫폼이 edge / mobile / vision에서 더 유리한가?
+- 왜 Arm reference만 쓰지 않고 Helios와 해야 하는가?
+- 왜 Broadcom / Marvell이 아니라 Helios여야 하는가?
+- 왜 Helios 플랫폼이 edge / mobile / vision에서 더 유리한가?
 
-## 7.2 Samsung NPU subsystem
+## 7.2 Helios NPU subsystem
 
-Samsung NPU는 platform의 핵심 차별화 요소다. 단순 Ethos 대체품이 아니라, Ethos로 커버하기 어려운 high-efficiency / high-bandwidth / streaming AI path를 담당해야 한다.
+Helios NPU는 platform의 핵심 차별화 요소다. 단순 Ethos 대체품이 아니라, Ethos로 커버하기 어려운 high-efficiency / high-bandwidth / streaming AI path를 담당해야 한다.
 
 ### 아키텍처 구성
 
@@ -338,9 +338,9 @@ Samsung NPU는 platform의 핵심 차별화 요소다. 단순 Ethos 대체품이
 
 ### Deterministic latency의 의미
 
-Samsung NPU는 단순히 높은 피크 처리량보다, 타일 기반 로컬 SRAM 재사용, 정해진 데이터 이동 경로, 예측 가능한 DMA/prefetch 동작을 통해 latency variability를 줄이는 방향으로 설계되어야 한다.
+Helios NPU는 단순히 높은 피크 처리량보다, 타일 기반 로컬 SRAM 재사용, 정해진 데이터 이동 경로, 예측 가능한 DMA/prefetch 동작을 통해 latency variability를 줄이는 방향으로 설계되어야 한다.
 
-## 7.3 Samsung ISP / Vision front-end
+## 7.3 Helios ISP / Vision front-end
 
 이 블록은 Vision Edge 고객에서 매우 중요하다.
 
@@ -348,15 +348,15 @@ Samsung NPU는 단순히 높은 피크 처리량보다, 타일 기반 로컬 SRA
 
 전략적 가치: sensor-to-AI latency 감소, DRAM round-trip 최소화, NPU 앞단 pre-processing offload, camera-centric customer 대응력 강화.
 
-## 7.4 Samsung Modem / Connectivity option
+## 7.4 Helios Modem / Connectivity option
 
-모든 SKU에 modem을 넣는 것은 비효율적일 수 있다. 하지만 Samsung은 modem / connectivity를 optional differentiation asset으로 활용할 수 있다.
+모든 SKU에 modem을 넣는 것은 비효율적일 수 있다. 하지만 Helios는 modem / connectivity를 optional differentiation asset으로 활용할 수 있다.
 
 적용 가능 고객: XR, smart camera with backhaul, connected AI terminal, wearable / field robotics.
 
 전략: modem always-on 필수 아님, platform option으로 제공, connected edge preset에서 강하게 활용.
 
-## 7.5 Samsung-specific optimization assets
+## 7.5 Helios-specific optimization assets
 
 다음 요소도 differentiation layer에 포함되어야 한다: streaming DMA sequencer, memory bandwidth reduction logic, compression support, power island optimization, mobile-grade DVFS hooks, platform-aware runtime tuning.
 
@@ -369,7 +369,7 @@ Samsung NPU는 단순히 높은 피크 처리량보다, 타일 기반 로컬 SRA
 1. Arm CPU General Path
 2. Arm Matrix-Accelerated CPU Path
 3. Ethos Baseline NPU Path
-4. Samsung High-Performance NPU Path
+4. Helios High-Performance NPU Path
 
 ## 8.2 CME / SME2 조건 명시
 
@@ -379,7 +379,7 @@ Arm CPU Matrix Path는 모든 Arm CSS에서 자동으로 성립하는 것이 아
 
 > CME는 Lumex CSS의 C1-Pro Core 계열 선택 시 활성 가능한 matrix acceleration path로 간주한다.
 
-Samsung LSI는 Arm SME2 ecosystem의 adopter로 이미 참여하고 있으며, 이는 이 전략의 실현 가능성을 높이는 근거로 활용할 수 있다.
+Project Helios는 Arm SME2 ecosystem의 adopter로 이미 참여하고 있으며, 이는 이 전략의 실현 가능성을 높이는 근거로 활용할 수 있다.
 
 참고: C1-Pro(mid-tier)와 C1-Ultra(flagship)는 SME2 기반 대형 모델 추론이 가능하나, C1-Nano(효율 코어)는 1~3B 파라미터 이하의 소형 모델이 현실적 상한이다. 따라서 CPU Matrix Path의 실제 처리 범위는 채택하는 코어 구성에 따라 달라진다.
 
@@ -390,7 +390,7 @@ Samsung LSI는 Arm SME2 ecosystem의 adopter로 이미 참여하고 있으며, �
 | Arm CPU General Path | control, fallback, software portability | 개발 유연성, 일반성 | efficiency 낮음 |
 | Arm CPU Matrix Path | small-mid matrix-heavy task, on-CPU SLM inference | dedicated matrix acceleration, SW 친화성 | core/CSS option 의존 |
 | Ethos Baseline NPU Path | fast bring-up, baseline AI SKU | 빠른 TTM, Arm SW 연계 | customization 한계 |
-| Samsung High-Performance NPU Path | high-efficiency AI / streaming path | 성능/전력/데이터플로우 최적화 | HW/SW co-design 필요 |
+| Helios High-Performance NPU Path | high-efficiency AI / streaming path | 성능/전력/데이터플로우 최적화 | HW/SW co-design 필요 |
 
 ## 8.4 Strategic use of each path
 
@@ -400,7 +400,7 @@ Samsung LSI는 Arm SME2 ecosystem의 adopter로 이미 참여하고 있으며, �
 
 **Ethos Baseline NPU Path** — 빠른 제품화가 필요한 entry/mid SKU, low-risk 고객 대응, Arm 기반 compiler/runtime와의 빠른 연계.
 
-**Samsung High-Performance NPU Path** — vision-heavy AI, edge multimodal, robotics / low-latency control-adjacent AI, SRAM-centric tile execution, direct stream path 활용.
+**Helios High-Performance NPU Path** — vision-heavy AI, edge multimodal, robotics / low-latency control-adjacent AI, SRAM-centric tile execution, direct stream path 활용.
 
 ## 8.5 Dispatch threshold concept
 
@@ -408,13 +408,13 @@ Unified runtime 설계의 출발점으로, 다음 개념적 threshold를 둔다.
 
 > Threshold = single tile 내에서 유리하게 처리 가능한 GEMM 크기 상한
 
-초기 정책 예시는 다음과 같다: small GEMM / tile-contained GEMM -> CPU Matrix Path, baseline CNN / transformer inference -> Ethos Path, large streaming / high-throughput / vision-heavy path -> Samsung NPU Path.
+초기 정책 예시는 다음과 같다: small GEMM / tile-contained GEMM -> CPU Matrix Path, baseline CNN / transformer inference -> Ethos Path, large streaming / high-throughput / vision-heavy path -> Helios NPU Path.
 
 정확한 수치는 simulator와 cycle model 기반으로 Phase 2에서 확정한다.
 
 ## 8.6 Strategic principle
 
-Samsung NPU는 Ethos를 단순히 대체하는 것이 아니라, Ethos로는 어려운 high-performance, high-efficiency, streaming-centric use case를 담당해야 한다.
+Helios NPU는 Ethos를 단순히 대체하는 것이 아니라, Ethos로는 어려운 high-performance, high-efficiency, streaming-centric use case를 담당해야 한다.
 
 # 9. Memory Hierarchy and Dataflow
 
@@ -439,13 +439,13 @@ Samsung NPU는 Ethos를 단순히 대체하는 것이 아니라, Ethos로는 어
 **Vision-centric canonical flow**
 
 ```text
-Sensor -> ISP / Vision Front-End -> Shared SRAM / Stream Buffer -> Samsung NPU -> Shared SRAM -> Arm CPU / RT CPU / Output
+Sensor -> ISP / Vision Front-End -> Shared SRAM / Stream Buffer -> Helios NPU -> Shared SRAM -> Arm CPU / RT CPU / Output
 ```
 
 **Compute-centric canonical flow**
 
 ```text
-External IO / Storage / Host -> DMA -> Shared SRAM / DRAM -> Samsung NPU or Ethos -> CPU / Peripheral Path
+External IO / Storage / Host -> DMA -> Shared SRAM / DRAM -> Helios NPU or Ethos -> CPU / Peripheral Path
 ```
 
 ## 9.4 CME impact on memory / fabric planning
@@ -464,15 +464,15 @@ CME / CPU Matrix Path는 Fabric A(Coherent Fabric)에서 동작하므로, 대량
 
 ## 10.1 Core conclusion
 
-Arm CSS와 Samsung IP는 Hierarchical Multi-NoC 구조로 분리 가능하며, 분리하는 것이 플랫폼화에 유리하다.
+Arm CSS와 Helios IP는 Hierarchical Multi-NoC 구조로 분리 가능하며, 분리하는 것이 플랫폼화에 유리하다.
 
-다만 "서로 완전히 독립된 NoC 여러 개"보다는, **Arm CSS backbone + Samsung domain-specific sub-fabrics + gateways / bridges** 구조가 현실적이다.
+다만 "서로 완전히 독립된 NoC 여러 개"보다는, **Arm CSS backbone + Helios domain-specific sub-fabrics + gateways / bridges** 구조가 현실적이다.
 
 ## 10.2 Recommended fabric decomposition
 
 **Fabric A: Coherent System Fabric** — Arm CPU cluster, system cache, coherent memory access, OS-managed shared memory. 특징: coherence 중심, control plane / software plane의 기반, 상대적으로 일반적이고 재사용 가능.
 
-**Fabric B: High-Bandwidth AI Fabric** — Samsung NPU, shared SRAM, tensor DMA, command DMA, high-throughput memory path. 특징: non-coherent 또는 restricted-coherent / IO-coherent 후보, deterministic throughput 지향, large burst / tile transfer에 최적화.
+**Fabric B: High-Bandwidth AI Fabric** — Helios NPU, shared SRAM, tensor DMA, command DMA, high-throughput memory path. 특징: non-coherent 또는 restricted-coherent / IO-coherent 후보, deterministic throughput 지향, large burst / tile transfer에 최적화.
 
 **Fabric C: Vision Streaming Fabric** — camera ingress, ISP, line buffer, stream preprocess, direct stream to SRAM / NPU bridge. 특징: 지속적 stream latency가 중요, burst bandwidth보다 pipeline continuity 중요, Vision 고객에서 차별화의 핵심.
 
@@ -483,10 +483,10 @@ Arm CSS와 Samsung IP는 Hierarchical Multi-NoC 구조로 분리 가능하며, �
 Lumex CSS 채택 시 Arm 측 interconnect 자산(SI L1 interconnect, NoC S3 등)을 기본 backbone으로 활용할 수 있으므로, 설계 범위는 더 구체화된다.
 
 - Fabric A는 Arm CSS 기본 interconnect 자산 중심으로 구성 가능
-- Samsung의 실질적 차별화 포인트는 Fabric B/C/D 및 gateway/bridge 설계에 집중될 수 있음
+- Helios의 실질적 차별화 포인트는 Fabric B/C/D 및 gateway/bridge 설계에 집중될 수 있음
 - 이는 일정 리스크와 설계 범위를 줄이는 근거가 된다
 
-즉, 삼성은 Arm backbone을 최대한 활용하고, Samsung domain-specific fabric에서 차별화하는 구조가 가장 현실적이다.
+즉, Helios는 Arm backbone을 최대한 활용하고, Helios domain-specific fabric에서 차별화하는 구조가 가장 현실적이다.
 
 ## 10.4 Fabric interaction model
 
@@ -496,7 +496,7 @@ Lumex CSS 채택 시 Arm 측 interconnect 자산(SI L1 interconnect, NoC S3 등)
    [System Bridge / Gateway]
         |
 +------------------------------+
-| Samsung Domain-specific      |
+| Helios Domain-specific       |
 | - AI Fabric                  |
 | - Vision Streaming Fabric    |
 | - Peripheral Fabric          |
@@ -515,7 +515,7 @@ Lumex CSS 채택 시 Arm 측 interconnect 자산(SI L1 interconnect, NoC S3 등)
 
 **Bridge latency assumption** — bridge latency baseline: 5~15 cycles (single-hop 기준). 이 수치는 후속 NoC latency model의 초기 가정으로 사용한다.
 
-**NoC IP selection** — Phase 0 또는 Phase 1에서 다음 중 선택 범위를 확정해야 한다: Arm backbone interconnect(SI L1 등) 활용, Samsung domain fabric용 별도 NoC IP(Arm NI / Arteris FlexNoC 등) 활용, custom gateway / bridge 설계. 이 결정은 일정, verification scope, risk profile에 직접 영향을 준다.
+**NoC IP selection** — Phase 0 또는 Phase 1에서 다음 중 선택 범위를 확정해야 한다: Arm backbone interconnect(SI L1 등) 활용, Helios domain fabric용 별도 NoC IP(Arm NI / Arteris FlexNoC 등) 활용, custom gateway / bridge 설계. 이 결정은 일정, verification scope, risk profile에 직접 영향을 준다.
 
 ## 10.7 Phase 1 mandatory decisions
 
@@ -553,7 +553,7 @@ Vision 고객과 Non-Vision 고객의 차이는 단순히 ISP의 유무가 아�
 
 **특징** — modem / connectivity 중요, power sensitivity 높음, camera + AI + network의 동시성 존재 가능.
 
-**권장 fabric 설정** — Vision fabric 일부 유지, peripheral / modem QoS 강화, power island 세분화, Arm CSS와 Samsung domain 간 power gating granularity 강화, low-power always-on path와 burst AI path를 분리.
+**권장 fabric 설정** — Vision fabric 일부 유지, peripheral / modem QoS 강화, power island 세분화, Arm CSS와 Helios domain 간 power gating granularity 강화, low-power always-on path와 burst AI path를 분리.
 
 ## 11.5 RTL-level vs Config-level preset separation
 
@@ -581,7 +581,7 @@ SKU는 단순히 TOPS나 power bin만으로 나누지 않는다. 다음 세 축�
 
 ## 12.2 Example SKU matrix
 
-| SKU Type | CPU | Matrix Path | Ethos | Samsung NPU | ISP | Modem | Fabric Preset |
+| SKU Type | CPU | Matrix Path | Ethos | Helios NPU | ISP | Modem | Fabric Preset |
 |---|---|---|---|---|---|---|---|
 | Ultra-Lite | O | O* | X | X | X | Optional | Compute-centric |
 | Lite Vision | O | O | O | X | O | Optional | Vision-centric |
@@ -594,7 +594,7 @@ SKU는 단순히 TOPS나 power bin만으로 나누지 않는다. 다음 세 축�
 
 ## 12.3 Parameterization dimensions
 
-**Compute parameters** — CPU core count, Matrix path enable / disable, Ethos enable / disable, Samsung NPU size, RT CPU level.
+**Compute parameters** — CPU core count, Matrix path enable / disable, Ethos enable / disable, Helios NPU size, RT CPU level.
 
 **Memory parameters** — external memory width, shared SRAM size, SRAM bank count, local scratchpad size.
 
@@ -621,7 +621,7 @@ Dispatch to:
   - Arm CPU General Path
   - Arm CPU Matrix Path
   - Ethos Baseline NPU Path
-  - Samsung High-Performance NPU Path
+  - Helios High-Performance NPU Path
     ↓
 Profiler / Trace / Performance Model
 ```
@@ -630,7 +630,7 @@ Supported framework direction: ONNX, TFLite / LiteRT, PyTorch / ExecuTorch, Andr
 
 ## 13.3 Runtime responsibilities
 
-graph partitioning, memory planning, DMA scheduling, stream path orchestration, CPU / CPU Matrix / Ethos / Samsung NPU dispatch, fallback handling, profiling / trace generation.
+graph partitioning, memory planning, DMA scheduling, stream path orchestration, CPU / CPU Matrix / Ethos / Helios NPU dispatch, fallback handling, profiling / trace generation.
 
 ## 13.4 Initial dispatch heuristic
 
@@ -639,13 +639,13 @@ graph partitioning, memory planning, DMA scheduling, stream path orchestration, 
 - control-heavy / irregular / fallback -> Arm CPU General Path
 - single-tile 또는 small GEMM 중심 -> Arm CPU Matrix Path
 - baseline CNN / transformer inference -> Ethos Path
-- streaming-heavy / vision-heavy / high-throughput path -> Samsung NPU Path
+- streaming-heavy / vision-heavy / high-throughput path -> Helios NPU Path
 
 정확한 분할 기준은 후속 simulator / cycle model로 보정한다.
 
 ## 13.5 Strategic principle
 
-> **Arm은 software baseline과 ecosystem을 제공하고, Samsung은 platform-aware runtime과 performance-oriented dispatch로 differentiation을 만든다.**
+> **Arm은 software baseline과 ecosystem을 제공하고, Helios는 platform-aware runtime과 performance-oriented dispatch로 differentiation을 만든다.**
 
 # 14. Execution Plan
 
@@ -661,7 +661,7 @@ graph partitioning, memory planning, DMA scheduling, stream path orchestration, 
 
 목적: 기술 전제조건과 시스템 구조 확정.
 
-주요 항목: Arm base layer 정의, Samsung differentiation layer spec 정의, NPU / ISP / Fabric architecture 문서화, runtime requirements 정의, SKU matrix 초안 정의, coherency boundary 결정, SRAM 범위 확정, matrix path(CME/SME2) 사용 여부 확정, NoC/gateway 구조 결정.
+주요 항목: Arm base layer 정의, Helios differentiation layer spec 정의, NPU / ISP / Fabric architecture 문서화, runtime requirements 정의, SKU matrix 초안 정의, coherency boundary 결정, SRAM 범위 확정, matrix path(CME/SME2) 사용 여부 확정, NoC/gateway 구조 결정.
 
 **Gate criteria** — Phase 1 종료 시 다음이 완료되어야 한다: 선택한 CSS / core 구성이 명확해질 것, CME / Matrix path의 유효성 가정이 확정될 것, Fabric B coherency mode가 확정될 것, shared SRAM / local SRAM 범위가 확정될 것, Fabric topology와 preset 구성이 lock될 것, SKU matrix 초안과 dispatch 초안이 도출될 것.
 
@@ -699,9 +699,9 @@ graph partitioning, memory planning, DMA scheduling, stream path orchestration, 
 
 **15.1 Platformization over one-off design** — 고객마다 새 SoC를 설계하지 않는다. 공통 platform + fabric preset + configurable domains로 대응한다.
 
-**15.2 Arm partnership with clear boundary** — Arm을 적극 활용하되 종속되지는 않는다. Arm은 backbone, Samsung은 differentiation 역할을 맡는다.
+**15.2 Arm partnership with clear boundary** — Arm을 적극 활용하되 종속되지는 않는다. Arm은 backbone, Helios는 differentiation 역할을 맡는다.
 
-**15.3 Samsung-specific domain excellence** — ISP, modem / connectivity option, mobile-grade power integration, Samsung NPU + runtime.
+**15.3 Helios-specific domain excellence** — ISP, modem / connectivity option, mobile-grade power integration, Helios NPU + runtime.
 
 **15.4 Fabric as a product asset** — NoC / bus topology는 구현 상세가 아니라 product differentiation asset이다. topology preset이 SKU 전략의 핵심이 된다.
 
@@ -713,15 +713,15 @@ graph partitioning, memory planning, DMA scheduling, stream path orchestration, 
 
 ## 16.1 Risk: Arm dependency becomes too strong
 
-**위험**: Arm backbone 의존도가 지나치게 높아질 경우, Samsung platform의 독자성이 약화될 수 있다. 고객이 Samsung differentiation보다 Arm baseline을 더 크게 인식할 수 있다.
+**위험**: Arm backbone 의존도가 지나치게 높아질 경우, Helios platform의 독자성이 약화될 수 있다. 고객이 Helios differentiation보다 Arm baseline을 더 크게 인식할 수 있다.
 
-**대응**: Samsung differentiation layer를 명확히 분리한다. Samsung NPU / ISP / runtime / fabric preset에서 독자성을 확보한다. Arm은 backbone, Samsung은 differentiated execution domain이라는 역할 구분을 문서와 조직 모두에서 유지한다.
+**대응**: Helios differentiation layer를 명확히 분리한다. Helios NPU / ISP / runtime / fabric preset에서 독자성을 확보한다. Arm은 backbone, Helios는 differentiated execution domain이라는 역할 구분을 문서와 조직 모두에서 유지한다.
 
-## 16.2 Risk: Ethos와 Samsung NPU의 내부 역할 충돌
+## 16.2 Risk: Ethos와 Helios NPU의 내부 역할 충돌
 
-**위험**: Ethos와 Samsung NPU가 동일한 workload를 겨냥하면 조직과 제품 전략이 충돌할 수 있다. compiler / runtime / marketing 메시지가 혼선에 빠질 수 있다.
+**위험**: Ethos와 Helios NPU가 동일한 workload를 겨냥하면 조직과 제품 전략이 충돌할 수 있다. compiler / runtime / marketing 메시지가 혼선에 빠질 수 있다.
 
-**대응**: Ethos는 baseline SKU / low-risk customer path로 위치시킨다. Samsung NPU는 high-performance / high-efficiency / streaming path를 담당한다. runtime dispatch 정책 문서에서 역할 경계를 명확히 규정한다.
+**대응**: Ethos는 baseline SKU / low-risk customer path로 위치시킨다. Helios NPU는 high-performance / high-efficiency / streaming path를 담당한다. runtime dispatch 정책 문서에서 역할 경계를 명확히 규정한다.
 
 ## 16.3 Risk: Fabric complexity explodes
 
@@ -763,7 +763,7 @@ graph partitioning, memory planning, DMA scheduling, stream path orchestration, 
 
 **3. Fabric Preset Spec** — Vision-centric topology, Compute-centric topology, Connected Edge-centric topology, parameter table and enable conditions, RTL-level vs Config-level preset mapping.
 
-**4. Unified Runtime Architecture Spec** — graph partitioning, dispatch policy, memory planner, DMA scheduler, CPU / CPU Matrix / Ethos / Samsung NPU orchestration.
+**4. Unified Runtime Architecture Spec** — graph partitioning, dispatch policy, memory planner, DMA scheduler, CPU / CPU Matrix / Ethos / Helios NPU orchestration.
 
 **5. Performance Simulator Spec** — Python 중심 cycle-based simulator, graph input schema, command stream model, latency / throughput / bandwidth report format.
 
@@ -771,19 +771,19 @@ graph partitioning, memory planning, DMA scheduling, stream path orchestration, 
 
 # 18. Final Conclusion
 
-Samsung System LSI의 Edge / Physical AI용 Custom SoC 전략은 단순한 NPU 경쟁이 아니라, **Arm 기반 공통 플랫폼 + Samsung 차별화 IP + Fabric Preset 기반 제품군 생성 구조**로 정의되어야 한다.
+Project Helios의 Edge / Physical AI용 Custom SoC 전략은 단순한 NPU 경쟁이 아니라, **Arm 기반 공통 플랫폼 + Helios 차별화 IP + Fabric Preset 기반 제품군 생성 구조**로 정의되어야 한다.
 
 핵심은 다음과 같다.
 
 1. Arm CSS를 공통 backbone으로 활용한다.
-2. Samsung NPU / ISP / Modem / mobile power integration을 differentiation layer로 둔다.
+2. Helios NPU / ISP / Modem / mobile power integration을 differentiation layer로 둔다.
 3. Vision / Non-Vision / Connected Edge 고객 대응을 위해 Fabric Preset을 플랫폼 자산으로 만든다.
 4. SKU는 compute block의 조합뿐 아니라 interconnect topology의 조합으로 정의한다.
 5. runtime / compiler / profiling까지 포함한 platform business로 접근한다.
 
 최종적으로 이 전략은 다음 문장으로 요약된다.
 
-> **Samsung의 Edge Custom SoC 플랫폼은 재사용 가능한 IP 집합이 아니라, 재사용 가능한 Arm backbone과 Samsung differentiated domains, 그리고 고객 세그먼트별 재사용 가능한 Fabric Preset의 조합으로 정의된다.**
+> **Helios의 Edge Custom SoC 플랫폼은 재사용 가능한 IP 집합이 아니라, 재사용 가능한 Arm backbone과 Helios differentiated domains, 그리고 고객 세그먼트별 재사용 가능한 Fabric Preset의 조합으로 정의된다.**
 
 *Document Version: 1.0 Final*  
 *Review History: v0.1 -> v0.7 (7 iterations, cross-reviewed)*

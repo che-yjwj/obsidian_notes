@@ -1,7 +1,7 @@
-# Graph Report - obsidian_notes  (2026-04-15)
+# Graph Report - obsidian_notes  (2026-04-16)
 
 ## Corpus Check
-- 185 files · ~295,050 words
+- 185 files · ~295,167 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -61,7 +61,7 @@
 - **Wiki Compiler Topic Expansion 2026-04-14** — operator_coordinate_compression_topic, trace_visualization_topic, npu_doc_process_topic [EXTRACTED 1.00]
 - **Wiki Compiler Concept Expansion 2026-04-14** — tile_semantics_contract, mixed_precision_policy, kv_cache_dram_residency, trace_first_design [EXTRACTED 1.00]
 - **Flash-Resident Edge Inference Stack** — wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference, wiki_ai_hardware_memory_hierarchy_in_ai_accelerators, kv_cache_dram_residency, prefill_decode_duality, llm_quantization_compression [INFERRED 0.92]
-- **Samsung Edge Platform Strategy Stack** — samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy, edge_physical_ai_platform_provider, fabric_preset_strategy, hierarchical_multi_noc_architecture, samsung_differentiation_layer [EXTRACTED 0.98]
+- **Helios Edge Platform Strategy Stack** — project_helios_edge_physical_ai_custom_soc_platform_strategy, edge_physical_ai_platform_provider, fabric_preset_strategy, hierarchical_multi_noc_architecture, helios_differentiation_layer [EXTRACTED 0.98]
 
 ## Communities
 
@@ -81,7 +81,7 @@ Nodes (72): Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority, Archi
 Cohesion: 0.07
 Nodes (66): Bitwidth-to-Memory Mapping, Bitwidth & Memory Mapping Specification, Capacity / Traffic Tradeoff, Command Queue (CMDQ), CMDQ Format Specification, CMDQ Overview, Why Mixed Precision LLM Support, Why Static Scheduling (+58 more)
 
-### Community 4 - "Flash-Resident LLM and HBF for Edge Inference / NPU Architecture Overview / Samsung System LSI Edge / Physical AI Custom SoC Platform Strategy"
+### Community 4 - "Flash-Resident LLM and HBF for Edge Inference / NPU Architecture Overview / Project Helios Edge / Physical AI Custom SoC Platform Strategy"
 Cohesion: 0.05
 Nodes (58): AMBA Bus Recommendation, AMD Versal ACAP, Attention Sink, AWS Inferentia, AWS Trainium, AMBA bus recommendation, Google Coral Edge TPU, HyperAccel LPU (+50 more)
 
@@ -348,9 +348,9 @@ Nodes (1): Global Integrated Diagram
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Flash-Resident LLM and HBF for Edge Inference` connect `Flash-Resident LLM and HBF for Edge Inference / NPU Architecture Overview / Samsung System LSI Edge / Physical AI Custom SoC Platform Strategy` to `LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note`, `Bus & NoC Timing Specification / NPU System Dataflow Overview / KV Cache Semantics Specification`, `From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Format Specification / CMDQ Overview`, `NPU/LPU Simulator and Implementation Tools / Wiki Index / NPU Simulator & Compiler`, `Patent & MCM Research / Multiple Constant Multiplication / MCM Application Map`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Gemma 3n`, `Trace & Visualization / Mixed Precision as a System Policy / NPU Documentation Process`?**
+- **Why does `Flash-Resident LLM and HBF for Edge Inference` connect `Flash-Resident LLM and HBF for Edge Inference / NPU Architecture Overview / Project Helios Edge / Physical AI Custom SoC Platform Strategy` to `LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note`, `Bus & NoC Timing Specification / NPU System Dataflow Overview / KV Cache Semantics Specification`, `From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Format Specification / CMDQ Overview`, `NPU/LPU Simulator and Implementation Tools / Wiki Index / NPU Simulator & Compiler`, `Patent & MCM Research / Multiple Constant Multiplication / MCM Application Map`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Gemma 3n`, `Trace & Visualization / Mixed Precision as a System Policy / NPU Documentation Process`?**
   _High betweenness centrality (0.345) - this node is a cross-community bridge._
-- **Why does `LLM Quantization & Compression` connect `LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note` to `From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Format Specification / CMDQ Overview`, `Flash-Resident LLM and HBF for Edge Inference / NPU Architecture Overview / Samsung System LSI Edge / Physical AI Custom SoC Platform Strategy`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Gemma 3n`, `NPU Architecture / SoC Specification Negotiation English / Architecture Diary Format`, `Entropy Coding / OCEAN / Outlier-victim pair quantization`, `DC-LLM / Adaptive basis selection / Dynamic linear combination`?**
+- **Why does `LLM Quantization & Compression` connect `LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note` to `From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Format Specification / CMDQ Overview`, `Flash-Resident LLM and HBF for Edge Inference / NPU Architecture Overview / Project Helios Edge / Physical AI Custom SoC Platform Strategy`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Gemma 3n`, `NPU Architecture / SoC Specification Negotiation English / Architecture Diary Format`, `Entropy Coding / OCEAN / Outlier-victim pair quantization`, `DC-LLM / Adaptive basis selection / Dynamic linear combination`?**
   _High betweenness centrality (0.225) - this node is a cross-community bridge._
 - **Why does `NPU System Dataflow Overview` connect `Bus & NoC Timing Specification / NPU System Dataflow Overview / KV Cache Semantics Specification` to `Cycle Loop Design / Offline Compiler Design / Integration Test Specification`?**
   _High betweenness centrality (0.151) - this node is a cross-community bridge._

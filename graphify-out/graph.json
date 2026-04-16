@@ -406,19 +406,19 @@
         "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md"
       },
       {
-        "id": "samsung_edge_platform_strategy_stack",
-        "label": "Samsung Edge Platform Strategy Stack",
+        "id": "helios_edge_platform_strategy_stack",
+        "label": "Helios Edge Platform Strategy Stack",
         "nodes": [
-          "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+          "project_helios_edge_physical_ai_custom_soc_platform_strategy",
           "edge_physical_ai_platform_provider",
           "fabric_preset_strategy",
           "hierarchical_multi_noc_architecture",
-          "samsung_differentiation_layer"
+          "helios_differentiation_layer"
         ],
         "relation": "form",
         "confidence": "EXTRACTED",
         "confidence_score": 0.98,
-        "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md"
+        "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md"
       }
     ]
   },
@@ -9023,11 +9023,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "label": "Samsung System LSI Edge / Physical AI Custom SoC Platform Strategy",
+      "label": "Project Helios Edge / Physical AI Custom SoC Platform Strategy",
       "file_type": "document",
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
-      "id": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "community": 4
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "community": 4,
+      "id": "project_helios_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "source_location": null,
@@ -9037,9 +9037,9 @@
       "contributor": null,
       "label": "Edge / Physical AI Platform Provider",
       "file_type": "document",
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
-      "id": "edge_physical_ai_platform_provider",
-      "community": 4
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "community": 4,
+      "id": "edge_physical_ai_platform_provider"
     },
     {
       "source_location": null,
@@ -9049,9 +9049,9 @@
       "contributor": null,
       "label": "Fabric Preset Strategy",
       "file_type": "document",
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
-      "id": "fabric_preset_strategy",
-      "community": 4
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "community": 4,
+      "id": "fabric_preset_strategy"
     },
     {
       "source_location": null,
@@ -9061,9 +9061,9 @@
       "contributor": null,
       "label": "Hierarchical Multi-NoC Architecture",
       "file_type": "document",
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
-      "id": "hierarchical_multi_noc_architecture",
-      "community": 4
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "community": 4,
+      "id": "hierarchical_multi_noc_architecture"
     },
     {
       "source_location": null,
@@ -9071,11 +9071,11 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "label": "Samsung Differentiation Layer",
+      "label": "Helios Differentiation Layer",
       "file_type": "document",
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
-      "id": "samsung_differentiation_layer",
-      "community": 4
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "community": 4,
+      "id": "helios_differentiation_layer"
     }
   ],
   "links": [
@@ -9827,23 +9827,23 @@
       "relation": "references",
       "confidence": "INFERRED",
       "confidence_score": 0.89,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "_tgt": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "_src": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "_tgt": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
-      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.84,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "fabric_preset_strategy",
-      "_tgt": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "_src": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "_tgt": "fabric_preset_strategy",
       "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
       "target": "fabric_preset_strategy"
     },
@@ -10319,13 +10319,13 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.93,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "_tgt": "concept_versal_acap",
+      "_src": "concept_versal_acap",
+      "_tgt": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "source": "concept_versal_acap",
-      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "relation": "conceptually_related_to",
@@ -10727,23 +10727,23 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.92,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "_tgt": "memory_hierarchy_in_ai_npu_hierarchy",
+      "_src": "memory_hierarchy_in_ai_npu_hierarchy",
+      "_tgt": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "source": "memory_hierarchy_in_ai_npu_hierarchy",
-      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.9,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "hierarchical_multi_noc_architecture",
-      "_tgt": "memory_hierarchy_in_ai_npu_hierarchy",
+      "_src": "memory_hierarchy_in_ai_npu_hierarchy",
+      "_tgt": "hierarchical_multi_noc_architecture",
       "source": "memory_hierarchy_in_ai_npu_hierarchy",
       "target": "hierarchical_multi_noc_architecture"
     },
@@ -10955,23 +10955,23 @@
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 0.97,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "_tgt": "amd_versal_acap",
+      "_src": "amd_versal_acap",
+      "_tgt": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "source": "amd_versal_acap",
-      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.85,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "hierarchical_multi_noc_architecture",
-      "_tgt": "amd_versal_acap",
+      "_src": "amd_versal_acap",
+      "_tgt": "hierarchical_multi_noc_architecture",
       "source": "amd_versal_acap",
       "target": "hierarchical_multi_noc_architecture"
     },
@@ -13439,23 +13439,23 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.95,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "_tgt": "npu_architecture_overview",
+      "_src": "npu_architecture_overview",
+      "_tgt": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "source": "npu_architecture_overview",
-      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.84,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "edge_physical_ai_platform_provider",
-      "_tgt": "npu_architecture_overview",
+      "_src": "npu_architecture_overview",
+      "_tgt": "edge_physical_ai_platform_provider",
       "source": "npu_architecture_overview",
       "target": "edge_physical_ai_platform_provider"
     },
@@ -13463,13 +13463,13 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.88,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_differentiation_layer",
-      "_tgt": "npu_architecture_overview",
+      "_src": "npu_architecture_overview",
+      "_tgt": "helios_differentiation_layer",
       "source": "npu_architecture_overview",
-      "target": "samsung_differentiation_layer"
+      "target": "helios_differentiation_layer"
     },
     {
       "relation": "references",
@@ -14339,13 +14339,13 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.81,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "_tgt": "tesla_edge_ai_innovation",
+      "_src": "tesla_edge_ai_innovation",
+      "_tgt": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "source": "tesla_edge_ai_innovation",
-      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "relation": "references",
@@ -24022,25 +24022,25 @@
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.86,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "_tgt": "isp_image_restoration",
+      "_src": "isp_image_restoration",
+      "_tgt": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "source": "isp_image_restoration",
-      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.82,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_differentiation_layer",
-      "_tgt": "isp_image_restoration",
+      "_src": "isp_image_restoration",
+      "_tgt": "helios_differentiation_layer",
       "source": "isp_image_restoration",
-      "target": "samsung_differentiation_layer"
+      "target": "helios_differentiation_layer"
     },
     {
       "relation": "conceptually_related_to",
@@ -24159,67 +24159,67 @@
       "relation": "references",
       "confidence": "INFERRED",
       "confidence_score": 0.78,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "_src": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "_tgt": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "source": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
-      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy"
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 0.99,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_src": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "_tgt": "edge_physical_ai_platform_provider",
-      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "source": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "target": "edge_physical_ai_platform_provider"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 0.99,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_src": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "_tgt": "fabric_preset_strategy",
-      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "source": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "target": "fabric_preset_strategy"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 0.98,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "_src": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "_tgt": "hierarchical_multi_noc_architecture",
-      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "source": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "target": "hierarchical_multi_noc_architecture"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 0.98,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "_tgt": "samsung_differentiation_layer",
-      "source": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "target": "samsung_differentiation_layer"
+      "_src": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "_tgt": "helios_differentiation_layer",
+      "source": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "helios_differentiation_layer"
     },
     {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 0.97,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
       "_src": "fabric_preset_strategy",
@@ -24632,19 +24632,19 @@
       "source_file": "wiki/AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference.md"
     },
     {
-      "id": "samsung_edge_platform_strategy_stack",
-      "label": "Samsung Edge Platform Strategy Stack",
+      "id": "helios_edge_platform_strategy_stack",
+      "label": "Helios Edge Platform Strategy Stack",
       "nodes": [
-        "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+        "project_helios_edge_physical_ai_custom_soc_platform_strategy",
         "edge_physical_ai_platform_provider",
         "fabric_preset_strategy",
         "hierarchical_multi_noc_architecture",
-        "samsung_differentiation_layer"
+        "helios_differentiation_layer"
       ],
       "relation": "form",
       "confidence": "EXTRACTED",
       "confidence_score": 0.98,
-      "source_file": "wiki/AI-Hardware/Samsung-System-LSI-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md"
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md"
     }
   ]
 }

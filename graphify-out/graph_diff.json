@@ -1,38 +1,115 @@
 {
   "new_nodes": [
     {
+      "id": "helios_differentiation_layer",
+      "label": "Helios Differentiation Layer"
+    },
+    {
+      "id": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "label": "Project Helios Edge / Physical AI Custom SoC Platform Strategy"
+    }
+  ],
+  "removed_nodes": [
+    {
       "id": "samsung_differentiation_layer",
       "label": "Samsung Differentiation Layer"
     },
     {
-      "id": "edge_physical_ai_platform_provider",
-      "label": "Edge / Physical AI Platform Provider"
-    },
-    {
       "id": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
       "label": "Samsung System LSI Edge / Physical AI Custom SoC Platform Strategy"
-    },
-    {
-      "id": "hierarchical_multi_noc_architecture",
-      "label": "Hierarchical Multi-NoC Architecture"
-    },
-    {
-      "id": "fabric_preset_strategy",
-      "label": "Fabric Preset Strategy"
     }
   ],
-  "removed_nodes": [],
   "new_edges": [
     {
       "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
-      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "relation": "references",
       "confidence": "INFERRED"
     },
     {
-      "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "source": "concept_versal_acap",
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "memory_hierarchy_in_ai_npu_hierarchy",
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "amd_versal_acap",
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "npu_architecture_overview",
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "npu_architecture_overview",
+      "target": "helios_differentiation_layer",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "tesla_edge_ai_innovation",
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "isp_image_restoration",
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "isp_image_restoration",
+      "target": "helios_differentiation_layer",
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+      "target": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "relation": "references",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "edge_physical_ai_platform_provider",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
       "target": "fabric_preset_strategy",
       "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "hierarchical_multi_noc_architecture",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+      "target": "helios_differentiation_layer",
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "removed_edges": [
+    {
+      "source": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+      "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
+      "relation": "references",
       "confidence": "INFERRED"
     },
     {
@@ -48,32 +125,14 @@
       "confidence": "INFERRED"
     },
     {
-      "source": "memory_hierarchy_in_ai_npu_hierarchy",
-      "target": "hierarchical_multi_noc_architecture",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
       "source": "amd_versal_acap",
       "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "amd_versal_acap",
-      "target": "hierarchical_multi_noc_architecture",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
       "source": "npu_architecture_overview",
       "target": "samsung_system_lsi_edge_physical_ai_custom_soc_platform_strategy",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "npu_architecture_overview",
-      "target": "edge_physical_ai_platform_provider",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED"
     },
@@ -130,14 +189,7 @@
       "target": "samsung_differentiation_layer",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED"
-    },
-    {
-      "source": "fabric_preset_strategy",
-      "target": "hierarchical_multi_noc_architecture",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED"
     }
   ],
-  "removed_edges": [],
-  "summary": "5 new nodes, 19 new edges"
+  "summary": "2 new nodes, 14 new edges, 2 nodes removed, 14 edges removed"
 }
