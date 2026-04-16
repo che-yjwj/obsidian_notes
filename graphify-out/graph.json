@@ -9102,8 +9102,8 @@
       "label": "NPU Architecture & Execution Spec",
       "file_type": "document",
       "source_file": "wiki/topics/npu-architecture-spec.md",
-      "id": "npu_architecture_spec_topic",
-      "community": 2
+      "community": 2,
+      "id": "npu_architecture_spec_topic"
     },
     {
       "source_location": null,
@@ -9114,8 +9114,8 @@
       "label": "NPU Timing & Memory Model",
       "file_type": "document",
       "source_file": "wiki/topics/npu-timing-memory-model.md",
-      "id": "npu_timing_memory_model_topic",
-      "community": 1
+      "community": 1,
+      "id": "npu_timing_memory_model_topic"
     },
     {
       "source_location": null,
@@ -9126,8 +9126,8 @@
       "label": "Simulation Validation & Golden Traces",
       "file_type": "document",
       "source_file": "wiki/topics/simulation-validation.md",
-      "id": "simulation_validation_topic",
-      "community": 1
+      "community": 1,
+      "id": "simulation_validation_topic"
     }
   ],
   "links": [
@@ -14334,8 +14334,8 @@
       "source_file": "wiki/topics/npu-architecture-spec.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_architecture_spec_topic",
-      "_tgt": "riscv_npu_soc_sim_topic",
+      "_src": "riscv_npu_soc_sim_topic",
+      "_tgt": "npu_architecture_spec_topic",
       "source": "riscv_npu_soc_sim_topic",
       "target": "npu_architecture_spec_topic"
     },
@@ -14346,8 +14346,8 @@
       "source_file": "wiki/topics/npu-timing-memory-model.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_timing_memory_model_topic",
-      "_tgt": "riscv_npu_soc_sim_topic",
+      "_src": "riscv_npu_soc_sim_topic",
+      "_tgt": "npu_timing_memory_model_topic",
       "source": "riscv_npu_soc_sim_topic",
       "target": "npu_timing_memory_model_topic"
     },
@@ -14358,8 +14358,8 @@
       "source_file": "wiki/topics/simulation-validation.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "simulation_validation_topic",
-      "_tgt": "riscv_npu_soc_sim_topic",
+      "_src": "riscv_npu_soc_sim_topic",
+      "_tgt": "simulation_validation_topic",
       "source": "riscv_npu_soc_sim_topic",
       "target": "simulation_validation_topic"
     },
@@ -14418,8 +14418,8 @@
       "source_file": "wiki/topics/npu-timing-memory-model.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_timing_memory_model_topic",
-      "_tgt": "memory_bandwidth_bottleneck",
+      "_src": "memory_bandwidth_bottleneck",
+      "_tgt": "npu_timing_memory_model_topic",
       "source": "memory_bandwidth_bottleneck",
       "target": "npu_timing_memory_model_topic"
     },
@@ -14442,8 +14442,8 @@
       "source_file": "wiki/topics/npu-architecture-spec.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_architecture_spec_topic",
-      "_tgt": "static_scheduling_determinism",
+      "_src": "static_scheduling_determinism",
+      "_tgt": "npu_architecture_spec_topic",
       "source": "static_scheduling_determinism",
       "target": "npu_architecture_spec_topic"
     },
@@ -14454,8 +14454,8 @@
       "source_file": "wiki/topics/npu-timing-memory-model.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_timing_memory_model_topic",
-      "_tgt": "static_scheduling_determinism",
+      "_src": "static_scheduling_determinism",
+      "_tgt": "npu_timing_memory_model_topic",
       "source": "static_scheduling_determinism",
       "target": "npu_timing_memory_model_topic"
     },
@@ -14466,8 +14466,8 @@
       "source_file": "wiki/topics/simulation-validation.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "simulation_validation_topic",
-      "_tgt": "static_scheduling_determinism",
+      "_src": "static_scheduling_determinism",
+      "_tgt": "simulation_validation_topic",
       "source": "static_scheduling_determinism",
       "target": "simulation_validation_topic"
     },
@@ -18174,8 +18174,8 @@
       "source_file": "wiki/topics/npu-architecture-spec.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_architecture_spec_topic",
-      "_tgt": "npu_ir_core_reference_doc",
+      "_src": "npu_ir_core_reference_doc",
+      "_tgt": "npu_architecture_spec_topic",
       "source": "npu_ir_core_reference_doc",
       "target": "npu_architecture_spec_topic"
     },
@@ -18330,8 +18330,8 @@
       "source_file": "wiki/topics/simulation-validation.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "simulation_validation_topic",
-      "_tgt": "integration_test_spec_doc",
+      "_src": "integration_test_spec_doc",
+      "_tgt": "simulation_validation_topic",
       "source": "integration_test_spec_doc",
       "target": "simulation_validation_topic"
     },
@@ -18349,8 +18349,8 @@
     },
     {
       "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "wiki/topics/simulation-validation.md",
       "source_location": null,
       "weight": 1.0,
@@ -18625,8 +18625,8 @@
     },
     {
       "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.9,
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "wiki/topics/simulation-validation.md",
       "source_location": null,
       "weight": 1.0,
@@ -20646,8 +20646,8 @@
       "source_file": "wiki/topics/npu-timing-memory-model.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_timing_memory_model_topic",
-      "_tgt": "bus_and_noc_model_spec",
+      "_src": "bus_and_noc_model_spec",
+      "_tgt": "npu_timing_memory_model_topic",
       "source": "bus_and_noc_model_spec",
       "target": "npu_timing_memory_model_topic"
     },
@@ -20814,8 +20814,8 @@
       "source_file": "wiki/topics/npu-timing-memory-model.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_timing_memory_model_topic",
-      "_tgt": "dma_timing_spec_doc",
+      "_src": "dma_timing_spec_doc",
+      "_tgt": "npu_timing_memory_model_topic",
       "source": "dma_timing_spec_doc",
       "target": "npu_timing_memory_model_topic"
     },
@@ -21006,8 +21006,8 @@
       "source_file": "wiki/topics/npu-timing-memory-model.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_timing_memory_model_topic",
-      "_tgt": "spm_model_spec_doc",
+      "_src": "spm_model_spec_doc",
+      "_tgt": "npu_timing_memory_model_topic",
       "source": "spm_model_spec_doc",
       "target": "npu_timing_memory_model_topic"
     },
@@ -21210,8 +21210,8 @@
       "source_file": "wiki/topics/npu-architecture-spec.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_architecture_spec_topic",
-      "_tgt": "kv_cache_semantics_spec_doc",
+      "_src": "kv_cache_semantics_spec_doc",
+      "_tgt": "npu_architecture_spec_topic",
       "source": "kv_cache_semantics_spec_doc",
       "target": "npu_architecture_spec_topic"
     },
@@ -21318,8 +21318,8 @@
       "source_file": "wiki/topics/npu-architecture-spec.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_architecture_spec_topic",
-      "_tgt": "tile_semantics_spec_doc",
+      "_src": "tile_semantics_spec_doc",
+      "_tgt": "npu_architecture_spec_topic",
       "source": "tile_semantics_spec_doc",
       "target": "npu_architecture_spec_topic"
     },
@@ -21864,13 +21864,14 @@
       "target": "documentation_improvement_backlog"
     },
     {
-      "relation": "connects",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "wiki/concepts/kv-cache-dram-residency.md",
+      "source_file": "wiki/topics/trace-visualization.md",
       "weight": 1.0,
-      "_src": "kv_cache_dram_residency",
-      "_tgt": "trace_visualization_topic",
+      "_src": "trace_visualization_topic",
+      "_tgt": "kv_cache_dram_residency",
+      "source_location": null,
       "source": "kv_cache_dram_residency",
       "target": "trace_visualization_topic"
     },
@@ -21893,8 +21894,8 @@
       "source_file": "wiki/topics/npu-architecture-spec.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_architecture_spec_topic",
-      "_tgt": "kv_cache_dram_residency",
+      "_src": "kv_cache_dram_residency",
+      "_tgt": "npu_architecture_spec_topic",
       "source": "kv_cache_dram_residency",
       "target": "npu_architecture_spec_topic"
     },
@@ -24550,13 +24551,14 @@
       "target": "mixed_precision_policy"
     },
     {
-      "relation": "connects",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "wiki/concepts/trace-first-design.md",
+      "source_file": "wiki/topics/trace-visualization.md",
       "weight": 1.0,
       "_src": "trace_visualization_topic",
       "_tgt": "trace_first_design",
+      "source_location": null,
       "source": "trace_visualization_topic",
       "target": "trace_first_design"
     },
@@ -24594,7 +24596,7 @@
       "target": "mixed_precision_policy"
     },
     {
-      "relation": "conceptually_related_to",
+      "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/simulation-validation.md",
@@ -24634,8 +24636,8 @@
       "source_file": "wiki/topics/npu-architecture-spec.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_architecture_spec_topic",
-      "_tgt": "tile_semantics_contract",
+      "_src": "tile_semantics_contract",
+      "_tgt": "npu_architecture_spec_topic",
       "source": "tile_semantics_contract",
       "target": "npu_architecture_spec_topic"
     },
@@ -24658,8 +24660,8 @@
       "source_file": "wiki/topics/npu-architecture-spec.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_architecture_spec_topic",
-      "_tgt": "mixed_precision_policy",
+      "_src": "mixed_precision_policy",
+      "_tgt": "npu_architecture_spec_topic",
       "source": "mixed_precision_policy",
       "target": "npu_architecture_spec_topic"
     },
@@ -24670,8 +24672,8 @@
       "source_file": "wiki/topics/npu-timing-memory-model.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "npu_timing_memory_model_topic",
-      "_tgt": "trace_first_design",
+      "_src": "trace_first_design",
+      "_tgt": "npu_timing_memory_model_topic",
       "source": "trace_first_design",
       "target": "npu_timing_memory_model_topic"
     },
@@ -24682,8 +24684,8 @@
       "source_file": "wiki/topics/simulation-validation.md",
       "source_location": null,
       "weight": 1.0,
-      "_src": "simulation_validation_topic",
-      "_tgt": "trace_first_design",
+      "_src": "trace_first_design",
+      "_tgt": "simulation_validation_topic",
       "source": "trace_first_design",
       "target": "simulation_validation_topic"
     },

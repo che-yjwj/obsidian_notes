@@ -1,132 +1,37 @@
 {
-  "new_nodes": [
-    {
-      "id": "npu_timing_memory_model_topic",
-      "label": "NPU Timing & Memory Model"
-    },
-    {
-      "id": "npu_architecture_spec_topic",
-      "label": "NPU Architecture & Execution Spec"
-    },
-    {
-      "id": "simulation_validation_topic",
-      "label": "Simulation Validation & Golden Traces"
-    }
-  ],
+  "new_nodes": [],
   "removed_nodes": [],
   "new_edges": [
     {
-      "source": "riscv_npu_soc_sim_topic",
-      "target": "npu_architecture_spec_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "riscv_npu_soc_sim_topic",
-      "target": "npu_timing_memory_model_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "riscv_npu_soc_sim_topic",
-      "target": "simulation_validation_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "riscv_npu_soc_sim_topic",
+      "source": "kv_cache_dram_residency",
       "target": "trace_visualization_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "riscv_npu_soc_sim_topic",
-      "target": "npu_doc_process_topic",
+      "source": "trace_visualization_topic",
+      "target": "trace_first_design",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "memory_bandwidth_bottleneck",
-      "target": "npu_timing_memory_model_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "static_scheduling_determinism",
-      "target": "npu_architecture_spec_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "static_scheduling_determinism",
-      "target": "npu_timing_memory_model_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "static_scheduling_determinism",
+      "source": "trace_visualization_topic",
       "target": "simulation_validation_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
-    },
-    {
-      "source": "npu_ir_core_reference_doc",
-      "target": "npu_architecture_spec_topic",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "integration_test_spec_doc",
-      "target": "simulation_validation_topic",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "performance_validation_protocol_doc",
-      "target": "simulation_validation_topic",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "golden_trace_examples_doc",
-      "target": "simulation_validation_topic",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "bus_and_noc_model_spec",
-      "target": "npu_timing_memory_model_topic",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "dma_timing_spec_doc",
-      "target": "npu_timing_memory_model_topic",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "spm_model_spec_doc",
-      "target": "npu_timing_memory_model_topic",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "kv_cache_semantics_spec_doc",
-      "target": "npu_architecture_spec_topic",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
-    {
-      "source": "tile_semantics_spec_doc",
-      "target": "npu_architecture_spec_topic",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED"
-    },
+    }
+  ],
+  "removed_edges": [
     {
       "source": "kv_cache_dram_residency",
-      "target": "npu_architecture_spec_topic",
-      "relation": "references",
+      "target": "trace_visualization_topic",
+      "relation": "connects",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "trace_visualization_topic",
+      "target": "trace_first_design",
+      "relation": "connects",
       "confidence": "EXTRACTED"
     },
     {
@@ -134,32 +39,7 @@
       "target": "simulation_validation_topic",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED"
-    },
-    {
-      "source": "tile_semantics_contract",
-      "target": "npu_architecture_spec_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "mixed_precision_policy",
-      "target": "npu_architecture_spec_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "trace_first_design",
-      "target": "npu_timing_memory_model_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "trace_first_design",
-      "target": "simulation_validation_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
     }
   ],
-  "removed_edges": [],
-  "summary": "3 new nodes, 24 new edges"
+  "summary": "3 new edges, 3 edges removed"
 }
