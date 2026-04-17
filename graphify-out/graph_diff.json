@@ -1,101 +1,48 @@
 {
   "new_nodes": [],
   "removed_nodes": [],
-  "new_edges": [],
+  "new_edges": [
+    {
+      "source": "project_roadmap_doc",
+      "target": "docs_readme_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    }
+  ],
   "removed_edges": [
     {
-      "source": "milestone_plan_doc",
+      "source": "project_roadmap_doc",
       "target": "docs_spec_ir_npu_ir_spec",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "milestone_plan_doc",
-      "target": "docs_spec_ir_tensor_metadata_spec",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "milestone_plan_doc",
-      "target": "docs_spec_ir_quantization_ir_extension",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "milestone_plan_doc",
-      "target": "docs_spec_isa_cmdq_format_spec",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "milestone_plan_doc",
-      "target": "docs_spec_timing_dma_timing_spec",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "milestone_plan_doc",
-      "target": "docs_spec_trace_trace_format_spec",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "milestone_plan_doc",
-      "target": "docs_design_ir_builder_design",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "milestone_plan_doc",
-      "target": "docs_design_tiling_planner_design",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "milestone_plan_doc",
-      "target": "docs_design_spm_allocator_design",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "milestone_plan_doc",
-      "target": "docs_design_static_scheduler_design",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "milestone_plan_doc",
-      "target": "docs_design_cmdq_generator_design",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "milestone_plan_doc",
+      "source": "project_roadmap_doc",
       "target": "docs_design_npu_simulator_core_design",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "milestone_plan_doc",
-      "target": "docs_design_cycle_loop_design",
+      "source": "project_roadmap_doc",
+      "target": "docs_spec_trace_trace_format_spec",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "milestone_plan_doc",
-      "target": "docs_design_control_fsm_design",
+      "source": "project_roadmap_doc",
+      "target": "docs_spec_quantization_quantization_model_overview",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "milestone_plan_doc",
-      "target": "docs_design_te_engine_design",
+      "source": "project_roadmap_doc",
+      "target": "docs_spec_timing_dma_timing_spec",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "milestone_plan_doc",
-      "target": "docs_test_integration_test_spec",
+      "source": "project_roadmap_doc",
+      "target": "review_by_chatgpt_v1_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     }

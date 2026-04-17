@@ -1,7 +1,17 @@
 # Project Roadmap — RISCV_NPU_SoC_SIM
 **Status:** Draft v1  
+**Document Class:** Process Control-Plane  
+**Graph Role:** Canonical roadmap and stage map, not detailed spec/design source  
 **Owner:** TBD  
-**Last Updated:** 2025-12-02
+**Last Updated:** 2026-04-17
+
+---
+
+# 0. Usage Rule
+
+- 이 문서는 프로젝트의 방향, stage ordering, subsystem coverage를 정의하는 canonical roadmap이다.
+- 세부 task decomposition은 `milestone_plan.md`에서 관리한다.
+- 정확한 기술 정의와 최신 문서 진입점은 `docs/README_SPEC.md`와 spec/design 문서군을 우선한다.
 
 ---
 
@@ -11,13 +21,8 @@
 **IR → Compiler Pass → CMDQ → Cycle-Accurate Simulator → Trace/Visualization → DSE**  
 까지 포함하는 **엔드투엔드 AI 하드웨어 시뮬레이션 플랫폼** 구축을 목표로 한다.
 
-본 Roadmap은 다음 문서들을 상위 지침으로 삼아 작성된다.
-
-- `milestone_plan.md` (Phase 기반 구현 계획)
-- `vibe_coding_sdd_guide.md` (SDD + Codex 개발 원칙)
-- `docs/spec/**` (기능·동작 정의)
-- `docs/design/**` (모듈 설계)
-- `docs/process/**` (개발 프로세스, 네이밍 규칙, PRD/TDD workflow)
+본 Roadmap은 spec index, process workflow, phase tracker를 함께 참조하는 상위 방향 문서다.
+즉, 세부 기능 정의보다 stage ordering과 subsystem coverage를 먼저 고정하는 역할을 맡는다.
 
 ---
 
@@ -94,7 +99,7 @@
 # 5. Stage B — NPU Timing & Engine Modeling (Phase 2)
 
 ## 목표
-- 주요 엔진의 타이밍 모델을 스펙 기반으로 구현
+- 주요 엔진의 타이밍 모델을 canonical spec 기준으로 구현
 - 자원 경합 모델링(SPM bank conflict, DRAM latency/BW)
 - TE/VE/DMA 엔진의 overlap을 Cycle 단위로 재현
 
@@ -154,7 +159,7 @@
 본 Roadmap은 다음 개발 원칙에 따라 진행한다.
 
 - **SDD 원칙**  
-  문서(스펙/설계)가 구현을 주도하며 Codex는 집행자 역할
+  문서(index/spec/design)가 구현을 주도하며 Codex는 집행자 역할
 - **Vertical-first**  
   얇은 E2E 파이프라인을 먼저 완성
 - **Modular & Replaceable**  
@@ -201,4 +206,4 @@ Stage E: 4–6 weeks
 라는 통합 워크플로를 중심으로 개발되는 NPU 시뮬레이터 프로젝트이다.
 
 본 Roadmap은 "전체 구조의 방향성"을 제공하며,  
-구체적인 Task·TODO는 `milestone_plan.md`에서 관리한다.
+구체적인 Task·TODO와 문서별 구현 순서는 `milestone_plan.md`와 spec index에서 관리한다.
