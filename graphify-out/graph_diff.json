@@ -1,95 +1,412 @@
 {
-  "new_nodes": [
+  "new_nodes": [],
+  "removed_nodes": [
     {
-      "id": "tile_semantics_quantization_topic",
-      "label": "Tile Semantics & Quantization Contract"
+      "id": "review_by_chatgpt_v2_compute_dataflow_overview",
+      "label": "Compute Dataflow Overview (Proposed)"
     },
     {
-      "id": "ir_cmdq_contract_topic",
-      "label": "IR & CMDQ Contract"
+      "id": "review_by_chatgpt_v2_system_architecture_overview",
+      "label": "System Architecture Overview (Proposed)"
+    },
+    {
+      "id": "review_by_chatgpt_v2_memory_noc_overview",
+      "label": "Memory/NoC Overview (Proposed)"
+    },
+    {
+      "id": "review_by_chatgpt_v2_sdd_devflow_overview",
+      "label": "SDD Devflow Overview (Proposed)"
+    },
+    {
+      "id": "review_by_chatgpt_v2_llama_block_common_example",
+      "label": "LLaMA Block Common Example"
+    },
+    {
+      "id": "review_by_chatgpt_v2_documentation_reading_guide",
+      "label": "Documentation Reading Guide (Proposed)"
     }
   ],
-  "removed_nodes": [],
   "new_edges": [
     {
-      "source": "riscv_npu_soc_sim_topic",
-      "target": "ir_cmdq_contract_topic",
+      "source": "doc_improvement_tasks_doc",
+      "target": "documentation_review_summary_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "riscv_npu_soc_sim_topic",
-      "target": "tile_semantics_quantization_topic",
+      "source": "doc_improvement_tasks_doc",
+      "target": "review_by_chatgpt_v1_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "static_scheduling_determinism",
-      "target": "ir_cmdq_contract_topic",
+      "source": "doc_improvement_tasks_doc",
+      "target": "review_by_chatgpt_v2_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "prefill_decode_duality",
-      "target": "tile_semantics_quantization_topic",
+      "source": "documentation_review_summary_doc",
+      "target": "milestone_plan_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "kv_cache_dram_residency",
-      "target": "tile_semantics_quantization_topic",
+      "source": "documentation_review_summary_doc",
+      "target": "project_roadmap_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "tile_semantics_contract",
-      "target": "ir_cmdq_contract_topic",
+      "source": "documentation_review_summary_doc",
+      "target": "review_by_chatgpt_v2_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "tile_semantics_contract",
-      "target": "tile_semantics_quantization_topic",
+      "source": "project_roadmap_doc",
+      "target": "review_by_chatgpt_v1_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "mixed_precision_policy",
-      "target": "tile_semantics_quantization_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "npu_architecture_spec_topic",
-      "target": "ir_cmdq_contract_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "npu_architecture_spec_topic",
-      "target": "tile_semantics_quantization_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "npu_timing_memory_model_topic",
-      "target": "ir_cmdq_contract_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "npu_timing_memory_model_topic",
-      "target": "tile_semantics_quantization_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "ir_cmdq_contract_topic",
-      "target": "tile_semantics_quantization_topic",
+      "source": "spec_driven_development_workflow_doc",
+      "target": "review_by_chatgpt_v1_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     }
   ],
-  "removed_edges": [],
-  "summary": "2 new nodes, 13 new edges"
+  "removed_edges": [
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "readme_md",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_readme_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_overview_system_architecture",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_overview_dataflow_overview",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_overview_module_responsibilities",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_spec_ir_npu_ir_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_spec_isa_cmdq_format_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_spec_timing_dma_timing_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_spec_trace_trace_format_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_design_npu_simulator_core_design",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_design_cycle_loop_design",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_design_ir_builder_design",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_design_static_scheduler_design",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "documentation_review_summary_doc",
+      "target": "docs_test_test_plan",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_doc",
+      "target": "review_by_chatgpt_v1_doc",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_doc",
+      "target": "review_by_chatgpt_v2_system_architecture_overview",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_doc",
+      "target": "review_by_chatgpt_v2_compute_dataflow_overview",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_doc",
+      "target": "review_by_chatgpt_v2_memory_noc_overview",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_doc",
+      "target": "review_by_chatgpt_v2_sdd_devflow_overview",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_doc",
+      "target": "review_by_chatgpt_v2_documentation_reading_guide",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_doc",
+      "target": "review_by_chatgpt_v2_llama_block_common_example",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_readme_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_overview_system_architecture",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_overview_dataflow_overview",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_overview_module_responsibilities",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_ir_npu_ir_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_ir_quantization_ir_extension",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_ir_tensor_metadata_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_isa_cmdq_overview",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_isa_cmdq_format_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_isa_opcode_set_definition",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_timing_dma_timing_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_timing_te_timing_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_timing_ve_timing_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_timing_spm_model_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_timing_bus_noc_model",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_quantization_quantization_model_overview",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_quantization_bitwidth_memory_mapping",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_quantization_kv_cache_quantization_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_quantization_mixed_precision_policy",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_trace_trace_format_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_trace_gantt_timeline_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_trace_bandwidth_heatmap_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_spec_trace_visualization_requirements",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_process_contribution_and_review_guide",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_process_naming_convention",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_test_test_plan",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_test_unit_test_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_test_integration_test_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_test_performance_validation_protocol",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v1_doc",
+      "target": "docs_test_golden_trace_examples",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_system_architecture_overview",
+      "target": "review_by_chatgpt_v2_phase_0_overview_enhancement",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_compute_dataflow_overview",
+      "target": "review_by_chatgpt_v2_phase_0_overview_enhancement",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_memory_noc_overview",
+      "target": "review_by_chatgpt_v2_phase_0_overview_enhancement",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "review_by_chatgpt_v2_sdd_devflow_overview",
+      "target": "review_by_chatgpt_v2_phase_0_overview_enhancement",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "summary": "8 new edges, 6 nodes removed, 55 edges removed"
 }

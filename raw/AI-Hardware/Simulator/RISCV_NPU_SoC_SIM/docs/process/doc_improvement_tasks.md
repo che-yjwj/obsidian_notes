@@ -1,10 +1,15 @@
 # Documentation Improvement Tasks
 **Path:** `docs/process/doc_improvement_tasks.md`  
 **Status:** Active  
+**Document Class:** Operational Artifact  
+**Graph Role:** Improvement backlog, not semantic source of truth  
 **Owner:** Core Maintainers  
-**Last Updated:** 2025-12-03
+**Last Updated:** 2026-04-17
 
 ---
+
+이 문서는 리뷰 결과를 실제 작업 항목으로 번역해 관리하는 **backlog tracker**다.  
+문서 구조나 architecture semantics의 현재 정의는 `docs/spec/**`, `docs/design/**`, `docs/process/spec_driven_development_workflow.md`, `docs/process/project_roadmap.md`를 우선한다.
 
 ## 1. 목적
 `documentation_review_summary.md`에서 도출된 문서 개선 항목을 장기적으로 추적하기 위한 체크리스트 문서이다.  

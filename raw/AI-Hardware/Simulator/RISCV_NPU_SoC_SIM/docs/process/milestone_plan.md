@@ -1,9 +1,17 @@
 # Milestone Plan v1 — Skeleton-First SDD Implementation Roadmap
 Status: Draft v1  
+Document Class: Operational Artifact  
+Graph Role: Working execution tracker, not architecture/spec source of truth  
 Owner: TBD  
-Last Updated: 2025-12-02  
+Last Updated: 2026-04-17  
 
 ---
+
+## 0. Usage Rule
+
+- 이 문서는 실행 계획과 task decomposition을 위한 working tracker다.
+- architecture semantics, IR/CMDQ contract, timing, quantization의 정의는 `docs/spec/**`와 `docs/design/**`를 우선한다.
+- process control-plane은 `docs/process/spec_driven_development_workflow.md`와 `docs/process/project_roadmap.md`를 우선한다.
 
 ## 1. 목적 (Purpose)
 
