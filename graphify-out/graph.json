@@ -535,6 +535,21 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/topics/npu-timing-memory-model.md"
+      },
+      {
+        "id": "trace_specs_absorbed_into_trace_topic_2026_04_17",
+        "label": "Trace Specs Absorbed Into Trace Topic 2026-04-17",
+        "nodes": [
+          "trace_format_spec_doc",
+          "gantt_timeline_spec_doc",
+          "bandwidth_heatmap_spec_doc",
+          "visualization_requirements_doc",
+          "trace_visualization_topic"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/trace-visualization.md"
       }
     ]
   },
@@ -19429,6 +19444,16 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "wiki/topics/trace-visualization.md",
+      "_src": "trace_format_spec_doc",
+      "_tgt": "trace_visualization_topic",
+      "source": "trace_format_spec_doc",
+      "target": "trace_visualization_topic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/spec/trace/bandwidth_heatmap_spec.md",
       "source_location": null,
       "weight": 1.0,
@@ -19448,6 +19473,16 @@
       "_tgt": "summary_metrics",
       "source": "bandwidth_heatmap_spec_doc",
       "target": "summary_metrics"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/trace-visualization.md",
+      "_src": "bandwidth_heatmap_spec_doc",
+      "_tgt": "trace_visualization_topic",
+      "source": "bandwidth_heatmap_spec_doc",
+      "target": "trace_visualization_topic"
     },
     {
       "relation": "references",
@@ -19585,6 +19620,16 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "wiki/topics/trace-visualization.md",
+      "_src": "gantt_timeline_spec_doc",
+      "_tgt": "trace_visualization_topic",
+      "source": "gantt_timeline_spec_doc",
+      "target": "trace_visualization_topic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/spec/trace/visualization_requirements.md",
       "source_location": null,
       "weight": 1.0,
@@ -19640,6 +19685,16 @@
       "_tgt": "quantization_impact_plot",
       "source": "visualization_requirements_doc",
       "target": "quantization_impact_plot"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/trace-visualization.md",
+      "_src": "visualization_requirements_doc",
+      "_tgt": "trace_visualization_topic",
+      "source": "visualization_requirements_doc",
+      "target": "trace_visualization_topic"
     },
     {
       "relation": "references",
@@ -24845,6 +24900,21 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/npu-timing-memory-model.md"
+    },
+    {
+      "id": "trace_specs_absorbed_into_trace_topic_2026_04_17",
+      "label": "Trace Specs Absorbed Into Trace Topic 2026-04-17",
+      "nodes": [
+        "trace_format_spec_doc",
+        "gantt_timeline_spec_doc",
+        "bandwidth_heatmap_spec_doc",
+        "visualization_requirements_doc",
+        "trace_visualization_topic"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/trace-visualization.md"
     }
   ]
 }

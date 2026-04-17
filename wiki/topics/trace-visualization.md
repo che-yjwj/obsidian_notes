@@ -24,6 +24,15 @@ last_compiled: 2026-04-16
 - **Trace as contract**: simulator output과 viewer input 사이의 단일 interchange surface다.
 - **Trace-first interpretation**: prefill/decode, bandwidth saturation, engine stall을 같은 분석 언어로 읽게 해준다.
 
+## Included Source Families [coverage: trace-spec centered]
+
+- `docs/spec/trace/trace_format_spec.md`
+- `docs/spec/trace/gantt_timeline_spec.md`
+- `docs/spec/trace/bandwidth_heatmap_spec.md`
+- `docs/spec/trace/visualization_requirements.md`
+- `docs/spec/trace/tile_semantics_validation_checklist.md`
+- `docs/test/examples/tutorial_minimal_llama_to_tile_npu.md`
+
 ## Scope Boundary [coverage: explicit ownership]
 
 이 topic이 소유하는 것:
@@ -54,6 +63,17 @@ last_compiled: 2026-04-16
 - [[simulation-validation]]: trace가 검증 artifact로 승격되는 지점은 validation topic이 담당한다.
 - [[../concepts/trace-first-design]]: trace를 설계 초기에 고정해야 한다는 process 원리와 이어진다.
 - [[../concepts/kv-cache-dram-residency]]: decode bottleneck과 KV-cache 정책은 trace에서 가장 직접적으로 드러난다.
+
+## Raw Source Mapping
+
+- `docs/spec/trace/trace_format_spec.md`
+  -> simulator/viewer shared schema and event contract
+- `docs/spec/trace/gantt_timeline_spec.md`
+  -> engine timeline rendering rule
+- `docs/spec/trace/bandwidth_heatmap_spec.md`
+  -> DRAM / Bus utilization projection rule
+- `docs/spec/trace/visualization_requirements.md`
+  -> required viewer surfaces and interaction requirements
 
 ## Open Questions [coverage: medium -- 3 sources]
 

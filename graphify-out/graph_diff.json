@@ -3,14 +3,26 @@
   "removed_nodes": [],
   "new_edges": [
     {
-      "source": "te_timing_spec_doc",
-      "target": "npu_timing_memory_model_topic",
+      "source": "trace_format_spec_doc",
+      "target": "trace_visualization_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "ve_timing_spec_doc",
-      "target": "npu_timing_memory_model_topic",
+      "source": "gantt_timeline_spec_doc",
+      "target": "trace_visualization_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "bandwidth_heatmap_spec_doc",
+      "target": "trace_visualization_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "visualization_requirements_doc",
+      "target": "trace_visualization_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     }
