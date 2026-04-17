@@ -34,7 +34,7 @@
   "/Users/son/prj/obsidian_notes/wiki/GenAI/Outlier-Mitigation-Methods-Comparison.md": 1776386487.704512,
   "/Users/son/prj/obsidian_notes/wiki/topics/patent-mcm.md": 1776340766.931382,
   "/Users/son/prj/obsidian_notes/wiki/topics/npu-architecture-spec.md": 1776424829.7517257,
-  "/Users/son/prj/obsidian_notes/wiki/topics/simulation-validation.md": 1776351276.6576948,
+  "/Users/son/prj/obsidian_notes/wiki/topics/simulation-validation.md": 1776427757.1047468,
   "/Users/son/prj/obsidian_notes/wiki/topics/npu-simulator-compiler.md": 1776340766.9309466,
   "/Users/son/prj/obsidian_notes/wiki/topics/riscv-npu-soc-sim.md": 1776424834.9933064,
   "/Users/son/prj/obsidian_notes/wiki/topics/hw-friendly-model-design.md": 1776340766.9308417,
@@ -48,7 +48,7 @@
   "/Users/son/prj/obsidian_notes/wiki/topics/soc-spec-english.md": 1776340766.9316416,
   "/Users/son/prj/obsidian_notes/wiki/topics/paper-reviews.md": 1776340766.9312768,
   "/Users/son/prj/obsidian_notes/wiki/topics/npu-architecture.md": 1776340766.913123,
-  "/Users/son/prj/obsidian_notes/graphify-out/GRAPH_REPORT.md": 1776426889.623328,
+  "/Users/son/prj/obsidian_notes/graphify-out/GRAPH_REPORT.md": 1776427880.5610821,
   "/Users/son/prj/obsidian_notes/raw/Research/Paper-Review/PaperBanana AI Research 33a6cc566b0b81f5b652f4c9128db47b.md": 1775533988.0,
   "/Users/son/prj/obsidian_notes/raw/Research/Paper-Review/STEM Structure and Scalability 33a6cc566b0b8134bba4f04b6ccf5786.md": 1775533970.0,
   "/Users/son/prj/obsidian_notes/raw/Research/Paper-Review/Dr Zero Concept Summary 33a6cc566b0b81dea270edb325090317.md": 1775533986.0,
@@ -189,8 +189,8 @@
   "/Users/son/prj/obsidian_notes/raw/GenAI/HW-Friendly/Latent Action World Model 33a6cc566b0b816ba286eaff4c35c587.md": 1775533976.0,
   "/Users/son/prj/obsidian_notes/raw/GenAI/HW-Friendly/KV-cache Optimization Explanation 33a6cc566b0b811890a0df4bc615b114.md": 1775533968.0,
   "/Users/son/prj/obsidian_notes/raw/GenAI/HW-Friendly/Stronger Normalization-Free Transformers 33a6cc566b0b81648fc4ec9576dc68a0.md": 1775533976.0,
-  "/Users/son/prj/obsidian_notes/graphify-out/graph.json": 1776426889.6148722,
-  "/Users/son/prj/obsidian_notes/graphify-out/graph.html": 1776426889.6198864,
-  "/Users/son/prj/obsidian_notes/graphify-out/graph_diff.json": 1776426889.6235666,
-  "/Users/son/prj/obsidian_notes/graphify-out/manifest.json": 1776426669.9055462
+  "/Users/son/prj/obsidian_notes/graphify-out/graph.json": 1776427880.5602407,
+  "/Users/son/prj/obsidian_notes/graphify-out/graph.html": 1776427880.5734792,
+  "/Users/son/prj/obsidian_notes/graphify-out/graph_diff.json": 1776427880.560731,
+  "/Users/son/prj/obsidian_notes/graphify-out/manifest.json": 1776427880.574001
 }

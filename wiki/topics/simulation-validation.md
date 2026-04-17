@@ -2,12 +2,12 @@
 title: Simulation Validation & Golden Traces
 type: topic
 status: canonical
-updated: 2026-04-16
+updated: 2026-04-17
 ---
 
 # Simulation Validation & Golden Traces
 
-*last_curated: 2026-04-16 | source families: docs/test, golden trace examples, validation protocol*
+*last_curated: 2026-04-17 | source families: docs/test, golden trace examples, validation protocol*
 
 ---
 
@@ -30,6 +30,19 @@ updated: 2026-04-16
 - `docs/test/golden_trace_examples.md`
 - `docs/test/examples/*`
 
+## Raw Source Mapping
+
+- `docs/test/unit_test_spec.md`
+  -> module-level correctness checks and spec-to-test mapping anchors
+- `docs/test/integration_test_spec.md`
+  -> ONNX -> CMDQ -> Simulator -> Trace full-path validation contract
+- `docs/test/test_plan.md`
+  -> execution order, baseline coverage matrix, and validation rollout plan
+- `docs/test/performance_validation_protocol.md`
+  -> latency / bandwidth tolerance rules and reference-comparison procedure
+- `docs/test/golden_trace_examples.md`
+  -> approved regression traces and change-review policy for golden artifacts
+
 ---
 
 ## Core Axes
@@ -49,6 +62,10 @@ unit test는 엔진/모듈 correctness, integration test는 pipeline coherence, 
 ### Validation owns the acceptance rule
 
 같은 trace라도 `trace-visualization`에서는 해석 대상이고, 여기서는 pass/fail 판단의 기준점이다. 따라서 golden trace의 승인, reference metric 저장, 허용 오차 규정은 모두 validation topic에 속한다.
+
+### Test plan is the control surface inside validation
+
+`test_plan.md`는 별도 process topic이 아니라 validation layer 내부의 orchestration 문서다. 즉, 어떤 UT/IT/PV 시나리오를 언제 baseline으로 채택하고 어떤 순서로 자동화할지 정하는 control surface이며, acceptance rule 자체는 unit / integration / performance / golden trace 문서군이 나눠 가진다.
 
 ---
 

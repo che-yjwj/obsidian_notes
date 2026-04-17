@@ -3,26 +3,14 @@
   "removed_nodes": [],
   "new_edges": [
     {
-      "source": "trace_format_spec_doc",
-      "target": "trace_visualization_topic",
+      "source": "unit_test_spec_doc",
+      "target": "simulation_validation_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "gantt_timeline_spec_doc",
-      "target": "trace_visualization_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "bandwidth_heatmap_spec_doc",
-      "target": "trace_visualization_topic",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "visualization_requirements_doc",
-      "target": "trace_visualization_topic",
+      "source": "test_plan_doc",
+      "target": "simulation_validation_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     }

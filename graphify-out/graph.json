@@ -550,6 +550,22 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/topics/trace-visualization.md"
+      },
+      {
+        "id": "validation_specs_absorbed_into_validation_topic_2026_04_17",
+        "label": "Validation Specs Absorbed Into Validation Topic 2026-04-17",
+        "nodes": [
+          "unit_test_spec_doc",
+          "integration_test_spec_doc",
+          "test_plan_doc",
+          "performance_validation_protocol_doc",
+          "golden_trace_examples_doc",
+          "simulation_validation_topic"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/simulation-validation.md"
       }
     ]
   },
@@ -615,7 +631,7 @@
       "id": "claude_md_schema"
     },
     {
-      "label": "Patent Research \u2014 MCM and AI Infrastructure",
+      "label": "Patent Research — MCM and AI Infrastructure",
       "file_type": "document",
       "source_file": "wiki/Research/Patent-MCM.md",
       "source_location": null,
@@ -735,7 +751,7 @@
       "id": "wiki_genai_hw_friendly_model_design"
     },
     {
-      "label": "PaperBanana AI \uc5f0\uad6c",
+      "label": "PaperBanana AI 연구",
       "file_type": "document",
       "source_file": "raw/Research/Paper-Review/PaperBanana AI Research 33a6cc566b0b81f5b652f4c9128db47b.md",
       "source_location": null,
@@ -747,7 +763,7 @@
       "id": "raw_paperbanana_ai_research"
     },
     {
-      "label": "STEM \uad6c\uc870\uc640 \ud655\uc7a5\uc131",
+      "label": "STEM 구조와 확장성",
       "file_type": "document",
       "source_file": "raw/Research/Paper-Review/STEM Structure and Scalability 33a6cc566b0b8134bba4f04b6ccf5786.md",
       "source_location": null,
@@ -759,7 +775,7 @@
       "id": "raw_stem_structure_and_scalability"
     },
     {
-      "label": "Dr. Zero \uac1c\ub150 \uc815\ub9ac",
+      "label": "Dr. Zero 개념 정리",
       "file_type": "document",
       "source_file": "raw/Research/Paper-Review/Dr Zero Concept Summary 33a6cc566b0b81dea270edb325090317.md",
       "source_location": null,
@@ -771,7 +787,7 @@
       "id": "raw_dr_zero_concept_summary"
     },
     {
-      "label": "PaperDebugger \uc5f0\uad6c \uc0dd\uc0b0\uc131 \ud601\uc2e0",
+      "label": "PaperDebugger 연구 생산성 혁신",
       "file_type": "document",
       "source_file": "raw/Research/Paper-Review/PaperDebugger Research Productivity Innovation 33a6cc566b0b81438d17de8e443da8de.md",
       "source_location": null,
@@ -783,7 +799,7 @@
       "id": "raw_paperdebugger_research_productivity_innovation"
     },
     {
-      "label": "\uce74\uc624\uc2a4 \uc774\ub860\uacfc \uc608\uce21 (Part 1/2)",
+      "label": "카오스 이론과 예측 (Part 1/2)",
       "file_type": "document",
       "source_file": "raw/Research/Paper-Review/Chaos Theory and Prediction/Chaos Theory and Prediction (Part 1 of 2) 33a6cc566b0b81b7aeabd969fc648765.md",
       "source_location": null,
@@ -795,7 +811,7 @@
       "id": "raw_chaos_theory_and_prediction_part_1"
     },
     {
-      "label": "\uce74\uc624\uc2a4 \uc774\ub860\uacfc \uc608\uce21 (Part 2/2)",
+      "label": "카오스 이론과 예측 (Part 2/2)",
       "file_type": "document",
       "source_file": "raw/Research/Paper-Review/Chaos Theory and Prediction/Chaos Theory and Prediction (Part 2 of 2) 33a6cc566b0b8185b540df4617ca05a5.md",
       "source_location": null,
@@ -807,7 +823,7 @@
       "id": "raw_chaos_theory_and_prediction_part_2"
     },
     {
-      "label": "Taalas AI \uc778\ud504\ub77c \ud601\uc2e0",
+      "label": "Taalas AI 인프라 혁신",
       "file_type": "document",
       "source_file": "raw/Research/Patent-MCM/Taalas AI Infrastructure Innovation 33a6cc566b0b81378bc9f4ae1054ac16.md",
       "source_location": null,
@@ -2747,7 +2763,7 @@
       "id": "paper_reviews"
     },
     {
-      "label": "Patent Research \u2014 MCM and AI Infrastructure",
+      "label": "Patent Research — MCM and AI Infrastructure",
       "file_type": "document",
       "source_file": "wiki/Research/Patent-MCM.md",
       "source_location": null,
@@ -5454,7 +5470,7 @@
       "source_url": null,
       "captured_at": null,
       "author": "ChatGPT",
-      "contributor": "\ucc3d\ud6c8",
+      "contributor": "창훈",
       "community": 2,
       "id": "pytorchsim_npu_ir_examples_doc"
     },
@@ -6779,7 +6795,7 @@
       "id": "cycle_based_simulation"
     },
     {
-      "label": "ONNX \u2192 IR \u2192 TileGraph \u2192 CMDQ \u2192 Trace Pipeline",
+      "label": "ONNX → IR → TileGraph → CMDQ → Trace Pipeline",
       "file_type": "code",
       "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/overview/dataflow_overview.md",
       "source_location": null,
@@ -8699,7 +8715,7 @@
       "id": "lefevre_algorithm"
     },
     {
-      "label": "Voronenko-P\u00fcschel A-graph Theory",
+      "label": "Voronenko-Püschel A-graph Theory",
       "file_type": "paper",
       "source_file": "wiki/topics/patent-mcm.md",
       "source_location": null,
@@ -24365,6 +24381,30 @@
       "_tgt": "tile_semantics_quantization_topic",
       "source": "ir_cmdq_contract_topic",
       "target": "tile_semantics_quantization_topic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/simulation-validation.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "unit_test_spec_doc",
+      "_tgt": "simulation_validation_topic",
+      "source": "unit_test_spec_doc",
+      "target": "simulation_validation_topic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/simulation-validation.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "test_plan_doc",
+      "_tgt": "simulation_validation_topic",
+      "source": "test_plan_doc",
+      "target": "simulation_validation_topic"
     }
   ],
   "hyperedges": [
@@ -24915,6 +24955,22 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/trace-visualization.md"
+    },
+    {
+      "id": "validation_specs_absorbed_into_validation_topic_2026_04_17",
+      "label": "Validation Specs Absorbed Into Validation Topic 2026-04-17",
+      "nodes": [
+        "unit_test_spec_doc",
+        "integration_test_spec_doc",
+        "test_plan_doc",
+        "performance_validation_protocol_doc",
+        "golden_trace_examples_doc",
+        "simulation_validation_topic"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/simulation-validation.md"
     }
   ]
 }
