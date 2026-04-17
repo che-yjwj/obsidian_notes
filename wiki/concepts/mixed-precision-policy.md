@@ -1,7 +1,7 @@
 ---
 concept: Mixed Precision as a System Policy
 last_compiled: 2026-04-14
-topics_connected: [llm-quantization-compression, riscv-npu-soc-sim, npu-architecture, trace-visualization]
+topics_connected: [llm-quantization-compression, operator-coordinate-compression, riscv-npu-soc-sim, npu-architecture, trace-visualization]
 status: active
 ---
 
@@ -14,6 +14,7 @@ mixed precision은 개별 quantization 기법의 선택이 아니라 시스템 �
 ## Instances
 
 - **2026-04** in [[../topics/llm-quantization-compression]]: PTQ, KV cache quantization, OCEAN, TurboQuant 등 다양한 quantization 전략이 비교된다.
+- **2026-04** in [[../topics/operator-coordinate-compression]]: coordinate choice가 outlier, concentration, entropy coding 효율을 바꾼다는 이론이 mixed-precision threshold와 bit allocation 설계의 상위 설명 층을 제공한다.
 - **2026-04** in [[../topics/riscv-npu-soc-sim]]: `qbits_weight`, `qbits_activation`, `qbits_kv`가 IR과 CMDQ를 따라 흐르는 독립 필드로 정의된다.
 - **2026-04** in [[../topics/trace-visualization]]: quantization impact plot이 필수 visualization 항목으로 명시된다.
 - **2026-04** in [[../topics/npu-architecture]]: mixed-precision transport와 reconstruction이 아키텍처 수준 tradeoff로 등장한다.
@@ -25,6 +26,7 @@ mixed precision은 개별 quantization 기법의 선택이 아니라 시스템 �
 ## Sources
 
 - [[../topics/llm-quantization-compression]]
+- [[../topics/operator-coordinate-compression]]
 - [[../topics/riscv-npu-soc-sim]]
 - [[../topics/npu-architecture]]
 - [[../topics/trace-visualization]]

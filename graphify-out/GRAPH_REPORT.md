@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 723 nodes · 1262 edges · 60 communities detected
+- 723 nodes · 1265 edges · 60 communities detected
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 145 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## God Nodes (most connected - your core abstractions)
-1. `LLM Quantization & Compression` - 33 edges
+1. `LLM Quantization & Compression` - 34 edges
 2. `NPU Architecture` - 23 edges
 3. `Patent & MCM Research` - 21 edges
 4. `RISC-V NPU SoC Simulator` - 20 edges
@@ -66,6 +66,7 @@
 - **GenAI Deep-Dive Canonical Links 2026-04-17** — wiki_genai_hw_friendly_model_design, wiki_genai_llm_quantization_and_compression, wiki_genai_ocean_compression_deep_dive, wiki_genai_outlier_mitigation_methods_comparison, hw_friendly_model_design, llm_quantization_compression, mixed_precision_policy, kv_cache_dram_residency, prefill_decode_duality, memory_bandwidth_bottleneck [EXTRACTED 1.00]
 - **Research Deep-Dive Canonical Links 2026-04-17** — wiki_research_ai_assisted_research_workflow, wiki_research_paper_reviews, wiki_research_patent_mcm, wiki_research_research_tooling_reviews, paper_reviews, patent_mcm_doc, static_scheduling_determinism [EXTRACTED 1.00]
 - **Execution Spec Split Topics 2026-04-17** — riscv_npu_soc_sim_topic, npu_architecture_spec_topic, ir_cmdq_contract_topic, tile_semantics_quantization_topic, npu_timing_memory_model_topic, simulation_validation_topic, trace_visualization_topic, npu_doc_process_topic [EXTRACTED 1.00]
+- **Operator-Coordinate Compression Canonical Links 2026-04-17** — operator_coordinate_compression_topic, llm_quantization_compression, mixed_precision_policy, memory_bandwidth_bottleneck, hw_friendly_model_design [EXTRACTED 1.00]
 
 ## Communities
 
@@ -310,7 +311,7 @@ Cohesion: 1.0
 Nodes (1): Global Integrated Diagram
 
 ## Knowledge Gaps
-- **301 isolated node(s):** `AgentHub collaboration model change`, `Reasoning in 13M parameters`, `AI-assisted research workflow`, `HyperAccel LPU`, `Google Coral Edge TPU` (+296 more)
+- **300 isolated node(s):** `AgentHub collaboration model change`, `Reasoning in 13M parameters`, `AI-assisted research workflow`, `HyperAccel LPU`, `Google Coral Edge TPU` (+295 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `SoC negotiation technical English / 4-week practical usage guide`** (2 nodes): `4-week practical usage guide`, `SoC negotiation technical English`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.

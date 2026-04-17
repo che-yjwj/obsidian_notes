@@ -39,9 +39,11 @@ last_compiled: 2026-04-14
 
 ## Connections [coverage: medium -- 3 sources]
 
-- [[llm-quantization-compression]]: quantization 기법 모음에서 설명하지 못하는 기하학적 설명 층을 제공한다.
+- [[llm-quantization-compression]]: PTQ, OCEAN, TurboQuant, outlier mitigation을 나열하는 topic 위에 왜 coordinate choice가 핵심인지 설명하는 이론 층을 제공한다.
 - [[patent-mcm]]: parameter structure를 하드웨어 친화적으로 다시 표현한다는 점에서 연결된다.
 - [[../concepts/mixed-precision-policy]]: 실제 시스템 정책으로 연결되려면 bitwidth/memory/runtime 모델과 만나야 한다.
+- [[../concepts/memory-bandwidth-bottleneck]]: compression objective를 FLOPs 절감이 아니라 DRAM traffic 절감으로 재해석한다는 점에서 직접 연결된다.
+- [[hw-friendly-model-design]]: manifold-aligned representation, sparse/structured memory access, quantization-friendly coordinate choice가 결국 HW-friendly model co-design으로 이어진다.
 
 ## Open Questions [coverage: medium -- 4 sources]
 

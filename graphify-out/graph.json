@@ -490,6 +490,21 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/INDEX.md"
+      },
+      {
+        "id": "operator_coordinate_compression_canonical_links_2026_04_17",
+        "label": "Operator-Coordinate Compression Canonical Links 2026-04-17",
+        "nodes": [
+          "operator_coordinate_compression_topic",
+          "llm_quantization_compression",
+          "mixed_precision_policy",
+          "memory_bandwidth_bottleneck",
+          "hw_friendly_model_design"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/operator-coordinate-compression.md"
       }
     ]
   },
@@ -14662,6 +14677,16 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "wiki/topics/operator-coordinate-compression.md",
+      "_src": "operator_coordinate_compression_topic",
+      "_tgt": "memory_bandwidth_bottleneck",
+      "source": "memory_bandwidth_bottleneck",
+      "target": "operator_coordinate_compression_topic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
       "source_location": null,
       "weight": 1.0,
@@ -15238,6 +15263,16 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "wiki/topics/operator-coordinate-compression.md",
+      "_src": "operator_coordinate_compression_topic",
+      "_tgt": "hw_friendly_model_design",
+      "source": "hw_friendly_model_design",
+      "target": "operator_coordinate_compression_topic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "wiki/topics/llm-quantization-compression.md",
       "source_location": null,
       "weight": 1.0,
@@ -15449,6 +15484,16 @@
       "_tgt": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
       "source": "llm_quantization_compression",
       "target": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/operator-coordinate-compression.md",
+      "_src": "operator_coordinate_compression_topic",
+      "_tgt": "llm_quantization_compression",
+      "source": "llm_quantization_compression",
+      "target": "operator_coordinate_compression_topic"
     },
     {
       "relation": "references",
@@ -24759,6 +24804,21 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/INDEX.md"
+    },
+    {
+      "id": "operator_coordinate_compression_canonical_links_2026_04_17",
+      "label": "Operator-Coordinate Compression Canonical Links 2026-04-17",
+      "nodes": [
+        "operator_coordinate_compression_topic",
+        "llm_quantization_compression",
+        "mixed_precision_policy",
+        "memory_bandwidth_bottleneck",
+        "hw_friendly_model_design"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/operator-coordinate-compression.md"
     }
   ]
 }

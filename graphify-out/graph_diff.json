@@ -3,54 +3,23 @@
   "removed_nodes": [],
   "new_edges": [
     {
-      "source": "doc_study_milestone_plan_doc",
-      "target": "docs_readme_spec",
+      "source": "operator_coordinate_compression_topic",
+      "target": "llm_quantization_compression",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "doc_study_milestone_plan_doc",
-      "target": "project_roadmap_doc",
+      "source": "operator_coordinate_compression_topic",
+      "target": "hw_friendly_model_design",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "operator_coordinate_compression_topic",
+      "target": "memory_bandwidth_bottleneck",
       "relation": "references",
       "confidence": "EXTRACTED"
     }
   ],
-  "removed_edges": [
-    {
-      "source": "system_architecture_overview_doc",
-      "target": "doc_study_milestone_plan_doc",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "system_architecture_doc",
-      "target": "doc_study_milestone_plan_doc",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "memory_noc_overview_doc",
-      "target": "doc_study_milestone_plan_doc",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "dataflow_overview_doc",
-      "target": "doc_study_milestone_plan_doc",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "module_responsibilities_doc",
-      "target": "doc_study_milestone_plan_doc",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "doc_study_milestone_plan_doc",
-      "target": "vibe_coding_sdd_guide_doc",
-      "relation": "references",
-      "confidence": "EXTRACTED"
-    }
-  ]
+  "removed_edges": []
 }

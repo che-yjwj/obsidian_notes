@@ -240,6 +240,7 @@ The following related topics exist or are implied within this vault:
 
 - [[wiki/topics/npu-accelerator-architecture]] — DC-LLM's Weight Generator + Systolic Array design, OliVe's impact on PE array and tile layout, TurboQuant's requirement for rotation/QJL primitives, and the Tesla patent's MAC-centric RoPE path all connect to NPU datapath and ISA design.
 - [[wiki/topics/kv-cache-management]] — TurboQuant, paged KV alignment, prefill/decode bottleneck analysis, and the mixed-precision "recent tokens FP16" policy are directly relevant to KV cache system design.
+- [[operator-coordinate-compression]] — OCEAN 계열 대화와 coordinate-relative outlier 해석을 독립 topic으로 분리한 이론 층이다. 이 문서가 기법 catalog라면 해당 topic은 왜 회전/정렬/집중화가 필요한지 설명하는 geometry layer다.
 - [[wiki/topics/hw-friendly-model-design]] — The coordinate-system reframing (OCEAN sessions), manifold-aligned representations, and PolarQuant's "representation learning without training" framing connect to hardware-friendly architecture search.
 - [[wiki/topics/attention-mechanism]] — TurboQuant's inner-product preservation goal, attention sink (Tesla patent), and the "Attention Is Not What You Need" paper's subspace-flow interpretation referenced in OCEAN Part 8 all connect to attention mechanism analysis.
 

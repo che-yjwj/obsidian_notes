@@ -1,7 +1,7 @@
 ---
 concept: Memory Bandwidth as Primary Bottleneck
 last_compiled: 2026-04-12
-topics_connected: [llm-quantization-compression, npu-architecture, hw-friendly-model-design, npu-simulator-compiler, riscv-npu-soc-sim]
+topics_connected: [llm-quantization-compression, operator-coordinate-compression, npu-architecture, hw-friendly-model-design, npu-simulator-compiler, riscv-npu-soc-sim]
 status: active
 ---
 
@@ -16,6 +16,8 @@ This pattern appears at five distinct levels of abstraction simultaneously. That
 ## Instances
 
 - **2026-04** in [[../topics/llm-quantization-compression]]: Autoregressive decode is "dominated not by compute but by **memory bandwidth and capacity** — loading weight tensors and KV cache from DRAM on every token step." The entire quantization research direction (TurboQuant, OCEAN, OliVe) is motivated by reducing DRAM traffic, not FLOPs.
+
+- **2026-04** in [[../topics/operator-coordinate-compression]]: coordinate alignment, coefficient concentration, and entropy-aware decomposition are all valuable only insofar as they shrink effective bit-rate and DRAM traffic. This topic supplies the geometric explanation for why the bandwidth bottleneck can be attacked upstream at the representation level.
 
 - **2026-04** in [[../topics/npu-architecture]]: The SRAM scratchpad vs. cache debate is framed as "Cache is not a device to improve performance — it is a safety net for uncertainty that SRAM-only designs cannot handle." AMBA bus tiers are designed around separating control-plane from high-throughput data-plane. Memory Hierarchy in AI sources explicitly compare SRAM/HBM/LPDDR tradeoffs across H100, Qualcomm AHPM, and AMD MI300.
 
@@ -36,6 +38,7 @@ The pattern also implies a research gap: most of the sources address the memory 
 ## Sources
 
 - [[../topics/llm-quantization-compression]]
+- [[../topics/operator-coordinate-compression]]
 - [[../topics/npu-architecture]]
 - [[../topics/hw-friendly-model-design]]
 - [[../topics/npu-simulator-compiler]]
