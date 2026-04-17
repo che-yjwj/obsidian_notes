@@ -10,13 +10,34 @@ sources:
   - raw/AI-Hardware/Architecture/TPU Sparse Core Explanation 33a6cc566b0b81f7a2a5f1e85f847ccb.md
   - raw/AI-Hardware/Architecture/Synopsys Platform Architect Introduction 33a6cc566b0b81c78ed7c21c89862ab6.md
 tags: [NPU, TPU, Tesla, AMD, Xilinx, AMBA, architecture]
-updated: 2026-04-07
+updated: 2026-04-17
 ---
 
 # NPU Architecture Overview
 
 Canonical topic: [[topics/npu-architecture]]
 Related concepts: [[concepts/memory-bandwidth-bottleneck]], [[concepts/static-scheduling-determinism]], [[concepts/mixed-precision-policy]]
+
+## Role in This Wiki
+
+- This page is a curated vendor-benchmark and framing essay.
+- The canonical source of truth for reusable architecture synthesis is [[topics/npu-architecture]].
+- If a point needs to be short, reusable, and source-backed across the wiki, it should move to the canonical topic rather than keep growing here.
+
+## Boundary
+
+This page should focus on:
+- vendor comparison and architecture framing
+- cross-company interpretation
+- narrative synthesis for humans
+
+This page should not become the main home for:
+- project-specific execution semantics
+- simulator/compiler contracts
+- timing-model details
+- trace/validation ownership
+
+Those belong under the RISCV_NPU_SoC_SIM canonical topic family.
 
 ## Tesla AI 칩 로드맵
 

@@ -11,13 +11,34 @@ sources:
   - raw/AI-Hardware/Simulator/Transformer C Implementation Analysis 33a6cc566b0b818585ddf76217de5112.md
   - raw/AI-Hardware/Simulator/NPU Supernode Concept 33a6cc566b0b81aca099f1e6a9a8061e.md
 tags: [LPU, NPU, HyperAccel, Coral, MTIA, simulator]
-updated: 2026-04-07
+updated: 2026-04-17
 ---
 
 # NPU/LPU Simulator and Implementation Tools
 
 Canonical topic: [[topics/npu-simulator-compiler]]
 Related concepts: [[concepts/static-scheduling-determinism]], [[concepts/trace-first-design]]
+
+## Role in This Wiki
+
+- This page is a curated survey of external platforms, implementation styles, and simulator-facing reference systems.
+- The canonical reusable hub for compiler/simulator structure is [[topics/npu-simulator-compiler]].
+- When material becomes a stable navigation point rather than a survey note, it should move into the canonical topic layer.
+
+## Boundary
+
+This page should focus on:
+- vendor/platform comparisons such as HyperAccel, Coral, MTIA, and Groq-like execution styles
+- implementation intuition and benchmark-style interpretation
+- educational references such as low-level Transformer implementations
+
+This page should not become the main home for:
+- RISCV_NPU_SoC_SIM execution-spec ownership
+- trace schema or validation rules
+- project process documents
+- detailed IR/CMDQ contract text
+
+Those belong in the canonical topic chain around [[topics/riscv-npu-soc-sim]], [[topics/ir-cmdq-contract]], [[topics/trace-visualization]], and [[topics/simulation-validation]].
 
 ## HyperAccel LPU (국내 AI 반도체 스타트업)
 
