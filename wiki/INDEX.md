@@ -1,8 +1,8 @@
 # AI Hardware & GenAI Research — Knowledge Base
 
-Last compiled: 2026-04-16
+Last compiled: 2026-04-17
 Last curated: 2026-04-17
-Canonical topics: 14 | Canonical concepts: 7 | Sources scanned in last compile: 123
+Canonical topics: 16 | Canonical concepts: 7 | Sources scanned in last compile: 123
 
 ---
 
@@ -22,6 +22,8 @@ Canonical topics: 14 | Canonical concepts: 7 | Sources scanned in last compile: 
 | [[topics/trace-visualization]] | trace, gantt, heatmap, utilization, timeline, golden trace, profiler | 8 | 2026-04-14 | active |
 | [[topics/npu-doc-process]] | SDD, roadmap, milestone, naming, review, contribution, changelog, workflow | 12 | 2026-04-14 | active |
 | [[topics/npu-architecture-spec]] | NPU IR, CMDQ, ISA, tile semantics, quantization, scheduling semantics | 20+ | 2026-04-16 | active |
+| [[topics/ir-cmdq-contract]] | IR, TensorIR, LayerIR, CMDQ, opcode, deps, deterministic lowering | 7+ | 2026-04-17 | active |
+| [[topics/tile-semantics-quantization]] | tile lifecycle, KV semantics, mixed precision, qbits, prefill/decode | 9+ | 2026-04-17 | active |
 | [[topics/npu-timing-memory-model]] | timing, DMA, TE, VE, SPM, DRAM, Bus, NoC, contention, bandwidth | 10+ | 2026-04-16 | active |
 | [[topics/simulation-validation]] | golden trace, unit test, integration test, perf validation, regression | 8+ | 2026-04-16 | active |
 
@@ -78,6 +80,7 @@ These are intentionally longer synthesis documents. They are useful entry points
 
 - Rebalance `riscv-npu-soc-sim` again after one more graph pass so the umbrella stays narrow and project-level
 - Keep `npu-doc-process` as the single process hub and avoid letting `documentation_review_summary` / `milestone_plan` become parallel semantic entry points
+- Verify that `npu-architecture-spec` now stays umbrella-only and does not regrow detailed IR/CMDQ or quantization prose
 - Evaluate whether `operator-coordinate-compression` should later split into theory and patent/application subtopics
 - Keep `AI-Hardware/NPU-Architecture` and `topics/npu-architecture` aligned so the overview page does not silently drift from the canonical topic page
 - Decide whether `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` remains a strategy memo or becomes a future topic family with subpages on fabric presets, compute hierarchy, and runtime strategy
@@ -92,3 +95,4 @@ These are intentionally longer synthesis documents. They are useful entry points
 - **2026-04-16**: Structural split extracted `npu-architecture-spec`, `npu-timing-memory-model`, and `simulation-validation` from the overloaded `riscv-npu-soc-sim` umbrella
 - **2026-04-17**: Extended the deep-dive operating model to `wiki/GenAI/*` and `wiki/Research/*` so these pages point back to canonical topics instead of drifting into parallel topic trees
 - **2026-04-17**: Tightened the process-topic rule so roadmap/workflow docs remain the canonical process hub while milestone and review summaries are treated as operational artifacts
+- **2026-04-17**: Split the execution-spec layer again so `ir-cmdq-contract` and `tile-semantics-quantization` can grow independently without turning `npu-architecture-spec` back into a mega-hub

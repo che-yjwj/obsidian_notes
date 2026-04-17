@@ -19,7 +19,9 @@ last_compiled: 2026-04-16
 
 | Topic | 역할 |
 |---|---|---|
-| [[topics/npu-architecture-spec]] | IR, ISA, scheduling, quantization, tile semantics를 포함한 규범적 execution spec |
+| [[topics/npu-architecture-spec]] | execution-spec 계층 전체를 라우팅하는 umbrella topic |
+| [[topics/ir-cmdq-contract]] | IR schema, tensor metadata, CMDQ format/opcodes, deterministic lowering contract |
+| [[topics/tile-semantics-quantization]] | tile lifecycle, mixed precision, KV semantics, prefill/decode policy contract |
 | [[topics/npu-timing-memory-model]] | DMA/TE/VE/SPM/Bus/NoC와 cycle timing, bandwidth, contention 모델 |
 | [[topics/simulation-validation]] | golden trace, test plan, integration/unit/perf validation protocol |
 | [[topics/trace-visualization]] | trace schema, timeline, heatmap, utilization visualization |

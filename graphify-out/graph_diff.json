@@ -1,14 +1,95 @@
 {
-  "new_nodes": [],
+  "new_nodes": [
+    {
+      "id": "tile_semantics_quantization_topic",
+      "label": "Tile Semantics & Quantization Contract"
+    },
+    {
+      "id": "ir_cmdq_contract_topic",
+      "label": "IR & CMDQ Contract"
+    }
+  ],
   "removed_nodes": [],
   "new_edges": [
     {
-      "source": "npu_doc_process_topic",
-      "target": "simulation_validation_topic",
+      "source": "riscv_npu_soc_sim_topic",
+      "target": "ir_cmdq_contract_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "riscv_npu_soc_sim_topic",
+      "target": "tile_semantics_quantization_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "static_scheduling_determinism",
+      "target": "ir_cmdq_contract_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "prefill_decode_duality",
+      "target": "tile_semantics_quantization_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "kv_cache_dram_residency",
+      "target": "tile_semantics_quantization_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "tile_semantics_contract",
+      "target": "ir_cmdq_contract_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "tile_semantics_contract",
+      "target": "tile_semantics_quantization_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "mixed_precision_policy",
+      "target": "tile_semantics_quantization_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "npu_architecture_spec_topic",
+      "target": "ir_cmdq_contract_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "npu_architecture_spec_topic",
+      "target": "tile_semantics_quantization_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "npu_timing_memory_model_topic",
+      "target": "ir_cmdq_contract_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "npu_timing_memory_model_topic",
+      "target": "tile_semantics_quantization_topic",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "ir_cmdq_contract_topic",
+      "target": "tile_semantics_quantization_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     }
   ],
   "removed_edges": [],
-  "summary": "1 new edge"
+  "summary": "2 new nodes, 13 new edges"
 }

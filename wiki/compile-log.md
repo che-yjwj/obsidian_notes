@@ -49,3 +49,13 @@
 **Sources scanned:** existing RISCV_NPU_SoC_SIM corpus re-grouped, not re-extracted from raw
 **Sources changed:** umbrella topic narrowed; architecture/spec, timing-memory, and validation layers promoted to standalone canonical topics
 **Notes:** `trace-visualization` and `npu-doc-process` remain canonical satellite topics; next pass should verify whether `simulation-validation` fully owns test-oriented trace material or still shares boundaries with trace visualization
+
+## 2026-04-17
+
+**Run type:** manual structural split
+**Topics updated:** npu-architecture-spec, riscv-npu-soc-sim, INDEX, schema, compile-state
+**New topics:** ir-cmdq-contract, tile-semantics-quantization
+**New concepts:** none
+**Sources scanned:** existing RISCV_NPU_SoC_SIM spec corpus re-grouped, not re-extracted from raw
+**Sources changed:** execution-spec layer split into IR/CMDQ contract and tile/quantization contract; original `npu-architecture-spec` reduced to umbrella role
+**Notes:** `npu-timing-memory-model`, `simulation-validation`, `trace-visualization`, and `npu-doc-process` remain sibling canonical topics; next pass should verify whether any of the new subtopics accumulates enough depth to justify further split

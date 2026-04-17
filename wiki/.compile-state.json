@@ -1,5 +1,5 @@
 {
-  "last_compiled": "2026-04-16",
+  "last_compiled": "2026-04-17",
   "topics": [
     "npu-architecture",
     "llm-quantization-compression",
@@ -13,6 +13,8 @@
     "trace-visualization",
     "npu-doc-process",
     "npu-architecture-spec",
+    "ir-cmdq-contract",
+    "tile-semantics-quantization",
     "npu-timing-memory-model",
     "simulation-validation"
   ],

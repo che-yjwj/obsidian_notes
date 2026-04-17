@@ -1,11 +1,11 @@
 # Graph Report - obsidian_notes  (2026-04-17)
 
 ## Corpus Check
-- 188 files · ~296,722 words
+- 190 files · ~297,507 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 727 nodes · 1321 edges · 51 communities detected
+- 729 nodes · 1334 edges · 52 communities detected
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 146 edges (avg confidence: 0.86)
 - Token cost: 0 input · 0 output
 
@@ -14,18 +14,18 @@
 2. `Documentation Review Summary (v1)` - 32 edges
 3. `NPU Architecture` - 23 edges
 4. `Patent & MCM Research` - 21 edges
-5. `Flash-Resident LLM and HBF for Edge Inference` - 20 edges
-6. `Paper Reviews` - 19 edges
-7. `NPU/LPU Simulator and Implementation Tools` - 19 edges
-8. `NPU Simulator & Compiler` - 19 edges
-9. `From Minimal NumPy LLaMA to Tile-based NPU Modeling` - 19 edges
-10. `RISC-V NPU SoC Simulator` - 18 edges
+5. `RISC-V NPU SoC Simulator` - 20 edges
+6. `Flash-Resident LLM and HBF for Edge Inference` - 20 edges
+7. `Paper Reviews` - 19 edges
+8. `NPU/LPU Simulator and Implementation Tools` - 19 edges
+9. `NPU Simulator & Compiler` - 19 edges
+10. `From Minimal NumPy LLaMA to Tile-based NPU Modeling` - 19 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `SpinQuant` --semantically_similar_to--> `SpinQuant as Partial Manifold Alignment`  [INFERRED] [semantically similar]
-  wiki/topics/llm-quantization-compression.md → raw/Research/operator-coordinate-compression/docs/research_direction_review.md
 - `Multiplierless Multiple Constant Multiplication` --semantically_similar_to--> `Xilinx FINN`  [INFERRED] [semantically similar]
   raw/Research/Patent-MCM/Multiplierless Design Paper Analysis/Multiplierless Design Paper Analysis (Part 1 of 3) 33a6cc566b0b81028b7bdfa2171ef078.md → wiki/AI-Hardware/NPU-Architecture.md
+- `SpinQuant` --semantically_similar_to--> `SpinQuant as Partial Manifold Alignment`  [INFERRED] [semantically similar]
+  wiki/topics/llm-quantization-compression.md → raw/Research/operator-coordinate-compression/docs/research_direction_review.md
 - `Google TPU Sparse Core` --semantically_similar_to--> `HyperAccel LPU card`  [INFERRED] [semantically similar]
   wiki/AI-Hardware/NPU-Architecture.md → raw/AI-Hardware/Simulator/HyperAccel LPU Explanation/HyperAccel LPU Explanation (Part 2 of 3) 33a6cc566b0b8184b3e7c80f64b99235.md
 - `Tesla AI5/AI6 roadmap` --conceptually_related_to--> `Tesla Mixed-Precision Bridge`  [INFERRED]
@@ -65,32 +65,33 @@
 - **RISCV_NPU_SoC_SIM Split Topics 2026-04-16** — riscv_npu_soc_sim_topic, npu_architecture_spec_topic, npu_timing_memory_model_topic, simulation_validation_topic, trace_visualization_topic, npu_doc_process_topic [EXTRACTED 1.00]
 - **GenAI Deep-Dive Canonical Links 2026-04-17** — wiki_genai_hw_friendly_model_design, wiki_genai_llm_quantization_and_compression, wiki_genai_ocean_compression_deep_dive, wiki_genai_outlier_mitigation_methods_comparison, hw_friendly_model_design, llm_quantization_compression, mixed_precision_policy, kv_cache_dram_residency, prefill_decode_duality, memory_bandwidth_bottleneck [EXTRACTED 1.00]
 - **Research Deep-Dive Canonical Links 2026-04-17** — wiki_research_ai_assisted_research_workflow, wiki_research_paper_reviews, wiki_research_patent_mcm, wiki_research_research_tooling_reviews, paper_reviews, patent_mcm_doc, static_scheduling_determinism [EXTRACTED 1.00]
+- **Execution Spec Split Topics 2026-04-17** — riscv_npu_soc_sim_topic, npu_architecture_spec_topic, ir_cmdq_contract_topic, tile_semantics_quantization_topic, npu_timing_memory_model_topic, simulation_validation_topic, trace_visualization_topic, npu_doc_process_topic [EXTRACTED 1.00]
 
 ## Communities
 
-### Community 0 - "Documentation Review Summary (v1) / Milestone Plan / Documentation Review Summary"
-Cohesion: 0.04
-Nodes (83): Breaking Change Recording, Changelog, Changelog Automation, docs/design/cmdq_generator_design.md, docs/design/control_fsm_design.md, docs/design/cycle_loop_design.md, docs/design/ir_builder_design.md, docs/design/npu_simulator_core_design.md (+75 more)
+### Community 0 - "RISC-V NPU SoC Simulator / Paper Reviews / NPU/LPU Simulator and Implementation Tools"
+Cohesion: 0.06
+Nodes (75): AgentHub Collaboration Graph, AI-Assisted Research Workflow, AMBA Bus Recommendation, Architecture Scope Alignment, Chaos Theory and Prediction, Claude Code + Harness Pipeline, Google Coral NPU, Decode-centric pipeline (+67 more)
 
-### Community 1 - "Paper Reviews / NPU/LPU Simulator and Implementation Tools / NPU Simulator & Compiler"
+### Community 1 - "Documentation Review Summary (v1) / Milestone Plan / Documentation Review Summary"
 Cohesion: 0.05
-Nodes (77): AgentHub Collaboration Graph, AI-Assisted Research Workflow, AMBA Bus Recommendation, Architecture Scope Alignment, Chaos Theory and Prediction, Claude Code + Harness Pipeline, Google Coral NPU, Decode-centric pipeline (+69 more)
+Nodes (71): docs/design/cmdq_generator_design.md, docs/design/control_fsm_design.md, docs/design/cycle_loop_design.md, docs/design/ir_builder_design.md, docs/design/npu_simulator_core_design.md, docs/design/spm_allocator_design.md, docs/design/static_scheduler_design.md, docs/design/te_engine_design.md (+63 more)
 
-### Community 2 - "LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note"
+### Community 2 - "NPU Architecture / Flash-Resident LLM and HBF for Edge Inference / Project Helios Edge / Physical AI Custom SoC Platform Strategy"
+Cohesion: 0.04
+Nodes (70): AMD Versal ACAP, Architecture Diary Format, Assumptions and Constraints, Attention Sink, AWS Inferentia, AWS Trainium, Cache Hybrid, AMBA bus recommendation (+62 more)
+
+### Community 3 - "LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note"
 Cohesion: 0.07
 Nodes (70): Blockwise Axis Alignment, Bits per Channel, Claim Candidates, Concentration, Coordinate-Relative Outliers, Coordinate-system view of quantization, Effective Rank, Entropy Coding for Functional Decomposition (+62 more)
 
-### Community 3 - "Bus & NoC Timing Specification / SPM Model Specification / KV Cache Semantics Specification"
+### Community 4 - "Bus & NoC Timing Specification / SPM Model Specification / KV Cache Semantics Specification"
 Cohesion: 0.05
-Nodes (70): Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority, Architecture Semantics Spec Index, Back-Pressure Events, Burst Latency Model, Bus & NoC Timing Specification, Bus / NoC, CMDQ Generator (+62 more)
+Nodes (68): Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority, Architecture Semantics Spec Index, Back-Pressure Events, Burst Latency Model, Bus & NoC Timing Specification, Bus / NoC, CMDQ Generator (+60 more)
 
-### Community 4 - "From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Overview / CMDQ Format Specification"
+### Community 5 - "From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Overview / CMDQ Format Specification"
 Cohesion: 0.07
 Nodes (66): Bitwidth-to-Memory Mapping, Bitwidth & Memory Mapping Specification, Capacity / Traffic Tradeoff, Command Queue (CMDQ), CMDQ Format Specification, CMDQ Overview, Why Mixed Precision LLM Support, Why Static Scheduling (+58 more)
-
-### Community 5 - "NPU Architecture / Flash-Resident LLM and HBF for Edge Inference / Project Helios Edge / Physical AI Custom SoC Platform Strategy"
-Cohesion: 0.05
-Nodes (60): AMD Versal ACAP, Attention Sink, AWS Inferentia, AWS Trainium, Cache Hybrid, AMBA bus recommendation, Google Coral Edge TPU, HyperAccel LPU (+52 more)
 
 ### Community 6 - "Cycle Loop Design / Offline Compiler Design / Integration Test Specification"
 Cohesion: 0.07
@@ -120,13 +121,13 @@ Nodes (16): DC-LLM, LLM quantization/compression stack, Microscaling vs mixed pr
 Cohesion: 0.15
 Nodes (13): Low-Rank Limitations, Low-Rank Structural Approximation, Manifold Gap Rationale, Novelty Claims, Operator-Coordinate Compression Framework, Outlier-Aware Limitations, Outlier-Aware Mixed Precision Methods, Prior Art Category Taxonomy (+5 more)
 
-### Community 13 - "Entropy Coding / OCEAN / Outlier-victim pair quantization"
+### Community 13 - "Versioning & Changelog Guide / Spec-Code Version Mapping / Spec Version"
+Cohesion: 0.23
+Nodes (12): Breaking Change Recording, Changelog, Changelog Automation, MAJOR.MINOR.PATCH, README.md, Semantic Versioning, Simulator Version, Spec-Code Version Mapping (+4 more)
+
+### Community 14 - "Entropy Coding / OCEAN / Outlier-victim pair quantization"
 Cohesion: 0.28
 Nodes (9): Base / residual / exception streams, Dead-zone, Entropy Coding, Entropy Coding Requires Distribution Shaping, OCEAN, OliVe, Outlier-aware quantization, Outlier-victim pair quantization (+1 more)
-
-### Community 14 - "SoC Specification Negotiation English / Spec Negotiation Language Framework / Soft No and Options"
-Cohesion: 0.22
-Nodes (9): Architecture Diary Format, Assumptions and Constraints, Four-Week Training Plan, Impact Analysis / PPA, Ownership and Scope, Requirement Clarification, SoC Specification Negotiation English, Soft No and Options (+1 more)
 
 ### Community 15 - "Full Documentation Review (v2) / Phase 0 Overview Enhancement / System Architecture Overview (Proposed)"
 Cohesion: 0.31
@@ -136,21 +137,21 @@ Nodes (9): Compute Dataflow Overview (Proposed), Full Documentation Review (v2),
 Cohesion: 0.32
 Nodes (8): Adaptive basis selection, Bayesian optimization DSE, DC-LLM, Dynamic linear combination, Explained Energy Ratio, LFSR-based basis generation, Systolic array, Weight generator
 
-### Community 17 - "MCM-first CNN-ISP block / Domain-invariant MCM-ISP via adversarial training / QuickSRNet target"
+### Community 17 - "Multiplierless Multiple Constant Multiplication / Multiplierless lifting DWT design / Multiplier-less Artificial Neurons"
+Cohesion: 0.5
+Nodes (5): AdderNet, Multiplier-less Artificial Neurons, Multiplierless lifting DWT design, Multiplierless Multiple Constant Multiplication, Pattern-search Lefevre algorithm
+
+### Community 18 - "MCM-first CNN-ISP block / Domain-invariant MCM-ISP via adversarial training / QuickSRNet target"
 Cohesion: 0.5
 Nodes (5): MCM-first CNN-ISP block, Domain-invariant MCM-ISP via adversarial training, QuickSRNet target, Why the CNN-ISP block is needed, Why domain adaptation strengthens MCM-ISP
 
-### Community 18 - "Stronger Normalization-Free Transformers / Variance control / Residual scaling"
+### Community 19 - "Stronger Normalization-Free Transformers / Variance control / Residual scaling"
 Cohesion: 0.5
 Nodes (5): DyT, LayerNorm, Residual scaling, Stronger Normalization-Free Transformers, Variance control
 
-### Community 19 - "SoC negotiation technical English / 4-week practical usage guide"
+### Community 20 - "SoC negotiation technical English / 4-week practical usage guide"
 Cohesion: 1.0
 Nodes (2): 4-week practical usage guide, SoC negotiation technical English
-
-### Community 20 - "Test-First for Core Logic / Test Accompanied"
-Cohesion: 1.0
-Nodes (2): Test-First for Core Logic, Test Accompanied
 
 ### Community 21 - "Vertical-First / Phase 1 - MatMul-only End-to-End"
 Cohesion: 1.0
@@ -160,115 +161,119 @@ Nodes (2): Phase 1 - MatMul-only End-to-End, Vertical-First
 Cohesion: 1.0
 Nodes (2): Document -> Design -> Code Flow, Document First
 
-### Community 23 - "doc_status.py"
+### Community 23 - "Test-First for Core Logic / Test Accompanied"
+Cohesion: 1.0
+Nodes (2): Test-First for Core Logic, Test Accompanied
+
+### Community 24 - "doc_status.py"
 Cohesion: 1.0
 Nodes (0): 
 
-### Community 24 - "Q/K/V Projection"
+### Community 25 - "Q/K/V Projection"
 Cohesion: 1.0
 Nodes (1): Q/K/V Projection
 
-### Community 25 - "Softmax Tile"
+### Community 26 - "Softmax Tile"
 Cohesion: 1.0
 Nodes (1): Softmax Tile
 
-### Community 26 - "LLM Workload Patterns"
+### Community 27 - "LLM Workload Patterns"
 Cohesion: 1.0
 Nodes (1): LLM Workload Patterns
 
-### Community 27 - "Cycle-Based Simulation"
+### Community 28 - "Cycle-Based Simulation"
 Cohesion: 1.0
 Nodes (1): Cycle-Based Simulation
 
-### Community 28 - "Vibe Coding Workflow"
+### Community 29 - "Vibe Coding Workflow"
 Cohesion: 1.0
 Nodes (1): Vibe Coding Workflow
 
-### Community 29 - "docs/design/dma_engine_design.md"
+### Community 30 - "docs/design/dma_engine_design.md"
 Cohesion: 1.0
 Nodes (1): docs/design/dma_engine_design.md
 
-### Community 30 - "docs/design/offline_compiler_design.md"
+### Community 31 - "docs/design/offline_compiler_design.md"
 Cohesion: 1.0
 Nodes (1): docs/design/offline_compiler_design.md
 
-### Community 31 - "Stage B - NPU Timing & Engine Modeling"
+### Community 32 - "Stage B - NPU Timing & Engine Modeling"
 Cohesion: 1.0
 Nodes (1): Stage B - NPU Timing & Engine Modeling
 
-### Community 32 - "Stage C - Full Operator Support"
+### Community 33 - "Stage C - Full Operator Support"
 Cohesion: 1.0
 Nodes (1): Stage C - Full Operator Support
 
-### Community 33 - "Stage D - LLM Specialization"
+### Community 34 - "Stage D - LLM Specialization"
 Cohesion: 1.0
 Nodes (1): Stage D - LLM Specialization
 
-### Community 34 - "Stage E - DSE Platform"
+### Community 35 - "Stage E - DSE Platform"
 Cohesion: 1.0
 Nodes (1): Stage E - DSE Platform
 
-### Community 35 - "Modular & Replaceable"
+### Community 36 - "Modular & Replaceable"
 Cohesion: 1.0
 Nodes (1): Modular & Replaceable
 
-### Community 36 - "Trace-First Design"
+### Community 37 - "Trace-First Design"
 Cohesion: 1.0
 Nodes (1): Trace-First Design
 
-### Community 37 - "End-to-End AI Hardware Simulation Platform"
+### Community 38 - "End-to-End AI Hardware Simulation Platform"
 Cohesion: 1.0
 Nodes (1): End-to-End AI Hardware Simulation Platform
 
-### Community 38 - "Skeleton-First SDD Implementation Roadmap"
+### Community 39 - "Skeleton-First SDD Implementation Roadmap"
 Cohesion: 1.0
 Nodes (1): Skeleton-First SDD Implementation Roadmap
 
-### Community 39 - "Phase 0 - Project Code Skeleton"
+### Community 40 - "Phase 0 - Project Code Skeleton"
 Cohesion: 1.0
 Nodes (1): Phase 0 - Project Code Skeleton
 
-### Community 40 - "Phase 2 - Timing/Memory/Engine Realization"
+### Community 41 - "Phase 2 - Timing/Memory/Engine Realization"
 Cohesion: 1.0
 Nodes (1): Phase 2 - Timing/Memory/Engine Realization
 
-### Community 41 - "Single Source of Truth"
+### Community 42 - "Single Source of Truth"
 Cohesion: 1.0
 Nodes (1): Single Source of Truth
 
-### Community 42 - "Spec Update"
+### Community 43 - "Spec Update"
 Cohesion: 1.0
 Nodes (1): Spec Update
 
-### Community 43 - "Design Update"
+### Community 44 - "Design Update"
 Cohesion: 1.0
 Nodes (1): Design Update
 
-### Community 44 - "Test Doc Update"
+### Community 45 - "Test Doc Update"
 Cohesion: 1.0
 Nodes (1): Test Doc Update
 
-### Community 45 - "Implementation"
+### Community 46 - "Implementation"
 Cohesion: 1.0
 Nodes (1): Implementation
 
-### Community 46 - "Review & Merge"
+### Community 47 - "Review & Merge"
 Cohesion: 1.0
 Nodes (1): Review & Merge
 
-### Community 47 - "PR/Issue Templates"
+### Community 48 - "PR/Issue Templates"
 Cohesion: 1.0
 Nodes (1): PR/Issue Templates
 
-### Community 48 - "CI Integration"
+### Community 49 - "CI Integration"
 Cohesion: 1.0
 Nodes (1): CI Integration
 
-### Community 49 - "Example Flows"
+### Community 50 - "Example Flows"
 Cohesion: 1.0
 Nodes (1): Example Flows
 
-### Community 50 - "Global Integrated Diagram"
+### Community 51 - "Global Integrated Diagram"
 Cohesion: 1.0
 Nodes (1): Global Integrated Diagram
 
@@ -277,11 +282,11 @@ Nodes (1): Global Integrated Diagram
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `SoC negotiation technical English / 4-week practical usage guide`** (2 nodes): `4-week practical usage guide`, `SoC negotiation technical English`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Test-First for Core Logic / Test Accompanied`** (2 nodes): `Test-First for Core Logic`, `Test Accompanied`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Vertical-First / Phase 1 - MatMul-only End-to-End`** (2 nodes): `Phase 1 - MatMul-only End-to-End`, `Vertical-First`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Document First / Document -> Design -> Code Flow`** (2 nodes): `Document -> Design -> Code Flow`, `Document First`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Test-First for Core Logic / Test Accompanied`** (2 nodes): `Test-First for Core Logic`, `Test Accompanied`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `doc_status.py`** (1 nodes): `doc_status.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -343,17 +348,17 @@ Nodes (1): Global Integrated Diagram
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `LLM Quantization & Compression` connect `LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note` to `From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Overview / CMDQ Format Specification`, `NPU Architecture / Flash-Resident LLM and HBF for Edge Inference / Project Helios Edge / Physical AI Custom SoC Platform Strategy`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Latent Action World Model`, `LLM Quantization and Compression Methods / Outlier Mitigation Methods Comparison / Mixed Precision as a System Policy`, `Entropy Coding / OCEAN / Outlier-victim pair quantization`, `SoC Specification Negotiation English / Spec Negotiation Language Framework / Soft No and Options`, `DC-LLM / Dynamic linear combination / Adaptive basis selection`?**
+- **Why does `LLM Quantization & Compression` connect `LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note` to `NPU Architecture / Flash-Resident LLM and HBF for Edge Inference / Project Helios Edge / Physical AI Custom SoC Platform Strategy`, `From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Overview / CMDQ Format Specification`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Latent Action World Model`, `LLM Quantization and Compression Methods / Outlier Mitigation Methods Comparison / Mixed Precision as a System Policy`, `Entropy Coding / OCEAN / Outlier-victim pair quantization`, `DC-LLM / Dynamic linear combination / Adaptive basis selection`?**
   _High betweenness centrality (0.195) - this node is a cross-community bridge._
-- **Why does `Flash-Resident LLM and HBF for Edge Inference` connect `NPU Architecture / Flash-Resident LLM and HBF for Edge Inference / Project Helios Edge / Physical AI Custom SoC Platform Strategy` to `Paper Reviews / NPU/LPU Simulator and Implementation Tools / NPU Simulator & Compiler`, `LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note`, `Bus & NoC Timing Specification / SPM Model Specification / KV Cache Semantics Specification`, `From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Overview / CMDQ Format Specification`, `Patent & MCM Research / Patent Research — MCM and AI Infrastructure / Multiple Constant Multiplication`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Latent Action World Model`, `LLM Quantization and Compression Methods / Outlier Mitigation Methods Comparison / Mixed Precision as a System Policy`?**
-  _High betweenness centrality (0.148) - this node is a cross-community bridge._
-- **Why does `Static Scheduling and Deterministic Execution` connect `Paper Reviews / NPU/LPU Simulator and Implementation Tools / NPU Simulator & Compiler` to `Patent & MCM Research / Patent Research — MCM and AI Infrastructure / Multiple Constant Multiplication`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Latent Action World Model`, `Bus & NoC Timing Specification / SPM Model Specification / KV Cache Semantics Specification`, `NPU Architecture / Flash-Resident LLM and HBF for Edge Inference / Project Helios Edge / Physical AI Custom SoC Platform Strategy`?**
-  _High betweenness centrality (0.086) - this node is a cross-community bridge._
+- **Why does `Flash-Resident LLM and HBF for Edge Inference` connect `NPU Architecture / Flash-Resident LLM and HBF for Edge Inference / Project Helios Edge / Physical AI Custom SoC Platform Strategy` to `RISC-V NPU SoC Simulator / Paper Reviews / NPU/LPU Simulator and Implementation Tools`, `LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note`, `Bus & NoC Timing Specification / SPM Model Specification / KV Cache Semantics Specification`, `From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Overview / CMDQ Format Specification`, `Patent & MCM Research / Patent Research — MCM and AI Infrastructure / Multiple Constant Multiplication`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Latent Action World Model`, `LLM Quantization and Compression Methods / Outlier Mitigation Methods Comparison / Mixed Precision as a System Policy`?**
+  _High betweenness centrality (0.147) - this node is a cross-community bridge._
+- **Why does `Static Scheduling and Deterministic Execution` connect `RISC-V NPU SoC Simulator / Paper Reviews / NPU/LPU Simulator and Implementation Tools` to `Patent & MCM Research / Patent Research — MCM and AI Infrastructure / Multiple Constant Multiplication`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Latent Action World Model`, `NPU Architecture / Flash-Resident LLM and HBF for Edge Inference / Project Helios Edge / Physical AI Custom SoC Platform Strategy`?**
+  _High betweenness centrality (0.087) - this node is a cross-community bridge._
 - **Are the 4 inferred relationships involving `LLM Quantization & Compression` (e.g. with `HW-Friendly Model Design` and `NPU Architecture`) actually correct?**
   _`LLM Quantization & Compression` has 4 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 4 inferred relationships involving `NPU Architecture` (e.g. with `Paper Reviews` and `HW-Friendly Model Design`) actually correct?**
   _`NPU Architecture` has 4 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 10 inferred relationships involving `Flash-Resident LLM and HBF for Edge Inference` (e.g. with `Memory hierarchy in AI accelerators` and `Why LPDDR fits decode-heavy inference`) actually correct?**
-  _`Flash-Resident LLM and HBF for Edge Inference` has 10 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 4 inferred relationships involving `RISC-V NPU SoC Simulator` (e.g. with `NPU Simulator & Compiler` and `Prefill / Decode Duality`) actually correct?**
+  _`RISC-V NPU SoC Simulator` has 4 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `AgentHub collaboration model change`, `Reasoning in 13M parameters`, `AI-assisted research workflow` to the rest of the system?**
   _279 weakly-connected nodes found - possible documentation gaps or missing edges._

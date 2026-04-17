@@ -20,6 +20,8 @@ This file is the source of truth for wiki structure. Edit it to rename topics, m
 | `trace-visualization` | Trace & Visualization | trace, gantt, heatmap, utilization, timeline, visualization, profiler, trace schema | Trace schema, visualization requirements, and analysis workflow for simulator outputs |
 | `npu-doc-process` | NPU Documentation Process | SDD, roadmap, milestone, naming, review, contribution, changelog, workflow | Documentation, review, roadmap, and spec-driven process for the RISCV_NPU_SoC_SIM project |
 | `npu-architecture-spec` | NPU Architecture & Execution Spec | NPU IR, CMDQ, ISA, tile semantics, quantization, KV semantics, scheduling semantics | Normative execution semantics and compiler-simulator contract for RISCV_NPU_SoC_SIM |
+| `ir-cmdq-contract` | IR & CMDQ Contract | NPU IR, TensorIR, LayerIR, CMDQ, opcode, deps, deterministic lowering | IR schema and CMDQ execution contract between offline compiler and simulator |
+| `tile-semantics-quantization` | Tile Semantics & Quantization Contract | tile lifecycle, KV semantics, mixed precision, qbits, prefill/decode, scheduling semantics | Tile lifecycle, quantization policy, KV semantics, and phase-aware execution contract |
 | `npu-timing-memory-model` | NPU Timing & Memory Model | DMA timing, TE timing, VE timing, SPM, Bus, NoC, bandwidth, contention, latency model | Cycle timing, memory hierarchy, Bus/NoC contention, and engine latency modeling |
 | `simulation-validation` | Simulation Validation & Golden Traces | golden trace, integration test, unit test, perf validation, regression, reference metrics | Validation protocols, golden artifacts, and acceptance criteria for simulator correctness and usefulness |
 
@@ -73,3 +75,4 @@ Split rule:
 - **2026-04-16**: Added explicit document-role rules to separate canonical topic pages from curated deep-dive essays and strategy memos
 - **2026-04-16**: Split the overloaded `riscv-npu-soc-sim` umbrella into architecture-spec, timing-memory, and simulation-validation subtopics while keeping process and trace as separate canonical layers
 - **2026-04-17**: Clarified that process control-plane docs may feed `npu-doc-process`, while milestone/review/task documents stay operational artifacts rather than future standalone topics
+- **2026-04-17**: Split `npu-architecture-spec` into `ir-cmdq-contract` and `tile-semantics-quantization`, leaving the original page as an umbrella for execution-spec sublayers
