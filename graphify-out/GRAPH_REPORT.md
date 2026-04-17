@@ -1,11 +1,11 @@
 # Graph Report - obsidian_notes  (2026-04-17)
 
 ## Corpus Check
-- 188 files · ~296,406 words
+- 188 files · ~296,722 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 727 nodes · 1320 edges · 51 communities detected
+- 727 nodes · 1321 edges · 51 communities detected
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 146 edges (avg confidence: 0.86)
 - Token cost: 0 input · 0 output
 

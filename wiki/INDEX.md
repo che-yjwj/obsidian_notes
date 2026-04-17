@@ -68,6 +68,7 @@ These are intentionally longer synthesis documents. They are useful entry points
 - `wiki/topics/*` is the canonical topic layer. These pages should stay compact, source-backed, and link outward.
 - `wiki/concepts/*` is the cross-topic abstraction layer. These pages capture reusable patterns, not project-specific summaries.
 - `wiki/AI-Hardware/*`, `wiki/GenAI/*`, `wiki/Research/*`, and `wiki/Misc/*` can contain curated deep dives, essays, reviews, and strategy memos.
+- Inside process-heavy source families, roadmap/workflow/governance docs can feed a canonical process topic, but milestone trackers, review summaries, and task lists should stay operational artifacts rather than becoming separate semantic hubs.
 - A deep-dive page should be promoted into `wiki/topics/*` only when it accumulates a distinct source family, repeated graph community, and stable outbound links.
 - When a topic becomes a mega-hub, split it before adding more prose. Topic size is a maintenance smell, not a success metric.
 
@@ -76,7 +77,7 @@ These are intentionally longer synthesis documents. They are useful entry points
 ## Immediate Refactor Targets
 
 - Rebalance `riscv-npu-soc-sim` again after one more graph pass so the umbrella stays narrow and project-level
-- Verify the ownership boundary between `trace-visualization` and `simulation-validation`, especially for test-oriented trace documents
+- Keep `npu-doc-process` as the single process hub and avoid letting `documentation_review_summary` / `milestone_plan` become parallel semantic entry points
 - Evaluate whether `operator-coordinate-compression` should later split into theory and patent/application subtopics
 - Keep `AI-Hardware/NPU-Architecture` and `topics/npu-architecture` aligned so the overview page does not silently drift from the canonical topic page
 - Decide whether `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` remains a strategy memo or becomes a future topic family with subpages on fabric presets, compute hierarchy, and runtime strategy
@@ -90,3 +91,4 @@ These are intentionally longer synthesis documents. They are useful entry points
 - **2026-04-16**: Curation pass clarified canonical topics vs deep-dive essays and added explicit operating rules for wiki maintenance
 - **2026-04-16**: Structural split extracted `npu-architecture-spec`, `npu-timing-memory-model`, and `simulation-validation` from the overloaded `riscv-npu-soc-sim` umbrella
 - **2026-04-17**: Extended the deep-dive operating model to `wiki/GenAI/*` and `wiki/Research/*` so these pages point back to canonical topics instead of drifting into parallel topic trees
+- **2026-04-17**: Tightened the process-topic rule so roadmap/workflow docs remain the canonical process hub while milestone and review summaries are treated as operational artifacts

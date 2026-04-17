@@ -24874,6 +24874,18 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-doc-process.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "npu_doc_process_topic",
+      "_tgt": "simulation_validation_topic",
+      "source": "npu_doc_process_topic",
+      "target": "simulation_validation_topic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "wiki/topics/npu-architecture-spec.md",
       "source_location": null,
       "weight": 1.0,

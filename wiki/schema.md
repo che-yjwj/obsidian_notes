@@ -56,6 +56,7 @@ This file is the source of truth for wiki structure. Edit it to rename topics, m
   Cross-topic patterns that connect two or more topic families. Avoid turning these into project diaries or literature summaries.
 - `wiki/AI-Hardware/*`, `wiki/GenAI/*`, `wiki/Research/*`, `wiki/Misc/*`
   Curated deep dives, essays, benchmark notes, strategy memos, or review documents. These can be longer and more opinionated than canonical topic pages.
+- In process-heavy source trees, distinguish reusable control-plane docs from operational artifacts. Workflow/roadmap/governance documents can justify a canonical topic; milestone trackers, review summaries, and temporary task lists should normally remain source inputs, not standalone topic candidates.
 
 Promotion rule:
 - Promote a deep-dive page into `wiki/topics/*` only when it has a stable source family, repeated graph community support, and clear value as a reusable navigation hub.
@@ -71,3 +72,4 @@ Split rule:
 - **2026-04-14**: Expanded schema to 11 topics and 7 concepts to absorb newly connected graphify communities before the next wiki compile
 - **2026-04-16**: Added explicit document-role rules to separate canonical topic pages from curated deep-dive essays and strategy memos
 - **2026-04-16**: Split the overloaded `riscv-npu-soc-sim` umbrella into architecture-spec, timing-memory, and simulation-validation subtopics while keeping process and trace as separate canonical layers
+- **2026-04-17**: Clarified that process control-plane docs may feed `npu-doc-process`, while milestone/review/task documents stay operational artifacts rather than future standalone topics
