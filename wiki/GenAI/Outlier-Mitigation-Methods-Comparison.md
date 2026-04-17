@@ -1,6 +1,6 @@
 ---
 title: Outlier Mitigation Methods Comparison
-type: comparison
+type: deep-dive
 sources:
   - raw/GenAI/Compression/OliVe Paper Summary 33a6cc566b0b81419e7bfc22f35bdf25.md
   - raw/GenAI/Compression/OCEAN-based LLM Compression/OCEAN-based LLM Compression (Part 2 of 9) 33a6cc566b0b81e99238dcafa97547ed.md
@@ -8,10 +8,13 @@ sources:
   - raw/GenAI/Compression/OCEAN-based LLM Compression/OCEAN-based LLM Compression (Part 5 of 9) 33a6cc566b0b81339ca2c063e67abe20.md
   - raw/GenAI/Compression/OCEAN-based LLM Compression/OCEAN-based LLM Compression (Part 6 of 9) 33a6cc566b0b81c79bcbc45860000c15.md
 tags: [quantization, outlier, SmoothQuant, QuaRot, SpinQuant, AWQ, OCEAN]
-updated: 2026-04-09
+updated: 2026-04-17
 ---
 
 # Outlier Mitigation Methods Comparison
+
+Canonical topic: [[topics/llm-quantization-compression]]
+Related concepts: [[concepts/mixed-precision-policy]]
 
 LLM 저비트 양자화에서 outlier 처리는 크게 `스케일링`, `회전`, `재배치` 계열로 나뉜다. 이 페이지는 `SmoothQuant`, `QuaRot`, `SpinQuant`를 중심에 두고, OCEAN 관점에서 각 방법의 위치를 비교한다.
 

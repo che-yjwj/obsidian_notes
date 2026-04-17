@@ -1,6 +1,6 @@
 ---
 title: LLM Quantization and Compression Methods
-type: topic
+type: deep-dive
 sources:
   - raw/GenAI/Compression/DC-LLM Paper Summary 33a6cc566b0b810abe58cd3c651ad3ad.md
   - raw/GenAI/Compression/OliVe Paper Summary 33a6cc566b0b81419e7bfc22f35bdf25.md
@@ -19,10 +19,13 @@ sources:
   - raw/GenAI/Compression/OCEAN-based LLM Compression/OCEAN-based LLM Compression (Part 8 of 9) 33a6cc566b0b814a9495d3ee2214499d.md
   - raw/GenAI/Compression/OCEAN-based LLM Compression/OCEAN-based LLM Compression (Part 9 of 9) 33a6cc566b0b81d89f96cfedd5ba2b85.md
 tags: [quantization, compression, LLM, DC-LLM, OliVe, TurboQuant, OCEAN, microscaling]
-updated: 2026-04-09
+updated: 2026-04-17
 ---
 
 # LLM Quantization and Compression Methods
+
+Canonical topic: [[topics/llm-quantization-compression]]
+Related concepts: [[concepts/mixed-precision-policy]], [[concepts/memory-bandwidth-bottleneck]]
 
 LLM 추론은 **메모리-바운드** 워크로드다. 가중치 전송 비용이 병목이므로, 압축의 핵심 목표는 모델 크기·메모리 대역폭 절감이다.
 

@@ -12,10 +12,13 @@ sources:
   - raw/GenAI/Compression/OCEAN-based LLM Compression/OCEAN-based LLM Compression (Part 8 of 9) 33a6cc566b0b814a9495d3ee2214499d.md
   - raw/GenAI/Compression/OCEAN-based LLM Compression/OCEAN-based LLM Compression (Part 9 of 9) 33a6cc566b0b81d89f96cfedd5ba2b85.md
 tags: [OCEAN, quantization, compression, entropy-coding, outlier, rotation, manifold]
-updated: 2026-04-07
+updated: 2026-04-17
 ---
 
 # OCEAN Compression Deep Dive
+
+Canonical topic: [[topics/llm-quantization-compression]]
+Related concepts: [[concepts/mixed-precision-policy]]
 
 OCEAN은 LLM weight를 단순히 저비트로 깎는 문제가 아니라, 좌표계와 표현 방식을 바꿔서 더 낮은 엔트로피와 더 나은 rate-distortion을 얻으려는 프레임으로 정리할 수 있다. 핵심은 `값 자체`보다 `구조가 드러나는 표현`을 만드는 데 있다.
 

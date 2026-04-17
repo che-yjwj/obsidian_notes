@@ -3,43 +3,108 @@
   "removed_nodes": [],
   "new_edges": [
     {
-      "source": "kv_cache_dram_residency",
-      "target": "trace_visualization_topic",
+      "source": "wiki_research_patent_mcm",
+      "target": "patent_mcm_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "trace_visualization_topic",
-      "target": "trace_first_design",
+      "source": "wiki_research_patent_mcm",
+      "target": "static_scheduling_determinism",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "trace_visualization_topic",
-      "target": "simulation_validation_topic",
+      "source": "wiki_research_paper_reviews",
+      "target": "paper_reviews",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_llm_quantization_and_compression",
+      "target": "llm_quantization_compression",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_llm_quantization_and_compression",
+      "target": "mixed_precision_policy",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_llm_quantization_and_compression",
+      "target": "memory_bandwidth_bottleneck",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_ocean_compression_deep_dive",
+      "target": "llm_quantization_compression",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_ocean_compression_deep_dive",
+      "target": "mixed_precision_policy",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_hw_friendly_model_design",
+      "target": "hw_friendly_model_design",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_hw_friendly_model_design",
+      "target": "kv_cache_dram_residency",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_hw_friendly_model_design",
+      "target": "prefill_decode_duality",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_hw_friendly_model_design",
+      "target": "memory_bandwidth_bottleneck",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_research_ai_assisted_research_workflow",
+      "target": "paper_reviews",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_research_ai_assisted_research_workflow",
+      "target": "patent_mcm_doc",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_research_research_tooling_reviews",
+      "target": "paper_reviews",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_outlier_mitigation_methods_comparison",
+      "target": "llm_quantization_compression",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "wiki_genai_outlier_mitigation_methods_comparison",
+      "target": "mixed_precision_policy",
       "relation": "references",
       "confidence": "EXTRACTED"
     }
   ],
-  "removed_edges": [
-    {
-      "source": "kv_cache_dram_residency",
-      "target": "trace_visualization_topic",
-      "relation": "connects",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "trace_visualization_topic",
-      "target": "trace_first_design",
-      "relation": "connects",
-      "confidence": "EXTRACTED"
-    },
-    {
-      "source": "trace_visualization_topic",
-      "target": "simulation_validation_topic",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED"
-    }
-  ],
-  "summary": "3 new edges, 3 edges removed"
+  "removed_edges": [],
+  "summary": "17 new edges"
 }

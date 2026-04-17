@@ -1,16 +1,19 @@
 ---
 title: Patent Research — MCM and AI Infrastructure
-type: topic
+type: deep-dive
 sources:
   - raw/Research/Patent-MCM/Taalas AI Infrastructure Innovation 33a6cc566b0b81378bc9f4ae1054ac16.md
   - raw/Research/Patent-MCM/Multiplierless Design Paper Analysis/Multiplierless Design Paper Analysis (Part 1 of 3) 33a6cc566b0b81028b7bdfa2171ef078.md
   - raw/Research/Patent-MCM/Multiplierless Design Paper Analysis/Multiplierless Design Paper Analysis (Part 2 of 3) 33a6cc566b0b81e1a9a9f08c25a9f5d0.md
   - raw/Research/Patent-MCM/Multiplierless Design Paper Analysis/Multiplierless Design Paper Analysis (Part 3 of 3) 33a6cc566b0b81c9a32eca2323221258.md
 tags: [MCM, patent, multiplierless, DWT, AI-infrastructure, model-centric]
-updated: 2026-04-09
+updated: 2026-04-17
 ---
 
 # Patent Research — MCM and AI Infrastructure
+
+Canonical topic: [[topics/patent-mcm]]
+Related concepts: [[concepts/static-scheduling-determinism]]
 
 이 페이지는 `Multiplierless/MCM`과 `model-centric AI infrastructure`의 접점을 정리하는 상위 문서다. AgentHub, AI-assisted workflow, tiny reasoning 관련 내용은 [[wiki/Research/AI-Assisted-Research-Workflow]]로 분리했다.
 

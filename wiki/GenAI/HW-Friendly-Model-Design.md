@@ -1,16 +1,19 @@
 ---
 title: HW-Friendly GenAI Model Design
-type: topic
+type: deep-dive
 sources:
   - raw/GenAI/HW-Friendly/KV-cache Optimization Explanation 33a6cc566b0b811890a0df4bc615b114.md
   - raw/GenAI/HW-Friendly/Latent Action World Model 33a6cc566b0b816ba286eaff4c35c587.md
   - raw/GenAI/HW-Friendly/Stronger Normalization-Free Transformers 33a6cc566b0b81648fc4ec9576dc68a0.md
   - raw/GenAI/HW-Friendly/MSA and RAG Analysis 33a6cc566b0b81b6b40ec9ead1726cf4.md
 tags: [KV-cache, normalization-free, world-model, RAG, MSA, Gemma]
-updated: 2026-04-07
+updated: 2026-04-17
 ---
 
 # HW-Friendly GenAI Model Design
+
+Canonical topic: [[topics/hw-friendly-model-design]]
+Related concepts: [[concepts/kv-cache-dram-residency]], [[concepts/prefill-decode-duality]], [[concepts/memory-bandwidth-bottleneck]]
 
 ## On-Device AI: Gemma 3n과 KV-cache 최적화
 

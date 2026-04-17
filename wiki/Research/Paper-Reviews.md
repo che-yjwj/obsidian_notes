@@ -1,16 +1,18 @@
 ---
 title: Paper Reviews
-type: topic
+type: deep-dive
 sources:
   - raw/Research/Paper-Review/STEM Structure and Scalability 33a6cc566b0b8134bba4f04b6ccf5786.md
   - raw/Research/Paper-Review/Dr Zero Concept Summary 33a6cc566b0b81dea270edb325090317.md
   - raw/Research/Paper-Review/Chaos Theory and Prediction/Chaos Theory and Prediction (Part 1 of 2) 33a6cc566b0b81b7aeabd969fc648765.md
   - raw/Research/Paper-Review/Chaos Theory and Prediction/Chaos Theory and Prediction (Part 2 of 2) 33a6cc566b0b8185b540df4617ca05a5.md
 tags: [paper-review, STEM, transformer, chaos-theory, reasoning]
-updated: 2026-04-09
+updated: 2026-04-17
 ---
 
 # Paper Reviews
+
+Canonical topic: [[topics/paper-reviews]]
 
 이 페이지는 개별 리뷰를 나열하는 문서가 아니라 `research tooling`과 `reasoning/theory` 두 축을 묶는 허브다. 생산성 도구 계열은 [[wiki/Research/Research-Tooling-Reviews]]로 분리했다.
 

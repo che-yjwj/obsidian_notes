@@ -1,14 +1,16 @@
 ---
 title: Research Tooling Reviews
-type: topic
+type: deep-dive
 sources:
   - raw/Research/Paper-Review/PaperDebugger Research Productivity Innovation 33a6cc566b0b81438d17de8e443da8de.md
   - raw/Research/Paper-Review/PaperBanana AI Research 33a6cc566b0b81f5b652f4c9128db47b.md
 tags: [paper-review, research-tools, automation, PaperDebugger, PaperBanana]
-updated: 2026-04-09
+updated: 2026-04-17
 ---
 
 # Research Tooling Reviews
+
+Canonical topic: [[topics/paper-reviews]]
 
 논문을 더 빨리 읽고, 재현하고, 시각화하고, 연관 자료를 찾는 도구 계열 리뷰를 묶는다. 이 페이지는 연구 생산성 도구를 `debugging`과 `discovery/visualization` 축으로 정리한다.
 

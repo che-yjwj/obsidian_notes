@@ -1,7 +1,7 @@
 # AI Hardware & GenAI Research — Knowledge Base
 
 Last compiled: 2026-04-16
-Last curated: 2026-04-16
+Last curated: 2026-04-17
 Canonical topics: 14 | Canonical concepts: 7 | Sources scanned in last compile: 123
 
 ---
@@ -52,6 +52,14 @@ These are intentionally longer synthesis documents. They are useful entry points
 | [[AI-Hardware/Simulator-and-Implementation-Tools]] | curated survey | overlaps with `topics/npu-simulator-compiler` |
 | [[AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference]] | architecture synthesis essay | bridges memory hierarchy, KV policy, and edge inference |
 | [[AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy]] | strategy memo / platform thesis | currently a deep dive; candidate for future topic extraction if related source corpus grows |
+| [[GenAI/HW-Friendly-Model-Design]] | domain deep dive / model-design essay | expands `topics/hw-friendly-model-design` with on-device and KV-centric examples |
+| [[GenAI/LLM-Quantization-and-Compression]] | domain deep dive / compression survey | expands `topics/llm-quantization-compression` with method-level comparisons |
+| [[GenAI/OCEAN-Compression-Deep-Dive]] | method deep dive | specialized essay under `topics/llm-quantization-compression` |
+| [[GenAI/Outlier-Mitigation-Methods-Comparison]] | comparative review | compares outlier-mitigation methods under `topics/llm-quantization-compression` |
+| [[Research/AI-Assisted-Research-Workflow]] | workflow essay / operating model | bridges `topics/paper-reviews` and `topics/patent-mcm` around research execution |
+| [[Research/Paper-Reviews]] | curated review hub | expands `topics/paper-reviews` with a human-readable survey layer |
+| [[Research/Patent-MCM]] | patent and hardware-specialization essay | expands `topics/patent-mcm` with multiplierless and model-to-silicon framing |
+| [[Research/Research-Tooling-Reviews]] | tooling review essay | companion deep dive to `topics/paper-reviews` for research productivity tools |
 
 ---
 
@@ -81,3 +89,4 @@ These are intentionally longer synthesis documents. They are useful entry points
 - **2026-04-14**: Incremental compile added 3 topics and 4 concepts from newly separated graph clusters: operator-coordinate-compression, trace-visualization, npu-doc-process
 - **2026-04-16**: Curation pass clarified canonical topics vs deep-dive essays and added explicit operating rules for wiki maintenance
 - **2026-04-16**: Structural split extracted `npu-architecture-spec`, `npu-timing-memory-model`, and `simulation-validation` from the overloaded `riscv-npu-soc-sim` umbrella
+- **2026-04-17**: Extended the deep-dive operating model to `wiki/GenAI/*` and `wiki/Research/*` so these pages point back to canonical topics instead of drifting into parallel topic trees
