@@ -4,13 +4,33 @@ type: deep-dive
 sources:
   - raw/AI-Hardware/Architecture/Memory Hierarchy in AI 33a6cc566b0b81f4b111e6d0e5d21553.md
 tags: [memory, HBM, SRAM, NPU, GPU]
-updated: 2026-04-09
+updated: 2026-04-17
 ---
 
 # Memory Hierarchy in AI Accelerators
 
 Canonical topic: [[topics/npu-architecture]]
 Related concepts: [[concepts/memory-bandwidth-bottleneck]], [[concepts/kv-cache-dram-residency]]
+
+## Role in This Wiki
+
+- This page is a framing deep dive for comparing accelerator memory hierarchies across GPU, NPU, and mobile-edge designs.
+- The canonical reusable synthesis for architecture-level memory decisions remains [[topics/npu-architecture]].
+- When a memory rule becomes a stable cross-wiki pattern, it should move into the canonical topic or a concept page rather than expand this essay indefinitely.
+
+## Boundary
+
+This page should focus on:
+- cross-platform memory hierarchy comparison
+- architectural interpretation of SRAM / cache / HBM / LPDDR choices
+- narrative framing for why memory topology changes accelerator behavior
+
+This page should not become the main home for:
+- edge-specific flash/HBF residency strategy
+- simulator/compiler execution contracts
+- process or validation guidance
+
+Those belong in [[topics/npu-architecture]], [[topics/hw-friendly-model-design]], and the execution-spec topic family.
 
 AI 가속기에서 메모리 계층 구조는 성능의 핵심 결정 요인이다. 연산–데이터 이동–전력/면적 트레이드오프 관점에서 주요 플랫폼을 비교한다.
 

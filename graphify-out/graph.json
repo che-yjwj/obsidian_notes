@@ -608,6 +608,21 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/AI-Hardware/NPU-Architecture.md"
+      },
+      {
+        "id": "memory_deep_dive_canonical_boundaries_2026_04_17",
+        "label": "Memory Deep-Dive Canonical Boundaries 2026-04-17",
+        "nodes": [
+          "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+          "npu_architecture",
+          "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+          "hw_friendly_model_design",
+          "kv_cache_dram_residency"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/AI-Hardware/Memory-Hierarchy-in-AI-Accelerators.md"
       }
     ]
   },
@@ -25211,6 +25226,21 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/AI-Hardware/NPU-Architecture.md"
+    },
+    {
+      "id": "memory_deep_dive_canonical_boundaries_2026_04_17",
+      "label": "Memory Deep-Dive Canonical Boundaries 2026-04-17",
+      "nodes": [
+        "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+        "npu_architecture",
+        "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference",
+        "hw_friendly_model_design",
+        "kv_cache_dram_residency"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/AI-Hardware/Memory-Hierarchy-in-AI-Accelerators.md"
     }
   ]
 }

@@ -13,13 +13,33 @@ external_references:
   - SK hynix and Sandisk HBF standardization kickoff, 2026-02-26, https://news.skhynix.com/sk-hynix-and-sandisk-begin-global-standardization-of-next-generation-memory-hbf/
   - `H3: Hybrid Architecture Using High Bandwidth Memory and High Bandwidth Flash for Cost-Efficient LLM Inference`, abstract index, https://eurekamag.com/research/103/475/103475220.php
 tags: [LLM, edge-inference, memory-hierarchy, HBF, flash, KV-cache, NPU]
-updated: 2026-04-14
+updated: 2026-04-17
 ---
 
 # Flash-Resident LLM and HBF for Edge Inference
 
 Canonical topics: [[topics/hw-friendly-model-design]], [[topics/npu-architecture]]
 Related concepts: [[concepts/kv-cache-dram-residency]], [[concepts/prefill-decode-duality]], [[concepts/memory-bandwidth-bottleneck]]
+
+## Role in This Wiki
+
+- This page is a synthesis essay that connects flash-resident inference, HBF-style warm tiers, and edge-runtime memory placement into one architectural narrative.
+- The reusable canonical homes for this material remain [[topics/hw-friendly-model-design]] and [[topics/npu-architecture]].
+- If a claim should be reused across multiple wiki paths as a stable design rule, it should migrate into a canonical topic or concept rather than continue to accumulate here.
+
+## Boundary
+
+This page should focus on:
+- edge inference memory residency strategy
+- flash/HBF tier interpretation
+- runtime-oriented architectural synthesis
+
+This page should not become the main home for:
+- generic NPU memory hierarchy baseline
+- project-specific simulator execution contracts
+- canonical KV-cache semantics ownership
+
+Those belong under [[topics/npu-architecture]], [[topics/hw-friendly-model-design]], and the related memory/KV concepts.
 
 엣지 AI 추론 시스템의 핵심은 더 이상 "최대 TOPS"가 아니다. 실제 병목은 모델 가중치, KV cache, 멀티모달 자산, 개인화 adapter를 어떤 메모리 계층에 배치하고 언제 이동시키는가에 있다. 이 문서는 Apple의 `LLM in a Flash`가 보여준 flash-resident weight streaming 철학과, 최근 업계가 제시하는 `HBF(High Bandwidth Flash)` 계층을 연결해, 엣지 추론용 전체 시스템 아키텍처를 하나의 관점으로 정리한다.
 
