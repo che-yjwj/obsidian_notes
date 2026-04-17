@@ -36,5 +36,9 @@
     "raw/Research/Patent-MCM/",
     "raw/Misc/"
   ],
-  "total_sources_scanned": 123
+  "total_sources_scanned": 123,
+  "scope_notes": {
+    "compiler_scope": "Counts the curated raw-source corpus listed in source_locations.",
+    "graph_scope": "Graphify reports the wider vault graph across raw notes, wiki pages, and supporting documents, so file totals differ by design."
+  }
 }

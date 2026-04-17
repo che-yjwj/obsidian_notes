@@ -66,6 +66,14 @@ Promotion rule:
 Split rule:
 - Split a topic when it becomes a mega-hub that mixes architecture, process, validation, and roadmap content in one page.
 
+Small-topic rule:
+- A topic may remain canonical even with a small source count if it serves a distinct user intent, has low overlap with nearby topics, and works as a stable navigation hub. Size alone is not sufficient reason to demote it.
+
+Scope note:
+- `wiki/.compile-state.json` tracks the curated raw-source corpus used by the wiki compiler.
+- `graphify-out/GRAPH_REPORT.md` reports the wider vault graph across raw notes, wiki pages, and supporting documents.
+- Topic counts and file counts across those two systems are expected to differ.
+
 ---
 
 ## Evolution Log
@@ -76,3 +84,4 @@ Split rule:
 - **2026-04-16**: Split the overloaded `riscv-npu-soc-sim` umbrella into architecture-spec, timing-memory, and simulation-validation subtopics while keeping process and trace as separate canonical layers
 - **2026-04-17**: Clarified that process control-plane docs may feed `npu-doc-process`, while milestone/review/task documents stay operational artifacts rather than future standalone topics
 - **2026-04-17**: Split `npu-architecture-spec` into `ir-cmdq-contract` and `tile-semantics-quantization`, leaving the original page as an umbrella for execution-spec sublayers
+- **2026-04-17**: Added the small-topic rule and explicit compiler-scope vs graph-scope note so maintenance decisions are not driven by raw file count alone

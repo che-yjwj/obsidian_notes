@@ -59,3 +59,13 @@
 **Sources scanned:** existing RISCV_NPU_SoC_SIM spec corpus re-grouped, not re-extracted from raw
 **Sources changed:** execution-spec layer split into IR/CMDQ contract and tile/quantization contract; original `npu-architecture-spec` reduced to umbrella role
 **Notes:** `npu-timing-memory-model`, `simulation-validation`, `trace-visualization`, and `npu-doc-process` remain sibling canonical topics; next pass should verify whether any of the new subtopics accumulates enough depth to justify further split
+
+## 2026-04-17 (run 2)
+
+**Run type:** curation / maintenance metadata sync
+**Topics updated:** INDEX, schema, compile-state
+**New topics:** none
+**New concepts:** none
+**Sources scanned:** not recompiled
+**Sources changed:** no raw-source regrouping; freshness metadata and operating rules updated
+**Notes:** documented compiler-scope vs graph-scope counting, marked `soc-spec-english` as a small-but-stable canonical topic, and kept `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` as a deep-dive promotion candidate rather than forcing a premature topic split

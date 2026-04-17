@@ -4,6 +4,8 @@ Last compiled: 2026-04-17
 Last curated: 2026-04-17
 Canonical topics: 16 | Canonical concepts: 7 | Sources scanned in last compile: 123
 
+Compile scope note: the wiki compiler count reflects the curated raw-source corpus in `wiki/.compile-state.json`, while graphify reports the wider vault graph across raw notes, wiki pages, and supporting docs. The two counts are expected to differ.
+
 ---
 
 ## Canonical Topics
@@ -17,15 +19,15 @@ Canonical topics: 16 | Canonical concepts: 7 | Sources scanned in last compile: 
 | [[topics/riscv-npu-soc-sim]] | RISCV_NPU_SoC_SIM, CMDQ, SDD, NPU IR, TileGraph, LayerIR, static scheduler, SPM, TE, VE | 70+ | 2026-04-12 | active |
 | [[topics/paper-reviews]] | STEM, Dr Zero, chaos theory, PaperDebugger, PaperBanana, Tim Palmer, ensemble prediction | 6 | 2026-04-12 | active |
 | [[topics/patent-mcm]] | MCM, multiplierless, DWT, Taalas, AgentHub, TinyLoRA, 13 parameters, Voronenko, shift-add | 7 | 2026-04-12 | active |
-| [[topics/soc-spec-english]] | SoC spec, negotiation, technical English, architect vocabulary, cheat sheet | 2 | 2026-04-12 | active |
+| [[topics/soc-spec-english]] | SoC spec, negotiation, technical English, architect vocabulary, cheat sheet | 2 | 2026-04-12 | small-stable |
 | [[topics/operator-coordinate-compression]] | coordinate system, manifold alignment, operator view, TurboQuant, rate-distortion, basis | 17 | 2026-04-14 | active |
-| [[topics/trace-visualization]] | trace, gantt, heatmap, utilization, timeline, golden trace, profiler | 8 | 2026-04-14 | active |
+| [[topics/trace-visualization]] | trace, gantt, heatmap, utilization, timeline, golden trace, profiler | 8 | 2026-04-17 | active |
 | [[topics/npu-doc-process]] | SDD, roadmap, milestone, naming, review, contribution, changelog, workflow | 12 | 2026-04-14 | active |
 | [[topics/npu-architecture-spec]] | NPU IR, CMDQ, ISA, tile semantics, quantization, scheduling semantics | 20+ | 2026-04-16 | active |
 | [[topics/ir-cmdq-contract]] | IR, TensorIR, LayerIR, CMDQ, opcode, deps, deterministic lowering | 7+ | 2026-04-17 | active |
 | [[topics/tile-semantics-quantization]] | tile lifecycle, KV semantics, mixed precision, qbits, prefill/decode | 9+ | 2026-04-17 | active |
 | [[topics/npu-timing-memory-model]] | timing, DMA, TE, VE, SPM, DRAM, Bus, NoC, contention, bandwidth | 10+ | 2026-04-16 | active |
-| [[topics/simulation-validation]] | golden trace, unit test, integration test, perf validation, regression | 8+ | 2026-04-16 | active |
+| [[topics/simulation-validation]] | golden trace, unit test, integration test, perf validation, regression | 8+ | 2026-04-17 | active |
 
 ---
 
@@ -87,6 +89,17 @@ These are intentionally longer synthesis documents. They are useful entry points
 
 ---
 
+## Topic Watchlist
+
+- `topics/soc-spec-english`
+  Keep as a small canonical topic for now. It has a distinct practical use case and low overlap with the AI-hardware topic tree, so size alone is not a demotion signal.
+- `AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy`
+  Keep as a deep-dive memo for now. Promote only if it grows a real source family or splits into stable subtopics such as fabric presets, compute hierarchy, and runtime strategy.
+- `topics/trace-visualization` and `topics/simulation-validation`
+  Boundary is now healthy, but example ownership should continue to stay split between walkthrough-style trace reading and approval-grade validation artifacts.
+
+---
+
 ## Recent Changes
 
 - **2026-04-12**: First full compilation — 8 topics and 3 concepts created from 123 source files across 7 directories
@@ -96,3 +109,4 @@ These are intentionally longer synthesis documents. They are useful entry points
 - **2026-04-17**: Extended the deep-dive operating model to `wiki/GenAI/*` and `wiki/Research/*` so these pages point back to canonical topics instead of drifting into parallel topic trees
 - **2026-04-17**: Tightened the process-topic rule so roadmap/workflow docs remain the canonical process hub while milestone and review summaries are treated as operational artifacts
 - **2026-04-17**: Split the execution-spec layer again so `ir-cmdq-contract` and `tile-semantics-quantization` can grow independently without turning `npu-architecture-spec` back into a mega-hub
+- **2026-04-17**: Synced topic freshness metadata with the latest manual curation passes, documented compiler-scope vs graph-scope counting, and added a watchlist for small-but-distinct topics and deep-dive promotion candidates
