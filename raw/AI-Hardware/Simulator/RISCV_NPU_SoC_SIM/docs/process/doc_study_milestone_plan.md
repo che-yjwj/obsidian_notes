@@ -1,5 +1,7 @@
 # Documentation Study Milestone Plan — SDD 문서 1회독/정복 가이드
 Status: Draft  
+Document Class: Operational Artifact  
+Graph Role: Study guide and onboarding aid, not canonical architecture/process source  
 Owner: TBD (스터디 리더)  
 Last Updated: 2025-12-05  
 
@@ -8,6 +10,7 @@ Last Updated: 2025-12-05
 ## 1. 목적
 - `RISCV_NPU_SoC_SIM` 전체 문서를 효율적으로 읽고, 팀 내 공통 이해를 빠르게 확보하기 위한 단계별 스터디 마일스톤을 정의한다.
 - 대상: 신규 기여자, 리뷰어, 구현 담당자. 시간 투자는 **총 4~5일(반나절~1일 단위)**를 가정한다.
+- canonical 구조와 최신 entry는 `docs/README_SPEC.md`와 `docs/process/project_roadmap.md`를 우선 확인한다.
 
 ---
 

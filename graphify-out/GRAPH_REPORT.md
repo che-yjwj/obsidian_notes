@@ -5,7 +5,7 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 723 nodes · 1287 edges · 60 communities detected
+- 723 nodes · 1271 edges · 60 communities detected
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 145 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
@@ -19,7 +19,7 @@
 7. `NPU/LPU Simulator and Implementation Tools` - 19 edges
 8. `NPU Simulator & Compiler` - 19 edges
 9. `From Minimal NumPy LLaMA to Tile-based NPU Modeling` - 19 edges
-10. `Milestone Plan` - 19 edges
+10. `Wiki Index` - 17 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `SpinQuant` --semantically_similar_to--> `SpinQuant as Partial Manifold Alignment`  [INFERRED] [semantically similar]
@@ -82,7 +82,7 @@ Cohesion: 0.07
 Nodes (67): Bitwidth-to-Memory Mapping, Bitwidth & Memory Mapping Specification, Capacity / Traffic Tradeoff, Command Queue (CMDQ), CMDQ Format Specification, CMDQ Overview, Why Mixed Precision LLM Support, Why Static Scheduling (+59 more)
 
 ### Community 3 - "Milestone Plan / Project Roadmap / Documentation Improvement Tasks"
-Cohesion: 0.05
+Cohesion: 0.04
 Nodes (62): Documentation Improvement Tasks, docs/design/cmdq_generator_design.md, docs/design/control_fsm_design.md, docs/design/cycle_loop_design.md, docs/design/ir_builder_design.md, docs/design/npu_simulator_core_design.md, docs/design/spm_allocator_design.md, docs/design/static_scheduler_design.md (+54 more)
 
 ### Community 4 - "Paper Reviews / AI-Assisted Research Workflow / Wiki Index"
@@ -310,7 +310,7 @@ Cohesion: 1.0
 Nodes (1): Global Integrated Diagram
 
 ## Knowledge Gaps
-- **293 isolated node(s):** `AgentHub collaboration model change`, `Reasoning in 13M parameters`, `AI-assisted research workflow`, `HyperAccel LPU`, `Google Coral Edge TPU` (+288 more)
+- **301 isolated node(s):** `AgentHub collaboration model change`, `Reasoning in 13M parameters`, `AI-assisted research workflow`, `HyperAccel LPU`, `Google Coral Edge TPU` (+296 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **Thin community `SoC negotiation technical English / 4-week practical usage guide`** (2 nodes): `4-week practical usage guide`, `SoC negotiation technical English`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -388,21 +388,3 @@ Nodes (1): Global Integrated Diagram
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Global Integrated Diagram`** (1 nodes): `Global Integrated Diagram`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-
-## Suggested Questions
-_Questions this graph is uniquely positioned to answer:_
-
-- **Why does `LLM Quantization & Compression` connect `LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note` to `RISC-V NPU SoC Simulator / Flash-Resident LLM and HBF for Edge Inference / NPU/LPU Simulator and Implementation Tools`, `From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Overview / CMDQ Format Specification`, `NPU Architecture / SoC Specification Negotiation English / Synopsys Platform Architect`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Latent Action World Model`, `LLM Quantization and Compression Methods / Outlier Mitigation Methods Comparison / Mixed Precision as a System Policy`, `AI memory hierarchy / Tesla Mixed-Precision Bridge / Meta MTIA`, `Entropy Coding / OCEAN / Outlier-victim pair quantization`, `DC-LLM / Dynamic linear combination / Adaptive basis selection`?**
-  _High betweenness centrality (0.227) - this node is a cross-community bridge._
-- **Why does `Flash-Resident LLM and HBF for Edge Inference` connect `RISC-V NPU SoC Simulator / Flash-Resident LLM and HBF for Edge Inference / NPU/LPU Simulator and Implementation Tools` to `LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note`, `From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Overview / CMDQ Format Specification`, `Bus & NoC Timing Specification / SPM Model Specification / KV Cache Semantics Specification`, `Patent & MCM Research / Patent Research — MCM and AI Infrastructure / Multiple Constant Multiplication`, `NPU Architecture / SoC Specification Negotiation English / Synopsys Platform Architect`, `HW-Friendly Model Design / HW-Friendly GenAI Model Design / Latent Action World Model`, `LLM Quantization and Compression Methods / Outlier Mitigation Methods Comparison / Mixed Precision as a System Policy`, `AI memory hierarchy / Tesla Mixed-Precision Bridge / Meta MTIA`?**
-  _High betweenness centrality (0.204) - this node is a cross-community bridge._
-- **Why does `Documentation Improvement Tasks` connect `Milestone Plan / Project Roadmap / Documentation Improvement Tasks` to `NPU System Dataflow Overview / System Architecture Specification / Documentation Study Milestone Plan`, `Bus & NoC Timing Specification / SPM Model Specification / KV Cache Semantics Specification`?**
-  _High betweenness centrality (0.169) - this node is a cross-community bridge._
-- **Are the 4 inferred relationships involving `LLM Quantization & Compression` (e.g. with `HW-Friendly Model Design` and `NPU Architecture`) actually correct?**
-  _`LLM Quantization & Compression` has 4 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 4 inferred relationships involving `NPU Architecture` (e.g. with `Paper Reviews` and `HW-Friendly Model Design`) actually correct?**
-  _`NPU Architecture` has 4 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 4 inferred relationships involving `RISC-V NPU SoC Simulator` (e.g. with `NPU Simulator & Compiler` and `Prefill / Decode Duality`) actually correct?**
-  _`RISC-V NPU SoC Simulator` has 4 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 10 inferred relationships involving `Flash-Resident LLM and HBF for Edge Inference` (e.g. with `Memory hierarchy in AI accelerators` and `Why LPDDR fits decode-heavy inference`) actually correct?**
-  _`Flash-Resident LLM and HBF for Edge Inference` has 10 INFERRED edges - model-reasoned connections that need verification._
