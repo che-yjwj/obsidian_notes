@@ -3,46 +3,52 @@
   "removed_nodes": [],
   "new_edges": [
     {
-      "source": "project_roadmap_doc",
+      "source": "doc_study_milestone_plan_doc",
       "target": "docs_readme_spec",
+      "relation": "references",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "doc_study_milestone_plan_doc",
+      "target": "project_roadmap_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     }
   ],
   "removed_edges": [
     {
-      "source": "project_roadmap_doc",
-      "target": "docs_spec_ir_npu_ir_spec",
+      "source": "system_architecture_overview_doc",
+      "target": "doc_study_milestone_plan_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "project_roadmap_doc",
-      "target": "docs_design_npu_simulator_core_design",
+      "source": "system_architecture_doc",
+      "target": "doc_study_milestone_plan_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "project_roadmap_doc",
-      "target": "docs_spec_trace_trace_format_spec",
+      "source": "memory_noc_overview_doc",
+      "target": "doc_study_milestone_plan_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "project_roadmap_doc",
-      "target": "docs_spec_quantization_quantization_model_overview",
+      "source": "dataflow_overview_doc",
+      "target": "doc_study_milestone_plan_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "project_roadmap_doc",
-      "target": "docs_spec_timing_dma_timing_spec",
+      "source": "module_responsibilities_doc",
+      "target": "doc_study_milestone_plan_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "project_roadmap_doc",
-      "target": "review_by_chatgpt_v1_doc",
+      "source": "doc_study_milestone_plan_doc",
+      "target": "vibe_coding_sdd_guide_doc",
       "relation": "references",
       "confidence": "EXTRACTED"
     }

@@ -5,7 +5,7 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 723 nodes · 1266 edges · 60 communities detected
+- 723 nodes · 1262 edges · 60 communities detected
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 145 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
@@ -110,7 +110,7 @@ Cohesion: 0.08
 Nodes (28): Action-free data, Conditional Parameter Loading, Dynamic Control Flow Hurts NPU Deployment, Dynamic Transformer, Gemma 3n, HW-Friendly GenAI Model Design, HW-Friendly Model Design, 5-to-1 interleaved attention (+20 more)
 
 ### Community 10 - "NPU System Dataflow Overview / System Architecture Specification / Documentation Study Milestone Plan"
-Cohesion: 0.15
+Cohesion: 0.13
 Nodes (23): CMDQ Generator, Contribution & Review Guide, NPU System Dataflow Overview, Documentation Study Milestone Plan, Documentation Improvement Backlog, Host CPU Control Plane, Milestone Plan, Module Boundary Contract (+15 more)
 
 ### Community 11 - "Trace Format Specification / Golden Trace Examples / Visualization Requirements"

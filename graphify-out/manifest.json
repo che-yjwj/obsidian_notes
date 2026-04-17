@@ -48,7 +48,7 @@
   "/Users/son/prj/obsidian_notes/wiki/topics/soc-spec-english.md": 1776340766.9316416,
   "/Users/son/prj/obsidian_notes/wiki/topics/paper-reviews.md": 1776340766.9312768,
   "/Users/son/prj/obsidian_notes/wiki/topics/npu-architecture.md": 1776340766.913123,
-  "/Users/son/prj/obsidian_notes/graphify-out/GRAPH_REPORT.md": 1776416151.6574352,
+  "/Users/son/prj/obsidian_notes/graphify-out/GRAPH_REPORT.md": 1776418664.0857306,
   "/Users/son/prj/obsidian_notes/raw/Research/Paper-Review/PaperBanana AI Research 33a6cc566b0b81f5b652f4c9128db47b.md": 1775533988.0,
   "/Users/son/prj/obsidian_notes/raw/Research/Paper-Review/STEM Structure and Scalability 33a6cc566b0b8134bba4f04b6ccf5786.md": 1775533970.0,
   "/Users/son/prj/obsidian_notes/raw/Research/Paper-Review/Dr Zero Concept Summary 33a6cc566b0b81dea270edb325090317.md": 1775533986.0,
@@ -151,7 +151,7 @@
   "/Users/son/prj/obsidian_notes/raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/overview/system_architecture.md": 1775989583.8699949,
   "/Users/son/prj/obsidian_notes/raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/overview/memory_noc_overview.md": 1775989583.8696613,
   "/Users/son/prj/obsidian_notes/raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/overview/module_responsibilities.md": 1775989583.8697662,
-  "/Users/son/prj/obsidian_notes/raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/doc_study_milestone_plan.md": 1776415064.2650683,
+  "/Users/son/prj/obsidian_notes/raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/doc_study_milestone_plan.md": 1776418625.9334807,
   "/Users/son/prj/obsidian_notes/raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/vibe_coding_sdd_guide.md": 1775989583.871816,
   "/Users/son/prj/obsidian_notes/raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/naming_convention.md": 1775989583.871371,
   "/Users/son/prj/obsidian_notes/raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/tile_based_integration_mapping.md": 1775989583.8716154,
@@ -189,8 +189,8 @@
   "/Users/son/prj/obsidian_notes/raw/GenAI/HW-Friendly/Latent Action World Model 33a6cc566b0b816ba286eaff4c35c587.md": 1775533976.0,
   "/Users/son/prj/obsidian_notes/raw/GenAI/HW-Friendly/KV-cache Optimization Explanation 33a6cc566b0b811890a0df4bc615b114.md": 1775533968.0,
   "/Users/son/prj/obsidian_notes/raw/GenAI/HW-Friendly/Stronger Normalization-Free Transformers 33a6cc566b0b81648fc4ec9576dc68a0.md": 1775533976.0,
-  "/Users/son/prj/obsidian_notes/graphify-out/graph.json": 1776416151.6495457,
-  "/Users/son/prj/obsidian_notes/graphify-out/graph.html": 1776416151.654397,
-  "/Users/son/prj/obsidian_notes/graphify-out/graph_diff.json": 1776416151.6585312,
-  "/Users/son/prj/obsidian_notes/graphify-out/manifest.json": 1776415264.1748738
+  "/Users/son/prj/obsidian_notes/graphify-out/graph.json": 1776418664.077363,
+  "/Users/son/prj/obsidian_notes/graphify-out/graph.html": 1776418664.0824866,
+  "/Users/son/prj/obsidian_notes/graphify-out/graph_diff.json": 1776418664.0859935,
+  "/Users/son/prj/obsidian_notes/graphify-out/manifest.json": 1776416151.6590886
 }

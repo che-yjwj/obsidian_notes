@@ -21667,18 +21667,6 @@
       "target": "module_responsibilities_doc"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/doc_study_milestone_plan.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "system_architecture_overview_doc",
-      "_tgt": "doc_study_milestone_plan_doc",
-      "source": "system_architecture_overview_doc",
-      "target": "doc_study_milestone_plan_doc"
-    },
-    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -21739,18 +21727,6 @@
       "target": "dataflow_overview_doc"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/doc_study_milestone_plan.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "system_architecture_doc",
-      "_tgt": "doc_study_milestone_plan_doc",
-      "source": "system_architecture_doc",
-      "target": "doc_study_milestone_plan_doc"
-    },
-    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -21797,18 +21773,6 @@
       "_tgt": "dataflow_overview_doc",
       "source": "memory_noc_overview_doc",
       "target": "dataflow_overview_doc"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/doc_study_milestone_plan.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "memory_noc_overview_doc",
-      "_tgt": "doc_study_milestone_plan_doc",
-      "source": "memory_noc_overview_doc",
-      "target": "doc_study_milestone_plan_doc"
     },
     {
       "relation": "references",
@@ -21883,18 +21847,6 @@
       "target": "sdd_devflow_overview_doc"
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/doc_study_milestone_plan.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "dataflow_overview_doc",
-      "_tgt": "doc_study_milestone_plan_doc",
-      "source": "dataflow_overview_doc",
-      "target": "doc_study_milestone_plan_doc"
-    },
-    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.84,
@@ -21929,18 +21881,6 @@
       "_tgt": "naming_traceability",
       "source": "module_responsibilities_doc",
       "target": "naming_traceability"
-    },
-    {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/doc_study_milestone_plan.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "module_responsibilities_doc",
-      "_tgt": "doc_study_milestone_plan_doc",
-      "source": "module_responsibilities_doc",
-      "target": "doc_study_milestone_plan_doc"
     },
     {
       "relation": "references",
@@ -22018,13 +21958,21 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/vibe_coding_sdd_guide.md",
-      "source_location": null,
-      "weight": 1.0,
+      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/doc_study_milestone_plan.md",
       "_src": "doc_study_milestone_plan_doc",
-      "_tgt": "vibe_coding_sdd_guide_doc",
+      "_tgt": "docs_readme_spec",
       "source": "doc_study_milestone_plan_doc",
-      "target": "vibe_coding_sdd_guide_doc"
+      "target": "docs_readme_spec"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/doc_study_milestone_plan.md",
+      "_src": "doc_study_milestone_plan_doc",
+      "_tgt": "project_roadmap_doc",
+      "source": "doc_study_milestone_plan_doc",
+      "target": "project_roadmap_doc"
     },
     {
       "relation": "references",
