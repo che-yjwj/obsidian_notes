@@ -29,6 +29,14 @@ updated: 2026-04-16
 - `docs/design/tile_rt_analysis.md`
 - `docs/design/npu_simulator_core_design.md`
 
+이 안에서 특히 canonical entry로 흡수해야 하는 timing spec는 다음과 같다.
+
+- `docs/spec/timing/te_timing_spec.md`
+- `docs/spec/timing/ve_timing_spec.md`
+- `docs/spec/timing/dma_timing_spec.md`
+- `docs/spec/timing/spm_model_spec.md`
+- `docs/spec/timing/bus_and_noc_model.md`
+
 ---
 
 ## Core Axes
@@ -63,3 +71,15 @@ ControlFSM, DMA cluster, TE cluster, VE cluster가 같은 global cycle loop 안�
 - Parent umbrella: [[topics/riscv-npu-soc-sim]]
 - Related concepts: [[concepts/memory-bandwidth-bottleneck]], [[concepts/static-scheduling-determinism]], [[concepts/trace-first-design]]
 
+## Raw Source Mapping
+
+- `docs/spec/timing/te_timing_spec.md`
+  -> Tensor Engine tile latency and bitwidth scaling rule
+- `docs/spec/timing/ve_timing_spec.md`
+  -> Vector Engine elementwise / reduction timing rule
+- `docs/spec/timing/dma_timing_spec.md`
+  -> DMA burst, prefetch, and transfer timing rule
+- `docs/spec/timing/spm_model_spec.md`
+  -> SPM bank, allocation lifecycle, and conflict model
+- `docs/spec/timing/bus_and_noc_model.md`
+  -> arbitration, queueing, back-pressure, and contention model

@@ -519,6 +519,22 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/topics/npu-architecture-spec.md"
+      },
+      {
+        "id": "timing_specs_absorbed_into_timing_topic_2026_04_17",
+        "label": "Timing Specs Absorbed Into Timing Topic 2026-04-17",
+        "nodes": [
+          "te_timing_spec_doc",
+          "ve_timing_spec_doc",
+          "dma_timing_spec_doc",
+          "spm_model_spec_doc",
+          "bus_and_noc_model_spec",
+          "npu_timing_memory_model_topic"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/npu-timing-memory-model.md"
       }
     ]
   },
@@ -532,7 +548,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "readme_obsidian_notes"
     },
     {
@@ -544,7 +560,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "log_append_only_activity_record"
     },
     {
@@ -556,7 +572,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "index_wiki_catalog"
     },
     {
@@ -568,7 +584,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "llm_wiki_pattern"
     },
     {
@@ -580,7 +596,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "claude_md_schema"
     },
     {
@@ -604,7 +620,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "wiki_research_paper_reviews"
     },
     {
@@ -616,7 +632,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "wiki_misc_soc_specification_negotiation_english"
     },
     {
@@ -628,7 +644,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "wiki_misc_vault_lint_checklist"
     },
     {
@@ -640,7 +656,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "wiki_ai_hardware_simulator_and_implementation_tools"
     },
     {
@@ -652,7 +668,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators"
     },
     {
@@ -664,7 +680,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "wiki_ai_hardware_npu_architecture"
     },
     {
@@ -676,7 +692,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "wiki_genai_llm_quantization_and_compression"
     },
     {
@@ -688,7 +704,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "wiki_genai_ocean_compression_deep_dive"
     },
     {
@@ -700,7 +716,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "id": "wiki_genai_hw_friendly_model_design"
     },
     {
@@ -712,7 +728,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "raw_paperbanana_ai_research"
     },
     {
@@ -724,7 +740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "raw_stem_structure_and_scalability"
     },
     {
@@ -736,7 +752,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "raw_dr_zero_concept_summary"
     },
     {
@@ -748,7 +764,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "raw_paperdebugger_research_productivity_innovation"
     },
     {
@@ -760,7 +776,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "raw_chaos_theory_and_prediction_part_1"
     },
     {
@@ -772,7 +788,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "raw_chaos_theory_and_prediction_part_2"
     },
     {
@@ -796,7 +812,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_llm_wiki_persistent_compounding_artifact"
     },
     {
@@ -808,7 +824,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_raw_wiki_schema_layers"
     },
     {
@@ -820,7 +836,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_index_catalog"
     },
     {
@@ -832,7 +848,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_log_timeline"
     },
     {
@@ -844,7 +860,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_vault_lint_operational_consistency"
     },
     {
@@ -856,7 +872,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_paperbanana_multi_agent_visualization"
     },
     {
@@ -868,7 +884,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_stem_embedding_modules"
     },
     {
@@ -880,7 +896,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_dr_zero_search_verify_refine"
     },
     {
@@ -892,7 +908,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_paperdebugger_executable_papers"
     },
     {
@@ -904,7 +920,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_chaos_ensemble_prediction"
     },
     {
@@ -976,7 +992,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_hyperaccel_lpu"
     },
     {
@@ -988,7 +1004,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_coral_edge_tpu"
     },
     {
@@ -1000,7 +1016,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_mtia_tpu_comparison"
     },
     {
@@ -1012,7 +1028,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_transformer_c_implementation"
     },
     {
@@ -1024,7 +1040,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_npu_supernode"
     },
     {
@@ -1036,7 +1052,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_memory_hierarchy_ai_accelerators"
     },
     {
@@ -1048,7 +1064,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_npu_architecture_overview"
     },
     {
@@ -1060,7 +1076,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_tesla_ai_chip_roadmap"
     },
     {
@@ -1072,7 +1088,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_versal_acap"
     },
     {
@@ -1084,7 +1100,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_xilinx_finn"
     },
     {
@@ -1096,7 +1112,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_tpu_sparse_core"
     },
     {
@@ -1108,7 +1124,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_amba_bus_recommendation"
     },
     {
@@ -1120,7 +1136,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_synopsys_platform_architect"
     },
     {
@@ -1132,7 +1148,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "concept_llm_quantization_and_compression"
     },
     {
@@ -1144,7 +1160,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "concept_dc_llm"
     },
     {
@@ -1156,7 +1172,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "concept_olive_outlier_victim_pair"
     },
     {
@@ -1168,7 +1184,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "concept_turboquant"
     },
     {
@@ -1180,7 +1196,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "concept_microscaling_vs_mixed_precision"
     },
     {
@@ -1192,7 +1208,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "concept_ocean_coordinate_aware_compression"
     },
     {
@@ -1204,7 +1220,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "id": "concept_gemma_3n_matformer_ple"
     },
     {
@@ -1216,7 +1232,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "id": "concept_normalization_free_transformers"
     },
     {
@@ -1228,7 +1244,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "id": "concept_latent_action_world_model"
     },
     {
@@ -1240,7 +1256,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 8,
       "id": "concept_msa_rag"
     },
     {
@@ -1252,7 +1268,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "concept_soc_specification_negotiation"
     },
     {
@@ -1264,7 +1280,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "rationale_llm_wiki_compounding_artifact"
     },
     {
@@ -1276,7 +1292,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "rationale_stem_memory_organization"
     },
     {
@@ -1288,7 +1304,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "rationale_dr_zero_zero_training_data"
     },
     {
@@ -1300,7 +1316,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "rationale_paperdebugger_reproducibility_as_information"
     },
     {
@@ -1312,7 +1328,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "rationale_chaos_distribution_level_prediction"
     },
     {
@@ -1336,7 +1352,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "rationale_paperbanana_hybrid_generation"
     },
     {
@@ -1348,7 +1364,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "rationale_ocean_rotation_and_entropy_shaping"
     },
     {
@@ -1360,7 +1376,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "ai_assisted_research_workflow_research_copilot"
     },
     {
@@ -1372,7 +1388,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "agenthub_agenthub"
     },
     {
@@ -1384,7 +1400,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "agenthub_autoresearch"
     },
     {
@@ -1396,7 +1412,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "reasoning_in_13m_parameters_paper"
     },
     {
@@ -1408,7 +1424,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "reasoning_13m_tinylora"
     },
     {
@@ -1420,7 +1436,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "reasoning_13m_rl_steering"
     },
     {
@@ -1432,7 +1448,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "mcm_multiplierless_multiple_constant_multiplication"
     },
     {
@@ -1444,7 +1460,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "mcm_pattern_search_lefevre_algorithm"
     },
     {
@@ -1456,7 +1472,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "mcm_multiplierless_lifting_dwt_design"
     },
     {
@@ -1468,7 +1484,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "mcm_multiplierless_artificial_neurons"
     },
     {
@@ -1480,7 +1496,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "id": "mcm_addernet"
     },
     {
@@ -1492,7 +1508,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "mcm_cnn_isp_block"
     },
     {
@@ -1504,7 +1520,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "mcm_why_cnn_isp_needed"
     },
     {
@@ -1516,7 +1532,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "mcm_domain_invariant_mcm_isp"
     },
     {
@@ -1528,7 +1544,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "mcm_why_domain_adaptation_strengthens_mcm_isp"
     },
     {
@@ -1540,7 +1556,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "id": "mcm_quicksrnet_target"
     },
     {
@@ -1552,7 +1568,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 24,
       "id": "soc_spec_technical_english"
     },
     {
@@ -1564,7 +1580,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 24,
       "id": "soc_spec_4_week_practical_usage_guide"
     },
     {
@@ -1576,7 +1592,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "tesla_ai_chip_roadmap_ai5_ai6"
     },
     {
@@ -1588,7 +1604,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "memory_hierarchy_in_ai_npu_hierarchy"
     },
     {
@@ -1600,7 +1616,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "tpu_sparse_core"
     },
     {
@@ -1612,7 +1628,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "tesla_mixed_precision_bridge"
     },
     {
@@ -1624,7 +1640,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "synopsys_platform_architect"
     },
     {
@@ -1636,7 +1652,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 1,
       "id": "xilinx_finn"
     },
     {
@@ -1648,7 +1664,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "amd_versal_acap"
     },
     {
@@ -1660,7 +1676,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "npu_hierarchical_amba"
     },
     {
@@ -1672,7 +1688,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "npu_supernode"
     },
     {
@@ -1684,7 +1700,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "mtia_accelerator"
     },
     {
@@ -1696,7 +1712,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "google_tpu"
     },
     {
@@ -1708,7 +1724,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "aws_inferentia"
     },
     {
@@ -1720,7 +1736,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "aws_trainium"
     },
     {
@@ -1732,7 +1748,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "transformer_llm_c_implementation"
     },
     {
@@ -1744,7 +1760,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "coral_npu_full_stack_platform"
     },
     {
@@ -1756,7 +1772,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "coral_not_scale_to_mobile_ap"
     },
     {
@@ -1768,7 +1784,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "coral_mobile_ap_npu_evolution"
     },
     {
@@ -1780,7 +1796,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "coral_multi_matmul_cluster"
     },
     {
@@ -1792,7 +1808,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "hyperaccel_lpu_card"
     },
     {
@@ -1804,7 +1820,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "hyperaccel_lpddr_decode"
     },
     {
@@ -1816,7 +1832,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "hyperaccel_lpu"
     },
     {
@@ -1828,7 +1844,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "esl_token_level_pipeline_link"
     },
     {
@@ -1840,7 +1856,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "decode_centric_pipeline"
     },
     {
@@ -1852,7 +1868,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "pipeline_parallel"
     },
     {
@@ -1864,7 +1880,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "groq_lpu"
     },
     {
@@ -1876,7 +1892,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "static_scheduling"
     },
     {
@@ -1888,7 +1904,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "dc_llm"
     },
     {
@@ -1900,7 +1916,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "dynamic_linear_combination"
     },
     {
@@ -1912,7 +1928,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "lfsr_based_basis_generation"
     },
     {
@@ -1924,7 +1940,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "adaptive_basis_selection"
     },
     {
@@ -1936,7 +1952,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "explained_energy_ratio"
     },
     {
@@ -1948,7 +1964,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "bayesian_optimization_dse"
     },
     {
@@ -1960,7 +1976,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "weight_generator"
     },
     {
@@ -1972,7 +1988,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 18,
       "id": "systolic_array"
     },
     {
@@ -1984,7 +2000,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "id": "olive"
     },
     {
@@ -1996,7 +2012,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "id": "outlier_victim_pair_quantization"
     },
     {
@@ -2008,7 +2024,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "id": "uniform_integer_gemm"
     },
     {
@@ -2020,7 +2036,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "id": "outlier_aware_quantization"
     },
     {
@@ -2032,7 +2048,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "id": "ocean"
     },
     {
@@ -2044,7 +2060,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "id": "entropy_coding"
     },
     {
@@ -2056,7 +2072,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "id": "dead_zone"
     },
     {
@@ -2068,7 +2084,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "id": "base_residual_exception_streams"
     },
     {
@@ -2080,7 +2096,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "turboquant"
     },
     {
@@ -2092,7 +2108,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "polarquant"
     },
     {
@@ -2104,7 +2120,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "qjl_residual_correction"
     },
     {
@@ -2116,7 +2132,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "random_rotation"
     },
     {
@@ -2128,7 +2144,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "hadamard_srht"
     },
     {
@@ -2140,7 +2156,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "inner_product_preservation"
     },
     {
@@ -2152,7 +2168,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "coordinate_system_quantization"
     },
     {
@@ -2164,7 +2180,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "manifold_aligned_coordinates"
     },
     {
@@ -2176,7 +2192,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "functional_residual_decomposition"
     },
     {
@@ -2188,7 +2204,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "mxint8"
     },
     {
@@ -2200,7 +2216,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "rope"
     },
     {
@@ -2212,7 +2228,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "horner_method"
     },
     {
@@ -2224,7 +2240,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 14,
       "id": "attention_sink"
     },
     {
@@ -2236,7 +2252,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "msa"
     },
     {
@@ -2248,7 +2264,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "rag"
     },
     {
@@ -2260,7 +2276,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "router_key"
     },
     {
@@ -2272,7 +2288,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "top_k_selection"
     },
     {
@@ -2284,7 +2300,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "memory_hierarchy"
     },
     {
@@ -2296,7 +2312,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "gemma_3n"
     },
     {
@@ -2308,7 +2324,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "matformer"
     },
     {
@@ -2320,7 +2336,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "kv_cache_sharing"
     },
     {
@@ -2332,7 +2348,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "interleaved_attention"
     },
     {
@@ -2344,7 +2360,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "latent_action_world_model"
     },
     {
@@ -2356,7 +2372,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "latent_action"
     },
     {
@@ -2368,7 +2384,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "action_free_data"
     },
     {
@@ -2380,7 +2396,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "world_model"
     },
     {
@@ -2392,7 +2408,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "snft"
     },
     {
@@ -2404,7 +2420,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "layernorm"
     },
     {
@@ -2416,7 +2432,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "residual_scaling"
     },
     {
@@ -2428,7 +2444,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "variance_control"
     },
     {
@@ -2440,7 +2456,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "id": "dyt"
     },
     {
@@ -2452,7 +2468,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "wiki_research_ai_assisted_research_workflow"
     },
     {
@@ -2464,7 +2480,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "wiki_research_research_tooling_reviews"
     },
     {
@@ -2476,7 +2492,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "wiki_misc_graphify_post_update_review_template"
     },
     {
@@ -2488,7 +2504,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "wiki_genai_outlier_mitigation_methods_comparison"
     },
     {
@@ -2500,7 +2516,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_research_workflow_agent_automation"
     },
     {
@@ -2512,7 +2528,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_research_tooling_productivity"
     },
     {
@@ -2524,7 +2540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_graphify_post_update_review"
     },
     {
@@ -2536,7 +2552,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "concept_outlier_mitigation_methods"
     },
     {
@@ -2548,7 +2564,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "concept_smoothquant"
     },
     {
@@ -2560,7 +2576,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "concept_quarot"
     },
     {
@@ -2572,7 +2588,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 13,
       "id": "concept_spinquant"
     },
     {
@@ -2584,7 +2600,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "concept_readme_navigation_hub"
     },
     {
@@ -2592,7 +2608,7 @@
       "file_type": "code",
       "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/tools/doc_status.py",
       "source_location": "L1",
-      "community": 28,
+      "community": 30,
       "id": "doc_status"
     },
     {
@@ -2604,7 +2620,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "readme_root"
     },
     {
@@ -2616,7 +2632,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "index_catalog"
     },
     {
@@ -2628,7 +2644,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "log_worklog"
     },
     {
@@ -2640,7 +2656,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "wiki_schema"
     },
     {
@@ -2652,7 +2668,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "wiki_compile_log"
     },
     {
@@ -2664,7 +2680,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "wiki_vault_lint_checklist"
     },
     {
@@ -2676,7 +2692,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "wiki_graphify_post_update_review_template"
     },
     {
@@ -2688,7 +2704,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "ai_assisted_research_workflow"
     },
     {
@@ -2700,7 +2716,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "research_tooling_reviews"
     },
     {
@@ -2712,7 +2728,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "paper_reviews"
     },
     {
@@ -2724,7 +2740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "patent_mcm"
     },
     {
@@ -2736,7 +2752,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "soc_specification_negotiation_english"
     },
     {
@@ -2748,7 +2764,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "memory_hierarchy_in_ai_accelerators"
     },
     {
@@ -2760,7 +2776,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "npu_architecture_overview"
     },
     {
@@ -2772,7 +2788,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "npu_simulator_and_implementation_tools"
     },
     {
@@ -2784,7 +2800,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "llm_quantization_and_compression_methods"
     },
     {
@@ -2796,7 +2812,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "outlier_mitigation_methods_comparison"
     },
     {
@@ -2808,7 +2824,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "hw_friendly_genai_model_design"
     },
     {
@@ -2820,7 +2836,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "npu_simulator_compiler_topic"
     },
     {
@@ -2832,7 +2848,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "riscv_npu_soc_sim_topic"
     },
     {
@@ -2844,7 +2860,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "memory_bandwidth_bottleneck"
     },
     {
@@ -2856,7 +2872,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "static_scheduling_determinism"
     },
     {
@@ -2868,7 +2884,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "prefill_decode_duality"
     },
     {
@@ -2880,7 +2896,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "agenthub_collaboration_graph"
     },
     {
@@ -2892,7 +2908,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "claude_code_harness_pipeline"
     },
     {
@@ -2904,7 +2920,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "tiny_reasoning_economics"
     },
     {
@@ -2916,7 +2932,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "paperdebugger"
     },
     {
@@ -2928,7 +2944,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "paperbanana"
     },
     {
@@ -2940,7 +2956,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "stem_scaling_transformers"
     },
     {
@@ -2952,7 +2968,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "dr_zero_search_centric_reasoning"
     },
     {
@@ -2964,7 +2980,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "chaos_theory_prediction"
     },
     {
@@ -2976,7 +2992,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "taalas_ai_infrastructure"
     },
     {
@@ -2988,7 +3004,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "model_to_silicon_mapping"
     },
     {
@@ -3000,7 +3016,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "memory_compute_integration"
     },
     {
@@ -3012,7 +3028,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "architecture_scope_alignment"
     },
     {
@@ -3024,7 +3040,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "olive_outlier_victim_pair"
     },
     {
@@ -3036,7 +3052,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "microscaling"
     },
     {
@@ -3048,7 +3064,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "mixed_precision"
     },
     {
@@ -3060,7 +3076,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "smoothquant"
     },
     {
@@ -3072,7 +3088,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "quarot"
     },
     {
@@ -3084,7 +3100,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "spinquant"
     },
     {
@@ -3096,7 +3112,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "ocean_compression"
     },
     {
@@ -3108,7 +3124,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "ple_caching"
     },
     {
@@ -3120,7 +3136,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "conditional_parameter_loading"
     },
     {
@@ -3132,7 +3148,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "normalization_free_transformers"
     },
     {
@@ -3144,7 +3160,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "msa_rag_tradeoff"
     },
     {
@@ -3156,7 +3172,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "kv_cache_optimization"
     },
     {
@@ -3168,7 +3184,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "tesla_ai_chip_roadmap"
     },
     {
@@ -3180,7 +3196,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "tesla_edge_ai_innovation"
     },
     {
@@ -3192,7 +3208,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "amba_buses"
     },
     {
@@ -3204,7 +3220,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "coral_npu"
     },
     {
@@ -3216,7 +3232,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "mtia"
     },
     {
@@ -3228,7 +3244,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "transformer_c_implementation"
     },
     {
@@ -3252,7 +3268,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "layerir"
     },
     {
@@ -3264,7 +3280,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "tensorir"
     },
     {
@@ -3288,7 +3304,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 6,
       "id": "static_scheduler"
     },
     {
@@ -3300,7 +3316,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "spm_scratchpad_memory"
     },
     {
@@ -3312,7 +3328,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "tilegraph"
     },
     {
@@ -3324,7 +3340,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "qconfig_mixed_precision"
     },
     {
@@ -3336,7 +3352,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "multiplierless_constant_multiplication"
     },
     {
@@ -3348,7 +3364,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "vlsi_shift_add_dwt"
     },
     {
@@ -3360,7 +3376,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "hw_friendly_model_design"
     },
     {
@@ -3372,7 +3388,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "llm_quantization_compression"
     },
     {
@@ -3384,7 +3400,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "soc_spec_english"
     },
     {
@@ -3396,7 +3412,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "npu_architecture"
     },
     {
@@ -3408,7 +3424,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "operator_coordinate_compression_readme"
     },
     {
@@ -3420,7 +3436,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "operator_coordinate_compression_roadmap"
     },
     {
@@ -3432,7 +3448,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "operator_coordinate_compression_index"
     },
     {
@@ -3444,7 +3460,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "operator_coordinate_compression_overview"
     },
     {
@@ -3456,7 +3472,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "operator_view"
     },
     {
@@ -3468,7 +3484,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "coordinate_relative_outliers"
     },
     {
@@ -3480,7 +3496,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "rotation_vs_alignment"
     },
     {
@@ -3492,7 +3508,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "manifold_alignment"
     },
     {
@@ -3504,7 +3520,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "turboquant_architecture"
     },
     {
@@ -3516,7 +3532,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "related_work"
     },
     {
@@ -3528,7 +3544,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "paper_draft"
     },
     {
@@ -3540,7 +3556,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "invention_summary"
     },
     {
@@ -3552,7 +3568,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "claim_candidates"
     },
     {
@@ -3564,7 +3580,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "research_direction_review"
     },
     {
@@ -3576,7 +3592,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "toy_basis_vs_mlp_spec"
     },
     {
@@ -3588,7 +3604,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "tinyllama_validation_spec"
     },
     {
@@ -3600,7 +3616,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "kv_cache_memory_access"
     },
     {
@@ -3612,7 +3628,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "interleaved_local_global_attention"
     },
     {
@@ -3624,7 +3640,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "memory_sparse_attention"
     },
     {
@@ -3636,7 +3652,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "stronger_normalization_free_transformer"
     },
     {
@@ -3648,7 +3664,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "dynamic_transformer"
     },
     {
@@ -3660,7 +3676,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "learnable_memory_hierarchy"
     },
     {
@@ -3672,7 +3688,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "static_schedule_microcode"
     },
     {
@@ -3684,7 +3700,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "post_training_quantization"
     },
     {
@@ -3696,7 +3712,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "quantization_aware_training"
     },
     {
@@ -3708,7 +3724,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "weight_only_quantization"
     },
     {
@@ -3732,7 +3748,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "outlier_problem"
     },
     {
@@ -3744,7 +3760,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "olive_outlier_victim_pair_quantization"
     },
     {
@@ -3756,7 +3772,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "turboquant_method"
     },
     {
@@ -3768,7 +3784,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "qjl"
     },
     {
@@ -3780,7 +3796,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "microscaling_mxint8"
     },
     {
@@ -3792,7 +3808,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "ocean_framework"
     },
     {
@@ -3804,7 +3820,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "hadamard_rotation"
     },
     {
@@ -3816,7 +3832,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "rate_distortion"
     },
     {
@@ -3828,7 +3844,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "gptq"
     },
     {
@@ -3840,7 +3856,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "kurtail"
     },
     {
@@ -3852,7 +3868,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "opq"
     },
     {
@@ -3864,7 +3880,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "one_bit_qjl_residual"
     },
     {
@@ -3876,7 +3892,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "near_optimal_scalar_quantization"
     },
     {
@@ -3888,7 +3904,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "bpc"
     },
     {
@@ -3900,7 +3916,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 0,
       "id": "long_context_stability"
     },
     {
@@ -3912,7 +3928,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "quantization_stability"
     },
     {
@@ -3924,7 +3940,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "tensor_engine"
     },
     {
@@ -3936,7 +3952,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "vector_engine"
     },
     {
@@ -3948,7 +3964,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "sparse_engine"
     },
     {
@@ -3960,7 +3976,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "dataflow_first"
     },
     {
@@ -3972,7 +3988,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "sram_scratchpad"
     },
     {
@@ -3984,7 +4000,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "cache_hybrid"
     },
     {
@@ -3996,7 +4012,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "latency_predictability"
     },
     {
@@ -4008,7 +4024,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "sram_only_false_dichotomy"
     },
     {
@@ -4020,7 +4036,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "mixed_precision_transport_reconstruction"
     },
     {
@@ -4032,7 +4048,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "tesla_ai5_ai6"
     },
     {
@@ -4044,7 +4060,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "versal_acap"
     },
     {
@@ -4056,7 +4072,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "finn"
     },
     {
@@ -4068,7 +4084,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "google_tpu_sparse_core"
     },
     {
@@ -4080,7 +4096,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "prefill_decode_bottleneck"
     },
     {
@@ -4092,7 +4108,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "stem_embedding_modularity"
     },
     {
@@ -4104,7 +4120,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "dr_zero_search_verify_refine"
     },
     {
@@ -4116,7 +4132,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "ensemble_prediction"
     },
     {
@@ -4128,7 +4144,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "paperdebugger_executable_papers"
     },
     {
@@ -4140,7 +4156,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "paperbanana_multi_agent_figure_generation"
     },
     {
@@ -4152,7 +4168,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "spec_negotiation_language_framework"
     },
     {
@@ -4164,7 +4180,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "requirement_clarification"
     },
     {
@@ -4176,7 +4192,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "assumptions_constraints"
     },
     {
@@ -4188,7 +4204,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "impact_analysis_ppa"
     },
     {
@@ -4200,7 +4216,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "soft_no_options"
     },
     {
@@ -4212,7 +4228,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "ownership_scope"
     },
     {
@@ -4224,7 +4240,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "architecture_diary_format"
     },
     {
@@ -4236,7 +4252,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 5,
       "id": "four_week_training_plan"
     },
     {
@@ -4248,7 +4264,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "operator_parameterization"
     },
     {
@@ -4260,7 +4276,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "reparameterization"
     },
     {
@@ -4272,7 +4288,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "manifold_hypothesis"
     },
     {
@@ -4284,7 +4300,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "outliers_coordinate_artifact"
     },
     {
@@ -4296,7 +4312,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "flattening"
     },
     {
@@ -4308,7 +4324,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "concentration"
     },
     {
@@ -4320,7 +4336,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "pca_alignment"
     },
     {
@@ -4332,7 +4348,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "fisher_information_alignment"
     },
     {
@@ -4344,7 +4360,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "top_k_energy_ratio"
     },
     {
@@ -4356,7 +4372,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "fourier_basis"
     },
     {
@@ -4368,7 +4384,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "mlp_basis"
     },
     {
@@ -4380,7 +4396,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "mse_is_wrong_objective_for_kv_cache"
     },
     {
@@ -4392,7 +4408,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "id": "entropy_coding_requires_distribution_shaping"
     },
     {
@@ -4404,7 +4420,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 8,
       "id": "dynamic_control_flow_hurts_npu_deployment"
     },
     {
@@ -4416,7 +4432,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "search_verify_refine_without_training_data"
     },
     {
@@ -4428,7 +4444,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 3,
       "id": "papers_as_executable_systems"
     },
     {
@@ -4440,7 +4456,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "joint_weight_activation_manifold"
     },
     {
@@ -4452,7 +4468,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "spinquant_partial_alignment"
     },
     {
@@ -4464,7 +4480,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "layerwise_manifold_diversity"
     },
     {
@@ -4476,7 +4492,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "entropy_coding_for_functional_decomposition"
     },
     {
@@ -4488,7 +4504,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "low_rank_structural_compression"
     },
     {
@@ -4500,7 +4516,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "fisher_information_matrix"
     },
     {
@@ -4512,7 +4528,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "effective_rank"
     },
     {
@@ -4524,7 +4540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "geometry_aware_rd_optimization"
     },
     {
@@ -4536,7 +4552,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "blockwise_axis_alignment"
     },
     {
@@ -4548,7 +4564,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "id": "learned_axis_transform"
     },
     {
@@ -4560,7 +4576,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "riscv_npu_soc_sim_readme"
     },
     {
@@ -4572,7 +4588,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "docs_readme_spec_master_index"
     },
     {
@@ -4584,7 +4600,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "offline_compiler_design_doc"
     },
     {
@@ -4596,7 +4612,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "ir_builder_design_doc"
     },
     {
@@ -4608,7 +4624,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "tiling_planner_design_doc"
     },
     {
@@ -4620,7 +4636,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spm_allocator_design_doc"
     },
     {
@@ -4632,7 +4648,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "static_scheduler_design_doc"
     },
     {
@@ -4644,7 +4660,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "cmdq_generator_design_doc"
     },
     {
@@ -4656,7 +4672,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "control_fsm_design_doc"
     },
     {
@@ -4668,7 +4684,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "te_engine_design_doc"
     },
     {
@@ -4680,7 +4696,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "ve_engine_design_doc"
     },
     {
@@ -4692,7 +4708,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "dma_engine_design_doc"
     },
     {
@@ -4704,7 +4720,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "npu_simulator_core_design_doc"
     },
     {
@@ -4716,7 +4732,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "cycle_loop_design_doc"
     },
     {
@@ -4728,7 +4744,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "visualizer_design_doc"
     },
     {
@@ -4740,7 +4756,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "npu_ir_core_reference_doc"
     },
     {
@@ -4752,7 +4768,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "tile_rt_analysis_doc"
     },
     {
@@ -4764,7 +4780,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "prior_art_mapping_doc"
     },
     {
@@ -4776,7 +4792,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "integration_test_spec_doc"
     },
     {
@@ -4788,7 +4804,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "performance_validation_protocol_doc"
     },
     {
@@ -4800,7 +4816,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "test_plan_doc"
     },
     {
@@ -4812,7 +4828,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "unit_test_spec_doc"
     },
     {
@@ -4824,7 +4840,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "spec_driven_development"
     },
     {
@@ -4836,7 +4852,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "offline_compiler_pipeline"
     },
     {
@@ -4848,7 +4864,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "simulator_core_stack"
     },
     {
@@ -4860,7 +4876,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "ir_builder_onnx_to_npu_ir"
     },
     {
@@ -4872,7 +4888,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "tile_graph"
     },
     {
@@ -4884,7 +4900,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "schedule_dag"
     },
     {
@@ -4896,7 +4912,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "cmdq_json"
     },
     {
@@ -4908,7 +4924,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "control_fsm_issue_policy"
     },
     {
@@ -4920,7 +4936,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "te_tile_latency_model"
     },
     {
@@ -4932,7 +4948,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "ve_tile_latency_model"
     },
     {
@@ -4944,7 +4960,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "dma_latency_bandwidth_model"
     },
     {
@@ -4956,7 +4972,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "global_cycle_loop"
     },
     {
@@ -4968,7 +4984,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "cycle_loop_determinism"
     },
     {
@@ -4980,7 +4996,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "trace_json"
     },
     {
@@ -4992,7 +5008,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "trace_visualization_pipeline"
     },
     {
@@ -5004,7 +5020,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "tile_atomic_execution_unit"
     },
     {
@@ -5016,7 +5032,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "tile_rt_tile_minimal_execution_unit"
     },
     {
@@ -5028,7 +5044,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "tile_rt"
     },
     {
@@ -5040,7 +5056,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "latency_critical_dag_scheduling"
     },
     {
@@ -5052,7 +5068,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "operator_coordinate_compression_framework"
     },
     {
@@ -5064,7 +5080,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "prior_art_category_taxonomy"
     },
     {
@@ -5076,7 +5092,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "value_centric_quantization_methods"
     },
     {
@@ -5088,7 +5104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "outlier_aware_mixed_precision_methods"
     },
     {
@@ -5100,7 +5116,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "rotation_based_quantization"
     },
     {
@@ -5112,7 +5128,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "low_rank_structural_approximation"
     },
     {
@@ -5124,7 +5140,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "value_centric_limitations"
     },
     {
@@ -5136,7 +5152,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "outlier_aware_limitations"
     },
     {
@@ -5148,7 +5164,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "rotation_based_limitations"
     },
     {
@@ -5160,7 +5176,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "low_rank_limitations"
     },
     {
@@ -5172,7 +5188,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "manifold_gap_rationale"
     },
     {
@@ -5184,7 +5200,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "id": "novelty_claims"
     },
     {
@@ -5196,7 +5212,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_npu_ir"
     },
     {
@@ -5208,7 +5224,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_tensor_metadata"
     },
     {
@@ -5220,7 +5236,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_quantization_ir_extension"
     },
     {
@@ -5232,7 +5248,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_cmdq_format"
     },
     {
@@ -5244,7 +5260,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_static_scheduler_semantics"
     },
     {
@@ -5256,7 +5272,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_tile_semantics"
     },
     {
@@ -5268,7 +5284,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_tile_contract"
     },
     {
@@ -5280,7 +5296,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_dma_timing"
     },
     {
@@ -5292,7 +5308,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_te_timing"
     },
     {
@@ -5304,7 +5320,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_ve_timing"
     },
     {
@@ -5316,7 +5332,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_spm_model"
     },
     {
@@ -5328,7 +5344,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_bus_and_noc_model"
     },
     {
@@ -5340,7 +5356,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_trace_format"
     },
     {
@@ -5352,7 +5368,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_bitwidth_memory_mapping"
     },
     {
@@ -5364,7 +5380,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 5,
+      "community": 4,
       "id": "spec_visualization_requirements"
     },
     {
@@ -5376,7 +5392,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "golden_trace_examples_doc"
     },
     {
@@ -5388,7 +5404,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "llama_attention_timeline_full_md_ref"
     },
     {
@@ -5400,7 +5416,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "llama_attention_isa_stream_full_md_ref"
     },
     {
@@ -5436,7 +5452,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "trace_format_spec_doc"
     },
     {
@@ -5448,7 +5464,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "bandwidth_heatmap_spec_doc"
     },
     {
@@ -5472,7 +5488,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "gantt_timeline_spec_doc"
     },
     {
@@ -5484,7 +5500,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "visualization_requirements_doc"
     },
     {
@@ -5664,7 +5680,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "golden_trace_regression_reference"
     },
     {
@@ -5676,7 +5692,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "workload_mlp_conv_attention_llm"
     },
     {
@@ -5688,7 +5704,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 10,
       "id": "llama_prefill_decode_golden"
     },
     {
@@ -5700,7 +5716,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "trace_event_schema"
     },
     {
@@ -5712,7 +5728,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "engine_event"
     },
     {
@@ -5724,7 +5740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "mem_access_event"
     },
     {
@@ -5736,7 +5752,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "token_event"
     },
     {
@@ -5748,7 +5764,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "cmd_event"
     },
     {
@@ -5760,7 +5776,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "stall_event"
     },
     {
@@ -5772,7 +5788,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "bandwidth_samples"
     },
     {
@@ -5784,7 +5800,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "summary_metrics"
     },
     {
@@ -5796,7 +5812,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "gantt_timeline"
     },
     {
@@ -5808,7 +5824,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "bandwidth_heatmap"
     },
     {
@@ -5820,7 +5836,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "engine_utilization_dashboard"
     },
     {
@@ -5832,7 +5848,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "quantization_impact_plot"
     },
     {
@@ -5844,7 +5860,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 11,
+      "community": 10,
       "id": "trace_visualization_suite"
     },
     {
@@ -5880,7 +5896,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 10,
       "id": "prefill_decode_semantics"
     },
     {
@@ -6168,7 +6184,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 31,
       "id": "qkv_projection"
     },
     {
@@ -6180,7 +6196,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 32,
       "id": "softmax_tile"
     },
     {
@@ -6192,7 +6208,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 33,
       "id": "llm_workload_patterns"
     },
     {
@@ -6552,7 +6568,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "system_architecture_overview_doc"
     },
     {
@@ -6564,7 +6580,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "system_architecture_doc"
     },
     {
@@ -6588,7 +6604,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 6,
       "id": "dataflow_overview_doc"
     },
     {
@@ -6600,7 +6616,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "module_responsibilities_doc"
     },
     {
@@ -6612,7 +6628,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "sdd_devflow_overview_doc"
     },
     {
@@ -6624,7 +6640,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "doc_study_milestone_plan_doc"
     },
     {
@@ -6636,7 +6652,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "vibe_coding_sdd_guide_doc"
     },
     {
@@ -6648,7 +6664,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "naming_convention_doc"
     },
     {
@@ -6672,7 +6688,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "contribution_and_review_guide_doc"
     },
     {
@@ -6684,7 +6700,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 9,
       "id": "doc_improvement_tasks_doc"
     },
     {
@@ -6696,7 +6712,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "npu_system_architecture"
     },
     {
@@ -6708,7 +6724,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "host_cpu_control_plane"
     },
     {
@@ -6720,7 +6736,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "npu_simulator_core"
     },
     {
@@ -6732,7 +6748,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "visualization_profiler"
     },
     {
@@ -6744,7 +6760,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 34,
       "id": "cycle_based_simulation"
     },
     {
@@ -6756,7 +6772,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 6,
       "id": "onnx_ir_tile_cmdq_trace_pipeline"
     },
     {
@@ -6768,7 +6784,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 6,
       "id": "spm_allocator"
     },
     {
@@ -6780,7 +6796,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 6,
       "id": "cmdq_generator"
     },
     {
@@ -7128,7 +7144,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 6,
       "id": "kv_cache_dram_residency"
     },
     {
@@ -7176,7 +7192,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "module_boundary_contract"
     },
     {
@@ -7188,7 +7204,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "naming_traceability"
     },
     {
@@ -7200,7 +7216,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "milestone_plan"
     },
     {
@@ -7212,7 +7228,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 35,
       "id": "vibe_coding_workflow"
     },
     {
@@ -7224,7 +7240,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "review_guide"
     },
     {
@@ -7236,7 +7252,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 10,
+      "community": 9,
       "id": "documentation_improvement_backlog"
     },
     {
@@ -7260,7 +7276,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 9,
       "id": "documentation_review_summary_doc"
     },
     {
@@ -7272,7 +7288,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 9,
       "id": "project_roadmap_doc"
     },
     {
@@ -7284,7 +7300,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 9,
       "id": "milestone_plan_doc"
     },
     {
@@ -7296,7 +7312,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 9,
       "id": "spec_driven_development_workflow_doc"
     },
     {
@@ -7308,7 +7324,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "versioning_and_changelog_guide_doc"
     },
     {
@@ -7320,7 +7336,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 9,
       "id": "review_by_chatgpt_v2_doc"
     },
     {
@@ -7332,7 +7348,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 9,
       "id": "review_by_chatgpt_v1_doc"
     },
     {
@@ -7356,7 +7372,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "readme_md"
     },
     {
@@ -7368,7 +7384,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 9,
       "id": "docs_readme_spec"
     },
     {
@@ -7380,7 +7396,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_spec_ir_npu_ir_spec"
     },
     {
@@ -7392,7 +7408,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 36,
       "id": "docs_spec_ir_tensor_metadata_spec"
     },
     {
@@ -7404,7 +7420,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 22,
       "id": "docs_spec_ir_quantization_ir_extension"
     },
     {
@@ -7416,7 +7432,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_spec_isa_cmdq_overview"
     },
     {
@@ -7428,7 +7444,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_spec_isa_cmdq_format_spec"
     },
     {
@@ -7440,7 +7456,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_spec_isa_opcode_set_definition"
     },
     {
@@ -7452,7 +7468,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_spec_timing_dma_timing_spec"
     },
     {
@@ -7464,7 +7480,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 37,
       "id": "docs_spec_timing_te_timing_spec"
     },
     {
@@ -7476,7 +7492,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 38,
       "id": "docs_spec_timing_ve_timing_spec"
     },
     {
@@ -7488,7 +7504,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 39,
       "id": "docs_spec_timing_spm_model_spec"
     },
     {
@@ -7500,7 +7516,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_spec_timing_bus_noc_model"
     },
     {
@@ -7512,7 +7528,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 22,
       "id": "docs_spec_quantization_quantization_model_overview"
     },
     {
@@ -7524,7 +7540,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 22,
       "id": "docs_spec_quantization_bitwidth_memory_mapping"
     },
     {
@@ -7536,7 +7552,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 22,
       "id": "docs_spec_quantization_kv_cache_quantization_spec"
     },
     {
@@ -7548,7 +7564,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 22,
       "id": "docs_spec_quantization_mixed_precision_policy"
     },
     {
@@ -7560,7 +7576,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 23,
       "id": "docs_spec_trace_trace_format_spec"
     },
     {
@@ -7572,7 +7588,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_spec_trace_gantt_timeline_spec"
     },
     {
@@ -7584,7 +7600,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_spec_trace_bandwidth_heatmap_spec"
     },
     {
@@ -7596,7 +7612,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_spec_trace_visualization_requirements"
     },
     {
@@ -7608,7 +7624,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_design_npu_simulator_core_design"
     },
     {
@@ -7620,7 +7636,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_design_cycle_loop_design"
     },
     {
@@ -7632,7 +7648,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_design_control_fsm_design"
     },
     {
@@ -7644,7 +7660,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_design_cmdq_generator_design"
     },
     {
@@ -7656,7 +7672,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_design_ir_builder_design"
     },
     {
@@ -7668,7 +7684,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_design_tiling_planner_design"
     },
     {
@@ -7680,7 +7696,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_design_spm_allocator_design"
     },
     {
@@ -7692,7 +7708,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_design_static_scheduler_design"
     },
     {
@@ -7704,7 +7720,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_design_te_engine_design"
     },
     {
@@ -7728,7 +7744,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 40,
       "id": "docs_design_dma_engine_design"
     },
     {
@@ -7740,7 +7756,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 38,
+      "community": 41,
       "id": "docs_design_offline_compiler_design"
     },
     {
@@ -7752,7 +7768,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_design_visualizer_design"
     },
     {
@@ -7764,7 +7780,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_test_test_plan"
     },
     {
@@ -7776,7 +7792,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 39,
+      "community": 42,
       "id": "docs_test_unit_test_spec"
     },
     {
@@ -7788,7 +7804,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_test_integration_test_spec"
     },
     {
@@ -7800,7 +7816,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "docs_test_performance_validation_protocol"
     },
     {
@@ -7812,7 +7828,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 23,
       "id": "docs_test_golden_trace_examples"
     },
     {
@@ -7824,7 +7840,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "documentation_review_summary_phase_1_pipeline_alignment"
     },
     {
@@ -7836,7 +7852,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "documentation_review_summary_phase_2_detail_buildup"
     },
     {
@@ -7848,7 +7864,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "project_roadmap_workload_loader"
     },
     {
@@ -7860,7 +7876,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "project_roadmap_compiler_pipeline"
     },
     {
@@ -7872,7 +7888,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "project_roadmap_cycle_based_simulator"
     },
     {
@@ -7884,7 +7900,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "project_roadmap_trace_visualization"
     },
     {
@@ -7896,7 +7912,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "project_roadmap_dse_scenario_engine"
     },
     {
@@ -7908,7 +7924,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "project_roadmap_stage_a_foundation"
     },
     {
@@ -7920,7 +7936,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 40,
+      "community": 43,
       "id": "project_roadmap_stage_b_timing_engine_modeling"
     },
     {
@@ -7932,7 +7948,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 41,
+      "community": 44,
       "id": "project_roadmap_stage_c_full_operator_support"
     },
     {
@@ -7944,7 +7960,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 42,
+      "community": 45,
       "id": "project_roadmap_stage_d_llm_specialization"
     },
     {
@@ -7956,7 +7972,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 43,
+      "community": 46,
       "id": "project_roadmap_stage_e_dse_platform"
     },
     {
@@ -7968,7 +7984,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 9,
       "id": "project_roadmap_sdd_principle"
     },
     {
@@ -7980,7 +7996,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 23,
+      "community": 25,
       "id": "project_roadmap_vertical_first"
     },
     {
@@ -7992,7 +8008,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 44,
+      "community": 47,
       "id": "project_roadmap_modular_replaceable"
     },
     {
@@ -8004,7 +8020,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 45,
+      "community": 48,
       "id": "project_roadmap_trace_first_design"
     },
     {
@@ -8016,7 +8032,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 25,
+      "community": 27,
       "id": "project_roadmap_test_first_for_core_logic"
     },
     {
@@ -8028,7 +8044,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 46,
+      "community": 49,
       "id": "project_roadmap_end_to_end_ai_hardware_platform"
     },
     {
@@ -8040,7 +8056,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 47,
+      "community": 50,
       "id": "milestone_plan_skeleton_first_sdd_implementation_roadmap"
     },
     {
@@ -8052,7 +8068,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 48,
+      "community": 51,
       "id": "milestone_plan_phase_0_project_code_skeleton"
     },
     {
@@ -8064,7 +8080,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 23,
+      "community": 25,
       "id": "milestone_plan_phase_1_matmul_only_e2e"
     },
     {
@@ -8076,7 +8092,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 49,
+      "community": 52,
       "id": "milestone_plan_phase_2_timing_memory_engine_realization"
     },
     {
@@ -8088,7 +8104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 24,
+      "community": 26,
       "id": "milestone_plan_document_to_design_to_code_flow"
     },
     {
@@ -8100,7 +8116,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "milestone_plan_irbuilderpass"
     },
     {
@@ -8112,7 +8128,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "milestone_plan_tilingplannerpass"
     },
     {
@@ -8124,7 +8140,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "milestone_plan_spmallocatorpass"
     },
     {
@@ -8136,7 +8152,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "milestone_plan_staticschedulerpass"
     },
     {
@@ -8148,7 +8164,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "milestone_plan_cmdqgeneratorpass"
     },
     {
@@ -8160,7 +8176,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "milestone_plan_npusimulator"
     },
     {
@@ -8172,7 +8188,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "milestone_plan_controlfsm"
     },
     {
@@ -8184,7 +8200,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "milestone_plan_teengine"
     },
     {
@@ -8196,7 +8212,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 23,
       "id": "milestone_plan_tracecollector"
     },
     {
@@ -8208,7 +8224,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "milestone_plan_integration_test_single_matmul_pipeline"
     },
     {
@@ -8220,7 +8236,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 24,
+      "community": 26,
       "id": "spec_workflow_document_first"
     },
     {
@@ -8232,7 +8248,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 50,
+      "community": 53,
       "id": "spec_workflow_single_source_of_truth"
     },
     {
@@ -8244,7 +8260,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 25,
+      "community": 27,
       "id": "spec_workflow_test_accompanied"
     },
     {
@@ -8256,7 +8272,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 28,
       "id": "spec_workflow_reviewability"
     },
     {
@@ -8268,7 +8284,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 51,
+      "community": 54,
       "id": "spec_workflow_spec_update"
     },
     {
@@ -8280,7 +8296,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 52,
+      "community": 55,
       "id": "spec_workflow_design_update"
     },
     {
@@ -8292,7 +8308,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 53,
+      "community": 56,
       "id": "spec_workflow_test_doc_update"
     },
     {
@@ -8304,7 +8320,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 54,
+      "community": 57,
       "id": "spec_workflow_implementation"
     },
     {
@@ -8316,7 +8332,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 55,
+      "community": 58,
       "id": "spec_workflow_review_merge"
     },
     {
@@ -8328,7 +8344,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 56,
+      "community": 59,
       "id": "spec_workflow_pr_issue_templates"
     },
     {
@@ -8340,7 +8356,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 57,
+      "community": 60,
       "id": "spec_workflow_ci_integration"
     },
     {
@@ -8352,7 +8368,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 58,
+      "community": 61,
       "id": "spec_workflow_example_flows"
     },
     {
@@ -8364,7 +8380,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "semantic_versioning"
     },
     {
@@ -8376,7 +8392,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "spec_first_version"
     },
     {
@@ -8388,7 +8404,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "breaking_change_recording"
     },
     {
@@ -8400,7 +8416,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "major_minor_patch"
     },
     {
@@ -8412,7 +8428,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "spec_version"
     },
     {
@@ -8424,7 +8440,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "sim_version"
     },
     {
@@ -8436,7 +8452,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "changelog"
     },
     {
@@ -8448,7 +8464,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "spec_code_version_mapping"
     },
     {
@@ -8460,7 +8476,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "version_checks"
     },
     {
@@ -8472,7 +8488,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "id": "changelog_automation"
     },
     {
@@ -8484,7 +8500,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 59,
+      "community": 62,
       "id": "review_by_chatgpt_v2_global_integrated_diagram"
     },
     {
@@ -8496,7 +8512,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "review_by_chatgpt_v2_pipeline_alignment_issue"
     },
     {
@@ -8508,7 +8524,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "review_by_chatgpt_v2_timing_contention_model_issue"
     },
     {
@@ -8520,7 +8536,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 29,
       "id": "review_by_chatgpt_v2_skeleton_level_docs_issue"
     },
     {
@@ -8532,7 +8548,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "review_by_chatgpt_v2_trace_visualizer_incomplete_issue"
     },
     {
@@ -8544,7 +8560,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 29,
       "id": "review_by_chatgpt_v2_phase_0_overview_enhancement"
     },
     {
@@ -8556,7 +8572,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "review_by_chatgpt_v2_phase_1_pipeline_alignment"
     },
     {
@@ -8568,7 +8584,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 11,
       "id": "review_by_chatgpt_v2_phase_2_detail_buildup"
     },
     {
@@ -8580,7 +8596,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 28,
       "id": "docs_process_contribution_and_review_guide"
     },
     {
@@ -8592,7 +8608,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 3,
+      "community": 12,
       "id": "docs_process_naming_convention"
     },
     {
@@ -8856,7 +8872,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 5,
       "id": "multimodal_image_encoder"
     },
     {
@@ -8947,42 +8963,42 @@
       "label": "Operator-Coordinate Compression",
       "file_type": "document",
       "source_file": "wiki/topics/operator-coordinate-compression.md",
-      "community": 12,
+      "community": 8,
       "id": "operator_coordinate_compression_topic"
     },
     {
       "label": "Trace & Visualization",
       "file_type": "document",
       "source_file": "wiki/topics/trace-visualization.md",
-      "community": 0,
+      "community": 1,
       "id": "trace_visualization_topic"
     },
     {
       "label": "NPU Documentation Process",
       "file_type": "document",
       "source_file": "wiki/topics/npu-doc-process.md",
-      "community": 0,
+      "community": 1,
       "id": "npu_doc_process_topic"
     },
     {
       "label": "Tile Semantics and Contract Boundaries",
       "file_type": "document",
       "source_file": "wiki/concepts/tile-semantics-contract.md",
-      "community": 0,
+      "community": 1,
       "id": "tile_semantics_contract"
     },
     {
       "label": "Mixed Precision as a System Policy",
       "file_type": "document",
       "source_file": "wiki/concepts/mixed-precision-policy.md",
-      "community": 12,
+      "community": 13,
       "id": "mixed_precision_policy"
     },
     {
       "label": "Trace-First Design",
       "file_type": "document",
       "source_file": "wiki/concepts/trace-first-design.md",
-      "community": 0,
+      "community": 1,
       "id": "trace_first_design"
     },
     {
@@ -8994,7 +9010,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 5,
       "id": "wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference"
     },
     {
@@ -9006,7 +9022,7 @@
       "label": "Project Helios Edge / Physical AI Custom SoC Platform Strategy",
       "file_type": "document",
       "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
-      "community": 0,
+      "community": 1,
       "id": "project_helios_edge_physical_ai_custom_soc_platform_strategy"
     },
     {
@@ -9018,7 +9034,7 @@
       "label": "Edge / Physical AI Platform Provider",
       "file_type": "document",
       "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
-      "community": 0,
+      "community": 1,
       "id": "edge_physical_ai_platform_provider"
     },
     {
@@ -9030,7 +9046,7 @@
       "label": "Fabric Preset Strategy",
       "file_type": "document",
       "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
-      "community": 0,
+      "community": 1,
       "id": "fabric_preset_strategy"
     },
     {
@@ -9042,7 +9058,7 @@
       "label": "Hierarchical Multi-NoC Architecture",
       "file_type": "document",
       "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
-      "community": 0,
+      "community": 1,
       "id": "hierarchical_multi_noc_architecture"
     },
     {
@@ -9054,7 +9070,7 @@
       "label": "Helios Differentiation Layer",
       "file_type": "document",
       "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md",
-      "community": 0,
+      "community": 1,
       "id": "helios_differentiation_layer"
     },
     {
@@ -9066,7 +9082,7 @@
       "label": "NPU Architecture & Execution Spec",
       "file_type": "document",
       "source_file": "wiki/topics/npu-architecture-spec.md",
-      "community": 0,
+      "community": 1,
       "id": "npu_architecture_spec_topic"
     },
     {
@@ -9078,7 +9094,7 @@
       "label": "NPU Timing & Memory Model",
       "file_type": "document",
       "source_file": "wiki/topics/npu-timing-memory-model.md",
-      "community": 0,
+      "community": 1,
       "id": "npu_timing_memory_model_topic"
     },
     {
@@ -9090,7 +9106,7 @@
       "label": "Simulation Validation & Golden Traces",
       "file_type": "document",
       "source_file": "wiki/topics/simulation-validation.md",
-      "community": 0,
+      "community": 1,
       "id": "simulation_validation_topic"
     },
     {
@@ -9102,7 +9118,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "ir_cmdq_contract_topic"
     },
     {
@@ -9114,7 +9130,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "id": "tile_semantics_quantization_topic"
     }
   ],
@@ -20985,6 +21001,16 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-timing-memory-model.md",
+      "_src": "ve_timing_spec_doc",
+      "_tgt": "npu_timing_memory_model_topic",
+      "source": "ve_timing_spec_doc",
+      "target": "npu_timing_memory_model_topic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
       "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/doc_improvement_tasks.md",
       "source_location": null,
       "weight": 1.0,
@@ -21148,6 +21174,16 @@
       "_tgt": "te_timing_spec_doc",
       "source": "te_timing_spec_doc",
       "target": "te_timing_spec_doc"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-timing-memory-model.md",
+      "_src": "te_timing_spec_doc",
+      "_tgt": "npu_timing_memory_model_topic",
+      "source": "te_timing_spec_doc",
+      "target": "npu_timing_memory_model_topic"
     },
     {
       "relation": "references",
@@ -24793,6 +24829,22 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/npu-architecture-spec.md"
+    },
+    {
+      "id": "timing_specs_absorbed_into_timing_topic_2026_04_17",
+      "label": "Timing Specs Absorbed Into Timing Topic 2026-04-17",
+      "nodes": [
+        "te_timing_spec_doc",
+        "ve_timing_spec_doc",
+        "dma_timing_spec_doc",
+        "spm_model_spec_doc",
+        "bus_and_noc_model_spec",
+        "npu_timing_memory_model_topic"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-timing-memory-model.md"
     }
   ]
 }

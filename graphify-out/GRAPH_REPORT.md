@@ -5,7 +5,7 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 719 nodes · 1265 edges · 59 communities detected
+- 719 nodes · 1267 edges · 63 communities detected
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 145 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
@@ -22,10 +22,10 @@
 10. `Wiki Index` - 17 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `SpinQuant` --semantically_similar_to--> `SpinQuant as Partial Manifold Alignment`  [INFERRED] [semantically similar]
-  wiki/topics/llm-quantization-compression.md → raw/Research/operator-coordinate-compression/docs/research_direction_review.md
 - `Multiplierless Multiple Constant Multiplication` --semantically_similar_to--> `Xilinx FINN`  [INFERRED] [semantically similar]
   raw/Research/Patent-MCM/Multiplierless Design Paper Analysis/Multiplierless Design Paper Analysis (Part 1 of 3) 33a6cc566b0b81028b7bdfa2171ef078.md → wiki/AI-Hardware/NPU-Architecture.md
+- `SpinQuant` --semantically_similar_to--> `SpinQuant as Partial Manifold Alignment`  [INFERRED] [semantically similar]
+  wiki/topics/llm-quantization-compression.md → raw/Research/operator-coordinate-compression/docs/research_direction_review.md
 - `Google TPU Sparse Core` --semantically_similar_to--> `HyperAccel LPU card`  [INFERRED] [semantically similar]
   wiki/AI-Hardware/NPU-Architecture.md → raw/AI-Hardware/Simulator/HyperAccel LPU Explanation/HyperAccel LPU Explanation (Part 2 of 3) 33a6cc566b0b8184b3e7c80f64b99235.md
 - `Why LPDDR fits decode-heavy inference` --conceptually_related_to--> `Flash-Resident LLM and HBF for Edge Inference`  [INFERRED]
@@ -68,249 +68,276 @@
 - **Execution Spec Split Topics 2026-04-17** — riscv_npu_soc_sim_topic, npu_architecture_spec_topic, ir_cmdq_contract_topic, tile_semantics_quantization_topic, npu_timing_memory_model_topic, simulation_validation_topic, trace_visualization_topic, npu_doc_process_topic [EXTRACTED 1.00]
 - **Operator-Coordinate Compression Canonical Links 2026-04-17** — operator_coordinate_compression_topic, llm_quantization_compression, mixed_precision_policy, memory_bandwidth_bottleneck, hw_friendly_model_design [EXTRACTED 1.00]
 - **Overview Layer Absorbed Into Execution Spec 2026-04-17** — system_architecture_doc, dataflow_overview_doc, module_responsibilities_doc, npu_architecture_spec_topic [EXTRACTED 1.00]
+- **Timing Specs Absorbed Into Timing Topic 2026-04-17** — te_timing_spec_doc, ve_timing_spec_doc, dma_timing_spec_doc, spm_model_spec_doc, bus_and_noc_model_spec, npu_timing_memory_model_topic [EXTRACTED 1.00]
 
 ## Communities
 
-### Community 4 - "Paper Reviews / AI-Assisted Research Workflow / Wiki Index"
+### Community 0 - "LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note"
+Cohesion: 0.07
+Nodes (70): Blockwise Axis Alignment, Bits per Channel, Claim Candidates, Concentration, Coordinate-Relative Outliers, Coordinate-system view of quantization, Effective Rank, Entropy Coding for Functional Decomposition (+62 more)
+
+### Community 1 - "RISC-V NPU SoC Simulator / NPU/LPU Simulator and Implementation Tools / NPU Simulator & Compiler"
+Cohesion: 0.07
+Nodes (68): AgentHub Collaboration Graph, AI-Assisted Research Workflow, AMBA Bus Recommendation, AMD Versal ACAP, Architecture Scope Alignment, Claude Code + Harness Pipeline, Google Coral NPU, Decode-centric pipeline (+60 more)
+
+### Community 2 - "From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Format Specification / CMDQ Overview"
+Cohesion: 0.07
+Nodes (64): Bitwidth-to-Memory Mapping, Bitwidth & Memory Mapping Specification, Capacity / Traffic Tradeoff, Command Queue (CMDQ), CMDQ Format Specification, CMDQ Overview, Why Mixed Precision LLM Support, Why Static Scheduling (+56 more)
+
+### Community 3 - "Paper Reviews / Paper Reviews / AI-Assisted Research Workflow"
 Cohesion: 0.05
 Nodes (55): AgentHub, Autoresearch, AI-assisted research workflow, Chaos Theory and Prediction, Ensemble prediction for chaotic systems, Search-verify-refine loop, Graphify post-update review, Content-oriented index catalog (+47 more)
 
-### Community 7 - "Patent & MCM Research / Patent Research — MCM and AI Infrastructure / Multiple Constant Multiplication"
-Cohesion: 0.09
-Nodes (39): A-graph, A-operation, AgentHub, AI-Hardware Architecture, AI-Hardware Simulator, Coefficient Programmable MCM Fabric, AgentHub collaboration model change, AI-assisted research workflow (+31 more)
-
-### Community 0 - "RISC-V NPU SoC Simulator / Flash-Resident LLM and HBF for Edge Inference / NPU/LPU Simulator and Implementation Tools"
-Cohesion: 0.05
-Nodes (92): AgentHub Collaboration Graph, AI-Assisted Research Workflow, AMBA Bus Recommendation, AMD Versal ACAP, Architecture Scope Alignment, Claude Code + Harness Pipeline, AMBA bus recommendation, Google Coral Edge TPU (+84 more)
-
-### Community 12 - "LLM Quantization and Compression Methods / Outlier Mitigation Methods Comparison / Mixed Precision as a System Policy"
-Cohesion: 0.17
-Nodes (16): DC-LLM, LLM quantization/compression stack, Microscaling vs mixed precision, OCEAN coordinate-aware compression, OliVe outlier-victim pair, Outlier mitigation methods comparison, QuaRot, SmoothQuant (+8 more)
-
-### Community 18 - "Multiplierless Multiple Constant Multiplication / Xilinx FINN / Multiplierless lifting DWT design"
-Cohesion: 0.4
-Nodes (6): AdderNet, Multiplier-less Artificial Neurons, Multiplierless lifting DWT design, Multiplierless Multiple Constant Multiplication, Pattern-search Lefevre algorithm, Xilinx FINN
-
-### Community 19 - "MCM-first CNN-ISP block / Domain-invariant MCM-ISP via adversarial training / QuickSRNet target"
-Cohesion: 0.5
-Nodes (5): MCM-first CNN-ISP block, Domain-invariant MCM-ISP via adversarial training, QuickSRNet target, Why the CNN-ISP block is needed, Why domain adaptation strengthens MCM-ISP
-
-### Community 22 - "SoC negotiation technical English / 4-week practical usage guide"
-Cohesion: 1.0
-Nodes (2): 4-week practical usage guide, SoC negotiation technical English
-
-### Community 13 - "AI memory hierarchy / Tesla Mixed-Precision Bridge / Meta MTIA"
-Cohesion: 0.19
-Nodes (14): Attention Sink, AWS Inferentia, AWS Trainium, Google TPU, Horner's Method, Why LPDDR fits decode-heavy inference, HyperAccel LPU card, AI memory hierarchy (+6 more)
-
-### Community 8 - "NPU Architecture / SoC Specification Negotiation English / Synopsys Platform Architect"
-Cohesion: 0.07
-Nodes (30): Architecture Diary Format, Assumptions and Constraints, Cache Hybrid, Coral to mobile AP NPU evolution, Coral-based multi-MatMul cluster, Why Coral does not scale to mobile AP as-is, Coral NPU full-stack platform, Dataflow-First (+22 more)
-
-### Community 17 - "DC-LLM / Dynamic linear combination / Adaptive basis selection"
-Cohesion: 0.32
-Nodes (8): Adaptive basis selection, Bayesian optimization DSE, DC-LLM, Dynamic linear combination, Explained Energy Ratio, LFSR-based basis generation, Systolic array, Weight generator
-
-### Community 16 - "Entropy Coding / OCEAN / Outlier-victim pair quantization"
-Cohesion: 0.28
-Nodes (9): Base / residual / exception streams, Dead-zone, Entropy Coding, Entropy Coding Requires Distribution Shaping, OCEAN, OliVe, Outlier-aware quantization, Outlier-victim pair quantization (+1 more)
-
-### Community 1 - "LLM Quantization & Compression / Paper Draft / TurboQuant Architecture Note"
-Cohesion: 0.08
-Nodes (69): Blockwise Axis Alignment, Bits per Channel, Claim Candidates, Concentration, Coordinate-Relative Outliers, Coordinate-system view of quantization, Effective Rank, Entropy Coding for Functional Decomposition (+61 more)
-
-### Community 9 - "HW-Friendly Model Design / HW-Friendly GenAI Model Design / Latent Action World Model"
-Cohesion: 0.08
-Nodes (28): Action-free data, Conditional Parameter Loading, Dynamic Control Flow Hurts NPU Deployment, Dynamic Transformer, Gemma 3n, HW-Friendly GenAI Model Design, HW-Friendly Model Design, 5-to-1 interleaved attention (+20 more)
-
-### Community 20 - "Stronger Normalization-Free Transformers / Variance control / Residual scaling"
-Cohesion: 0.5
-Nodes (5): DyT, LayerNorm, Residual scaling, Stronger Normalization-Free Transformers, Variance control
-
-### Community 28 - "doc_status.py"
-Cohesion: 1.0
-Nodes (0): 
-
-### Community 2 - "From Minimal NumPy LLaMA to Tile-based NPU Modeling / CMDQ Overview / CMDQ Format Specification"
-Cohesion: 0.07
-Nodes (67): Bitwidth-to-Memory Mapping, Bitwidth & Memory Mapping Specification, Capacity / Traffic Tradeoff, Command Queue (CMDQ), CMDQ Format Specification, CMDQ Overview, Why Mixed Precision LLM Support, Why Static Scheduling (+59 more)
-
-### Community 10 - "NPU System Dataflow Overview / System Architecture Specification / Documentation Study Milestone Plan"
-Cohesion: 0.13
-Nodes (23): CMDQ Generator, Contribution & Review Guide, NPU System Dataflow Overview, Documentation Study Milestone Plan, Documentation Improvement Backlog, Host CPU Control Plane, Milestone Plan, Module Boundary Contract (+15 more)
-
-### Community 5 - "Cycle Loop Design / Offline Compiler Design / Integration Test Specification"
+### Community 4 - "Cycle Loop Design / Integration Test Specification / Offline Compiler Design"
 Cohesion: 0.07
 Nodes (54): CMDQ Generator Design, CMDQ JSON, Control FSM Design, Control FSM Issue Policy, Cycle Loop Design, Cycle Loop Determinism, DMA Engine Design, DMA Latency and Bandwidth Model (+46 more)
 
-### Community 14 - "Prior Art Mapping / Operator-Coordinate Compression Framework / Value-Centric Quantization Methods"
+### Community 5 - "NPU Architecture / Flash-Resident LLM and HBF for Edge Inference / NPU Architecture Overview"
+Cohesion: 0.05
+Nodes (50): Architecture Diary Format, Assumptions and Constraints, Cache Hybrid, AMBA bus recommendation, Google Coral Edge TPU, HyperAccel LPU, Memory hierarchy in AI accelerators, Meta MTIA vs Google TPU (+42 more)
+
+### Community 6 - "Bus & NoC Timing Specification / KV Cache Semantics Specification / SPM Model Specification"
+Cohesion: 0.07
+Nodes (50): Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority, Architecture Semantics Spec Index, Back-Pressure Events, Burst Latency Model, Bus & NoC Timing Specification, Bus / NoC, CMDQ Generator (+42 more)
+
+### Community 7 - "Patent & MCM Research / Patent Research — MCM and AI Infrastructure / Multiple Constant Multiplication"
+Cohesion: 0.09
+Nodes (38): A-graph, A-operation, AgentHub, AI-Hardware Architecture, AI-Hardware Simulator, Coefficient Programmable MCM Fabric, AgentHub collaboration model change, AI-assisted research workflow (+30 more)
+
+### Community 8 - "HW-Friendly Model Design / HW-Friendly GenAI Model Design / HW-Friendly GenAI Model Design"
+Cohesion: 0.07
+Nodes (34): Action-free data, Gemma 3n MatFormer/PLE, Latent Action World Model, MSA and RAG, Normalization-free Transformers, Conditional Parameter Loading, Dynamic Control Flow Hurts NPU Deployment, Dynamic Transformer (+26 more)
+
+### Community 9 - "System Architecture Specification / Documentation Improvement Tasks / SDD Devflow Overview"
+Cohesion: 0.12
+Nodes (27): Contribution & Review Guide, Documentation Improvement Tasks, Documentation Study Milestone Plan, docs/README_SPEC.md, Documentation Improvement Backlog, Documentation Review Summary, Host CPU Control Plane, Milestone Plan (+19 more)
+
+### Community 10 - "Trace Format Specification / Golden Trace Examples / Visualization Requirements"
+Cohesion: 0.11
+Nodes (24): Bandwidth Heatmap, Bandwidth Heatmap Specification, Bandwidth Samples, CMD_EVENT, ENGINE_EVENT, Engine Utilization Dashboard, Gantt Timeline, Gantt Timeline Specification (+16 more)
+
+### Community 11 - "Stage A - Foundation / Phase 2 Detail Buildup / Cycle-Based Simulator"
+Cohesion: 0.1
+Nodes (23): docs/design/control_fsm_design.md, docs/design/cycle_loop_design.md, docs/design/npu_simulator_core_design.md, docs/design/te_engine_design.md, docs/design/visualizer_design.md, docs/spec/trace/bandwidth_heatmap_spec.md, docs/spec/trace/gantt_timeline_spec.md, docs/spec/trace/visualization_requirements.md (+15 more)
+
+### Community 12 - "Compiler Pipeline / Phase 1 Pipeline Alignment / docs/spec/isa/cmdq_format_spec.md"
+Cohesion: 0.11
+Nodes (22): docs/design/cmdq_generator_design.md, docs/design/ir_builder_design.md, docs/design/spm_allocator_design.md, docs/design/static_scheduler_design.md, docs/design/tiling_planner_design.md, docs/process/naming_convention.md, docs/spec/ir/npu_ir_spec.md, docs/spec/isa/cmdq_format_spec.md (+14 more)
+
+### Community 13 - "LLM Quantization and Compression Methods / Outlier Mitigation Methods Comparison / Mixed Precision as a System Policy"
+Cohesion: 0.19
+Nodes (15): DC-LLM, LLM quantization/compression stack, Microscaling vs mixed precision, OCEAN coordinate-aware compression, OliVe outlier-victim pair, Outlier mitigation methods comparison, QuaRot, SmoothQuant (+7 more)
+
+### Community 14 - "AI memory hierarchy / Tesla Mixed-Precision Bridge / HyperAccel LPU card"
+Cohesion: 0.19
+Nodes (14): Attention Sink, AWS Inferentia, AWS Trainium, Google TPU, Horner's Method, Why LPDDR fits decode-heavy inference, HyperAccel LPU card, AI memory hierarchy (+6 more)
+
+### Community 15 - "Prior Art Mapping / Operator-Coordinate Compression Framework / Low-Rank Limitations"
 Cohesion: 0.15
 Nodes (13): Low-Rank Limitations, Low-Rank Structural Approximation, Manifold Gap Rationale, Novelty Claims, Operator-Coordinate Compression Framework, Outlier-Aware Limitations, Outlier-Aware Mixed Precision Methods, Prior Art Category Taxonomy (+5 more)
 
-### Community 11 - "Trace Format Specification / Golden Trace Examples / Visualization Requirements"
-Cohesion: 0.12
-Nodes (22): Bandwidth Heatmap, Bandwidth Heatmap Specification, Bandwidth Samples, CMD_EVENT, ENGINE_EVENT, Engine Utilization Dashboard, Gantt Timeline, Gantt Timeline Specification (+14 more)
+### Community 16 - "Versioning & Changelog Guide / Spec-Code Version Mapping / Breaking Change Recording"
+Cohesion: 0.23
+Nodes (12): Breaking Change Recording, Changelog, Changelog Automation, MAJOR.MINOR.PATCH, README.md, Semantic Versioning, Simulator Version, Spec-Code Version Mapping (+4 more)
 
-### Community 29 - "Q/K/V Projection"
+### Community 17 - "Entropy Coding / OCEAN / Outlier-victim pair quantization"
+Cohesion: 0.28
+Nodes (9): Base / residual / exception streams, Dead-zone, Entropy Coding, Entropy Coding Requires Distribution Shaping, OCEAN, OliVe, Outlier-aware quantization, Outlier-victim pair quantization (+1 more)
+
+### Community 18 - "DC-LLM / Adaptive basis selection / Dynamic linear combination"
+Cohesion: 0.32
+Nodes (8): Adaptive basis selection, Bayesian optimization DSE, DC-LLM, Dynamic linear combination, Explained Energy Ratio, LFSR-based basis generation, Systolic array, Weight generator
+
+### Community 19 - "Multiplierless Multiple Constant Multiplication / AdderNet / Multiplier-less Artificial Neurons"
+Cohesion: 0.5
+Nodes (5): AdderNet, Multiplier-less Artificial Neurons, Multiplierless lifting DWT design, Multiplierless Multiple Constant Multiplication, Pattern-search Lefevre algorithm
+
+### Community 20 - "MCM-first CNN-ISP block / Domain-invariant MCM-ISP via adversarial training / QuickSRNet target"
+Cohesion: 0.5
+Nodes (5): MCM-first CNN-ISP block, Domain-invariant MCM-ISP via adversarial training, QuickSRNet target, Why the CNN-ISP block is needed, Why domain adaptation strengthens MCM-ISP
+
+### Community 21 - "Stronger Normalization-Free Transformers / Residual scaling / Variance control"
+Cohesion: 0.5
+Nodes (5): DyT, LayerNorm, Residual scaling, Stronger Normalization-Free Transformers, Variance control
+
+### Community 22 - "docs/spec/quantization/quantization_model_overview.md / docs/spec/quantization/bitwidth_memory_mapping.md / docs/spec/ir/quantization_ir_extension.md"
+Cohesion: 0.4
+Nodes (5): docs/spec/ir/quantization_ir_extension.md, docs/spec/quantization/bitwidth_memory_mapping.md, docs/spec/quantization/kv_cache_quantization_spec.md, docs/spec/quantization/mixed_precision_policy.md, docs/spec/quantization/quantization_model_overview.md
+
+### Community 23 - "docs/spec/trace/trace_format_spec.md / docs/test/golden_trace_examples.md / TraceCollector"
+Cohesion: 0.67
+Nodes (3): docs/spec/trace/trace_format_spec.md, docs/test/golden_trace_examples.md, TraceCollector
+
+### Community 24 - "4-week practical usage guide / SoC negotiation technical English"
 Cohesion: 1.0
-Nodes (1): Q/K/V Projection
+Nodes (2): 4-week practical usage guide, SoC negotiation technical English
 
-### Community 30 - "Softmax Tile"
-Cohesion: 1.0
-Nodes (1): Softmax Tile
-
-### Community 31 - "LLM Workload Patterns"
-Cohesion: 1.0
-Nodes (1): LLM Workload Patterns
-
-### Community 6 - "Bus & NoC Timing Specification / SPM Model Specification / KV Cache Semantics Specification"
-Cohesion: 0.08
-Nodes (44): Allocate / Free Lifecycle, DMA > TE > VE Arbitration Priority, Architecture Semantics Spec Index, Back-Pressure Events, Burst Latency Model, Bus & NoC Timing Specification, Bus / NoC, Contention Counter (+36 more)
-
-### Community 3 - "Milestone Plan / Project Roadmap / Documentation Improvement Tasks"
-Cohesion: 0.04
-Nodes (62): Documentation Improvement Tasks, docs/design/cmdq_generator_design.md, docs/design/control_fsm_design.md, docs/design/cycle_loop_design.md, docs/design/ir_builder_design.md, docs/design/npu_simulator_core_design.md, docs/design/spm_allocator_design.md, docs/design/static_scheduler_design.md (+54 more)
-
-### Community 32 - "Cycle-Based Simulation"
-Cohesion: 1.0
-Nodes (1): Cycle-Based Simulation
-
-### Community 33 - "Vibe Coding Workflow"
-Cohesion: 1.0
-Nodes (1): Vibe Coding Workflow
-
-### Community 15 - "Versioning & Changelog Guide / Spec-Code Version Mapping / docs/README_SPEC.md"
-Cohesion: 0.21
-Nodes (13): Breaking Change Recording, Changelog, Changelog Automation, docs/README_SPEC.md, MAJOR.MINOR.PATCH, README.md, Semantic Versioning, Simulator Version (+5 more)
-
-### Community 34 - "docs/spec/timing/te_timing_spec.md"
-Cohesion: 1.0
-Nodes (1): docs/spec/timing/te_timing_spec.md
-
-### Community 35 - "docs/spec/timing/ve_timing_spec.md"
-Cohesion: 1.0
-Nodes (1): docs/spec/timing/ve_timing_spec.md
-
-### Community 36 - "docs/spec/timing/spm_model_spec.md"
-Cohesion: 1.0
-Nodes (1): docs/spec/timing/spm_model_spec.md
-
-### Community 37 - "docs/design/dma_engine_design.md"
-Cohesion: 1.0
-Nodes (1): docs/design/dma_engine_design.md
-
-### Community 38 - "docs/design/offline_compiler_design.md"
-Cohesion: 1.0
-Nodes (1): docs/design/offline_compiler_design.md
-
-### Community 39 - "docs/test/unit_test_spec.md"
-Cohesion: 1.0
-Nodes (1): docs/test/unit_test_spec.md
-
-### Community 40 - "Stage B - NPU Timing & Engine Modeling"
-Cohesion: 1.0
-Nodes (1): Stage B - NPU Timing & Engine Modeling
-
-### Community 41 - "Stage C - Full Operator Support"
-Cohesion: 1.0
-Nodes (1): Stage C - Full Operator Support
-
-### Community 42 - "Stage D - LLM Specialization"
-Cohesion: 1.0
-Nodes (1): Stage D - LLM Specialization
-
-### Community 43 - "Stage E - DSE Platform"
-Cohesion: 1.0
-Nodes (1): Stage E - DSE Platform
-
-### Community 23 - "Vertical-First / Phase 1 - MatMul-only End-to-End"
+### Community 25 - "Phase 1 - MatMul-only End-to-End / Vertical-First"
 Cohesion: 1.0
 Nodes (2): Phase 1 - MatMul-only End-to-End, Vertical-First
 
-### Community 44 - "Modular & Replaceable"
-Cohesion: 1.0
-Nodes (1): Modular & Replaceable
-
-### Community 45 - "Trace-First Design"
-Cohesion: 1.0
-Nodes (1): Trace-First Design
-
-### Community 25 - "Test-First for Core Logic / Test Accompanied"
-Cohesion: 1.0
-Nodes (2): Test-First for Core Logic, Test Accompanied
-
-### Community 46 - "End-to-End AI Hardware Simulation Platform"
-Cohesion: 1.0
-Nodes (1): End-to-End AI Hardware Simulation Platform
-
-### Community 47 - "Skeleton-First SDD Implementation Roadmap"
-Cohesion: 1.0
-Nodes (1): Skeleton-First SDD Implementation Roadmap
-
-### Community 48 - "Phase 0 - Project Code Skeleton"
-Cohesion: 1.0
-Nodes (1): Phase 0 - Project Code Skeleton
-
-### Community 49 - "Phase 2 - Timing/Memory/Engine Realization"
-Cohesion: 1.0
-Nodes (1): Phase 2 - Timing/Memory/Engine Realization
-
-### Community 24 - "Document First / Document -> Design -> Code Flow"
+### Community 26 - "Document -> Design -> Code Flow / Document First"
 Cohesion: 1.0
 Nodes (2): Document -> Design -> Code Flow, Document First
 
-### Community 50 - "Single Source of Truth"
+### Community 27 - "Test-First for Core Logic / Test Accompanied"
 Cohesion: 1.0
-Nodes (1): Single Source of Truth
+Nodes (2): Test-First for Core Logic, Test Accompanied
 
-### Community 27 - "docs/process/contribution_and_review_guide.md / Reviewability"
+### Community 28 - "docs/process/contribution_and_review_guide.md / Reviewability"
 Cohesion: 1.0
 Nodes (2): docs/process/contribution_and_review_guide.md, Reviewability
 
-### Community 51 - "Spec Update"
+### Community 29 - "Phase 0 Overview Enhancement / Skeleton-Level Docs Issue"
+Cohesion: 1.0
+Nodes (2): Phase 0 Overview Enhancement, Skeleton-Level Docs Issue
+
+### Community 30 - "doc_status.py"
+Cohesion: 1.0
+Nodes (0): 
+
+### Community 31 - "Q/K/V Projection"
+Cohesion: 1.0
+Nodes (1): Q/K/V Projection
+
+### Community 32 - "Softmax Tile"
+Cohesion: 1.0
+Nodes (1): Softmax Tile
+
+### Community 33 - "LLM Workload Patterns"
+Cohesion: 1.0
+Nodes (1): LLM Workload Patterns
+
+### Community 34 - "Cycle-Based Simulation"
+Cohesion: 1.0
+Nodes (1): Cycle-Based Simulation
+
+### Community 35 - "Vibe Coding Workflow"
+Cohesion: 1.0
+Nodes (1): Vibe Coding Workflow
+
+### Community 36 - "docs/spec/ir/tensor_metadata_spec.md"
+Cohesion: 1.0
+Nodes (1): docs/spec/ir/tensor_metadata_spec.md
+
+### Community 37 - "docs/spec/timing/te_timing_spec.md"
+Cohesion: 1.0
+Nodes (1): docs/spec/timing/te_timing_spec.md
+
+### Community 38 - "docs/spec/timing/ve_timing_spec.md"
+Cohesion: 1.0
+Nodes (1): docs/spec/timing/ve_timing_spec.md
+
+### Community 39 - "docs/spec/timing/spm_model_spec.md"
+Cohesion: 1.0
+Nodes (1): docs/spec/timing/spm_model_spec.md
+
+### Community 40 - "docs/design/dma_engine_design.md"
+Cohesion: 1.0
+Nodes (1): docs/design/dma_engine_design.md
+
+### Community 41 - "docs/design/offline_compiler_design.md"
+Cohesion: 1.0
+Nodes (1): docs/design/offline_compiler_design.md
+
+### Community 42 - "docs/test/unit_test_spec.md"
+Cohesion: 1.0
+Nodes (1): docs/test/unit_test_spec.md
+
+### Community 43 - "Stage B - NPU Timing & Engine Modeling"
+Cohesion: 1.0
+Nodes (1): Stage B - NPU Timing & Engine Modeling
+
+### Community 44 - "Stage C - Full Operator Support"
+Cohesion: 1.0
+Nodes (1): Stage C - Full Operator Support
+
+### Community 45 - "Stage D - LLM Specialization"
+Cohesion: 1.0
+Nodes (1): Stage D - LLM Specialization
+
+### Community 46 - "Stage E - DSE Platform"
+Cohesion: 1.0
+Nodes (1): Stage E - DSE Platform
+
+### Community 47 - "Modular & Replaceable"
+Cohesion: 1.0
+Nodes (1): Modular & Replaceable
+
+### Community 48 - "Trace-First Design"
+Cohesion: 1.0
+Nodes (1): Trace-First Design
+
+### Community 49 - "End-to-End AI Hardware Simulation Platform"
+Cohesion: 1.0
+Nodes (1): End-to-End AI Hardware Simulation Platform
+
+### Community 50 - "Skeleton-First SDD Implementation Roadmap"
+Cohesion: 1.0
+Nodes (1): Skeleton-First SDD Implementation Roadmap
+
+### Community 51 - "Phase 0 - Project Code Skeleton"
+Cohesion: 1.0
+Nodes (1): Phase 0 - Project Code Skeleton
+
+### Community 52 - "Phase 2 - Timing/Memory/Engine Realization"
+Cohesion: 1.0
+Nodes (1): Phase 2 - Timing/Memory/Engine Realization
+
+### Community 53 - "Single Source of Truth"
+Cohesion: 1.0
+Nodes (1): Single Source of Truth
+
+### Community 54 - "Spec Update"
 Cohesion: 1.0
 Nodes (1): Spec Update
 
-### Community 52 - "Design Update"
+### Community 55 - "Design Update"
 Cohesion: 1.0
 Nodes (1): Design Update
 
-### Community 53 - "Test Doc Update"
+### Community 56 - "Test Doc Update"
 Cohesion: 1.0
 Nodes (1): Test Doc Update
 
-### Community 54 - "Implementation"
+### Community 57 - "Implementation"
 Cohesion: 1.0
 Nodes (1): Implementation
 
-### Community 55 - "Review & Merge"
+### Community 58 - "Review & Merge"
 Cohesion: 1.0
 Nodes (1): Review & Merge
 
-### Community 56 - "PR/Issue Templates"
+### Community 59 - "PR/Issue Templates"
 Cohesion: 1.0
 Nodes (1): PR/Issue Templates
 
-### Community 57 - "CI Integration"
+### Community 60 - "CI Integration"
 Cohesion: 1.0
 Nodes (1): CI Integration
 
-### Community 58 - "Example Flows"
+### Community 61 - "Example Flows"
 Cohesion: 1.0
 Nodes (1): Example Flows
 
-### Community 59 - "Global Integrated Diagram"
+### Community 62 - "Global Integrated Diagram"
 Cohesion: 1.0
 Nodes (1): Global Integrated Diagram
-
-### Community 26 - "Skeleton-Level Docs Issue / Phase 0 Overview Enhancement"
-Cohesion: 1.0
-Nodes (2): Phase 0 Overview Enhancement, Skeleton-Level Docs Issue
 
 ## Knowledge Gaps
 - **297 isolated node(s):** `AgentHub collaboration model change`, `Reasoning in 13M parameters`, `AI-assisted research workflow`, `HyperAccel LPU`, `Google Coral Edge TPU` (+292 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **Thin community `SoC negotiation technical English / 4-week practical usage guide`** (2 nodes): `4-week practical usage guide`, `SoC negotiation technical English`
+- **Thin community `4-week practical usage guide / SoC negotiation technical English`** (2 nodes): `4-week practical usage guide`, `SoC negotiation technical English`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Phase 1 - MatMul-only End-to-End / Vertical-First`** (2 nodes): `Phase 1 - MatMul-only End-to-End`, `Vertical-First`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Document -> Design -> Code Flow / Document First`** (2 nodes): `Document -> Design -> Code Flow`, `Document First`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Test-First for Core Logic / Test Accompanied`** (2 nodes): `Test-First for Core Logic`, `Test Accompanied`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `docs/process/contribution_and_review_guide.md / Reviewability`** (2 nodes): `docs/process/contribution_and_review_guide.md`, `Reviewability`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `Phase 0 Overview Enhancement / Skeleton-Level Docs Issue`** (2 nodes): `Phase 0 Overview Enhancement`, `Skeleton-Level Docs Issue`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `doc_status.py`** (1 nodes): `doc_status.py`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -323,6 +350,8 @@ Nodes (2): Phase 0 Overview Enhancement, Skeleton-Level Docs Issue
 - **Thin community `Cycle-Based Simulation`** (1 nodes): `Cycle-Based Simulation`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Vibe Coding Workflow`** (1 nodes): `Vibe Coding Workflow`
+  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
+- **Thin community `docs/spec/ir/tensor_metadata_spec.md`** (1 nodes): `docs/spec/ir/tensor_metadata_spec.md`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `docs/spec/timing/te_timing_spec.md`** (1 nodes): `docs/spec/timing/te_timing_spec.md`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -344,13 +373,9 @@ Nodes (2): Phase 0 Overview Enhancement, Skeleton-Level Docs Issue
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Stage E - DSE Platform`** (1 nodes): `Stage E - DSE Platform`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Vertical-First / Phase 1 - MatMul-only End-to-End`** (2 nodes): `Phase 1 - MatMul-only End-to-End`, `Vertical-First`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Modular & Replaceable`** (1 nodes): `Modular & Replaceable`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Trace-First Design`** (1 nodes): `Trace-First Design`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Test-First for Core Logic / Test Accompanied`** (2 nodes): `Test-First for Core Logic`, `Test Accompanied`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `End-to-End AI Hardware Simulation Platform`** (1 nodes): `End-to-End AI Hardware Simulation Platform`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -360,11 +385,7 @@ Nodes (2): Phase 0 Overview Enhancement, Skeleton-Level Docs Issue
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Phase 2 - Timing/Memory/Engine Realization`** (1 nodes): `Phase 2 - Timing/Memory/Engine Realization`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Document First / Document -> Design -> Code Flow`** (2 nodes): `Document -> Design -> Code Flow`, `Document First`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Single Source of Truth`** (1 nodes): `Single Source of Truth`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `docs/process/contribution_and_review_guide.md / Reviewability`** (2 nodes): `docs/process/contribution_and_review_guide.md`, `Reviewability`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Spec Update`** (1 nodes): `Spec Update`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
@@ -383,6 +404,4 @@ Nodes (2): Phase 0 Overview Enhancement, Skeleton-Level Docs Issue
 - **Thin community `Example Flows`** (1 nodes): `Example Flows`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
 - **Thin community `Global Integrated Diagram`** (1 nodes): `Global Integrated Diagram`
-  Too small to be a meaningful cluster - may be noise or needs more connections extracted.
-- **Thin community `Skeleton-Level Docs Issue / Phase 0 Overview Enhancement`** (2 nodes): `Phase 0 Overview Enhancement`, `Skeleton-Level Docs Issue`
   Too small to be a meaningful cluster - may be noise or needs more connections extracted.
