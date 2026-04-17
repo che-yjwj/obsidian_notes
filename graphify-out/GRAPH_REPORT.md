@@ -5,7 +5,7 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 719 nodes · 1275 edges · 63 communities detected
+- 719 nodes · 1286 edges · 63 communities detected
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 145 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
@@ -72,6 +72,7 @@
 - **Trace Specs Absorbed Into Trace Topic 2026-04-17** — trace_format_spec_doc, gantt_timeline_spec_doc, bandwidth_heatmap_spec_doc, visualization_requirements_doc, trace_visualization_topic [EXTRACTED 1.00]
 - **Validation Specs Absorbed Into Validation Topic 2026-04-17** — unit_test_spec_doc, integration_test_spec_doc, test_plan_doc, performance_validation_protocol_doc, golden_trace_examples_doc, simulation_validation_topic [EXTRACTED 1.00]
 - **Example Ownership Split 2026-04-17** — tutorial_minimal_llama_to_tile_npu_doc, trace_visualization_topic, pytorchsim_npu_ir_examples_doc, simulation_validation_topic [EXTRACTED 1.00]
+- **Wiki Topic Watchlist 2026-04-17** — soc_spec_english, trace_visualization_topic, simulation_validation_topic, project_helios_edge_physical_ai_custom_soc_platform_strategy [EXTRACTED 1.00]
 
 ## Communities
 
