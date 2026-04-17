@@ -28,7 +28,7 @@ updated: 2026-04-17
 - `docs/test/test_plan.md`
 - `docs/test/performance_validation_protocol.md`
 - `docs/test/golden_trace_examples.md`
-- `docs/test/examples/*`
+- `docs/test/examples/pytorchsim_npu_ir_examples.md`
 
 ## Raw Source Mapping
 
@@ -42,6 +42,8 @@ updated: 2026-04-17
   -> latency / bandwidth tolerance rules and reference-comparison procedure
 - `docs/test/golden_trace_examples.md`
   -> approved regression traces and change-review policy for golden artifacts
+- `docs/test/examples/pytorchsim_npu_ir_examples.md`
+  -> reference execution examples used to sanity-check IR/CMDQ patterns against validation scenarios
 
 ---
 
@@ -94,6 +96,7 @@ unit test는 엔진/모듈 correctness, integration test는 pipeline coherence, 
 - unit / integration / performance validation protocol
 - 허용 오차, regression gate, reference artifact
 - trace를 evidence로 쓰는 승인 절차
+- reference execution examples that act as validation-side sanity corpus
 
 즉, 같은 trace를 쓰더라도 이 topic은 **판단 기준**, 다른 topic은 **표현 규약**을 담당한다.
 

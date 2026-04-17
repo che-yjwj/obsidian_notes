@@ -566,6 +566,20 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/topics/simulation-validation.md"
+      },
+      {
+        "id": "example_ownership_split_2026_04_17",
+        "label": "Example Ownership Split 2026-04-17",
+        "nodes": [
+          "tutorial_minimal_llama_to_tile_npu_doc",
+          "trace_visualization_topic",
+          "pytorchsim_npu_ir_examples_doc",
+          "simulation_validation_topic"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/trace-visualization.md"
       }
     ]
   },
@@ -24405,6 +24419,30 @@
       "_tgt": "simulation_validation_topic",
       "source": "test_plan_doc",
       "target": "simulation_validation_topic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/trace-visualization.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "tutorial_minimal_llama_to_tile_npu_doc",
+      "_tgt": "trace_visualization_topic",
+      "source": "tutorial_minimal_llama_to_tile_npu_doc",
+      "target": "trace_visualization_topic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/simulation-validation.md",
+      "source_location": null,
+      "weight": 1.0,
+      "_src": "pytorchsim_npu_ir_examples_doc",
+      "_tgt": "simulation_validation_topic",
+      "source": "pytorchsim_npu_ir_examples_doc",
+      "target": "simulation_validation_topic"
     }
   ],
   "hyperedges": [
@@ -24971,6 +25009,20 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/simulation-validation.md"
+    },
+    {
+      "id": "example_ownership_split_2026_04_17",
+      "label": "Example Ownership Split 2026-04-17",
+      "nodes": [
+        "tutorial_minimal_llama_to_tile_npu_doc",
+        "trace_visualization_topic",
+        "pytorchsim_npu_ir_examples_doc",
+        "simulation_validation_topic"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/trace-visualization.md"
     }
   ]
 }

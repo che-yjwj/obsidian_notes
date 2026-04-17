@@ -3,13 +3,13 @@
   "removed_nodes": [],
   "new_edges": [
     {
-      "source": "unit_test_spec_doc",
-      "target": "simulation_validation_topic",
+      "source": "tutorial_minimal_llama_to_tile_npu_doc",
+      "target": "trace_visualization_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "test_plan_doc",
+      "source": "pytorchsim_npu_ir_examples_doc",
       "target": "simulation_validation_topic",
       "relation": "references",
       "confidence": "EXTRACTED"

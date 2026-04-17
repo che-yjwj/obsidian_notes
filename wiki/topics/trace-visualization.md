@@ -2,12 +2,12 @@
 title: Trace & Visualization
 type: topic
 status: canonical
-last_compiled: 2026-04-16
+last_compiled: 2026-04-17
 ---
 
 # Trace & Visualization
 
-*last_compiled: 2026-04-16 | sources: trace-spec centered*
+*last_compiled: 2026-04-17 | sources: trace-spec centered*
 
 ---
 
@@ -55,6 +55,7 @@ last_compiled: 2026-04-16
 - Gantt timeline, bandwidth heatmap, utilization dashboard는 서로 다른 뷰가 아니라 같은 trace를 다른 투영으로 읽는 방식이다.
 - trace schema는 quantization/timing metadata와 연결돼 있어서 단순 logging format이 아니라 profiling contract 역할을 한다.
 - tutorial 성격의 예제는 trace를 읽는 법을 설명하는 교육 자료로 유효하지만, validation ground truth와는 분리해서 관리하는 편이 더 명확하다.
+- `tutorial_minimal_llama_to_tile_npu.md`는 golden baseline이 아니라 trace 해석과 병목 읽기 방식을 설명하는 walkthrough 예제로 보는 편이 일관된다.
 
 ## Connections [coverage: medium -- 4 sources]
 
@@ -74,12 +75,14 @@ last_compiled: 2026-04-16
   -> DRAM / Bus utilization projection rule
 - `docs/spec/trace/visualization_requirements.md`
   -> required viewer surfaces and interaction requirements
+- `docs/test/examples/tutorial_minimal_llama_to_tile_npu.md`
+  -> trace-aware walkthrough for reading prefill/decode bottlenecks and tile-level resource pressure
 
 ## Open Questions [coverage: medium -- 3 sources]
 
 - 1M events 이상에서 level-of-detail 렌더링을 어떻게 구현할지 아직 구체 구현이 없다.
 - CMDQ snapshot, IR metadata, trace visualization을 한 번에 비교하는 batch workflow가 아직 문서화 단계에 머물러 있다.
-- tutorial/example trace를 visualization topic에 남길지, validation이나 onboarding 쪽으로 다시 재배치할지 기준이 더 필요하다.
+- tutorial walkthrough를 별도 onboarding topic으로 분리할 만큼 예제 층이 커질지 아직 미정이다.
 
 ## Sources
 
