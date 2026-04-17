@@ -505,6 +505,20 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/topics/operator-coordinate-compression.md"
+      },
+      {
+        "id": "overview_layer_absorbed_into_execution_spec_2026_04_17",
+        "label": "Overview Layer Absorbed Into Execution Spec 2026-04-17",
+        "nodes": [
+          "system_architecture_doc",
+          "dataflow_overview_doc",
+          "module_responsibilities_doc",
+          "npu_architecture_spec_topic"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/npu-architecture-spec.md"
       }
     ]
   },
@@ -7358,42 +7372,6 @@
       "id": "docs_readme_spec"
     },
     {
-      "label": "docs/overview/system_architecture.md",
-      "file_type": "document",
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/documentation_review_summary.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 21,
-      "id": "docs_overview_system_architecture"
-    },
-    {
-      "label": "docs/overview/dataflow_overview.md",
-      "file_type": "document",
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/documentation_review_summary.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 21,
-      "id": "docs_overview_dataflow_overview"
-    },
-    {
-      "label": "docs/overview/module_responsibilities.md",
-      "file_type": "document",
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/documentation_review_summary.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 21,
-      "id": "docs_overview_module_responsibilities"
-    },
-    {
       "label": "docs/spec/ir/npu_ir_spec.md",
       "file_type": "document",
       "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/documentation_review_summary.md",
@@ -7836,18 +7814,6 @@
       "contributor": null,
       "community": 3,
       "id": "docs_test_golden_trace_examples"
-    },
-    {
-      "label": "Phase 0 Overview Layer Enhancement",
-      "file_type": "document",
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/documentation_review_summary.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 21,
-      "id": "documentation_review_summary_phase_0_overview_layer"
     },
     {
       "label": "Phase 1 Pipeline Alignment",
@@ -14678,8 +14644,8 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/operator-coordinate-compression.md",
-      "_src": "operator_coordinate_compression_topic",
-      "_tgt": "memory_bandwidth_bottleneck",
+      "_src": "memory_bandwidth_bottleneck",
+      "_tgt": "operator_coordinate_compression_topic",
       "source": "memory_bandwidth_bottleneck",
       "target": "operator_coordinate_compression_topic"
     },
@@ -15264,8 +15230,8 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/operator-coordinate-compression.md",
-      "_src": "operator_coordinate_compression_topic",
-      "_tgt": "hw_friendly_model_design",
+      "_src": "hw_friendly_model_design",
+      "_tgt": "operator_coordinate_compression_topic",
       "source": "hw_friendly_model_design",
       "target": "operator_coordinate_compression_topic"
     },
@@ -15490,8 +15456,8 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/operator-coordinate-compression.md",
-      "_src": "operator_coordinate_compression_topic",
-      "_tgt": "llm_quantization_compression",
+      "_src": "llm_quantization_compression",
+      "_tgt": "operator_coordinate_compression_topic",
       "source": "llm_quantization_compression",
       "target": "operator_coordinate_compression_topic"
     },
@@ -21772,6 +21738,16 @@
       "target": "dataflow_overview_doc"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-architecture-spec.md",
+      "_src": "system_architecture_doc",
+      "_tgt": "npu_architecture_spec_topic",
+      "source": "system_architecture_doc",
+      "target": "npu_architecture_spec_topic"
+    },
+    {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -21892,6 +21868,16 @@
       "target": "sdd_devflow_overview_doc"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-architecture-spec.md",
+      "_src": "dataflow_overview_doc",
+      "_tgt": "npu_architecture_spec_topic",
+      "source": "dataflow_overview_doc",
+      "target": "npu_architecture_spec_topic"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.84,
@@ -21926,6 +21912,16 @@
       "_tgt": "naming_traceability",
       "source": "module_responsibilities_doc",
       "target": "naming_traceability"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-architecture-spec.md",
+      "_src": "module_responsibilities_doc",
+      "_tgt": "npu_architecture_spec_topic",
+      "source": "module_responsibilities_doc",
+      "target": "npu_architecture_spec_topic"
     },
     {
       "relation": "references",
@@ -22676,42 +22672,6 @@
       "_tgt": "dbpia_node01605693",
       "source": "patent_mcm_doc",
       "target": "dbpia_node01605693"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/documentation_review_summary.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "docs_overview_system_architecture",
-      "_tgt": "documentation_review_summary_phase_0_overview_layer",
-      "source": "docs_overview_system_architecture",
-      "target": "documentation_review_summary_phase_0_overview_layer"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/documentation_review_summary.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "docs_overview_dataflow_overview",
-      "_tgt": "documentation_review_summary_phase_0_overview_layer",
-      "source": "docs_overview_dataflow_overview",
-      "target": "documentation_review_summary_phase_0_overview_layer"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "raw/AI-Hardware/Simulator/RISCV_NPU_SoC_SIM/docs/process/documentation_review_summary.md",
-      "source_location": null,
-      "weight": 1.0,
-      "_src": "docs_overview_module_responsibilities",
-      "_tgt": "documentation_review_summary_phase_0_overview_layer",
-      "source": "docs_overview_module_responsibilities",
-      "target": "documentation_review_summary_phase_0_overview_layer"
     },
     {
       "relation": "rationale_for",
@@ -24819,6 +24779,20 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/operator-coordinate-compression.md"
+    },
+    {
+      "id": "overview_layer_absorbed_into_execution_spec_2026_04_17",
+      "label": "Overview Layer Absorbed Into Execution Spec 2026-04-17",
+      "nodes": [
+        "system_architecture_doc",
+        "dataflow_overview_doc",
+        "module_responsibilities_doc",
+        "npu_architecture_spec_topic"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-architecture-spec.md"
     }
   ]
 }

@@ -115,6 +115,8 @@ last_compiled: 2026-04-16
 
 ## Source Families
 
+- `docs/overview/system_architecture.md`, `docs/overview/dataflow_overview.md`, `docs/overview/module_responsibilities.md`
+  -> [[topics/npu-architecture-spec]]
 - `docs/spec/architecture`, `docs/spec/ir`, `docs/spec/isa`, `docs/spec/quantization`, `docs/spec/scheduling`
   -> [[topics/npu-architecture-spec]]
 - `docs/spec/timing`, `docs/overview/memory_noc_overview.md`, `docs/design/dma_engine_design.md`, `docs/design/tile_rt_analysis.md`

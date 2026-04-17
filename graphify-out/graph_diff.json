@@ -1,25 +1,61 @@
 {
   "new_nodes": [],
-  "removed_nodes": [],
+  "removed_nodes": [
+    {
+      "id": "docs_overview_system_architecture",
+      "label": "docs/overview/system_architecture.md"
+    },
+    {
+      "id": "docs_overview_dataflow_overview",
+      "label": "docs/overview/dataflow_overview.md"
+    },
+    {
+      "id": "docs_overview_module_responsibilities",
+      "label": "docs/overview/module_responsibilities.md"
+    },
+    {
+      "id": "documentation_review_summary_phase_0_overview_layer",
+      "label": "Phase 0 Overview Layer Enhancement"
+    }
+  ],
   "new_edges": [
     {
-      "source": "operator_coordinate_compression_topic",
-      "target": "llm_quantization_compression",
+      "source": "system_architecture_doc",
+      "target": "npu_architecture_spec_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "operator_coordinate_compression_topic",
-      "target": "hw_friendly_model_design",
+      "source": "dataflow_overview_doc",
+      "target": "npu_architecture_spec_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     },
     {
-      "source": "operator_coordinate_compression_topic",
-      "target": "memory_bandwidth_bottleneck",
+      "source": "module_responsibilities_doc",
+      "target": "npu_architecture_spec_topic",
       "relation": "references",
       "confidence": "EXTRACTED"
     }
   ],
-  "removed_edges": []
+  "removed_edges": [
+    {
+      "source": "docs_overview_system_architecture",
+      "target": "documentation_review_summary_phase_0_overview_layer",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "docs_overview_dataflow_overview",
+      "target": "documentation_review_summary_phase_0_overview_layer",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED"
+    },
+    {
+      "source": "docs_overview_module_responsibilities",
+      "target": "documentation_review_summary_phase_0_overview_layer",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED"
+    }
+  ]
 }

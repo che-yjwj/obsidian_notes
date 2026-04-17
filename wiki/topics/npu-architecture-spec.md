@@ -35,6 +35,18 @@ updated: 2026-04-17
 
 ---
 
+## Overview Inputs
+
+이 umbrella topic은 execution spec 하위 계층만 라우팅하는 문서가 아니다. 아래 overview 문서군이 제공하는 상위 구조 설명도 이 topic의 입력으로 본다.
+
+- `docs/overview/system_architecture.md`
+- `docs/overview/dataflow_overview.md`
+- `docs/overview/module_responsibilities.md`
+
+즉, overview layer는 시스템을 어떤 블록과 흐름으로 볼 것인가를 정의하고, 이 topic 아래의 subtopic들은 그 구조를 규범적 contract와 모델로 쪼개는 역할을 맡는다.
+
+---
+
 ## What Moved Out
 
 - IR schema, tensor metadata, CMDQ field contract
@@ -57,3 +69,12 @@ updated: 2026-04-17
 - Parent umbrella: [[topics/riscv-npu-soc-sim]]
 - Related topics: [[topics/ir-cmdq-contract]], [[topics/tile-semantics-quantization]]
 - Related concepts: [[concepts/static-scheduling-determinism]], [[concepts/tile-semantics-contract]], [[concepts/mixed-precision-policy]], [[concepts/kv-cache-dram-residency]]
+
+## Raw Source Mapping
+
+- `docs/overview/system_architecture.md`
+  -> system-level block decomposition and top-level execution picture
+- `docs/overview/dataflow_overview.md`
+  -> ONNX → IR → TileGraph → CMDQ → Trace pipeline view
+- `docs/overview/module_responsibilities.md`
+  -> module boundary and ownership view
