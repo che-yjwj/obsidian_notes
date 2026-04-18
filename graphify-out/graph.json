@@ -623,6 +623,22 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/AI-Hardware/Memory-Hierarchy-in-AI-Accelerators.md"
+      },
+      {
+        "id": "helios_strategy_extraction_gate_2026_04_18",
+        "label": "Helios Strategy Extraction Gate 2026-04-18",
+        "nodes": [
+          "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+          "npu_architecture",
+          "npu_simulator_compiler_topic",
+          "fabric_preset_strategy",
+          "hierarchical_multi_noc_architecture",
+          "helios_differentiation_layer"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md"
       }
     ]
   },
@@ -25241,6 +25257,22 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/AI-Hardware/Memory-Hierarchy-in-AI-Accelerators.md"
+    },
+    {
+      "id": "helios_strategy_extraction_gate_2026_04_18",
+      "label": "Helios Strategy Extraction Gate 2026-04-18",
+      "nodes": [
+        "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+        "npu_architecture",
+        "npu_simulator_compiler_topic",
+        "fabric_preset_strategy",
+        "hierarchical_multi_noc_architecture",
+        "helios_differentiation_layer"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md"
     }
   ]
 }

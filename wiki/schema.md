@@ -69,6 +69,10 @@ Split rule:
 Small-topic rule:
 - A topic may remain canonical even with a small source count if it serves a distinct user intent, has low overlap with nearby topics, and works as a stable navigation hub. Size alone is not sufficient reason to demote it.
 
+Strategy-memo rule:
+- A strategy memo may stay as a deep-dive even when it is graph-visible, if it is still mostly a single synthesis document rather than a source-backed topic family.
+- Promote strategy material into `wiki/topics/*` only when sub-axes such as fabric, runtime, or compute hierarchy accumulate their own source families and become reusable navigation hubs.
+
 Scope note:
 - `wiki/.compile-state.json` tracks the curated raw-source corpus used by the wiki compiler.
 - `graphify-out/GRAPH_REPORT.md` reports the wider vault graph across raw notes, wiki pages, and supporting documents.
@@ -85,3 +89,4 @@ Scope note:
 - **2026-04-17**: Clarified that process control-plane docs may feed `npu-doc-process`, while milestone/review/task documents stay operational artifacts rather than future standalone topics
 - **2026-04-17**: Split `npu-architecture-spec` into `ir-cmdq-contract` and `tile-semantics-quantization`, leaving the original page as an umbrella for execution-spec sublayers
 - **2026-04-17**: Added the small-topic rule and explicit compiler-scope vs graph-scope note so maintenance decisions are not driven by raw file count alone
+- **2026-04-18**: Added a strategy-memo rule so graph-visible thesis documents like `Project Helios` can remain deep-dives until their sub-axes become real source-backed topic families

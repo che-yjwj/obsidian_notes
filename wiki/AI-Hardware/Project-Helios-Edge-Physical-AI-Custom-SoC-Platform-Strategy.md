@@ -2,13 +2,45 @@
 title: Project Helios Edge / Physical AI Custom SoC Platform Strategy
 type: deep-dive
 tags: [project-helios, edge-ai, physical-ai, custom-soc, NPU, ISP, modem, NoC, platform-strategy]
-updated: 2026-04-15
+updated: 2026-04-18
 ---
 
 # Project Helios Edge / Physical AI Custom SoC Platform Strategy Report
 
 Canonical topics: [[topics/npu-architecture]], [[topics/npu-simulator-compiler]]
 Related concepts: [[concepts/memory-bandwidth-bottleneck]], [[concepts/static-scheduling-determinism]]
+
+## Role in This Wiki
+
+- This page is a strategy memo and synthesis essay for a prospective Edge / Physical AI platform direction, not yet a canonical topic family.
+- The reusable canonical homes for architecture and compiler/runtime material remain [[topics/npu-architecture]] and [[topics/npu-simulator-compiler]].
+- If parts of this memo become stable, repeatedly referenced design layers with their own source families, they should be extracted into canonical topic pages rather than continue to grow inside this document.
+
+## Boundary
+
+This page should focus on:
+- platform thesis and competitive positioning
+- segment strategy, SKU strategy, and platform layering
+- architecture planning that ties together NPU, fabric, runtime, ISP, and modem as one business/platform narrative
+
+This page should not become the main home for:
+- canonical NPU architecture baseline
+- reusable simulator/compiler execution contracts
+- standalone fabric, compute-hierarchy, or runtime subtopics unless they accumulate their own source families
+
+Those belong in [[topics/npu-architecture]], [[topics/npu-simulator-compiler]], and future extracted topic pages only when they meet promotion criteria.
+
+## Promotion Gate
+
+Keep this page as a deep-dive until at least one of the following becomes true:
+- a distinct raw-source family emerges around fabric presets, compute hierarchy, or runtime strategy
+- graphify repeatedly shows a stable Helios-specific community beyond this single memo
+- one of the Helios sub-axes becomes useful as a reusable navigation hub outside this document
+
+If promotion happens later, extract subtopics first rather than promoting this whole memo wholesale:
+- `fabric-presets`
+- `compute-hierarchy`
+- `runtime-strategy`
 
 ## Version 1.0 (Final)
 

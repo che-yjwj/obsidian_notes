@@ -69,3 +69,13 @@
 **Sources scanned:** not recompiled
 **Sources changed:** no raw-source regrouping; freshness metadata and operating rules updated
 **Notes:** documented compiler-scope vs graph-scope counting, marked `soc-spec-english` as a small-but-stable canonical topic, and kept `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` as a deep-dive promotion candidate rather than forcing a premature topic split
+
+## 2026-04-18
+
+**Run type:** curation / topic-promotion decision
+**Topics updated:** INDEX, schema
+**New topics:** none
+**New concepts:** none
+**Sources scanned:** not recompiled
+**Sources changed:** no raw-source regrouping; clarified the promotion gate for strategy-memo material
+**Notes:** kept `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` as a deep-dive because it is still a single synthesis memo rather than a source-backed topic family; future extraction should happen only through subtopics such as `fabric-presets`, `compute-hierarchy`, and `runtime-strategy` once they accumulate distinct source families or repeated graph-community support

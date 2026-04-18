@@ -1,7 +1,7 @@
 # AI Hardware & GenAI Research — Knowledge Base
 
 Last compiled: 2026-04-17
-Last curated: 2026-04-17
+Last curated: 2026-04-18
 Canonical topics: 16 | Canonical concepts: 7 | Sources scanned in last compile: 123
 
 Compile scope note: the wiki compiler count reflects the curated raw-source corpus in `wiki/.compile-state.json`, while graphify reports the wider vault graph across raw notes, wiki pages, and supporting docs. The two counts are expected to differ.
@@ -55,7 +55,7 @@ These are intentionally longer synthesis documents. They are useful entry points
 | [[AI-Hardware/Memory-Hierarchy-in-AI-Accelerators]] | deep dive / framing essay | supports `topics/npu-architecture` and memory concepts |
 | [[AI-Hardware/Simulator-and-Implementation-Tools]] | curated survey | overlaps with `topics/npu-simulator-compiler` |
 | [[AI-Hardware/Flash-Resident-LLM-and-HBF-for-Edge-Inference]] | architecture synthesis essay | bridges memory hierarchy, KV policy, and edge inference |
-| [[AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy]] | strategy memo / platform thesis | currently a deep dive; candidate for future topic extraction if related source corpus grows |
+| [[AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy]] | strategy memo / platform thesis | keep as a deep dive; extract subtopics later only if fabric/runtime/compute layers grow into distinct source-backed families |
 | [[GenAI/HW-Friendly-Model-Design]] | domain deep dive / model-design essay | expands `topics/hw-friendly-model-design` with on-device and KV-centric examples |
 | [[GenAI/LLM-Quantization-and-Compression]] | domain deep dive / compression survey | expands `topics/llm-quantization-compression` with method-level comparisons |
 | [[GenAI/OCEAN-Compression-Deep-Dive]] | method deep dive | specialized essay under `topics/llm-quantization-compression` |
@@ -85,7 +85,7 @@ These are intentionally longer synthesis documents. They are useful entry points
 - Verify that `npu-architecture-spec` now stays umbrella-only and does not regrow detailed IR/CMDQ or quantization prose
 - Evaluate whether `operator-coordinate-compression` should later split into theory and patent/application subtopics
 - Keep `AI-Hardware/NPU-Architecture` and `topics/npu-architecture` aligned so the overview page does not silently drift from the canonical topic page
-- Decide whether `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` remains a strategy memo or becomes a future topic family with subpages on fabric presets, compute hierarchy, and runtime strategy
+- Keep `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` as a strategy memo for now; only extract `fabric-presets`, `compute-hierarchy`, and `runtime-strategy` if they become source-backed navigation hubs
 
 ---
 
@@ -94,7 +94,7 @@ These are intentionally longer synthesis documents. They are useful entry points
 - `topics/soc-spec-english`
   Keep as a small canonical topic for now. It has a distinct practical use case and low overlap with the AI-hardware topic tree, so size alone is not a demotion signal.
 - `AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy`
-  Keep as a deep-dive memo for now. Promote only if it grows a real source family or splits into stable subtopics such as fabric presets, compute hierarchy, and runtime strategy.
+  Keep as a deep-dive memo for now. Promote only if fabric presets, compute hierarchy, or runtime strategy each grow a real source family, form repeated graph communities, or become reusable navigation hubs beyond this single memo.
 - `topics/trace-visualization` and `topics/simulation-validation`
   Boundary is now healthy, but example ownership should continue to stay split between walkthrough-style trace reading and approval-grade validation artifacts.
 
@@ -110,3 +110,4 @@ These are intentionally longer synthesis documents. They are useful entry points
 - **2026-04-17**: Tightened the process-topic rule so roadmap/workflow docs remain the canonical process hub while milestone and review summaries are treated as operational artifacts
 - **2026-04-17**: Split the execution-spec layer again so `ir-cmdq-contract` and `tile-semantics-quantization` can grow independently without turning `npu-architecture-spec` back into a mega-hub
 - **2026-04-17**: Synced topic freshness metadata with the latest manual curation passes, documented compiler-scope vs graph-scope counting, and added a watchlist for small-but-distinct topics and deep-dive promotion candidates
+- **2026-04-18**: Resolved the `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` watchlist item by keeping it as a deep-dive memo and defining explicit extraction gates for future `fabric-presets`, `compute-hierarchy`, and `runtime-strategy` subtopics
