@@ -119,3 +119,13 @@
 **Sources scanned:** not recompiled
 **Sources changed:** no raw-source regrouping; reframed the canonical page around reusable architecture patterns
 **Notes:** updated `topics/npu-architecture` so execution model, engine decomposition, memory hierarchy, interconnect choice, and compiler-hardware co-design remain the canonical architecture layer, while vendor-specific narrative and memory/strategy essays remain in the deep-dive documents
+
+## 2026-04-18 (run 6)
+
+**Run type:** curation / canonical refresh
+**Topics updated:** llm-quantization-compression, INDEX
+**New topics:** none
+**New concepts:** none
+**Sources scanned:** not recompiled
+**Sources changed:** no raw-source regrouping; reframed the canonical page around reusable compression patterns
+**Notes:** updated `topics/llm-quantization-compression` so compression axes, evaluation frames, and hardware-contract patterns remain canonical, while method-survey narrative stays in `GenAI/LLM-Quantization-and-Compression`, `OCEAN-Compression-Deep-Dive`, and `Outlier-Mitigation-Methods-Comparison`

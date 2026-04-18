@@ -19,13 +19,33 @@ sources:
   - raw/GenAI/Compression/OCEAN-based LLM Compression/OCEAN-based LLM Compression (Part 8 of 9) 33a6cc566b0b814a9495d3ee2214499d.md
   - raw/GenAI/Compression/OCEAN-based LLM Compression/OCEAN-based LLM Compression (Part 9 of 9) 33a6cc566b0b81d89f96cfedd5ba2b85.md
 tags: [quantization, compression, LLM, DC-LLM, OliVe, TurboQuant, OCEAN, microscaling]
-updated: 2026-04-17
+updated: 2026-04-18
 ---
 
 # LLM Quantization and Compression Methods
 
 Canonical topic: [[topics/llm-quantization-compression]]
 Related concepts: [[concepts/mixed-precision-policy]], [[concepts/memory-bandwidth-bottleneck]]
+
+## Role in This Wiki
+
+- This page is a curated method survey across major LLM compression approaches.
+- The reusable canonical map of the compression design space remains [[topics/llm-quantization-compression]].
+- Detailed method comparison and narrative explanation can stay here as long as the canonical topic keeps the shared system-level frame.
+
+## Boundary
+
+This page should focus on:
+- method-level survey and interpretation
+- how major named techniques differ in practice
+- human-readable framing across DC-LLM, OliVe, TurboQuant, OCEAN, and mixed-precision paths
+
+This page should not become the main home for:
+- canonical compression vocabulary and evaluation frame
+- coordinate-aware compression theory as an umbrella topic
+- specialized outlier-mitigation comparison or OCEAN-only long-form analysis
+
+Those belong in [[topics/llm-quantization-compression]], [[topics/operator-coordinate-compression]], [[wiki/GenAI/OCEAN-Compression-Deep-Dive]], and [[wiki/GenAI/Outlier-Mitigation-Methods-Comparison]].
 
 LLM 추론은 **메모리-바운드** 워크로드다. 가중치 전송 비용이 병목이므로, 압축의 핵심 목표는 모델 크기·메모리 대역폭 절감이다.
 

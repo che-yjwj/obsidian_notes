@@ -13,7 +13,7 @@ Compile scope note: the wiki compiler count reflects the curated raw-source corp
 | Topic | Aliases / Keywords | Sources | Last Updated | Status |
 |---|---|---|---|---|
 | [[topics/npu-architecture]] | NPU, accelerator, chip, AMBA, NoC, Tesla FSD, AMD Versal, Xilinx FINN, TPU, systolic, sparse core | 8 | 2026-04-18 | active |
-| [[topics/llm-quantization-compression]] | quantization, PTQ, QAT, TurboQuant, OCEAN, OliVe, DC-LLM, mxINT8, INT4, INT8, outlier, KV compression | 16 | 2026-04-12 | active |
+| [[topics/llm-quantization-compression]] | quantization, PTQ, QAT, TurboQuant, OCEAN, OliVe, DC-LLM, mxINT8, INT4, INT8, outlier, KV compression | 16 | 2026-04-18 | active |
 | [[topics/hw-friendly-model-design]] | KV-cache, normalization-free, SNFT, DyT, MSA, RAG, Gemma, on-device, edge AI, MatFormer | 4 | 2026-04-12 | active |
 | [[topics/npu-simulator-compiler]] | simulator, compiler, supernode, HyperAccel LPU, Coral NPU, MTIA, Groq, Inferentia, tiling, IR | 8 | 2026-04-18 | active |
 | [[topics/riscv-npu-soc-sim]] | RISCV_NPU_SoC_SIM, CMDQ, SDD, NPU IR, TileGraph, LayerIR, static scheduler, SPM, TE, VE | 70+ | 2026-04-12 | active |
@@ -105,6 +105,8 @@ These are intentionally longer synthesis documents. They are useful entry points
   Boundary is now explicit: the canonical topic owns reusable compiler/simulator abstractions, while the deep-dive survey owns vendor/platform comparison and implementation intuition.
 - `topics/npu-architecture`
   Canonical ownership is now explicit: reusable architecture patterns stay here, while vendor narrative, memory essays, and strategy memos stay in the deep-dive layer.
+- `topics/llm-quantization-compression`
+  Canonical ownership is now explicit: reusable compression axes and evaluation frames stay here, while method survey, OCEAN deep dive, and outlier-method comparison stay in the deep-dive layer.
 
 ---
 
@@ -123,3 +125,4 @@ These are intentionally longer synthesis documents. They are useful entry points
 - **2026-04-18**: Clarified the boundary between `topics/paper-reviews` and `Research/AI-Assisted-Research-Workflow` so review artifacts stay in the canonical review hub while execution model and agent-collaboration guidance stay in the workflow deep dive
 - **2026-04-18**: Re-aligned `topics/npu-simulator-compiler` with `AI-Hardware/Simulator-and-Implementation-Tools` so the canonical page keeps reusable abstractions while the survey page keeps vendor/platform narrative
 - **2026-04-18**: Reframed `topics/npu-architecture` as the reusable architecture-pattern hub and pushed vendor comparison, memory essay material, and strategy narrative back into the deep-dive layer
+- **2026-04-18**: Refreshed `topics/llm-quantization-compression` as the reusable compression-pattern hub and pushed method-survey narrative back into the deep-dive layer

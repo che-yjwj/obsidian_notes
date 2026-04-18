@@ -701,6 +701,23 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/topics/npu-architecture.md"
+      },
+      {
+        "id": "compression_canonical_boundary_2026_04_18",
+        "label": "Compression Canonical Boundary 2026-04-18",
+        "nodes": [
+          "llm_quantization_compression",
+          "wiki_genai_llm_quantization_and_compression",
+          "wiki_genai_ocean_compression_deep_dive",
+          "wiki_genai_outlier_mitigation_methods_comparison",
+          "operator_coordinate_compression_topic",
+          "mixed_precision_policy",
+          "memory_bandwidth_bottleneck"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/llm-quantization-compression.md"
       }
     ]
   },
@@ -25397,6 +25414,23 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/npu-architecture.md"
+    },
+    {
+      "id": "compression_canonical_boundary_2026_04_18",
+      "label": "Compression Canonical Boundary 2026-04-18",
+      "nodes": [
+        "llm_quantization_compression",
+        "wiki_genai_llm_quantization_and_compression",
+        "wiki_genai_ocean_compression_deep_dive",
+        "wiki_genai_outlier_mitigation_methods_comparison",
+        "operator_coordinate_compression_topic",
+        "mixed_precision_policy",
+        "memory_bandwidth_bottleneck"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/llm-quantization-compression.md"
     }
   ]
 }

@@ -2,28 +2,59 @@
 title: LLM Quantization & Compression
 type: topic
 status: canonical
-last_compiled: 2026-04-12
+last_compiled: 2026-04-18
 ---
 
 # LLM Quantization & Compression
 
-*last_compiled: 2026-04-12 | sources: 16*
+*last_compiled: 2026-04-18 | sources: 16*
 
 ---
 
 ## Summary [coverage: high -- 16 sources]
 
-LLM quantization and compression address a fundamental bottleneck in large language model inference: autoregressive decoding is dominated not by compute but by **memory bandwidth and capacity** — loading weight tensors and KV cache from DRAM on every token step. Reducing numerical precision or eliminating redundant parameters directly reduces DRAM traffic and accelerates inference.
+LLM quantization and compression address a fundamental bottleneck in large language model inference: autoregressive decoding is dominated not by compute but by **memory bandwidth and capacity**. The canonical topic is therefore not just a catalog of methods, but a reusable map of the compression design space.
 
-This topic covers five interconnected areas:
+이 페이지에서 canonical하게 유지해야 할 핵심 축은 다음과 같다.
 
-1. **Post-training quantization (PTQ) techniques** — how to compress already-trained weights without retraining, including GPTQ, AWQ, SmoothQuant, and hardware-friendly variants like OliVe.
-2. **KV cache quantization** — specific challenge of compressing the key/value tensors that grow linearly with context length; TurboQuant is the primary technique studied here.
-3. **Entropy-aware compression** — treating quantization as a joint rate-distortion problem and combining integer coding with entropy coders (Huffman, ANS), embodied in the OCEAN framework.
-4. **Coordinate-system theory** — the insight, developed across multiple OCEAN sessions, that "outliers" are not intrinsically important but are **artifacts of misaligned coordinate axes**, and that the right compression strategy is to find manifold-aligned coordinates before quantizing.
-5. **Mixed-precision and polynomial approximation** — hardware-level strategies exemplified by Tesla's patent and the microscaling (mxINT8) standard for managing precision at the datapath level.
+1. **where compression acts** — weights, activations, KV cache, metadata, bitstream
+2. **what objective it preserves** — MSE, inner-product geometry, entropy, deployment simplicity
+3. **what system cost it changes** — DRAM traffic, on-chip SRAM pressure, kernel complexity, reconstruction overhead
+4. **what representation it assumes** — value-centric quantization, coordinate-aware transform, generative basis reconstruction, mixed-precision transport
+5. **what hardware contract it requires** — standard INT GEMM path, extra correction path, entropy decode path, or polynomial/log-domain support
 
-The unifying claim across all sources is: **quantization is not a value-loss minimization problem but a coordinate-system and operator-decomposition design problem.**
+개별 기법(GPTQ, AWQ, SmoothQuant, OliVe, TurboQuant, DC-LLM, OCEAN, mxINT8 등)은 이 canonical map을 설명하는 reference methods다. detailed method walkthrough, comparison prose, and theory-specific argumentation belong in the deep-dive layer.
+
+## Role in This Wiki [coverage: high -- 8 sources]
+
+`llm-quantization-compression`은 이 vault의 canonical compression hub다. reusable compression vocabulary, system-level tradeoff, and cross-method comparison frame stay here.
+
+## Boundary [coverage: medium -- 6 sources]
+
+이 topic이 직접 유지해야 할 범위는 다음과 같다.
+
+- PTQ/QAT, weight-only/WA, KV quantization, entropy coding, mixed precision 같은 reusable compression axes
+- memory-bandwidth, effective bpc, reconstruction path, inner-product preservation 같은 system-facing evaluation frame
+- coordinate-aware compression이 왜 quantization topic 전체를 다시 묶는지에 대한 canonical synthesis
+
+이 topic이 직접 흡수하지 말아야 할 범위는 다음과 같다.
+
+- OCEAN 방법론의 장문 전개와 실험 가설 상세
+- outlier mitigation 기법 간 세부 비교 에세이
+- 개별 기법의 구현 메모, 구현체 리뷰, 혹은 단일 paper deep dive
+
+그 내용은 [[../GenAI/LLM-Quantization-and-Compression]], [[../GenAI/OCEAN-Compression-Deep-Dive]], [[../GenAI/Outlier-Mitigation-Methods-Comparison]], [[operator-coordinate-compression]]에 남기고, 이 페이지는 canonical map과 system-level synthesis를 유지하는 것이 맞다.
+
+## Reference Methods [coverage: high -- 10 sources]
+
+아래 기법들은 canonical ownership 대상이 아니라, design-space pattern을 설명하는 reference set이다.
+
+- **GPTQ / AWQ / SmoothQuant**: PTQ와 activation-aware scaling의 실무 baseline
+- **OliVe**: outlier를 memory-format 문제로 재해석하는 HW-friendly path
+- **TurboQuant**: KV cache에서 MSE보다 inner-product geometry가 중요함을 보여주는 decode-specific path
+- **DC-LLM**: explicit weight storage 대신 generative basis reconstruction을 쓰는 path
+- **OCEAN**: entropy-aware, coordinate-aware compression frame
+- **mxINT8 / Tesla mixed-precision bridge**: block-scale 또는 transport/reconstruction 관점의 mixed-precision path
 
 ---
 
