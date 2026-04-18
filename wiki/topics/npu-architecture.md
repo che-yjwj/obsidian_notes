@@ -2,20 +2,48 @@
 title: NPU Architecture
 type: topic
 status: canonical
-last_compiled: 2026-04-12
+last_compiled: 2026-04-18
 ---
 
 # NPU Architecture
 
-*last_compiled: 2026-04-12 | sources: 8*
+*last_compiled: 2026-04-18 | sources: 8*
 
 ---
 
 ## Summary [coverage: high -- 8 sources]
 
-NPU(Neural Processing Unit) 아키텍처는 AI 추론 워크로드를 대상으로 범용 GPU/CPU 대비 전력·면적·지연 효율을 극대화하는 도메인 특화 가속기 설계 분야다. 이 토픽은 연산 구조(Tensor Engine / Vector Engine / Sparse Engine), 메모리 계층(SRAM scratchpad vs. cache hybrid), 인터커넥트(AMBA AXI / NoC), 컴파일러-HW 공동 설계, 그리고 현실 제품 레퍼런스(Tesla FSD 칩, AMD Versal ACAP, Google TPU, Xilinx FINN, Qualcomm AHPM, NVIDIA H100)를 아우른다.
+NPU(Neural Processing Unit) 아키텍처는 AI 추론 워크로드를 대상으로 범용 GPU/CPU 대비 전력·면적·지연 효율을 극대화하는 도메인 특화 가속기 설계 분야다. 이 canonical topic은 특정 회사나 제품 자체보다, 여러 구현체를 가로질러 반복되는 **재사용 가능한 architecture pattern**을 정리하는 데 목적이 있다.
 
-핵심 주제가 중요한 이유: 자율주행·로봇·엣지 추론·서버 LLM 추론 등 응용 도메인이 확장되면서 단순 TOPS 경쟁을 넘어 **메모리 트래픽 통제, 정적 스케줄 기반 결정론적 실행, 혼합 정밀도 표현 설계**가 NPU 경쟁력의 실질적 축으로 부상하고 있다.
+이 페이지에서 canonical하게 유지해야 할 핵심 축은 다음과 같다.
+
+- **execution model**: 정적 스케줄과 결정론적 실행이 언제 유리한가
+- **engine decomposition**: TE / VE / sparse-gather 계열을 어떻게 나눌 것인가
+- **memory hierarchy**: SRAM scratchpad, cache hybrid, shared SRAM, off-chip tier를 어떤 원칙으로 고를 것인가
+- **interconnect and control plane**: AMBA/AXI/NoC와 coherency를 어디까지 둘 것인가
+- **compiler-hardware co-design**: architecture choice가 compiler/runtime contract와 어떻게 연결되는가
+
+Tesla, Versal, TPU, FINN, Qualcomm AHPM, H100 같은 사례는 이 패턴을 설명하는 **reference platform set**으로만 사용한다. vendor-by-vendor narrative와 전략적 비교는 [[../AI-Hardware/NPU-Architecture]]와 메모리/전략 deep-dive 문서가 맡는다.
+
+## Role in This Wiki [coverage: high -- 6 sources]
+
+`npu-architecture`는 이 vault의 canonical architecture hub다. 재사용 가능한 설계 원칙, cross-vendor pattern, 그리고 다른 topic들이 참조해야 하는 architecture vocabulary는 여기 남는다.
+
+## Boundary [coverage: medium -- 5 sources]
+
+이 topic이 직접 유지해야 할 범위는 다음과 같다.
+
+- engine class, memory hierarchy, NoC/AMBA, coherency, scheduling mode 같은 reusable architecture pattern
+- edge/mobile/server NPU를 가로지르는 공통 의사결정 틀
+- memory, simulator/compiler, quantization topic과 연결되는 architecture-level synthesis
+
+이 topic이 직접 흡수하지 말아야 할 범위는 다음과 같다.
+
+- Tesla, Versal, TPU, Coral, HyperAccel 같은 개별 플랫폼의 장문 비교 서술
+- memory hierarchy 자체를 독립 에세이로 길게 푸는 설명
+- strategy memo나 project-specific execution spec
+
+그 내용은 [[../AI-Hardware/NPU-Architecture]], [[../AI-Hardware/Memory-Hierarchy-in-AI-Accelerators]], [[../AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy]], 그리고 execution-spec topic family로 넘기는 것이 맞다.
 
 ---
 
@@ -50,7 +78,9 @@ Google TPU v4/v5의 Sparse Core는 세 번째 클래스의 구현 사례다. Den
 
 ---
 
-## Architecture [coverage: high -- 8 sources]
+## Reference Platforms [coverage: high -- 8 sources]
+
+아래 사례들은 canonical ownership 대상이 아니라, architecture pattern을 읽기 위한 reference set이다. 즉 "어떤 회사가 무엇을 했는가"보다 "어떤 설계 선택이 어떤 trade-off를 만들었는가"를 읽는 용도다.
 
 ### 연산 구조
 

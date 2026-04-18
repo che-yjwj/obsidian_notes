@@ -79,6 +79,7 @@
 - **Operator-Coordinate Split Gate 2026-04-18** — operator_coordinate_compression_topic, manifold_alignment, turboquant_architecture, invention_summary, claim_candidates, tinyllama_validation_spec [EXTRACTED 1.00]
 - **Research Review Workflow Boundary 2026-04-18** — paper_reviews, wiki_research_paper_reviews, wiki_research_ai_assisted_research_workflow, wiki_research_research_tooling_reviews [EXTRACTED 1.00]
 - **Simulator Survey Canonical Boundary 2026-04-18** — npu_simulator_compiler_topic, wiki_ai_hardware_simulator_and_implementation_tools, supernode, hyperaccel_lpu, google_coral_npu, meta_mtia [EXTRACTED 1.00]
+- **Architecture Canonical Boundary 2026-04-18** — npu_architecture, wiki_ai_hardware_npu_architecture, wiki_ai_hardware_memory_hierarchy_in_ai_accelerators, project_helios_edge_physical_ai_custom_soc_platform_strategy, memory_bandwidth_bottleneck, static_scheduling_determinism [EXTRACTED 1.00]
 
 ## Communities
 

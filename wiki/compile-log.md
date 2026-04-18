@@ -109,3 +109,13 @@
 **Sources scanned:** not recompiled
 **Sources changed:** no raw-source regrouping; clarified ownership between canonical abstraction and vendor survey
 **Notes:** re-aligned `topics/npu-simulator-compiler` and `AI-Hardware/Simulator-and-Implementation-Tools` so the canonical page now emphasizes reusable compiler/simulator abstractions, while the deep-dive survey keeps platform-specific comparison, implementation intuition, and benchmark-style interpretation
+
+## 2026-04-18 (run 5)
+
+**Run type:** curation / canonical refresh
+**Topics updated:** npu-architecture, INDEX
+**New topics:** none
+**New concepts:** none
+**Sources scanned:** not recompiled
+**Sources changed:** no raw-source regrouping; reframed the canonical page around reusable architecture patterns
+**Notes:** updated `topics/npu-architecture` so execution model, engine decomposition, memory hierarchy, interconnect choice, and compiler-hardware co-design remain the canonical architecture layer, while vendor-specific narrative and memory/strategy essays remain in the deep-dive documents

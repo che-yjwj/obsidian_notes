@@ -685,6 +685,22 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/topics/npu-simulator-compiler.md"
+      },
+      {
+        "id": "architecture_canonical_boundary_2026_04_18",
+        "label": "Architecture Canonical Boundary 2026-04-18",
+        "nodes": [
+          "npu_architecture",
+          "wiki_ai_hardware_npu_architecture",
+          "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+          "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+          "memory_bandwidth_bottleneck",
+          "static_scheduling_determinism"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/npu-architecture.md"
       }
     ]
   },
@@ -25365,6 +25381,22 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/npu-simulator-compiler.md"
+    },
+    {
+      "id": "architecture_canonical_boundary_2026_04_18",
+      "label": "Architecture Canonical Boundary 2026-04-18",
+      "nodes": [
+        "npu_architecture",
+        "wiki_ai_hardware_npu_architecture",
+        "wiki_ai_hardware_memory_hierarchy_in_ai_accelerators",
+        "project_helios_edge_physical_ai_custom_soc_platform_strategy",
+        "memory_bandwidth_bottleneck",
+        "static_scheduling_determinism"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-architecture.md"
     }
   ]
 }
