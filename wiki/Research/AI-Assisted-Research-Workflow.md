@@ -6,12 +6,32 @@ sources:
   - raw/Research/Patent-MCM/AI-assisted research workflow (Claude Code + Harne 33a6cc566b0b81ea9827ddba8abd5822.md
   - raw/Research/Patent-MCM/Reasoning in 13M Parameters 33a6cc566b0b816480b1d91f9b8363c9.md
 tags: [research-workflow, AgentHub, automation, reasoning, Claude-Code]
-updated: 2026-04-17
+updated: 2026-04-18
 ---
 
 # AI-Assisted Research Workflow
 
 Canonical topics: [[topics/paper-reviews]], [[topics/patent-mcm]]
+
+## Role in This Wiki
+
+- This page is a workflow deep dive about how research gets executed with agents, tools, and low-cost reasoning units.
+- It is not the canonical home for reviewed papers or tooling summaries; those belong under [[topics/paper-reviews]] and its deep-dive companions.
+- Its value is in connecting collaboration substrate, execution workflow, and reasoning unit economics into one operating model.
+
+## Boundary
+
+This page should focus on:
+- agent collaboration structure
+- research execution pipeline and verification ownership
+- the cost/throughput logic behind scaling many small reasoning units
+
+This page should not become the main home for:
+- paper-by-paper review summaries
+- research-tooling feature comparisons as standalone reviews
+- canonical hardware interpretation of reviewed papers
+
+Those belong in [[topics/paper-reviews]], [[wiki/Research/Paper-Reviews]], and [[wiki/Research/Research-Tooling-Reviews]].
 
 AI를 보조 도구가 아니라 연구 파이프라인의 실행 주체로 배치하는 흐름을 정리한다. 이 페이지는 AgentHub식 협업 구조, Claude Code 기반 연구 자동화, tiny reasoning 실험을 한 축으로 묶는다.
 

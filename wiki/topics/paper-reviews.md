@@ -2,12 +2,12 @@
 title: Paper Reviews
 type: topic
 status: canonical
-last_compiled: 2026-04-12
+last_compiled: 2026-04-18
 ---
 
 # Paper Reviews
 
-*last_compiled: 2026-04-12 | sources: 6*
+*last_compiled: 2026-04-18 | sources: 6*
 
 ---
 
@@ -22,6 +22,26 @@ This vault contains reviews of six sources spanning four distinct domains: trans
 - **PaperBanana** (Google + Peking University) — a multi-agent framework for automatically generating publication-quality figures and diagrams from research text.
 
 The common thread running through the selection is the owner's hardware-focused AI research interest: every paper is analyzed for its implications on NPU architecture, simulation, or hardware-friendly AI design.
+
+## Role in This Wiki [coverage: high -- 5 sources]
+
+`paper-reviews`는 이 vault의 canonical review hub다. 논문, 책, 연구 도구를 읽고 "무엇이 중요했는가"를 hardware/AI systems 관점으로 다시 해석하는 곳이다. 따라서 이 페이지의 기본 단위는 실행 workflow가 아니라 **reviewed artifact**다.
+
+## Boundary [coverage: medium -- 4 sources]
+
+이 topic이 직접 유지해야 할 범위는 다음과 같다.
+
+- 개별 paper, book, research tooling에 대한 핵심 주장과 시스템 해석
+- reasoning, prediction, tooling이 hardware/AI workflow에 주는 함의
+- review corpus 전체를 가로지르는 비교 프레임
+
+이 topic이 직접 흡수하지 말아야 할 범위는 다음과 같다.
+
+- AgentHub식 협업 구조 자체의 운영 모델
+- Claude Code + Harness 기반 연구 자동화의 실행 절차
+- 사람이 무엇을 검토하고 무엇을 자동화할지에 대한 workflow policy
+
+그 내용은 [[../Research/AI-Assisted-Research-Workflow]]에 남기고, 이 페이지는 review corpus와 interpretation layer를 canonical하게 유지하는 것이 맞다.
 
 ---
 

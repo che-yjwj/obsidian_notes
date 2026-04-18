@@ -655,6 +655,20 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/topics/operator-coordinate-compression.md"
+      },
+      {
+        "id": "research_review_workflow_boundary_2026_04_18",
+        "label": "Research Review Workflow Boundary 2026-04-18",
+        "nodes": [
+          "paper_reviews",
+          "wiki_research_paper_reviews",
+          "wiki_research_ai_assisted_research_workflow",
+          "wiki_research_research_tooling_reviews"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/paper-reviews.md"
       }
     ]
   },
@@ -25305,6 +25319,20 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/operator-coordinate-compression.md"
+    },
+    {
+      "id": "research_review_workflow_boundary_2026_04_18",
+      "label": "Research Review Workflow Boundary 2026-04-18",
+      "nodes": [
+        "paper_reviews",
+        "wiki_research_paper_reviews",
+        "wiki_research_ai_assisted_research_workflow",
+        "wiki_research_research_tooling_reviews"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/paper-reviews.md"
     }
   ]
 }

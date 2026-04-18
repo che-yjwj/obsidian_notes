@@ -89,3 +89,13 @@
 **Sources scanned:** not recompiled
 **Sources changed:** no raw-source regrouping; clarified that the topic remains an umbrella
 **Notes:** reviewed `operator-coordinate-compression` and decided not to split yet because theory, patent framing, paper framing, and validation plans still behave like one tightly coupled source family; future split should happen only if theory and application/validation become separate source-backed navigation hubs
+
+## 2026-04-18 (run 3)
+
+**Run type:** curation / boundary clarification
+**Topics updated:** paper-reviews, INDEX
+**New topics:** none
+**New concepts:** none
+**Sources scanned:** not recompiled
+**Sources changed:** no raw-source regrouping; clarified ownership between review corpus and workflow model
+**Notes:** kept `topics/paper-reviews` as the canonical review and interpretation hub, while `Research/AI-Assisted-Research-Workflow` now explicitly owns agent-collaboration structure, execution flow, and verification policy rather than paper-by-paper review content

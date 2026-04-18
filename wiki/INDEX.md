@@ -17,7 +17,7 @@ Compile scope note: the wiki compiler count reflects the curated raw-source corp
 | [[topics/hw-friendly-model-design]] | KV-cache, normalization-free, SNFT, DyT, MSA, RAG, Gemma, on-device, edge AI, MatFormer | 4 | 2026-04-12 | active |
 | [[topics/npu-simulator-compiler]] | simulator, compiler, supernode, HyperAccel LPU, Coral NPU, MTIA, Groq, Inferentia, tiling, IR | 8 | 2026-04-12 | active |
 | [[topics/riscv-npu-soc-sim]] | RISCV_NPU_SoC_SIM, CMDQ, SDD, NPU IR, TileGraph, LayerIR, static scheduler, SPM, TE, VE | 70+ | 2026-04-12 | active |
-| [[topics/paper-reviews]] | STEM, Dr Zero, chaos theory, PaperDebugger, PaperBanana, Tim Palmer, ensemble prediction | 6 | 2026-04-12 | active |
+| [[topics/paper-reviews]] | STEM, Dr Zero, chaos theory, PaperDebugger, PaperBanana, Tim Palmer, ensemble prediction | 6 | 2026-04-18 | active |
 | [[topics/patent-mcm]] | MCM, multiplierless, DWT, Taalas, AgentHub, TinyLoRA, 13 parameters, Voronenko, shift-add | 7 | 2026-04-12 | active |
 | [[topics/soc-spec-english]] | SoC spec, negotiation, technical English, architect vocabulary, cheat sheet | 2 | 2026-04-12 | small-stable |
 | [[topics/operator-coordinate-compression]] | coordinate system, manifold alignment, operator view, TurboQuant, rate-distortion, basis | 17 | 2026-04-18 | active |
@@ -99,6 +99,8 @@ These are intentionally longer synthesis documents. They are useful entry points
   Boundary is now healthy, but example ownership should continue to stay split between walkthrough-style trace reading and approval-grade validation artifacts.
 - `topics/operator-coordinate-compression`
   Keep as a canonical umbrella for now. Split later only if theory and application/validation each form repeated graph communities and distinct entry-point value.
+- `topics/paper-reviews` and `Research/AI-Assisted-Research-Workflow`
+  Boundary is now explicit: `paper-reviews` owns the review corpus and interpretation layer, while `AI-Assisted-Research-Workflow` owns execution model, agent collaboration, and verification policy.
 
 ---
 
@@ -114,3 +116,4 @@ These are intentionally longer synthesis documents. They are useful entry points
 - **2026-04-17**: Synced topic freshness metadata with the latest manual curation passes, documented compiler-scope vs graph-scope counting, and added a watchlist for small-but-distinct topics and deep-dive promotion candidates
 - **2026-04-18**: Resolved the `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` watchlist item by keeping it as a deep-dive memo and defining explicit extraction gates for future `fabric-presets`, `compute-hierarchy`, and `runtime-strategy` subtopics
 - **2026-04-18**: Reviewed `operator-coordinate-compression` and kept it as a canonical umbrella; split is deferred until theory and application/validation become separate source-backed navigation hubs
+- **2026-04-18**: Clarified the boundary between `topics/paper-reviews` and `Research/AI-Assisted-Research-Workflow` so review artifacts stay in the canonical review hub while execution model and agent-collaboration guidance stay in the workflow deep dive

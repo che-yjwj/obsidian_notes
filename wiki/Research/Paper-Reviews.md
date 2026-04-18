@@ -7,12 +7,32 @@ sources:
   - raw/Research/Paper-Review/Chaos Theory and Prediction/Chaos Theory and Prediction (Part 1 of 2) 33a6cc566b0b81b7aeabd969fc648765.md
   - raw/Research/Paper-Review/Chaos Theory and Prediction/Chaos Theory and Prediction (Part 2 of 2) 33a6cc566b0b8185b540df4617ca05a5.md
 tags: [paper-review, STEM, transformer, chaos-theory, reasoning]
-updated: 2026-04-17
+updated: 2026-04-18
 ---
 
 # Paper Reviews
 
 Canonical topic: [[topics/paper-reviews]]
+
+## Role in This Wiki
+
+- This page is a curated deep dive for the reasoning/theory side of the review corpus.
+- It expands selected review threads in prose, but the reusable canonical review hub remains [[topics/paper-reviews]].
+- Workflow execution and agent-collaboration policy are intentionally handled in [[wiki/Research/AI-Assisted-Research-Workflow]] rather than here.
+
+## Boundary
+
+This page should focus on:
+- theory- and reasoning-oriented review synthesis
+- why selected reviewed works matter for hardware or systems thinking
+- human-readable framing across STEM, Dr Zero, and chaos-oriented material
+
+This page should not become the main home for:
+- research execution workflow policy
+- toolchain operating model and agent orchestration rules
+- the full canonical review index across all reviewed artifacts
+
+Those belong in [[topics/paper-reviews]] and [[wiki/Research/AI-Assisted-Research-Workflow]].
 
 이 페이지는 개별 리뷰를 나열하는 문서가 아니라 `research tooling`과 `reasoning/theory` 두 축을 묶는 허브다. 생산성 도구 계열은 [[wiki/Research/Research-Tooling-Reviews]]로 분리했다.
 
