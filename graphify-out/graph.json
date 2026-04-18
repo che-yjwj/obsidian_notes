@@ -669,6 +669,22 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/topics/paper-reviews.md"
+      },
+      {
+        "id": "simulator_survey_canonical_boundary_2026_04_18",
+        "label": "Simulator Survey Canonical Boundary 2026-04-18",
+        "nodes": [
+          "npu_simulator_compiler_topic",
+          "wiki_ai_hardware_simulator_and_implementation_tools",
+          "supernode",
+          "hyperaccel_lpu",
+          "google_coral_npu",
+          "meta_mtia"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/npu-simulator-compiler.md"
       }
     ]
   },
@@ -25333,6 +25349,22 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/paper-reviews.md"
+    },
+    {
+      "id": "simulator_survey_canonical_boundary_2026_04_18",
+      "label": "Simulator Survey Canonical Boundary 2026-04-18",
+      "nodes": [
+        "npu_simulator_compiler_topic",
+        "wiki_ai_hardware_simulator_and_implementation_tools",
+        "supernode",
+        "hyperaccel_lpu",
+        "google_coral_npu",
+        "meta_mtia"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/npu-simulator-compiler.md"
     }
   ]
 }

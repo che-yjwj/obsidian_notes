@@ -99,3 +99,13 @@
 **Sources scanned:** not recompiled
 **Sources changed:** no raw-source regrouping; clarified ownership between review corpus and workflow model
 **Notes:** kept `topics/paper-reviews` as the canonical review and interpretation hub, while `Research/AI-Assisted-Research-Workflow` now explicitly owns agent-collaboration structure, execution flow, and verification policy rather than paper-by-paper review content
+
+## 2026-04-18 (run 4)
+
+**Run type:** curation / boundary clarification
+**Topics updated:** npu-simulator-compiler, INDEX
+**New topics:** none
+**New concepts:** none
+**Sources scanned:** not recompiled
+**Sources changed:** no raw-source regrouping; clarified ownership between canonical abstraction and vendor survey
+**Notes:** re-aligned `topics/npu-simulator-compiler` and `AI-Hardware/Simulator-and-Implementation-Tools` so the canonical page now emphasizes reusable compiler/simulator abstractions, while the deep-dive survey keeps platform-specific comparison, implementation intuition, and benchmark-style interpretation

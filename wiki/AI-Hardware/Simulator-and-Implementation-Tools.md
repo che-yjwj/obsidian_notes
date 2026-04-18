@@ -11,7 +11,7 @@ sources:
   - raw/AI-Hardware/Simulator/Transformer C Implementation Analysis 33a6cc566b0b818585ddf76217de5112.md
   - raw/AI-Hardware/Simulator/NPU Supernode Concept 33a6cc566b0b81aca099f1e6a9a8061e.md
 tags: [LPU, NPU, HyperAccel, Coral, MTIA, simulator]
-updated: 2026-04-17
+updated: 2026-04-18
 ---
 
 # NPU/LPU Simulator and Implementation Tools
@@ -24,6 +24,7 @@ Related concepts: [[concepts/static-scheduling-determinism]], [[concepts/trace-f
 - This page is a curated survey of external platforms, implementation styles, and simulator-facing reference systems.
 - The canonical reusable hub for compiler/simulator structure is [[topics/npu-simulator-compiler]].
 - When material becomes a stable navigation point rather than a survey note, it should move into the canonical topic layer.
+- This page is where vendor-specific narrative, comparison, and implementation intuition should live when the canonical topic would become too benchmark-heavy.
 
 ## Boundary
 
@@ -39,6 +40,14 @@ This page should not become the main home for:
 - detailed IR/CMDQ contract text
 
 Those belong in the canonical topic chain around [[topics/riscv-npu-soc-sim]], [[topics/ir-cmdq-contract]], [[topics/trace-visualization]], and [[topics/simulation-validation]].
+
+## Survey Scope
+
+Use this page when the question is "how do Coral, HyperAccel, MTIA, Groq-like systems, or low-level Transformer references differ in design taste?" rather than "what is the reusable compiler/simulator abstraction?"
+
+- canonical topic: reusable compiler/simulator abstractions, IR ladders, scheduling modes, supernode semantics
+- this survey page: vendor/platform reading notes, execution-style comparison, educational implementation references
+- execution-spec topics: project-specific contracts, timing, validation, and trace ownership
 
 ## HyperAccel LPU (국내 AI 반도체 스타트업)
 

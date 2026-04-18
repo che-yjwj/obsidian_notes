@@ -2,31 +2,61 @@
 title: NPU Simulator & Compiler
 type: topic
 status: canonical
-last_compiled: 2026-04-12
+last_compiled: 2026-04-18
 ---
 
 # NPU Simulator & Compiler
 
-*last_compiled: 2026-04-12 | sources: 8*
+*last_compiled: 2026-04-18 | sources: 8*
 
 ---
 
 ## Summary [coverage: high -- 8 sources]
 
-NPU 시뮬레이터와 컴파일러는 AI 하드웨어 가속기 개발의 두 핵심 축이다. **컴파일러**는 DNN 프레임워크(PyTorch, JAX, TensorFlow)에서 출발하여 표준 IR(ONNX, StableHLO, MLIR)을 거쳐 타일링·스케줄링·코드젠을 수행하고 최종적으로 NPU가 실행할 바이너리 또는 command packet을 생성한다. **시뮬레이터**는 실리콘 이전 단계에서 컴파일된 워크로드를 사이클 단위로 실행해 성능과 에너지를 예측한다.
+NPU 시뮬레이터와 컴파일러는 AI 하드웨어 가속기 개발의 두 핵심 축이다. **컴파일러**는 프레임워크 그래프를 표준 IR과 타깃 전용 IR로 낮추며, 타일링·스케줄링·버퍼 계획·코드젠을 통해 최종 실행 단위를 만든다. **시뮬레이터**는 이 실행 단위를 실리콘 이전 단계에서 cycle/traffic 관점으로 실행해 성능과 에너지를 예측한다.
 
-이 토픽에서 다루는 주요 플랫폼·접근:
+이 canonical topic의 핵심 관심사는 개별 벤더 사례 그 자체가 아니라, 여러 구현체를 가로질러 반복되는 공통 추상화다. 현재 이 vault에서 가장 중요한 추상화는 다음 네 가지다.
 
-| 플랫폼 | 타깃 | 핵심 철학 |
-|---|---|---|
-| **Google Coral NPU** | Edge AI (mW급) | RISC-V + MLIR 풀스택 오픈소스 |
-| **Google TPU** | Training + Inference | XLA 정적 컴파일 + Systolic Array |
-| **Meta MTIA** | RecSys / LLM Inference | 메모리 중심(DRAM BW 우선) |
-| **AWS Inferentia / Trainium** | Cloud Inference / Training | Neuron SDK, Semi-static scheduling |
-| **HyperAccel LPU** | LLM Inference (Decode) | Dataflow + 메모리 스트리밍 |
-| **Groq LPU** | Deterministic Inference | 컴파일러가 모든 cycle을 고정 |
-| **슈퍼노드(Supernode)** | 개념/컴파일러 추상화 | HW-aware 연산 묶음 단위 |
-| **Transformer C 구현** | 교육적 Low-level 참조 | 프레임워크 없이 Transformer 구현 |
+- **execution unit abstraction**: operator보다 큰 실행 블록으로서의 supernode
+- **phase-aware compilation**: prefill과 decode를 서로 다른 실행 계약으로 다루는 구조
+- **IR-to-hardware contract**: MLIR/ONNX/StableHLO에서 target-specific lowering까지 이어지는 계층형 lowering
+- **performance modeling discipline**: FLOPs가 아니라 bytes/cycle, SRAM reuse, deterministic schedule을 함께 보는 시뮬레이터 관점
+
+외부 플랫폼 사례(Coral, TPU, MTIA, HyperAccel, Groq 등)는 이 추상화를 설명하는 reference set으로만 사용하고, vendor-specific survey detail은 [[../AI-Hardware/Simulator-and-Implementation-Tools]]가 맡는다.
+
+## Role in This Wiki [coverage: high -- 6 sources]
+
+`npu-simulator-compiler`는 이 vault의 canonical abstraction hub다. 재사용 가능한 개념은 여기서 정리하고, 특정 회사나 구현체에 대한 비교·평가·스토리텔링은 deep-dive survey로 넘긴다.
+
+## Boundary [coverage: medium -- 5 sources]
+
+이 topic이 직접 유지해야 할 범위는 다음과 같다.
+
+- supernode, tiling, IR ladder, scheduling mode처럼 구현체를 넘는 반복 패턴
+- prefill/decode 분리와 memory-centric vs compute-centric execution 같은 reusable lesson
+- compiler-simulator contract를 이해하기 위한 공통 아키텍처 언어
+
+이 topic이 직접 흡수하지 말아야 할 범위는 다음과 같다.
+
+- HyperAccel, Coral, MTIA, Groq의 vendor-by-vendor 비교 서술
+- 구현체별 장단점을 길게 풀어쓰는 benchmark narrative
+- 교육용 low-level 코드나 개별 플랫폼 해설 자체를 문서의 중심으로 삼는 것
+
+그 내용은 [[../AI-Hardware/Simulator-and-Implementation-Tools]]에 남기고, 이 페이지는 abstraction과 reusable system lesson의 canonical hub로 유지하는 것이 맞다.
+
+## Reference Platforms [coverage: medium -- 6 sources]
+
+이 topic이 참고하는 대표 플랫폼은 다음과 같지만, 이들은 canonical ownership 대상이 아니라 비교를 위한 reference set이다.
+
+| 플랫폼 | canonical topic에서 읽는 포인트 |
+|---|---|
+| **Google Coral NPU** | MLIR/Scalar-controlled NPU의 proto-pattern |
+| **Google TPU** | XLA 중심 완전 정적 컴파일과 systolic execution |
+| **Meta MTIA** | bytes/cycle 우선의 memory-system viewpoint |
+| **AWS Inferentia / Trainium** | semi-static scheduling과 SDK-driven deployment |
+| **HyperAccel LPU** | decode-first, memory-streaming execution |
+| **Groq LPU** | cycle-level deterministic scheduling 극단 |
+| **Transformer C 구현** | low-level execution path를 읽는 교육용 reference |
 
 ---
 

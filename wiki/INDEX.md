@@ -15,7 +15,7 @@ Compile scope note: the wiki compiler count reflects the curated raw-source corp
 | [[topics/npu-architecture]] | NPU, accelerator, chip, AMBA, NoC, Tesla FSD, AMD Versal, Xilinx FINN, TPU, systolic, sparse core | 8 | 2026-04-12 | active |
 | [[topics/llm-quantization-compression]] | quantization, PTQ, QAT, TurboQuant, OCEAN, OliVe, DC-LLM, mxINT8, INT4, INT8, outlier, KV compression | 16 | 2026-04-12 | active |
 | [[topics/hw-friendly-model-design]] | KV-cache, normalization-free, SNFT, DyT, MSA, RAG, Gemma, on-device, edge AI, MatFormer | 4 | 2026-04-12 | active |
-| [[topics/npu-simulator-compiler]] | simulator, compiler, supernode, HyperAccel LPU, Coral NPU, MTIA, Groq, Inferentia, tiling, IR | 8 | 2026-04-12 | active |
+| [[topics/npu-simulator-compiler]] | simulator, compiler, supernode, HyperAccel LPU, Coral NPU, MTIA, Groq, Inferentia, tiling, IR | 8 | 2026-04-18 | active |
 | [[topics/riscv-npu-soc-sim]] | RISCV_NPU_SoC_SIM, CMDQ, SDD, NPU IR, TileGraph, LayerIR, static scheduler, SPM, TE, VE | 70+ | 2026-04-12 | active |
 | [[topics/paper-reviews]] | STEM, Dr Zero, chaos theory, PaperDebugger, PaperBanana, Tim Palmer, ensemble prediction | 6 | 2026-04-18 | active |
 | [[topics/patent-mcm]] | MCM, multiplierless, DWT, Taalas, AgentHub, TinyLoRA, 13 parameters, Voronenko, shift-add | 7 | 2026-04-12 | active |
@@ -101,6 +101,8 @@ These are intentionally longer synthesis documents. They are useful entry points
   Keep as a canonical umbrella for now. Split later only if theory and application/validation each form repeated graph communities and distinct entry-point value.
 - `topics/paper-reviews` and `Research/AI-Assisted-Research-Workflow`
   Boundary is now explicit: `paper-reviews` owns the review corpus and interpretation layer, while `AI-Assisted-Research-Workflow` owns execution model, agent collaboration, and verification policy.
+- `topics/npu-simulator-compiler` and `AI-Hardware/Simulator-and-Implementation-Tools`
+  Boundary is now explicit: the canonical topic owns reusable compiler/simulator abstractions, while the deep-dive survey owns vendor/platform comparison and implementation intuition.
 
 ---
 
@@ -117,3 +119,4 @@ These are intentionally longer synthesis documents. They are useful entry points
 - **2026-04-18**: Resolved the `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` watchlist item by keeping it as a deep-dive memo and defining explicit extraction gates for future `fabric-presets`, `compute-hierarchy`, and `runtime-strategy` subtopics
 - **2026-04-18**: Reviewed `operator-coordinate-compression` and kept it as a canonical umbrella; split is deferred until theory and application/validation become separate source-backed navigation hubs
 - **2026-04-18**: Clarified the boundary between `topics/paper-reviews` and `Research/AI-Assisted-Research-Workflow` so review artifacts stay in the canonical review hub while execution model and agent-collaboration guidance stay in the workflow deep dive
+- **2026-04-18**: Re-aligned `topics/npu-simulator-compiler` with `AI-Hardware/Simulator-and-Implementation-Tools` so the canonical page keeps reusable abstractions while the survey page keeps vendor/platform narrative
