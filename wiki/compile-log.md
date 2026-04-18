@@ -79,3 +79,13 @@
 **Sources scanned:** not recompiled
 **Sources changed:** no raw-source regrouping; clarified the promotion gate for strategy-memo material
 **Notes:** kept `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` as a deep-dive because it is still a single synthesis memo rather than a source-backed topic family; future extraction should happen only through subtopics such as `fabric-presets`, `compute-hierarchy`, and `runtime-strategy` once they accumulate distinct source families or repeated graph-community support
+
+## 2026-04-18 (run 2)
+
+**Run type:** curation / split decision
+**Topics updated:** operator-coordinate-compression, INDEX, schema
+**New topics:** none
+**New concepts:** none
+**Sources scanned:** not recompiled
+**Sources changed:** no raw-source regrouping; clarified that the topic remains an umbrella
+**Notes:** reviewed `operator-coordinate-compression` and decided not to split yet because theory, patent framing, paper framing, and validation plans still behave like one tightly coupled source family; future split should happen only if theory and application/validation become separate source-backed navigation hubs

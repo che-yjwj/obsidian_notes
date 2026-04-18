@@ -65,6 +65,7 @@ Promotion rule:
 
 Split rule:
 - Split a topic when it becomes a mega-hub that mixes architecture, process, validation, and roadmap content in one page.
+- When a research topic mixes theory, patent framing, paper framing, and validation plans from one tightly coupled source family, prefer keeping a single umbrella until those sub-axes become genuinely separate navigation hubs.
 
 Small-topic rule:
 - A topic may remain canonical even with a small source count if it serves a distinct user intent, has low overlap with nearby topics, and works as a stable navigation hub. Size alone is not sufficient reason to demote it.
@@ -90,3 +91,4 @@ Scope note:
 - **2026-04-17**: Split `npu-architecture-spec` into `ir-cmdq-contract` and `tile-semantics-quantization`, leaving the original page as an umbrella for execution-spec sublayers
 - **2026-04-17**: Added the small-topic rule and explicit compiler-scope vs graph-scope note so maintenance decisions are not driven by raw file count alone
 - **2026-04-18**: Added a strategy-memo rule so graph-visible thesis documents like `Project Helios` can remain deep-dives until their sub-axes become real source-backed topic families
+- **2026-04-18**: Added an umbrella-first rule for tightly coupled research families so `operator-coordinate-compression` can stay canonical without being prematurely split into theory and application shards

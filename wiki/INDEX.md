@@ -20,7 +20,7 @@ Compile scope note: the wiki compiler count reflects the curated raw-source corp
 | [[topics/paper-reviews]] | STEM, Dr Zero, chaos theory, PaperDebugger, PaperBanana, Tim Palmer, ensemble prediction | 6 | 2026-04-12 | active |
 | [[topics/patent-mcm]] | MCM, multiplierless, DWT, Taalas, AgentHub, TinyLoRA, 13 parameters, Voronenko, shift-add | 7 | 2026-04-12 | active |
 | [[topics/soc-spec-english]] | SoC spec, negotiation, technical English, architect vocabulary, cheat sheet | 2 | 2026-04-12 | small-stable |
-| [[topics/operator-coordinate-compression]] | coordinate system, manifold alignment, operator view, TurboQuant, rate-distortion, basis | 17 | 2026-04-14 | active |
+| [[topics/operator-coordinate-compression]] | coordinate system, manifold alignment, operator view, TurboQuant, rate-distortion, basis | 17 | 2026-04-18 | active |
 | [[topics/trace-visualization]] | trace, gantt, heatmap, utilization, timeline, golden trace, profiler | 8 | 2026-04-17 | active |
 | [[topics/npu-doc-process]] | SDD, roadmap, milestone, naming, review, contribution, changelog, workflow | 12 | 2026-04-14 | active |
 | [[topics/npu-architecture-spec]] | NPU IR, CMDQ, ISA, tile semantics, quantization, scheduling semantics | 20+ | 2026-04-16 | active |
@@ -83,7 +83,7 @@ These are intentionally longer synthesis documents. They are useful entry points
 - Rebalance `riscv-npu-soc-sim` again after one more graph pass so the umbrella stays narrow and project-level
 - Keep `npu-doc-process` as the single process hub and avoid letting `documentation_review_summary` / `milestone_plan` become parallel semantic entry points
 - Verify that `npu-architecture-spec` now stays umbrella-only and does not regrow detailed IR/CMDQ or quantization prose
-- Evaluate whether `operator-coordinate-compression` should later split into theory and patent/application subtopics
+- Keep `operator-coordinate-compression` as an umbrella for now; split only when theory and application/validation become separate source-backed navigation hubs
 - Keep `AI-Hardware/NPU-Architecture` and `topics/npu-architecture` aligned so the overview page does not silently drift from the canonical topic page
 - Keep `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` as a strategy memo for now; only extract `fabric-presets`, `compute-hierarchy`, and `runtime-strategy` if they become source-backed navigation hubs
 
@@ -97,6 +97,8 @@ These are intentionally longer synthesis documents. They are useful entry points
   Keep as a deep-dive memo for now. Promote only if fabric presets, compute hierarchy, or runtime strategy each grow a real source family, form repeated graph communities, or become reusable navigation hubs beyond this single memo.
 - `topics/trace-visualization` and `topics/simulation-validation`
   Boundary is now healthy, but example ownership should continue to stay split between walkthrough-style trace reading and approval-grade validation artifacts.
+- `topics/operator-coordinate-compression`
+  Keep as a canonical umbrella for now. Split later only if theory and application/validation each form repeated graph communities and distinct entry-point value.
 
 ---
 
@@ -111,3 +113,4 @@ These are intentionally longer synthesis documents. They are useful entry points
 - **2026-04-17**: Split the execution-spec layer again so `ir-cmdq-contract` and `tile-semantics-quantization` can grow independently without turning `npu-architecture-spec` back into a mega-hub
 - **2026-04-17**: Synced topic freshness metadata with the latest manual curation passes, documented compiler-scope vs graph-scope counting, and added a watchlist for small-but-distinct topics and deep-dive promotion candidates
 - **2026-04-18**: Resolved the `Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy` watchlist item by keeping it as a deep-dive memo and defining explicit extraction gates for future `fabric-presets`, `compute-hierarchy`, and `runtime-strategy` subtopics
+- **2026-04-18**: Reviewed `operator-coordinate-compression` and kept it as a canonical umbrella; split is deferred until theory and application/validation become separate source-backed navigation hubs

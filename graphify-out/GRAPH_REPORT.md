@@ -76,6 +76,7 @@
 - **Deep-Dive Canonical Boundaries 2026-04-17** — wiki_ai_hardware_npu_architecture, npu_architecture, wiki_ai_hardware_simulator_and_implementation_tools, npu_simulator_compiler_topic [EXTRACTED 1.00]
 - **Memory Deep-Dive Canonical Boundaries 2026-04-17** — wiki_ai_hardware_memory_hierarchy_in_ai_accelerators, npu_architecture, wiki_ai_hardware_flash_resident_llm_and_hbf_for_edge_inference, hw_friendly_model_design, kv_cache_dram_residency [EXTRACTED 1.00]
 - **Helios Strategy Extraction Gate 2026-04-18** — project_helios_edge_physical_ai_custom_soc_platform_strategy, npu_architecture, npu_simulator_compiler_topic, fabric_preset_strategy, hierarchical_multi_noc_architecture, helios_differentiation_layer [EXTRACTED 1.00]
+- **Operator-Coordinate Split Gate 2026-04-18** — operator_coordinate_compression_topic, manifold_alignment, turboquant_architecture, invention_summary, claim_candidates, tinyllama_validation_spec [EXTRACTED 1.00]
 
 ## Communities
 

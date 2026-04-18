@@ -2,12 +2,12 @@
 title: Operator-Coordinate Compression
 type: topic
 status: canonical
-last_compiled: 2026-04-14
+last_compiled: 2026-04-18
 ---
 
 # Operator-Coordinate Compression
 
-*last_compiled: 2026-04-14 | sources: 17*
+*last_compiled: 2026-04-18 | sources: 17*
 
 ---
 
@@ -16,6 +16,39 @@ last_compiled: 2026-04-14
 `operator-coordinate-compression`은 LLM 압축을 값(value) 중심 문제가 아니라 **연산자(operator) 파라미터를 어떤 좌표계로 표현할 것인가**의 문제로 다시 세우는 연구 축이다. 이 자료군은 기존 outlier 보호, clipping, mixed-precision heuristic을 직접 부정하기보다, 왜 직교 회전이나 공격적인 저비트 양자화가 종종 잘 동작하는지를 더 깊은 기하학 언어로 설명하려고 한다.
 
 핵심 주장은 세 가지다. 첫째, 학습된 가중치는 독립 스칼라 집합이 아니라 비선형 연산자를 매개변수화한다. 둘째, outlier는 본질 신호가 아니라 좌표계-상대적 인공물일 수 있다. 셋째, random rotation이 분포를 평탄화할 수는 있어도, 진짜 압축 이득은 manifold-aligned coordinate가 만드는 coefficient concentration에서 나온다. 이 프레임은 이론 노트, 실험 스펙, 논문 초안, 특허 초안으로 이미 확장되어 있어 독립 topic으로 유지하는 편이 맞다.
+
+## Role in This Wiki [coverage: high -- 5 sources]
+
+이 topic은 `operator-coordinate-compression` 연구군의 canonical umbrella다. 지금 단계에서는 theory, paper framing, patent framing, validation plan이 모두 같은 source family 안에서 자라기 때문에, 이를 하나의 navigation hub로 유지하는 편이 더 유용하다. 대신 이 페이지는 세부 초안의 저장소가 아니라, 어떤 하위 축이 실제로 독립 topic 후보인지 판정하는 기준점이어야 한다.
+
+## Boundary [coverage: medium -- 4 sources]
+
+이 topic이 직접 유지해야 할 범위는 다음과 같다.
+
+- operator view, coordinate-relative outlier, manifold alignment 같은 핵심 이론 축
+- TurboQuant / OCEAN 계열을 operator-coordinate 관점에서 다시 읽는 공통 프레임
+- theory, patent, validation 하위 문서가 어떻게 이어지는지 보여주는 umbrella map
+
+이 topic이 직접 흡수하지 말아야 할 범위는 다음과 같다.
+
+- 논문 초안 문장 자체의 장문 전개
+- 특허 청구항 후보와 prior-art mapping의 세부 초안
+- experiment spec의 세부 프로토콜과 metric checklist
+
+그 내용은 raw source와 deep-dive 문서에 남기고, 이 페이지는 reusable framing과 split decision만 유지하는 것이 맞다.
+
+## Split Gate [coverage: medium -- 4 sources]
+
+지금은 split보다 umbrella 유지가 맞다. 다만 다음 조건이 충족되면 2-way split을 검토한다.
+
+- theory 축이 `operator view / manifold alignment / rotation interpretation`만으로도 독립적인 source-backed navigation hub가 될 때
+- application 축이 `paper framing / patent novelty / validation protocol`만으로도 반복 참조되는 graph community를 형성할 때
+- 사용자가 `theory`와 `application`을 서로 다른 entry point로 실제 탐색하기 시작할 때
+
+그 시점의 분할 후보는 다음 두 개다.
+
+- `operator-coordinate-theory`
+- `operator-coordinate-application`
 
 ## Core Concepts [coverage: high -- 6 sources]
 

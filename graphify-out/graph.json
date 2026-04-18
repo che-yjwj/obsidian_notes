@@ -639,6 +639,22 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md"
+      },
+      {
+        "id": "operator_coordinate_split_gate_2026_04_18",
+        "label": "Operator-Coordinate Split Gate 2026-04-18",
+        "nodes": [
+          "operator_coordinate_compression_topic",
+          "manifold_alignment",
+          "turboquant_architecture",
+          "invention_summary",
+          "claim_candidates",
+          "tinyllama_validation_spec"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "wiki/topics/operator-coordinate-compression.md"
       }
     ]
   },
@@ -25273,6 +25289,22 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/AI-Hardware/Project-Helios-Edge-Physical-AI-Custom-SoC-Platform-Strategy.md"
+    },
+    {
+      "id": "operator_coordinate_split_gate_2026_04_18",
+      "label": "Operator-Coordinate Split Gate 2026-04-18",
+      "nodes": [
+        "operator_coordinate_compression_topic",
+        "manifold_alignment",
+        "turboquant_architecture",
+        "invention_summary",
+        "claim_candidates",
+        "tinyllama_validation_spec"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "wiki/topics/operator-coordinate-compression.md"
     }
   ]
 }
