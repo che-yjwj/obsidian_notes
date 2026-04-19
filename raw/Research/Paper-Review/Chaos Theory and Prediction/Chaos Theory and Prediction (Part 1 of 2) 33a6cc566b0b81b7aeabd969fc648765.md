@@ -1,5 +1,9 @@
 # 카오스 이론과 예측 (Part 1/2)
 
+> Editorial note (2026-04-19): Treat this file as a reviewed-artifact summary, not as a standalone simulator or architecture ideation note.
+> Primary semantic role: summarize the chaos/prediction source and extract its modeling implications as a reviewed artifact.
+> Speculative NPU mappings, simulator-extension prompts, and workflow guidance should remain secondary and should not become canonical ownership of this review source.
+
 - **You: 카오스, 카오스 에브리웨어 책에 대해...**
     
     카오스, 카오스 에브리웨어 책에 대해 알고 있어?

@@ -1,5 +1,9 @@
 # 카오스 이론과 예측 (Part 2/2)
 
+> Editorial note (2026-04-19): Treat this file as a reviewed-artifact continuation, not as a canonical implementation spec.
+> Primary semantic role: preserve the follow-on experiment sketch as part of the reviewed artifact context, not as the ownership point for validation or execution architecture.
+> Reusable simulator policy, validation criteria, and architecture-spec ownership belong in canonical wiki topics rather than here.
+
 - **ChatGPT: 좋습니다. 그럼 바로 **fast/s...**
     
     좋습니다.그럼 바로 **fast/slow 역할 분리를 반영한 개선 코드**로 수정하겠습니다.

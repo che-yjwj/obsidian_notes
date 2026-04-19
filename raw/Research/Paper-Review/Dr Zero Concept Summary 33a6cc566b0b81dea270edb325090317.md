@@ -1,5 +1,9 @@
 # Dr. Zero 개념 정리
 
+> Editorial note (2026-04-19): Treat this file as a reviewed-artifact summary, not as a workflow or architecture-roadmap note.
+> Primary semantic role: summarize the Dr. Zero paper as a research artifact and capture its system implications.
+> Follow-on NPU mapping, research-planning prompts, and execution workflow guidance should not become canonical ownership here; those belong in architecture or workflow notes.
+
 ChatTime: 2026년 1월 25일 17:33 (GMT+9)
 Created time: 2026년 4월 6일 오후 11:05
 ProjectName: Paper_Review

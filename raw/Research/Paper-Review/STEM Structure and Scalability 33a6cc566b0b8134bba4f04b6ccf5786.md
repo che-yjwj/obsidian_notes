@@ -1,5 +1,9 @@
 # STEM 구조와 확장성
 
+> Editorial note (2026-04-19): Treat this file as a reviewed-artifact summary, not as a hardware roadmap or architecture ownership note.
+> Primary semantic role: summarize the STEM paper and extract its architectural implications as a reviewed source.
+> Canonical ownership for reusable compression, memory, and hardware-contract patterns belongs in wiki topics and concepts rather than here.
+
 ChatTime: 2026년 1월 25일 17:33 (GMT+9)
 Created time: 2026년 4월 6일 오후 11:05
 ProjectName: Paper_Review
