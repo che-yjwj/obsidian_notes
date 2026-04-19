@@ -1,4 +1,4 @@
-# Graph Report - obsidian_notes  (2026-04-18)
+# Graph Report - obsidian_notes  (2026-04-19)
 
 ## Corpus Check
 - 190 files · ~292,955 words
@@ -81,6 +81,7 @@
 - **Simulator Survey Canonical Boundary 2026-04-18** — npu_simulator_compiler_topic, wiki_ai_hardware_simulator_and_implementation_tools, supernode, hyperaccel_lpu, google_coral_npu, meta_mtia [EXTRACTED 1.00]
 - **Architecture Canonical Boundary 2026-04-18** — npu_architecture, wiki_ai_hardware_npu_architecture, wiki_ai_hardware_memory_hierarchy_in_ai_accelerators, project_helios_edge_physical_ai_custom_soc_platform_strategy, memory_bandwidth_bottleneck, static_scheduling_determinism [EXTRACTED 1.00]
 - **Compression Canonical Boundary 2026-04-18** — llm_quantization_compression, wiki_genai_llm_quantization_and_compression, wiki_genai_ocean_compression_deep_dive, wiki_genai_outlier_mitigation_methods_comparison, operator_coordinate_compression_topic, mixed_precision_policy, memory_bandwidth_bottleneck [EXTRACTED 1.00]
+- **Research Raw Scope Boundary 2026-04-19** — raw_paperdebugger_research_productivity_innovation, raw_paperbanana_ai_research, ai_assisted_research_workflow, agenthub, paper_reviews, wiki_research_ai_assisted_research_workflow, wiki_research_paper_reviews [EXTRACTED 1.00]
 
 ## Communities
 

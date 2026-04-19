@@ -1,5 +1,9 @@
 # AgentHub와 협업 모델 변화
 
+> Editorial note (2026-04-19): Treat this file as a collaboration/workflow source, not as a paper-review note.
+> Primary semantic role: agent-centric collaboration model, DAG-style exploration workflow, and human-vs-agent role shift.
+> Paper/tool interpretation should stay in `raw/Research/Paper-Review/*` and the canonical review topic rather than accumulate here.
+
 ChatTime: 2026년 3월 11일 15:45 (GMT+9)
 Created time: 2026년 4월 6일 오후 10:59
 ProjectName: [Patent-Paper] MCM

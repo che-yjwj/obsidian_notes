@@ -1,5 +1,9 @@
 # PaperDebugger 연구 생산성 혁신
 
+> Editorial note (2026-04-19): Treat this file as a reviewed-artifact summary, not as a workflow policy document.
+> Primary semantic role: summarize the PaperDebugger paper/tool as a research artifact and extract system implications from it.
+> Agent workflow rules, collaboration policy, and verification ownership belong in workflow notes such as `AI-assisted research workflow` rather than here.
+
 ChatTime: 2026년 1월 25일 17:40 (GMT+9)
 Created time: 2026년 4월 6일 오후 11:05
 ProjectName: Paper_Review

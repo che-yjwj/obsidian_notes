@@ -1,5 +1,9 @@
 # AI-assisted research workflow (Claude Code + Harness)
 
+> Editorial note (2026-04-19): Treat this file as a workflow/operating-model source, not as a reviewed-paper source.
+> Primary semantic role: agent-assisted research execution, verification ownership, and output-production workflow.
+> If a section reads like a paper/tool review, it should not become the canonical review hub; that belongs under `raw/Research/Paper-Review/*` and `wiki/topics/paper-reviews`.
+
 ChatTime: 2026년 3월 5일 14:55 (GMT+9)
 Created time: 2026년 4월 6일 오후 11:00
 ProjectName: [Patent-Paper] MCM

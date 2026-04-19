@@ -718,6 +718,23 @@
         "confidence": "EXTRACTED",
         "confidence_score": 1.0,
         "source_file": "wiki/topics/llm-quantization-compression.md"
+      },
+      {
+        "id": "research_raw_scope_boundary_2026_04_19",
+        "label": "Research Raw Scope Boundary 2026-04-19",
+        "nodes": [
+          "raw_paperdebugger_research_productivity_innovation",
+          "raw_paperbanana_ai_research",
+          "ai_assisted_research_workflow",
+          "agenthub",
+          "paper_reviews",
+          "wiki_research_ai_assisted_research_workflow",
+          "wiki_research_paper_reviews"
+        ],
+        "relation": "participate_in",
+        "confidence": "EXTRACTED",
+        "confidence_score": 1.0,
+        "source_file": "raw/Research/Patent-MCM/AI-assisted research workflow (Claude Code + Harne 33a6cc566b0b81ea9827ddba8abd5822.md"
       }
     ]
   },
@@ -25431,6 +25448,23 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "wiki/topics/llm-quantization-compression.md"
+    },
+    {
+      "id": "research_raw_scope_boundary_2026_04_19",
+      "label": "Research Raw Scope Boundary 2026-04-19",
+      "nodes": [
+        "raw_paperdebugger_research_productivity_innovation",
+        "raw_paperbanana_ai_research",
+        "ai_assisted_research_workflow",
+        "agenthub",
+        "paper_reviews",
+        "wiki_research_ai_assisted_research_workflow",
+        "wiki_research_paper_reviews"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "raw/Research/Patent-MCM/AI-assisted research workflow (Claude Code + Harne 33a6cc566b0b81ea9827ddba8abd5822.md"
     }
   ]
 }

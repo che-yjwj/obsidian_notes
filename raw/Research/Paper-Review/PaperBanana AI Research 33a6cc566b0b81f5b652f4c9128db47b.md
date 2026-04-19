@@ -1,5 +1,9 @@
 # PaperBanana AI 연구
 
+> Editorial note (2026-04-19): Treat this file as a reviewed-artifact summary, not as a workflow operating note.
+> Primary semantic role: summarize the PaperBanana system as a paper/tool artifact and capture its architecture and evaluation.
+> Multi-agent workflow policy and research-process guidance belong in workflow notes, not in this review source.
+
 ChatTime: 2026년 2월 8일 21:38 (GMT+9)
 Created time: 2026년 4월 6일 오후 11:05
 ProjectName: Paper_Review
