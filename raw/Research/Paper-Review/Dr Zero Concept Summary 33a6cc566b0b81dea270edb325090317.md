@@ -178,9 +178,9 @@ URL: https://chatgpt.com/c/6975d525-d4fc-8324-84ac-2d81d22f816b
     
     를 동시에 겨냥한다.
     
-    ## 8. 다음 단계로 추천
+    ## 8. 부록: 이 review에서 파생된 local extension 메모
     
-    원하시면 다음 중 하나로 바로 이어갈 수 있어요.
+    아래 항목은 이 reviewed artifact를 읽고 파생할 수 있는 후속 해석 메모이며, 이 문서의 canonical ownership은 아니다.
     
     1. Dr. Zero 구조를 RISC-V + NPU SoC로 매핑
     
@@ -190,4 +190,4 @@ URL: https://chatgpt.com/c/6975d525-d4fc-8324-84ac-2d81d22f816b
     
     1. “Search-centric NPU” 아키텍처 제안서 초안
     
-    어느 쪽으로 갈지 말씀 주시면, 그 방향으로 깊게 파보죠.
+    위 항목들은 별도 architecture / workflow 문서로 옮겨질 수 있는 후보일 뿐, 이 review 문서 자체의 중심 역할은 아니다.

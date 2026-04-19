@@ -34,7 +34,7 @@ This page should not become the main home for:
 
 Those belong in [[topics/paper-reviews]] and [[wiki/Research/AI-Assisted-Research-Workflow]].
 
-이 페이지는 개별 리뷰를 나열하는 문서가 아니라 `research tooling`과 `reasoning/theory` 두 축을 묶는 허브다. 생산성 도구 계열은 [[wiki/Research/Research-Tooling-Reviews]]로 분리했다.
+이 페이지는 reasoning/theory 쪽 review synthesis만 맡는다. 생산성 도구 계열은 [[wiki/Research/Research-Tooling-Reviews]]로 분리되어 있으며, 이 문서는 그 tooling 운영 모델을 직접 소유하지 않는다.
 
 ## 축 1. Reasoning and Theory
 
